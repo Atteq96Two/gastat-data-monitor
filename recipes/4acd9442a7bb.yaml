@@ -1,0 +1,29 @@
+fingerprint: 4acd9442a7bb
+status: draft
+first_seen:
+  publication_id: 27489192
+  sheet: '20'
+  release_date: '2026-11-01'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+- en
+- ar
+- en
+value_columns: 9
+measure_types:
+- percentage
+units:
+- percent
+scales:
+- 1
+period_sources:
+- publication
+title_sample: الصفحة الرئيسية Homepage النسبة المئوية للأفراد الذين يقومون بمشاهدة
+  محتوى فيديو عبر الإنترنت بحسب الجنس والجنسية Percen
+validation_on_first_run: pass
+notes: []

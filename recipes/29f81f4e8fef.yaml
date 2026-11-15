@@ -1,0 +1,26 @@
+fingerprint: 29f81f4e8fef
+status: draft
+first_seen:
+  publication_id: 27830257
+  sheet: 1-3
+  release_date: '2026-11-15'
+label_roles:
+- label_ar
+header_level_types:
+- year
+- ar
+- ar
+- ar
+value_columns: 12
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: عدد مشاريع الأبقار وعدد الحظائر ومساحتها والطاقة الاستيعابية على مستوى
+  المناطق الإدارية في المملكة العربية السعودية
+validation_on_first_run: pass
+notes: []

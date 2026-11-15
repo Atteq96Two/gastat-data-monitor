@@ -1,0 +1,35 @@
+fingerprint: 79a0e41b5acb
+status: draft
+first_seen:
+  publication_id: 27800282
+  sheet: '3.1'
+  release_date: '2026-11-15'
+label_roles:
+- year
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- mixed
+- ar
+- en
+value_columns: 170
+measure_types:
+- distribution
+- index
+- level
+- rate
+- unknown
+units:
+- ''
+- index
+- percent_or_fraction
+scales:
+- 1
+- 1000.0
+period_sources:
+- publication
+title_sample: ''
+validation_on_first_run: review
+notes: []

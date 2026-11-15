@@ -1,0 +1,26 @@
+fingerprint: 812e3ec9d1bf
+status: draft
+first_seen:
+  publication_id: 27830257
+  sheet: 3-7
+  release_date: '2026-11-15'
+label_roles:
+- label_ar
+- unit
+header_level_types:
+- year
+- ar
+- ar
+value_columns: 12
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: عدد بيض التفقيس المستخدم حسب مصادر الحصول عليه في الفقاسات على مستوى
+  المناطق الإدارية في المملكة العربية السعودية
+validation_on_first_run: pass
+notes: []

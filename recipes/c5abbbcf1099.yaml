@@ -1,0 +1,23 @@
+fingerprint: c5abbbcf1099
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 5-7
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 1
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- publication
+title_sample: معدل الحوادث المرورية الجسيمة لكل 100 ألف من السكان حسب المنطقة الإدارية
+  لعام 2025م
+validation_on_first_run: pass
+notes: []

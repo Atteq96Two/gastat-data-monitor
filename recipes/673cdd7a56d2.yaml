@@ -1,0 +1,24 @@
+fingerprint: 673cdd7a56d2
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 3-3
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 4
+measure_types:
+- level
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: إجمالي أعداد المركبات من نقاط التعداد المروري على الطرق بين المدن حسب
+  المنطقة الإدارية لعام 2025م
+validation_on_first_run: review
+notes: []

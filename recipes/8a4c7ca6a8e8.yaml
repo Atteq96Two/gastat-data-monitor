@@ -1,0 +1,31 @@
+fingerprint: 8a4c7ca6a8e8
+status: draft
+first_seen:
+  publication_id: 27800282
+  sheet: '1.1'
+  release_date: '2026-11-15'
+label_roles:
+- code
+- label_ar
+- label_en
+header_level_types:
+- ar
+- en
+- ar
+- en
+- year
+value_columns: 5
+measure_types:
+- index
+- rate
+units:
+- index
+- percent
+scales:
+- 1
+period_sources:
+- header
+title_sample: ملخص الأرقام القياسية ومعدلات التغيّر للرقم القياسي لأسعار الجملة حسب
+  الأبواب الرئيسة Summary of Wholesale Price Indices
+validation_on_first_run: pass
+notes: []

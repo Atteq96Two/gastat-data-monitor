@@ -1,0 +1,24 @@
+fingerprint: 5e614fe81b66
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 6-2-4
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+value_columns: 18
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: عدد رخص القيادة حسب الفئة العمرية ونوع العملية ونوع الرخصة للأفراد خلال
+  عام 2025م
+validation_on_first_run: pass
+notes: []

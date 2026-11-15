@@ -1,0 +1,27 @@
+fingerprint: 1984a51a58e5
+status: draft
+first_seen:
+  publication_id: 27489192
+  sheet: '48'
+  release_date: '2026-11-01'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- en
+- ar
+- en
+value_columns: 9
+measure_types:
+- percentage
+units:
+- percent
+scales:
+- 1
+period_sources:
+- publication
+title_sample: الصفحة الرئيسية Homepage النسبة المئوية لأسباب عدم استخدام الخدمات الحكومية
+  الإلكترونية حسب الجنس والجنسية Percentage of
+validation_on_first_run: pass
+notes: []

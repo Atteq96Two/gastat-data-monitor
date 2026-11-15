@@ -1,0 +1,27 @@
+fingerprint: b7472e17dc2a
+status: draft
+first_seen:
+  publication_id: 27489192
+  sheet: '14'
+  release_date: '2026-11-01'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- en
+- ar
+- en
+value_columns: 9
+measure_types:
+- percentage
+units:
+- percent
+scales:
+- 1000.0
+period_sources:
+- publication
+title_sample: الصفحة الرئيسية Homepage النسبة المئوية لأماكن استخدام الإنترنت من قبل
+  الأفراد حسب الجنس والجنسية Percentage of location
+validation_on_first_run: pass
+notes: []

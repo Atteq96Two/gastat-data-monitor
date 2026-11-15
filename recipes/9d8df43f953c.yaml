@@ -1,0 +1,27 @@
+fingerprint: 9d8df43f953c
+status: draft
+first_seen:
+  publication_id: 27800282
+  sheet: '2.2'
+  release_date: '2026-11-15'
+label_roles:
+- year
+- month
+- label_ar
+- label_en
+header_level_types:
+- ar
+- en
+- en
+value_columns: 14
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- publication
+title_sample: ''
+validation_on_first_run: pass
+notes: []

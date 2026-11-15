@@ -1,0 +1,34 @@
+fingerprint: 0501e65203db
+status: draft
+first_seen:
+  publication_id: 27743334
+  sheet: '2'
+  release_date: '2026-11-10'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- en
+- ar
+- date
+- date
+value_columns: 6
+measure_types:
+- index
+- rate
+- weight
+units:
+- ''
+- index
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- header
+- sheet_title
+title_sample: 'الرقم القياسي للإنتاج الصناعي حسب التصنيف الوطني للأنشطة الاقتصادية
+  (ISIC4) Industrial Production Index by ISIC4 سبتمبر '
+validation_on_first_run: pass
+notes: []

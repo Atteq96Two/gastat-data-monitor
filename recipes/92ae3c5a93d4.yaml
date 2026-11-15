@@ -1,0 +1,23 @@
+fingerprint: 92ae3c5a93d4
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 4-1-6
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 11
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: عدد المركبات المسجلة والصالحة للسير حسب نوع التسجيل والفئة العمرية للأفراد
+  حتى نهاية عام 2025م
+validation_on_first_run: pass
+notes: []

@@ -1,0 +1,23 @@
+fingerprint: c2da6bfbc341
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 7-8
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 1
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: عدد الساحات المخصصة لمواقف السيارات المنفذة داخل المدن حسب المنطقة الإدارية
+  حتى نهاية عام 2025م
+validation_on_first_run: pass
+notes: []

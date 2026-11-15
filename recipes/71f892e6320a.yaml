@@ -1,0 +1,29 @@
+fingerprint: 71f892e6320a
+status: draft
+first_seen:
+  publication_id: 27489192
+  sheet: '23'
+  release_date: '2026-11-01'
+label_roles:
+- label_ar
+- label_ar
+- label_en
+- label_en
+header_level_types:
+- ar
+- en
+- ar
+- en
+value_columns: 9
+measure_types:
+- distribution
+units:
+- ''
+scales:
+- 1000.0
+period_sources:
+- publication
+title_sample: الصفحة الرئيسية Homepage التوزيع النسبي لطرق مشاهدة الأفراد لمحتوى الفيديو
+  المرئي حسب الجنس والجنسية Relative distributi
+validation_on_first_run: pass
+notes: []

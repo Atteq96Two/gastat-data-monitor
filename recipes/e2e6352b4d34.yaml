@@ -1,0 +1,23 @@
+fingerprint: e2e6352b4d34
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 3-4
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+- unit
+header_level_types:
+- year
+value_columns: 4
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: متوسط عدد الكيلومترات اليومية المقطوعة بالمركبات للأعوام 2022م - 2025م
+validation_on_first_run: pass
+notes: []

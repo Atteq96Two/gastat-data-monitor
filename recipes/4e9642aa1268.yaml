@@ -1,0 +1,29 @@
+fingerprint: 4e9642aa1268
+status: draft
+first_seen:
+  publication_id: 27489192
+  sheet: '46'
+  release_date: '2026-11-01'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+- en
+- ar
+- en
+value_columns: 9
+measure_types:
+- level
+units:
+- percent
+scales:
+- 1
+period_sources:
+- publication
+title_sample: الصفحة الرئيسية Homepage النسبة المئوية لأغراض امتلاك بريد شخصي للأفراد
+  حسب الجنس والجنسية Percentage of purposes for ow
+validation_on_first_run: pass
+notes: []

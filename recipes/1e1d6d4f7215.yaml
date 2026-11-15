@@ -1,0 +1,28 @@
+fingerprint: 1e1d6d4f7215
+status: draft
+first_seen:
+  publication_id: 27800282
+  sheet: الأوزان النسبية
+  release_date: '2026-11-15'
+label_roles:
+- level
+- code
+- label_ar
+- label_en
+header_level_types:
+- ar
+- en
+- year
+value_columns: 4
+measure_types:
+- weight
+units:
+- percent
+scales:
+- 1
+period_sources:
+- header
+title_sample: الأوزان النسبية السنوية حسب تصنيف المنتجات Annual Relative Weights by
+  Product Classification
+validation_on_first_run: pass
+notes: []

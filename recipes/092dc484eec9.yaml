@@ -1,0 +1,25 @@
+fingerprint: 092dc484eec9
+status: draft
+first_seen:
+  publication_id: 27489192
+  sheet: المحتويات
+  release_date: '2026-11-01'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- en
+- en
+value_columns: 1
+measure_types:
+- unknown
+units:
+- ''
+scales:
+- 1000.0
+period_sources:
+- publication
+title_sample: 'إحصاءات نفاذ واستخدام تقنية المعلومات والاتصالات للأسر والأفراد 2026
+  ICT Access and Usage Statistics for Households and '
+validation_on_first_run: review
+notes: []

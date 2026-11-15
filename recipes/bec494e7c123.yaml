@@ -1,0 +1,29 @@
+fingerprint: bec494e7c123
+status: draft
+first_seen:
+  publication_id: 27489192
+  sheet: '13'
+  release_date: '2026-11-01'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+- en
+- ar
+- en
+value_columns: 9
+measure_types:
+- percentage
+units:
+- percent
+scales:
+- 1
+period_sources:
+- publication
+title_sample: الصفحة الرئيسية Homepage النسبة المئوية للأفراد الذين يقومون باستخدام
+  الإنترنت في المحتوى الرقمي حسب المجال والجنس والجن
+validation_on_first_run: pass
+notes: []

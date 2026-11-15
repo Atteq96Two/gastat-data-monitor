@@ -1,0 +1,29 @@
+fingerprint: ae50d13c4f39
+status: draft
+first_seen:
+  publication_id: 27743334
+  sheet: '3'
+  release_date: '2026-11-10'
+label_roles:
+- code
+- label_ar
+- label_en
+header_level_types:
+- mixed
+- date
+value_columns: 51
+measure_types:
+- index
+- weight
+units:
+- ''
+- index
+scales:
+- 1
+period_sources:
+- header
+- publication
+title_sample: السلسلة الزمنية لنتائج الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية
+  الرئيسة Time series of the Industrial Produc
+validation_on_first_run: pass
+notes: []

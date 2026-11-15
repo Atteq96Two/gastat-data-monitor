@@ -1,0 +1,25 @@
+fingerprint: 7dc825ab33e2
+status: draft
+first_seen:
+  publication_id: 27489085
+  sheet: التقديرات السريعة Q3_2026
+  release_date: '2026-11-01'
+label_roles:
+- label_ar
+- label_ar
+header_level_types:
+- year
+- quarter
+value_columns: 11
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- header
+title_sample: الناتج المحلي الإجمالي الحقيقي حسب الأنشطة الاقتصادية الرئيسة (السلاسل
+  المتحركة، 100=2023، معدل النمو السنوي)
+validation_on_first_run: pass
+notes: []

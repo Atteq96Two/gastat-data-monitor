@@ -1,0 +1,28 @@
+fingerprint: 1d3942ac1ff4
+status: draft
+first_seen:
+  publication_id: 27714198
+  sheet: '1'
+  release_date: '2026-11-09'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- mixed
+- date
+value_columns: 3
+measure_types:
+- index
+- rate
+units:
+- index
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- header
+- publication
+title_sample: مؤشر ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة Business Confidence
+  Index by Main Economic Sectors
+validation_on_first_run: pass
+notes: []

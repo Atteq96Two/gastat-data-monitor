@@ -1,0 +1,27 @@
+fingerprint: a7bb8e9ebc48
+status: draft
+first_seen:
+  publication_id: 27830257
+  sheet: 3-4
+  release_date: '2026-11-15'
+label_roles:
+- label_ar
+header_level_types:
+- year
+- ar
+- ar
+- ar
+value_columns: 9
+measure_types:
+- level
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: كمية الأعلاف المصنعة والكرتون ونشارة الخشب المستخدمة في الإنتاج بمشاريع
+  الدجاج البياض على مستوى المناطق الإدارية في المم
+validation_on_first_run: review
+notes: []

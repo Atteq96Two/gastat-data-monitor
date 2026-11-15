@@ -1,0 +1,24 @@
+fingerprint: 3d79f0e3ce41
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 5-2
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- year
+- ar
+value_columns: 4
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- header
+title_sample: معدل الوفيات والإصابات من الحوادث المرورية حسب المنطقة الإدارية لعامي
+  2024م و 2025م
+validation_on_first_run: pass
+notes: []

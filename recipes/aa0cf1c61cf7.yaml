@@ -1,0 +1,27 @@
+fingerprint: aa0cf1c61cf7
+status: draft
+first_seen:
+  publication_id: 27489192
+  sheet: '47'
+  release_date: '2026-11-01'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- en
+- ar
+- en
+value_columns: 9
+measure_types:
+- distribution
+units:
+- ''
+scales:
+- 1000.0
+period_sources:
+- publication
+title_sample: الصفحة الرئيسية Homepage التوزيع النسبي لوتيرة استخدام الأفراد للبريد
+  الإلكتروني الشخصي حسب الجنس والجنسية Relative dist
+validation_on_first_run: pass
+notes: []

@@ -1,0 +1,26 @@
+fingerprint: 09fd37e09437
+status: draft
+first_seen:
+  publication_id: 27714198
+  sheet: '3'
+  release_date: '2026-11-09'
+label_roles:
+- label_ar
+- label_en
+- code
+header_level_types:
+- en
+- date
+value_columns: 45
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- publication
+title_sample: 'معدلات التغير الشهرية لمؤشرات ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة
+  Monthly Rate of Change in Business Confidence '
+validation_on_first_run: pass
+notes: []

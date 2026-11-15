@@ -1,0 +1,27 @@
+fingerprint: a1cac34acf83
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 2-1
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+- label_ar
+- label_ar
+- unit
+header_level_types:
+- year
+- ar
+value_columns: 4
+measure_types:
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: كمية الشحن الخارجي الصادرة والواردة عبر المنافذ البرية حسب المنطقة الإدارية
+  والمحافظة واسم المنفذ للأعوام 2024–2025م
+validation_on_first_run: review
+notes: []

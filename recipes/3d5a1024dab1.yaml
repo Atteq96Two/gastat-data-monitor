@@ -1,0 +1,28 @@
+fingerprint: 3d5a1024dab1
+status: draft
+first_seen:
+  publication_id: 27800375
+  sheet: '3.2'
+  release_date: '2026-11-15'
+label_roles:
+- code
+- label_ar
+- label_en
+header_level_types:
+- en
+- en
+- ar
+- en
+value_columns: 14
+measure_types:
+- rate
+units:
+- percent
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: معدل التغيّر السنوي حسب المنطقة وفئة الإنفاق،أكتوبر 2026م Anuual Rate
+  of Change by Region And Expenditure Category, Octo
+validation_on_first_run: pass
+notes: []

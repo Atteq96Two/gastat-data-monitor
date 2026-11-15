@@ -1,0 +1,27 @@
+fingerprint: 155a404ea757
+status: draft
+first_seen:
+  publication_id: 27800282
+  sheet: '2.1'
+  release_date: '2026-11-15'
+label_roles:
+- year
+- code
+- label_ar
+- label_en
+header_level_types:
+- ar
+- en
+- ar
+value_columns: 14
+measure_types:
+- index
+units:
+- index
+scales:
+- 1
+period_sources:
+- publication
+title_sample: ''
+validation_on_first_run: pass
+notes: []

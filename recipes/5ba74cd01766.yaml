@@ -1,0 +1,29 @@
+fingerprint: 5ba74cd01766
+status: draft
+first_seen:
+  publication_id: 27800375
+  sheet: '3.1'
+  release_date: '2026-11-15'
+label_roles:
+- code
+- label_ar
+- label_en
+header_level_types:
+- en
+- ar
+- ar
+- ar
+- en
+value_columns: 14
+measure_types:
+- index
+units:
+- index
+scales:
+- 1
+period_sources:
+- header
+- sheet_title
+title_sample: الأرقام القياسية حسب المنطقة وفئة الإنفاق، أكتوبر 2026م
+validation_on_first_run: pass
+notes: []

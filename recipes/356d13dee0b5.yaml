@@ -1,0 +1,27 @@
+fingerprint: 356d13dee0b5
+status: draft
+first_seen:
+  publication_id: 27830257
+  sheet: 3-5
+  release_date: '2026-11-15'
+label_roles:
+- label_ar
+header_level_types:
+- year
+- ar
+- ar
+- ar
+value_columns: 6
+measure_types:
+- level
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: كمية أطباق البيض الكرتونية والمستلزمات البيطرية المستخدمة في الإنتاج
+  بمشاريع الدجاج البياض على مستوى المناطق الإدارية في
+validation_on_first_run: review
+notes: []

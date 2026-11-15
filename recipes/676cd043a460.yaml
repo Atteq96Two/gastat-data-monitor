@@ -1,0 +1,35 @@
+fingerprint: 676cd043a460
+status: draft
+first_seen:
+  publication_id: 27800375
+  sheet: '2.1'
+  release_date: '2026-11-15'
+label_roles:
+- level
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+- mixed
+- date
+- date
+- date
+value_columns: 6
+measure_types:
+- index
+- rate
+- weight
+units:
+- index
+- percent
+scales:
+- 1
+period_sources:
+- header
+- sheet_title
+title_sample: الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices
+  And Rates Of Change By Expenditure Category, Octo
+validation_on_first_run: pass
+notes: []

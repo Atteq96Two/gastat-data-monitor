@@ -1,0 +1,24 @@
+fingerprint: a4ec1d1c2011
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 7-10
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+value_columns: 3
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: عدد الجسور وجسور المشاة والأنفاق والعبارات داخل المدن حسب المنطقة الإدارية
+  حتى نهاية عام 2025م
+validation_on_first_run: pass
+notes: []

@@ -1,0 +1,24 @@
+fingerprint: eda9c4f6726a
+status: draft
+first_seen:
+  publication_id: 27741845
+  sheet: '2'
+  release_date: '2026-11-15'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- en
+value_columns: 1
+measure_types:
+- rate
+units:
+- percent
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: السلع والخدمات التي سجلت أكبر نسبة ارتفاع خلال شهرأكتوبر 2026 م مقارنة
+  بشهر سبتمبر 2026م Goods and services that recorde
+validation_on_first_run: pass
+notes: []

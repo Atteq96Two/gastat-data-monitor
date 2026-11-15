@@ -1,0 +1,27 @@
+fingerprint: 2e0a1c09274f
+status: draft
+first_seen:
+  publication_id: 27830257
+  sheet: 1-4
+  release_date: '2026-11-15'
+label_roles:
+- label_ar
+header_level_types:
+- year
+- ar
+- ar
+- ar
+- ar
+value_columns: 21
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: عدد الأبقار حسب الجنس وفئة العمر وعدد الإناث الحلوب في مشاريع الأبقار
+  لكافة السلالات على مستوى المناطق الإدارية في الممل
+validation_on_first_run: pass
+notes: []

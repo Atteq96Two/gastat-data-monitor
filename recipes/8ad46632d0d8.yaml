@@ -1,0 +1,23 @@
+fingerprint: 8ad46632d0d8
+status: draft
+first_seen:
+  publication_id: 27830257
+  sheet: 4-6
+  release_date: '2026-11-15'
+label_roles:
+- label_ar
+- unit
+header_level_types:
+- year
+value_columns: 3
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: عدد الدواجن المنزلية حسب النوع على مستوى المملكة
+validation_on_first_run: pass
+notes: []

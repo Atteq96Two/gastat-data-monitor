@@ -1,0 +1,23 @@
+fingerprint: 3daa5bce252c
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 1-2
+  release_date: '2026-11-05'
+label_roles:
+- year
+- unit
+header_level_types:
+- ar
+value_columns: 2
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: عدد ركاب النقل العام بالحافلات للأعوام 2021م - 2025م
+validation_on_first_run: pass
+notes: []

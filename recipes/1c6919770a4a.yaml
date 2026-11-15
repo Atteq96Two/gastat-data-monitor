@@ -1,0 +1,25 @@
+fingerprint: 1c6919770a4a
+status: draft
+first_seen:
+  publication_id: 27714198
+  sheet: '2'
+  release_date: '2026-11-09'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- date
+value_columns: 46
+measure_types:
+- index
+units:
+- index
+scales:
+- 1
+period_sources:
+- header
+title_sample: السلسلة الزمنية لمؤشر ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة Time
+  Series of Business Confidence Index by Main Econo
+validation_on_first_run: pass
+notes: []

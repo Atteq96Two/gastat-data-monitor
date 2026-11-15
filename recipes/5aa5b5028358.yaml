@@ -1,0 +1,25 @@
+fingerprint: 5aa5b5028358
+status: draft
+first_seen:
+  publication_id: 27741845
+  sheet: '4'
+  release_date: '2026-11-15'
+label_roles:
+- label_en
+- label_ar
+header_level_types:
+- mixed
+- mixed
+value_columns: 5
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1
+period_sources:
+- publication
+title_sample: متوسط أسعار بعض المواد الإنشائية في المملكة خلال عام 2026م ( بالريال
+  السعودي ) Average prices of some construction mater
+validation_on_first_run: pass
+notes: []

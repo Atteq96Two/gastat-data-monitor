@@ -1,0 +1,23 @@
+fingerprint: 8c03b027e174
+status: draft
+first_seen:
+  publication_id: 27548335
+  sheet: 7-1-2
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 5
+measure_types:
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: إجمالي أطوال الطرق بين المدن حسب التصنيف الهندسي على مستوى المناطق الإدارية
+  بالكيلومتر لعام 2025م
+validation_on_first_run: review
+notes: []

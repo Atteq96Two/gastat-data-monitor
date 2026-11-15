@@ -1,0 +1,26 @@
+fingerprint: 6029cd0c3029
+status: draft
+first_seen:
+  publication_id: 27830257
+  sheet: 2-3
+  release_date: '2026-11-15'
+label_roles:
+- label_ar
+header_level_types:
+- year
+- ar
+- ar
+- ar
+value_columns: 12
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: عدد الصيصان وكمية الأعلاف المصنعة وكمية نشارة الخشب و كمية المستلزمات
+  البيطرية المستخدمة في الإنتاج بمزارع الدجاج اللاحم
+validation_on_first_run: pass
+notes: []

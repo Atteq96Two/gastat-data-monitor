@@ -1,0 +1,25 @@
+fingerprint: babcf7777e01
+status: draft
+first_seen:
+  publication_id: 27830257
+  sheet: 7-1
+  release_date: '2026-11-15'
+label_roles:
+- code
+header_level_types:
+- ar
+- ar
+- ar
+value_columns: 2
+measure_types:
+- level
+units:
+- ''
+- SAR
+scales:
+- 1
+period_sources:
+- publication
+title_sample: قروض الخدمات الائتمانية طويلة الأجل - الاستثمارية للثروة الحيوانية
+validation_on_first_run: pass
+notes: []

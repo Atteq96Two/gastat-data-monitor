@@ -1,0 +1,23 @@
+fingerprint: da2b1922e4ea
+status: draft
+first_seen:
+  publication_id: 27830257
+  sheet: 6-1
+  release_date: '2026-11-15'
+label_roles:
+- label_ar
+- unit
+header_level_types:
+- year
+value_columns: 5
+measure_types:
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: كمية الواردات من الثروة الحيوانية حسب مجموعات المنتجات
+validation_on_first_run: review
+notes: []
