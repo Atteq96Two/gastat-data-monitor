@@ -12,7 +12,7 @@ MONTHS = {"يناير":1,"فبراير":2,"مارس":3,"أبريل":4,"ابري�
 QUARTERS = {"الأول":1,"الاول":1,"الثاني":2,"الثالث":3,"الرابع":4}
 def ref_period(title):
     t = title
-    m = re.search(r"الربع\s+(\S+)\s+(?:من\s+)?(?:عام\s+)?(20\d\d)", t)
+    m = re.search(r"ربع\s+(\S+)\s+(?:من\s+)?(?:عام\s+)?(20\d\d)", t)
     if m and m.group(1) in QUARTERS: return f"{m.group(2)}-Q{QUARTERS[m.group(1)]}", "quarter"
     m = re.search(r"Q([1-4])\s*/\s*(20\d\d)", t)
     if m: return f"{m.group(2)}-Q{m.group(1)}", "quarter"
