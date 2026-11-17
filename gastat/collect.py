@@ -236,9 +236,18 @@ def health():
     return 0
 
 
+_STOP = {"لعام", "لشهر", "شهر", "للربع", "ربع", "الربع", "عام", "لسنه", "في", "من", "و"}
+
+
+def _tokens(t):
+    from gastat.grid import norm
+    return {w for w in norm(t).replace("/", " ").split() if w not in _STOP}
+
+
 def _fuzzy_in(title, reg_titles):
-    key = "".join(ch for ch in title if ch.isalnum())[:25]
-    return any(key in "".join(ch for ch in t if ch.isalnum()) for t in reg_titles)
+    """A calendar title matches a publication when >= 80% of its words (years and months included) appear in the publication title."""
+    want = _tokens(title)
+    return bool(want) and any(len(want & _tokens(t)) >= 0.8 * len(want) for t in reg_titles)
 
 
 def main():
