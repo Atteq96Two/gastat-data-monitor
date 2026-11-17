@@ -1,0 +1,12 @@
+[
+ {"id": "bci-services-2026-02", "severity": "source", "title_ar": "تعارض داخل ملف الهيئة: مؤشر ثقة الأعمال، قطاع الخدمات، فبراير 2026", "title_en": "Conflict inside GASTAT's own file: Business Confidence, Services sector, February 2026",
+  "detail_ar": "نسبة التغيّر الشهري المنشورة في الورقة 3 هي -0.463%، بينما قيم المؤشر في الورقة 2 تعطي -0.352%. يناير ومارس لنفس السلسلة متطابقان تماماً.", "detail_en": "The monthly change published on sheet 3 is -0.463%, while the index values on sheet 2 give -0.352%. January and March of the same series agree exactly.", "status": "reported"},
+ {"id": "unit-text-cpi-5x", "severity": "open", "title_ar": "نص وحدة غير مقروء في بعض أعمدة أوراق 5.x لمؤشر أسعار المستهلك", "title_en": "Unreadable unit text in some columns of consumer price sheets 5.x",
+  "detail_ar": "بعض الأعمدة تحمل كلمة مثل «التنويم» كوحدة. القيم سليمة، لكن الوحدة تُترك خارج الجمل حتى تُراجع.", "detail_en": "Some columns carry a word such as 'التنويم' as their unit. The values are correct; the unit is left out of sentences until reviewed.", "status": "open"},
+ {"id": "livestock-7-2-labels", "severity": "open", "title_ar": "أسماء صفوف تحمل رقماً ملتصقاً في جدول الثروة الحيوانية 7-2", "title_en": "Row names with a number attached in livestock table 7-2",
+  "detail_ar": "مثل «دجاج لاحم وحمام لاحم / 0.228». عيب في فصل الأعمدة، القيم نفسها مطابقة لخلايا الملف.", "detail_en": "For example 'broiler chicken and pigeon / 0.228'. A column-splitting flaw; the values themselves match the file's cells.", "status": "open"},
+ {"id": "cpi-divisions-13", "severity": "question", "title_ar": "عدد أقسام الإنفاق الرئيسية في مؤشر أسعار المستهلك", "title_en": "Number of main expenditure divisions in the consumer price index",
+  "detail_ar": "الملف يحتوي 13 قسماً (الأوزان تجمع 100.01) وليس 12. بانتظار تأكيدك.", "detail_en": "The file has 13 divisions (weights sum to 100.01), not 12. Waiting for confirmation.", "status": "question"},
+ {"id": "pilot-scope", "severity": "info", "title_ar": "نطاق البيانات: إصدارات نوفمبر 2026 فقط", "title_en": "Data scope: November 2026 releases only",
+  "detail_ar": "الإصدارات الأقدم (يناير إلى أكتوبر) مسجّلة كبيانات وصفية فقط، وتنتظر موافقتك على الاستيراد التاريخي.", "detail_en": "Older releases (January to October) are registered as metadata only and wait for your approval of the historical backfill.", "status": "info"}
+]

@@ -1392,10 +1392,10 @@
    "measure_type": "rate",
    "unit": "index_base_2023",
    "unit_ok": true,
-   "text_ar": "الأعلى بين 565 بنداً هو غاز (إعادة تعبئة الأسطوانات والغاز عبر الشبكات المحلية) (44.33%) والأدنى هو الرسوم من قبل الشركات التي تتلقى الودائع (-26.97%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م).",
-   "text_en": "Highest of 565 items is Gas (refill cylinders and gas through local networks) (44.33%), lowest is Explicit charges by deposit-taking corporations (-26.97%) in October 2026 (table: Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers...).",
+   "text_ar": "الأعلى بين 735 بنداً هو غاز (إعادة تعبئة الأسطوانات والغاز عبر الشبكات المحلية) (44.33%) والأدنى هو الرسوم من قبل الشركات التي تتلقى الودائع (-26.97%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م).",
+   "text_en": "Highest of 735 items is Gas (refill cylinders and gas through local networks) (44.33%), lowest is Explicit charges by deposit-taking corporations (-26.97%) in October 2026 (table: Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers...).",
    "numbers": {
-    "items": 565,
+    "items": 735,
     "highest": 44.3318243815,
     "lowest": -26.9680567972,
     "period": "2026-10"
@@ -1427,10 +1427,10 @@
    "measure_type": "rate",
    "unit": "index_base_2023",
    "unit_ok": true,
-   "text_ar": "الأعلى بين 565 بنداً هو برتقال طازج (7.43%) والأدنى هو رمان طازج (-7.6%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م).",
-   "text_en": "Highest of 565 items is Fresh orange (7.43%), lowest is Fresh pomegranate (-7.6%) in October 2026 (table: Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers...).",
+   "text_ar": "الأعلى بين 735 بنداً هو برتقال طازج (7.43%) والأدنى هو رمان طازج (-7.6%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م).",
+   "text_en": "Highest of 735 items is Fresh orange (7.43%), lowest is Fresh pomegranate (-7.6%) in October 2026 (table: Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers...).",
    "numbers": {
-    "items": 565,
+    "items": 735,
     "highest": 7.4297071477,
     "lowest": -7.6037713692,
     "period": "2026-10"
@@ -1462,10 +1462,10 @@
    "measure_type": "weight",
    "unit": "percent",
    "unit_ok": true,
-   "text_ar": "الأوزان* (%): الأعلى بين 565 بنداً هو الأغذية والمشروبات (21.88%) والأدنى هو المعينات السمعية الرقمية (0%) في أكتوبر 2026.",
-   "text_en": "Weights* (%): Highest of 565 items is FOOD AND BEVERAGES (21.88%), lowest is Digital hearing aids (0%) in October 2026.",
+   "text_ar": "الأوزان* (%): الأعلى بين 735 بنداً هو الأغذية والمشروبات (21.88%) والأدنى هو المعينات السمعية الرقمية (0%) في أكتوبر 2026.",
+   "text_en": "Weights* (%): Highest of 735 items is FOOD AND BEVERAGES (21.88%), lowest is Digital hearing aids (0%) in October 2026.",
    "numbers": {
-    "items": 565,
+    "items": 735,
     "highest": 21.8818906701,
     "lowest": 0.000372697,
     "period": "2026-10"
@@ -1670,5 +1670,5 @@
  "release_date": "2026-11-15",
  "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
  "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
- "generated_at": "2026-11-17T13:48:18+00:00"
+ "generated_at": "2026-11-17T14:16:09+00:00"
 }

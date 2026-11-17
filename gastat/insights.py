@@ -137,7 +137,7 @@ def series_key(r):
     if r["measure_type"] == "rate":          # descriptions of the change period ("... لشهر أكتوبر 2026م مقارنة مع") move every release
         col = norm(YEAR_OR_MONTH.sub("", col))
     month_row = r["period"][4:5] == "-" and norm(r["row_label_ar"]) in MONTH_SET     # matrix of months x items: the month row is the period, not an item
-    return (r["sheet"], r["block"], "" if month_row else r["row_code"], "" if month_row else norm(r["row_label_ar"]), "" if month_row else norm(r["row_label_en"]),
+    return (r["sheet"], r["block"], r["row_level"], r["row_unit"], "" if month_row else r["row_code"], "" if month_row else norm(r["row_label_ar"]), "" if month_row else norm(r["row_label_en"]),
             r["row_group"], r["row_parent"],
             r["col_code"], col, norm(r["col_label_en"]), r["col_sub"], r["measure_type"], r["unit"], float(r["scale"]), r["_off"])
 

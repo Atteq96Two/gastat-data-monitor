@@ -40,8 +40,7 @@
    "status": "processed",
    "processed_at": "2026-11-17T07:53:07+00:00",
    "tables": {
-    "quarantined_new_layout": 12,
-    "skipped_navigation": 1
+    "pass": 8
    },
    "values_added": 0,
    "values_revised": 0
@@ -84,8 +83,7 @@
    "status": "processed",
    "processed_at": "2026-11-17T07:53:07+00:00",
    "tables": {
-    "skipped_navigation": 1,
-    "quarantined_new_layout": 9
+    "pass": 9
    },
    "values_added": 0,
    "values_revised": 0
