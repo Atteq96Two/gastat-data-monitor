@@ -82,16 +82,24 @@ def build_datasets(pubs):
         for k, g in df.groupby("_key", sort=False):
             r = g.iloc[0].to_dict()
             vals = [None] * len(periods)
-            for p, v in zip(g["period"], g["value"]):
+            cells = [None] * len(periods)
+            for p, v, c in zip(g["period"], g["value"], g["source_cell"]):
                 vals[pidx[p]] = sig(v)
+                cells[pidx[p]] = c.rsplit("!", 1)[-1]      # "R9C3": the sheet is stored once per dataset
             series.append(dict(label=ar_only(I.label(r)), label_en=I.label(r, "en"), measure=r["measure_type"], unit=r["_unit"], unit_ok=I.unit_ok(r),
-                               unit_text=I.unit_text(r, "ar"), base=r["base_period"], total=bool(r["is_total_row"]), cell=r["source_cell"], values=vals))
+                               unit_text=I.unit_text(r, "ar"), base=r["base_period"], total=bool(r["is_total_row"]), cell=r["source_cell"], cells=cells, values=vals))
         seen = collections.Counter(x["label"] for x in series)
         for x, (k, g) in zip(series, df.groupby("_key", sort=False)):   # same name in two places of one table (a division and a group): tell them apart
             if seen[x["label"]] > 1:
-                lv = g.iloc[0]["row_level"]
-                x["label"] += f" (المستوى {lv})" if lv else f" ({x['cell'].split('!')[-1]})"
-                x["label_en"] += f" (level {lv})" if lv else f" ({x['cell'].split('!')[-1]})"
+                lv, base = g.iloc[0]["row_level"], g.iloc[0]["base_period"]
+                if base:
+                    x["label"] += f" (مقارنة مع {I.period_label(base, 'ar')})"; x["label_en"] += f" (compared with {I.period_label(base, 'en')})"
+                elif lv:
+                    x["label"] += f" (المستوى {lv})"; x["label_en"] += f" (level {lv})"
+                else:
+                    x["label"] += f" ({x['cell'].split('!')[-1]})"; x["label_en"] += f" ({x['cell'].split('!')[-1]})"
+        for x in series:
+            x["label"] = re.sub(r"(?:لشهر )?مقارنة مع \(مقارنة مع ", "(مقارنة مع ", x["label"])
         title = raw["table_title"].iloc[0] or ""
         ttl_ar, ttl_en = I.short_title(title, "ar", 150), I.short_title(title, "en", 150)
         labels = []
@@ -109,7 +117,7 @@ def build_datasets(pubs):
                     csv_url=(RAW + f"data/{pub['domain_id']}/{ds}.csv") if f.with_suffix(".csv").exists() else None)
         cat.append(item)
         search[ds] = labels[:400]
-        jdump(WEB / "series" / f"{ds}.json", dict(dataset_id=ds, title_ar=item["title_ar"], periods=periods, series=series))
+        jdump(WEB / "series" / f"{ds}.json", dict(dataset_id=ds, title_ar=item["title_ar"], sheet=raw["sheet"].iloc[0], periods=periods, series=series))
     return cat, search
 
 

@@ -182,7 +182,7 @@ function drawChart(d, s) {
   // data table (latest 24 periods)
   const show = idx.slice(-24).reverse();
   dt.innerHTML = `<h3>الأرقام ${unitTxt ? `<small class="muted">(${tx(unitTxt)})</small>` : ""}</h3>` + table(["الفترة", ...sel.map(x => tx(x.label || x.label_en))], show.map(k => `<tr><td style="white-space:nowrap">${esc(plabel(P[k]))}</td>${sel.map(x => `<td class="num">${fmt(x.values[k])}</td>`).join("")}</tr>`)) +
-    `<p class="muted" style="margin-top:8px">الخلية المصدر في ملف الهيئة: ${sel.map(x => `<span class="num">${esc(x.cell)}</span>`).join("، ")}</p>`;
+    `<p class="muted" style="margin-top:8px">الخلية المصدر في ملف الهيئة لآخر فترة معروضة (${esc(plabel(P[idx[idx.length - 1]] || ""))}): ${sel.map(x => `<span class="num">${esc(s.sheet)}!${esc(x.cells[idx[idx.length - 1]] || "")}</span>`).join("، ")}</p>`;
 }
 
 /* ---------------------------------------------------------------- freshness */
