@@ -1,5 +1,5 @@
 fingerprint: e094598f2702
-status: draft
+status: reviewed
 first_seen:
   publication_id: 27548335
   sheet: 1-2-1
@@ -21,4 +21,7 @@ period_sources:
 title_sample: عدد ركاب النقل العام بالحافلات داخل المدن حسب المنطقة الإدارية والمحافظة/المدينة
   والربع لعام 2025م
 validation_on_first_run: fail
-notes: []
+notes:
+- '2026-11-17 user: region row and city row can share a name; add a level column (region/city).
+  Rule: label equal in both columns means region, otherwise city.'
+region_city_level: true

@@ -52,7 +52,11 @@ def process(pub, xlsx):
             fp, _ = fingerprint(g, infos, c0, b, d)
             recipe = load_recipe(fp)
             rows, meta = extract_block(g, infos, c0, b, d, pub, ws.title, bi, recipe)
-            status, checks = validate_table(rows)
+            if rows and all(not (r["row_label_ar"] or r["row_label_en"] or r["row_code"] or r["row_level"]) and r["period_source"] != "row" for r in rows) and len(rows) <= 12:
+                tables.append(dict(pub=pub["publication_id"], sheet=ws.title, block=bi, dataset_id=sheet_id, fingerprint=fp, status="skipped_decoration",
+                                   checks=[], rows=len(rows), title=meta["title"], measure_types=[], recipe="auto-draft"))
+                continue
+            status, checks = validate_table(rows, (recipe or {}).get('skip_checks', ()))
             if recipe and recipe.get("status") == "reviewed" and recipe.get("accept_review") and status == "review":
                 status = "pass"
             if recipe is None:

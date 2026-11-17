@@ -1,5 +1,5 @@
 fingerprint: 67a4d32a4956
-status: draft
+status: reviewed
 first_seen:
   publication_id: 27800375
   sheet: '1.1 '
@@ -29,4 +29,7 @@ period_sources:
 title_sample: '* يتم تحديث الأوزان بداية كل عام بناء على منهجية السلاسل المتحركة *
   Weights are updated at the beginning of each year ba'
 validation_on_first_run: review
-notes: []
+notes:
+- '2026-11-17 user: overlapping aggregates; no sum rule.'
+skip_checks:
+- distribution_sums_100

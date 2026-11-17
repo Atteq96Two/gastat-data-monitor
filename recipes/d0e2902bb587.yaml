@@ -1,0 +1,29 @@
+fingerprint: d0e2902bb587
+status: draft
+first_seen:
+  publication_id: 27800375
+  sheet: '5.3'
+  release_date: '2026-11-15'
+label_roles:
+- year
+- month
+- code
+- code
+header_level_types:
+- mixed
+- ar
+- en
+value_columns: 180
+measure_types:
+- rate
+units:
+- percent_or_fraction
+- التنويم
+scales:
+- 1
+period_sources:
+- publication
+title_sample: سلسلة معدل التغيّر الشهري حسب فئات الإنفاق، 2013-2026 Monthly Rate of
+  Change Series By Expenditure Category, 2013-2026
+validation_on_first_run: pass
+notes: []

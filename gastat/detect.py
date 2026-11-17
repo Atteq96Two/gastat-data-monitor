@@ -177,9 +177,9 @@ def describe_block(g, infos, c0, b):  # c1 is carried on the grid
         nh = norm(hdr_txt)
         if re.search(r"^(الدرجه|المستوي|level|درجه)", nh) and txt and all(re.fullmatch(r"\d", t) for t in txt[:60]):
             role = "level"
-        elif re.search(r"^(العام|السنه|year)", nh) and txt and all(re.fullmatch(r"20\d\d|19\d\d", t) for t in txt[:60]):
+        elif re.search(r"(العام|السنه|year)", nh) and txt and all(re.fullmatch(r"20\d\d|19\d\d", t) for t in txt[:60]):
             role = "year"
-        elif re.search(r"^(الشهر|month)", nh) and txt and all(re.fullmatch(r"\d{1,2}", t) for t in txt[:60]):
+        elif re.search(r"(الشهر|month)", nh) and txt and all(re.fullmatch(r"\d{1,2}", t) for t in txt[:60]):
             role = "month"
         elif re.search(r"كود|رمز|code", nh):
             role = "code"

@@ -1,5 +1,5 @@
 fingerprint: c61d21215ca8
-status: draft
+status: reviewed
 first_seen:
   publication_id: 27800375
   sheet: '1.1 '
@@ -30,4 +30,6 @@ period_sources:
 title_sample: ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م
   Indices and Rates of Changes Summary by Expenditure
 validation_on_first_run: review
-notes: []
+notes:
+- '2026-11-17 user: main CPI division weights must sum to 100. Enforced by the distribution_sums_100
+  gate (all 13 COICOP 2018 divisions, codes 1-13, sum to 100.01).'

@@ -1,0 +1,29 @@
+fingerprint: 4e752a87b227
+status: draft
+first_seen:
+  publication_id: 27800375
+  sheet: '5.1'
+  release_date: '2026-11-15'
+label_roles:
+- year
+- code
+- code
+- code
+header_level_types:
+- mixed
+- ar
+- en
+value_columns: 180
+measure_types:
+- index
+units:
+- index
+- التنويم
+scales:
+- 1
+period_sources:
+- publication
+title_sample: سلسلة الأرقام القياسية حسب فئات الإنفاق ، 2013-2026 Index Series by
+  Expenditure Category, 2013-2026
+validation_on_first_run: pass
+notes: []

@@ -8,11 +8,14 @@ def close(a, b):
     return abs(a - b) <= max(TOL_ABS, TOL_REL * max(abs(a), abs(b)))
 
 
-def validate_table(rows):
+def validate_table(rows, skip=()):
     checks, status = [], "pass"
 
     def add(name, ok, detail="", level="fail"):
         nonlocal status
+        if name in skip:
+            checks.append(dict(check=name, ok=True, detail="skipped by reviewed recipe: " + detail[:80]))
+            return
         checks.append(dict(check=name, ok=ok, detail=detail))
         if not ok:
             status = level if (status == "pass" or level == "fail") else status
@@ -21,7 +24,7 @@ def validate_table(rows):
     add("numeric_values", all(isinstance(r["value"], float) and math.isfinite(r["value"]) for r in rows))
     add("period_present", all(r["period"] for r in rows), "missing reference period")
     keys = collections.Counter((r["block"], r["row_code"], r["row_level"], r["col_code"], r["row_label_ar"], r["row_label_en"], r["row_group"], r["row_unit"],
-                                r["col_label_ar"], r["col_label_en"], r["period"], r["base_period"]) for r in rows)
+                                r["col_label_ar"], r["col_label_en"], r["col_sub"], r["period"], r["base_period"]) for r in rows)
     dups = [k for k, n in keys.items() if n > 1]
     add("no_duplicate_keys", not dups, f"{len(dups)} duplicate keys, e.g. {dups[0] if dups else ''}")
     # range checks by measure type
@@ -29,20 +32,23 @@ def validate_table(rows):
         vs = [r["value"] for r in rows if r["measure_type"] == mt]
         if mt == "index":
             add("range_index", all(0 < v < 5000 for v in vs), "index outside 0..5000")
-        elif mt in ("share", "weight", "distribution"):
+        elif mt in ("share", "weight", "distribution", "multi_response"):
             add("range_share_0_100", all(-0.5 <= v <= 100.5 for v in vs), "share outside 0..100", "review")
         elif mt == "rate":
             add("range_rate", all(abs(v) < 1000 for v in vs), "rate beyond +-1000", "review")
     # distributions: every column sums to 100 (rows are categories). Percentages: total lies between components.
     grp = collections.defaultdict(list)
     for r in rows:
-        grp[(r["block"], r["col_label_ar"], r["col_label_en"], r["period"], r["base_period"], r["measure_type"])].append(r)
+        if r["col_sub"]:   # flattened header: each row x second dimension is its own distribution
+            grp[(r["block"], r["row_label_ar"] + "|" + r["row_group"], r["col_sub"], r["period"], r["base_period"], r["measure_type"])].append(r)
+        else:
+            grp[(r["block"], r["col_label_ar"], r["col_label_en"], r["period"], r["base_period"], r["measure_type"])].append(r)
     dist_fail, dist_n, multi, pct_fail, pct_n = [], 0, 0, [], 0
     for key, rs in grp.items():
         mt = key[-1]
         comp = [r for r in rs if not r["is_total_row"]]
         tot = [r for r in rs if r["is_total_row"]]
-        if mt in ("distribution", "weight") and len(comp) >= 2 and not any(r["row_level"] for r in comp) and len({len(r["row_code"]) for r in comp}) <= 1:
+        if mt in ("distribution", "weight") and len(comp) >= 2 and (comp[0]["col_sub"] or (not any(r["row_level"] for r in comp) and len({len(r["row_code"]) for r in comp}) <= 1)):
             dist_n += 1
             sm = sum(r["value"] for r in comp)
             if abs(sm - 100) > 1.5 and not (tot and abs(tot[0]["value"] - 100) < 0.5 and abs(sm - 100) <= 2.5):
@@ -109,7 +115,10 @@ def validate_table(rows):
         parents = collections.defaultdict(list)
         for r in rs0:
             parents[r.get("row_parent", "")].append(r)
-        for rs in parents.values():
+        units = list(parents.values())
+        if len(units) > 1 and not any(len([r for r in u if r["is_total_row"]]) == 1 and len([r for r in u if not r["is_total_row"]]) >= 2 for u in units):
+            units = [rs0]   # no group carries its own total: try the whole table
+        for rs in units:
             tot = [r for r in rs if r["is_total_row"]]
             comp = [r for r in rs if not r["is_total_row"]]
             if len(tot) != 1 or len(comp) < 2:
@@ -126,6 +135,9 @@ def validate_table(rows):
         add("totals_reconcile", not recon_fail, f"{len(recon_fail)}/{recon_n} total checks failed, e.g. {recon_fail[:1]}", "review")
     else:
         checks.append(dict(check="totals_reconcile", ok=True, detail="no single total row to reconcile (not applicable)"))
+    nounit = [r for r in rows if r["measure_type"] in ("level", "ratio") and not r["unit"]]
+    if nounit:
+        add("unit_known", False, f"{len(nounit)} values are quantities with no unit in the header, title, footnote or unit column", "review")
     if any(r["measure_type"] == "unknown" for r in rows):
         add("measure_type_known", False, "measure type could not be determined", "review")
     return status, checks

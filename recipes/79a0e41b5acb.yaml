@@ -1,5 +1,5 @@
 fingerprint: 79a0e41b5acb
-status: draft
+status: reviewed
 first_seen:
   publication_id: 27800282
   sheet: '3.1'
@@ -32,4 +32,11 @@ period_sources:
 - publication
 title_sample: ''
 validation_on_first_run: review
-notes: []
+notes:
+- '2026-11-17 user: WPI sheet 3.1 holds index values.'
+- Same layout is shared by sheets 3.1 (index), 3.2 and 3.3 (rates of change), so the
+  override is keyed to the sheet name, not the layout.
+measure_overrides:
+- sheet: '3.1'
+  measure_type: index
+  unit: index

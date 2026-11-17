@@ -5,7 +5,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 reg = {p["publication_id"]: p for p in json.load(open(ROOT / "registry/publications.json"))["publications"]}
 T = json.load(open(ROOT / "cache/phase2_tables.json")); R = pickle.load(open(ROOT / "cache/phase2_rows.pkl", "rb"))
 COLS = ["dataset_id", "publication_id", "domain", "sheet", "block", "row_code", "row_level", "row_label_ar", "row_label_en", "row_unit", "row_group",
-        "is_total_row", "col_code", "col_label_ar", "col_label_en", "period", "period_type", "base_period", "measure_type", "unit", "scale", "value",
+        "is_total_row", "row_parent", "col_code", "col_sub", "measure_inferred", "unit_inferred", "col_label_ar", "col_label_en", "period", "period_type", "base_period", "measure_type", "unit", "scale", "value",
         "source_file_url", "source_cell", "release_date", "ingested_at", "period_source", "fingerprint"]
 now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 def col_letter(n):
@@ -35,7 +35,7 @@ L = ["# Phase 2 coverage report (November 2026 pilot)", "", f"Generated {now}. O
 L += ["| Publication | Data tables | Validated | Quarantined | Rows published |", "|---|---|---|---|---|"]
 tot = collections.Counter()
 for pid in sorted(R, key=lambda x: reg[x]["release_date"]):
-    ts = [t for t in T if t["pub"] == pid and t["status"] != "skipped_navigation"]
+    ts = [t for t in T if t["pub"] == pid and t["status"] not in ("skipped_navigation", "skipped_decoration")]
     ok = sum(t["status"] == "pass" for t in ts); n = sum(t["rows"] for t in ts if t["status"] == "pass")
     L.append(f"| {reg[pid]['title_en']} | {len(ts)} | {ok} | {len(ts)-ok} | {n} |"); tot["t"] += len(ts); tot["ok"] += ok; tot["n"] += n
 L += ["", f"**Total: {tot['ok']} of {tot['t']} data tables validated ({100*tot['ok']/tot['t']:.0f}%), {tot['n']} numbers published.**", ""]
