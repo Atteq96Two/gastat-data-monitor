@@ -51,6 +51,8 @@ def validate_table(rows, skip=()):
         if mt in ("distribution", "weight") and len(comp) >= 2 and (comp[0]["col_sub"] or (not any(r["row_level"] for r in comp) and len({len(r["row_code"]) for r in comp}) <= 1)):
             dist_n += 1
             sm = sum(r["value"] for r in comp)
+            if all(0 <= r["value"] <= 1 for r in comp) and abs(sm - 1) <= 0.015:
+                continue  # shares stored as fractions of 1
             if abs(sm - 100) > 1.5 and not (tot and abs(tot[0]["value"] - 100) < 0.5 and abs(sm - 100) <= 2.5):
                 dist_fail.append(f"{key[1] or key[2]}|{key[3]}: sums to {sm:.1f}")
         elif mt == "percentage":
@@ -71,8 +73,8 @@ def validate_table(rows, skip=()):
         add("percentage_total_between_components", not pct_fail, f"{len(pct_fail)}/{pct_n} failed, e.g. {pct_fail[:1]}", "review")
     if multi:
         checks.append(dict(check="multi_response_detected", ok=True, detail=f"{multi} column(s) sum above 100: range check only"))
-    if any(r["measure_type"] == "percentage" for r in rows):
-        add("range_percentage_0_100", all(-0.5 <= r["value"] <= 100.5 for r in rows if r["measure_type"] == "percentage"), "percentage outside 0..100", "review")
+    if any(r["measure_type"] in ("percentage", "share") for r in rows):
+        add("range_percentage_0_100", all(-0.5 <= r["value"] <= 100.5 for r in rows if r["measure_type"] in ("percentage", "share")), "percentage outside 0..100", "review")
     # hierarchy reconciliation: each parent equals the sum of its direct children (levels or code lengths)
     hier_fail, hier_n = [], 0
     by_col = collections.defaultdict(list)

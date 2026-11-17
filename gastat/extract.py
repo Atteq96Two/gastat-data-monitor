@@ -89,7 +89,7 @@ def parse_unit_text(text):
     return t, 1
 
 
-def infer_percent_types(rows):
+def infer_percent_types(rows, title=""):
     """Classify percentage-like tables from the data: distribution (components sum to 100), multi_response (sum above 100), else share."""
     for r in rows:   # flattened "a_b" headers whose measure words are absent: percent-style table (rule c)
         if r["measure_type"] == "unknown" and r["col_sub"] and 0 <= r["value"] <= 100.5:
@@ -108,14 +108,14 @@ def infer_percent_types(rows):
         return [sum(v) for v in gp.values() if len(v) >= 2]
     flat = any(r["col_sub"] for r in cand)
     sums = groups(True) if flat else groups(False)
-    if sums and all(abs(x - 100) <= 1.5 for x in sums):
-        t = "distribution"
-    elif sums and any(x > 101.5 for x in sums):
-        t = "multi_response"
-    else:
-        t = "share"
+    multi = bool(sums) and any(x > 101.5 for x in sums)
+    title_dist = bool(re.search(r"التوزيع النسبي|relative distribution", norm(title)))
+    # rule agreed with the user's reference: flattened "a_b" headers (rule c) or an explicit "relative distribution" title => distribution; other percent tables => share
+    t = "distribution" if (flat or title_dist) else "share"
     for r in cand:
-        if r["measure_type"] == "percentage" or r["measure_type"] == "distribution":
+        r["multi_response"] = multi and not flat
+    for r in cand:
+        if r["measure_type"] == "percentage":
             r["measure_type"] = t; r["measure_inferred"] = True
 
 
@@ -128,6 +128,11 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         anc = [clean(g.cells[hr][c]) for c in range(g.ncols) if g.anchor[hr][c] and kind(g.cells[hr][c]) == "text"]
         if 0 < len(anc) <= 3:
             title_txt += " " + " ".join(anc)
+    spilled_titles = set()
+    for hr in b["header"]:
+        anc = [clean(g.cells[hr][c]) for c in range(g.ncols) if g.anchor[hr][c] and kind(g.cells[hr][c]) == "text"]
+        if len(anc) == 1 and len(anc[0]) > 40:
+            spilled_titles.add(anc[0])   # table title merged across value columns: not a column label
     ref_p, ref_pt = period_from_text(title_txt)
     foot_txt = " ".join(clean(g.cells[r][c]) for r in range(b["end"] + 1, min(g.nrows, b["end"] + 7)) for c in range(g.ncols)
                         if g.anchor[r][c] and kind(g.cells[r][c]) == "text")
@@ -155,6 +160,7 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         dates = [t for k, t in toks if k == "date"]
         years = [t for k, t in toks if k == "year"]
         quarters = [t for k, t in toks if k == "quarter"]
+        texts = [t for t in texts if t not in spilled_titles]
         codes = [t for t in texts if script(t) == "none" and re.fullmatch(r"[\d.\-]+", t)]
         texts = [t for t in texts if t not in codes]
         row_unit_txt = ""
@@ -303,5 +309,5 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
     if nu and all(float(r["value"]).is_integer() for r in nu):
         for r in nu:
             r["unit"] = "count"; r["unit_inferred"] = True
-    infer_percent_types(rows)
+    infer_percent_types(rows, title_txt)
     return rows, dict(title=title_txt[:200], col_info={str(k): v for k, v in col_info.items()})

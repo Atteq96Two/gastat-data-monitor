@@ -1,6 +1,6 @@
 # Phase 2 coverage report (November 2026 pilot)
 
-Generated 2026-11-17T07:21:55+00:00. Only tables that pass every gate are written to /data. Others are quarantined and not published.
+Generated 2026-11-17T07:42:29+00:00. Only tables that pass every gate are written to /data. Others are quarantined and not published.
 
 | Publication | Data tables | Validated | Quarantined | Rows published |
 |---|---|---|---|---|
