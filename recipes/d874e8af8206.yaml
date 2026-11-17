@@ -1,0 +1,22 @@
+fingerprint: d874e8af8206
+status: pending_review
+first_seen:
+  publication_id: 27913882
+  sheet: '2'
+  release_date: '2026-11-16'
+label_roles:
+- label_ar
+- label_en
+header_level_types: []
+value_columns: 2
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: '*قطاع التعليم العالي *Higher Education Sector'
+validation_on_first_run: fail
+notes: []

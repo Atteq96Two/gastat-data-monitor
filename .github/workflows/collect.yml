@@ -1,0 +1,53 @@
+name: collect
+# Detects new GASTAT publications and ingests them. Cron runs in UTC; Riyadh = UTC+3.
+#   Release days: every 15 min 08:45-12:00 Riyadh (05:45-09:00 UTC). Other times: hourly. The script gates on registry/calendar.json.
+on:
+  schedule:
+    - cron: "45 5 * * *"
+    - cron: "*/15 6-8 * * *"
+    - cron: "0 9 * * *"
+    - cron: "0 0-5,10-23 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignore the schedule gate and poll now"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: collect
+  cancel-in-progress: false
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Poll and ingest
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: python gastat/collect.py poll ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+      - name: Commit results
+        run: |
+          git config user.name "gastat-monitor"
+          git config user.email "gastat-monitor@users.noreply.github.com"
+          git add data registry catalog quarantine recipes 2>/dev/null || true
+          git diff --cached --quiet && { echo "nothing new"; exit 0; }
+          git commit -q -m "data: ingest new GASTAT release(s)"
+          for i in 1 2 3; do git push -q && exit 0; git pull --rebase -q; done
+          exit 1
+      - name: Alert on failure
+        if: failure()
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: 'python gastat/alert.py "Collector run failed" "The collect workflow failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"'

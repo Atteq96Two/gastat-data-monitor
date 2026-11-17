@@ -1,0 +1,32 @@
+fingerprint: f0d05e605308
+status: pending_review
+first_seen:
+  publication_id: 27913795
+  sheet: '2.1'
+  release_date: '2026-11-16'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+- mixed
+- mixed
+- date
+value_columns: 6
+measure_types:
+- index
+- rate
+- weight
+units:
+- percent
+scales:
+- 1
+period_sources:
+- header
+- sheet_title
+title_sample: الأرقام القياسية ومعدلات التغيّر حسب التصنيف الصناعي الدولي الموحَّد
+  للأنشطة الاقتصادية Indices and Change Rates Accordi
+validation_on_first_run: pass
+notes: []

@@ -1,0 +1,33 @@
+fingerprint: a8729181a6ea
+status: pending_review
+first_seen:
+  publication_id: 27913795
+  sheet: '1.1'
+  release_date: '2026-11-16'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+- mixed
+- ar
+- date
+- date
+value_columns: 6
+measure_types:
+- index
+- rate
+- weight
+units:
+- percent
+scales:
+- 1
+period_sources:
+- header
+- sheet_title
+title_sample: 'ملخص الأرقام القياسية ومعدلات التغيّر للرقم القياسي لأسعار المنتجين
+  Summary of Producer Price Index Indices and Rate of '
+validation_on_first_run: pass
+notes: []

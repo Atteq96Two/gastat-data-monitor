@@ -1,0 +1,25 @@
+fingerprint: 01060a4808b5
+status: pending_review
+first_seen:
+  publication_id: 27913882
+  sheet: Index-القائمة الرئيسية
+  release_date: '2026-11-16'
+label_roles:
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+value_columns: 1
+measure_types:
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: إحصاءات البحث و التطوير 2025م Research and Development Statistics 2025
+  الجداول الجداول Tables
+validation_on_first_run: review
+notes: []

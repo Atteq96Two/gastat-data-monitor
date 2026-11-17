@@ -1,7 +1,95 @@
 {
- "generated_at": "2026-11-15T07:41:36+00:00",
- "count": 164,
+ "generated_at": "2026-11-17T07:54:36+00:00",
+ "count": 166,
  "publications": [
+  {
+   "publication_id": 27913882,
+   "slug": "research-and-development-statistics-2025",
+   "title_ar": "إحصاءات البحث والتطوير 2025",
+   "title_en": "Research and Development Statistics 2025",
+   "domain_id": "economic",
+   "domain_ar": "الإحصاءات الاقتصادية",
+   "domain_en": "Economic Statistics",
+   "subjects_ar": [
+    "إحصاءات الأعمال",
+    "إحصاءات البحث والتطوير"
+   ],
+   "frequency": "annual",
+   "release_date": "2026-11-16",
+   "published_at_utc": "2026-11-16T05:47:00Z",
+   "reference_period": "2025",
+   "period_type": "year",
+   "files": [
+    {
+     "type": "pdf",
+     "name": "Research and Development Statistics Survey 2025 AR.pdf",
+     "size_bytes": 121362,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/Research+and+Development+Statistics+Survey+2025+AR.pdf/e80c018d-487e-7e22-65f5-6547c868cc69",
+     "version": "version=1.0&t=1794732026416",
+     "sha256": null
+    },
+    {
+     "type": "xlsx",
+     "name": "Research and Development Statistics survey 2025 (1).xlsx",
+     "size_bytes": 177352,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/Research+and+Development+Statistics+survey+2025+%281%29.xlsx/9393b9f9-8774-8005-3053-a4c52aef30d9",
+     "version": "version=1.0&t=1794732059452",
+     "sha256": "00c9c55c9e3658cce78ccfb81e7f16e02e1d1b222e304211bcd389a1bd1aa198"
+    }
+   ],
+   "status": "processed_with_quarantine",
+   "processed_at": "2026-11-17T07:53:07+00:00",
+   "tables": {
+    "quarantined_new_layout": 12,
+    "skipped_navigation": 1
+   },
+   "values_added": 0,
+   "values_revised": 0
+  },
+  {
+   "publication_id": 27913795,
+   "slug": "producer-price-index-for-september-2026",
+   "title_ar": "الرقم القياسي لأسعار المنتجين سبتمبر 2026",
+   "title_en": "Producer Price Index for September 2026",
+   "domain_id": "economic",
+   "domain_ar": "الإحصاءات الاقتصادية",
+   "domain_en": "Economic Statistics",
+   "subjects_ar": [
+    "إحصاءات  الرقم القياسي لأسعار المنتجين",
+    "إحصاءات الأسعار"
+   ],
+   "frequency": "monthly",
+   "release_date": "2026-11-16",
+   "published_at_utc": "2026-11-16T05:46:00Z",
+   "reference_period": "2026-09",
+   "period_type": "month",
+   "files": [
+    {
+     "type": "pdf",
+     "name": "PPI Sep 2026-AR.pdf",
+     "size_bytes": 124554,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/PPI+Sep+2026-AR.pdf/002d13d7-d701-d7f2-2c60-775d5accdf46",
+     "version": "version=1.0&t=1794731706362",
+     "sha256": null
+    },
+    {
+     "type": "xlsx",
+     "name": "PPI Sep 2026 AR-EN (1).xlsx",
+     "size_bytes": 430047,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/PPI+Sep+2026+AR-EN+%281%29.xlsx/c31a8648-dfa7-306d-3017-5bec13e4d582",
+     "version": "version=1.0&t=1794731727054",
+     "sha256": "780e24bf1bd59abfa57319f8ca652e3014004757664fd3597a3a36596920ced8"
+    }
+   ],
+   "status": "processed_with_quarantine",
+   "processed_at": "2026-11-17T07:53:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "quarantined_new_layout": 9
+   },
+   "values_added": 0,
+   "values_revised": 0
+  },
   {
    "publication_id": 27830257,
    "slug": "livestock-statistics-2025-1",
@@ -26,16 +114,26 @@
      "name": "Livestock Statistics 2025-AR.pdf",
      "size_bytes": 189354,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Livestock+Statistics+2025-AR.pdf/8fceae04-c24b-f130-321a-3f0805d79af6",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1794466895367"
     },
     {
      "type": "xlsx",
-     "name": "Livestock Statistics 2025-AR (1).xlsx",
-     "size_bytes": 2419878,
-     "url": "https://www.stats.gov.sa/documents/20117/2435281/Livestock+Statistics+2025-AR+%281%29.xlsx/4ab13d65-0853-5cb8-b253-edc5f0054abc",
-     "sha256": "bcfb5d8ab0616dc39d6ee9bcec3644cab8c9629eca83bfee1677e2d654e87500"
+     "name": "Livestock Statistics 2025 AR (1).xlsx",
+     "size_bytes": 2425862,
+     "url": "https://www.stats.gov.sa/documents/20117/2435281/Livestock+Statistics+2025+AR+%281%29.xlsx/c19b3487-3d89-7154-3bc6-8a607253fc55",
+     "sha256": "45a3d431e0c758db8c06a567514918f2caca08320d93502c82d157cde9a680ff",
+     "version": "version=1.0&t=1794826685099"
     }
-   ]
+   ],
+   "status": "processed",
+   "processed_at": "2026-11-17T07:53:42+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 56
+   },
+   "values_added": 0,
+   "values_revised": 14
   },
   {
    "publication_id": 27800375,
@@ -60,16 +158,20 @@
      "name": "CPI-Oct 2026-AR.pdf",
      "size_bytes": 204259,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CPI-Oct+2026-AR.pdf/c0380e68-eb62-a5d4-644a-7c639c39ad56",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1794389261621"
     },
     {
      "type": "xlsx",
      "name": "CPI Tables-Oct 2026-AR-EN (1).xlsx",
      "size_bytes": 1526961,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
-     "sha256": "f6d6f4228a9d697c44eee8d9a42c8183274b9b29aaec61e5781ef8a9f22aee9a"
+     "sha256": "f6d6f4228a9d697c44eee8d9a42c8183274b9b29aaec61e5781ef8a9f22aee9a",
+     "version": "version=1.0&t=1794389296204"
     }
-   ]
+   ],
+   "status": "processed",
+   "processed_at": "2026-11-17T00:00:00+00:00"
   },
   {
    "publication_id": 27800282,
@@ -94,16 +196,20 @@
      "name": "WPI Oct 2026-AR.pdf",
      "size_bytes": 140135,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/WPI+Oct+2026-AR.pdf/db03b88b-587f-899a-d831-a1fae6c9b826",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1794388907635"
     },
     {
      "type": "xlsx",
      "name": "WPI_Tables_Oct 2026-AR-EN (1).xlsx",
      "size_bytes": 1379976,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
-     "sha256": "5c089480fbec09ba810de4760c29f8f39ed747ea69151b76d757cce08969228c"
+     "sha256": "5c089480fbec09ba810de4760c29f8f39ed747ea69151b76d757cce08969228c",
+     "version": "version=1.0&t=1794388935964"
     }
-   ]
+   ],
+   "status": "processed",
+   "processed_at": "2026-11-17T00:00:00+00:00"
   },
   {
    "publication_id": 27741845,
@@ -128,16 +234,20 @@
      "name": "Average Prices of Goods and Services Oct 2026 AR-EN (1).pdf",
      "size_bytes": 4044988,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Average+Prices+of+Goods+and+Services+Oct+2026+AR-EN+%281%29.pdf/b28cc667-3fff-09c1-a79f-0ea6eee94ad1",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1794210430053"
     },
     {
      "type": "xlsx",
      "name": "APGSTables-Oct2026-AR-EN (2).xlsx",
      "size_bytes": 191827,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGSTables-Oct2026-AR-EN+%282%29.xlsx/5f7ecf43-d795-696e-c356-f83494cff0ee",
-     "sha256": "bfc9bef01e7bd9565dbeb26e4fec9adc6c3873113a351fc356e3218b62045eb8"
+     "sha256": "bfc9bef01e7bd9565dbeb26e4fec9adc6c3873113a351fc356e3218b62045eb8",
+     "version": "version=1.0&t=1794210457707"
     }
-   ]
+   ],
+   "status": "processed",
+   "processed_at": "2026-11-17T00:00:00+00:00"
   },
   {
    "publication_id": 27743334,
@@ -162,16 +272,20 @@
      "name": "IPI Sep 2026-AR.pdf",
      "size_bytes": 199065,
      "url": "https://www.stats.gov.sa/documents/20117/2435259/IPI+Sep+2026-AR.pdf/7c062145-f689-688f-cc75-f9e3f08c5f77",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1794239371178"
     },
     {
      "type": "xlsx",
      "name": "IPI September 2026 (2).xlsx",
      "size_bytes": 292934,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
-     "sha256": "333d6d68d6a4c7f6f40e9db813ba4c7ed8355f2a1970517cf61419da7ad8d1c4"
+     "sha256": "333d6d68d6a4c7f6f40e9db813ba4c7ed8355f2a1970517cf61419da7ad8d1c4",
+     "version": "version=1.0&t=1794239387772"
     }
-   ]
+   ],
+   "status": "processed",
+   "processed_at": "2026-11-17T00:00:00+00:00"
   },
   {
    "publication_id": 27714198,
@@ -196,16 +310,20 @@
      "name": "BCI Oct 2026 AR.pdf",
      "size_bytes": 289753,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/BCI+Oct+2026+AR.pdf/d3451a40-0299-ec34-aedd-f46cd78386ba",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1794130287403"
     },
     {
      "type": "xlsx",
      "name": "Business Confidence Index AR_EN (4).xlsx",
      "size_bytes": 154139,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Business+Confidence+Index+AR_EN+%284%29.xlsx/bd839c52-f83a-fdcd-df88-bcd13c15ed51",
-     "sha256": "d78944fe658e59fd531b2b9922104b2ade34cbdea0437b8db947ee2e26ff5022"
+     "sha256": "d78944fe658e59fd531b2b9922104b2ade34cbdea0437b8db947ee2e26ff5022",
+     "version": "version=1.0&t=1794130311269"
     }
-   ]
+   ],
+   "status": "processed",
+   "processed_at": "2026-11-17T00:00:00+00:00"
   },
   {
    "publication_id": 27548335,
@@ -231,16 +349,20 @@
      "name": "Road Transport Statistics  2025_AR.pdf",
      "size_bytes": 194550,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Road+Transport+Statistics++2025_AR.pdf/d08ebcbd-730b-b5eb-60d5-53a0213f798c",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793612597230"
     },
     {
      "type": "xlsx",
      "name": "‏‏Road Transport Statistics 2025 - AR (1).xlsx",
      "size_bytes": 645350,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/%E2%80%8F%E2%80%8FRoad+Transport+Statistics+2025+-+AR+%281%29.xlsx/5f4a03ea-4d9b-8c2c-6dbb-efdd989238b3",
-     "sha256": "5669fdb5d5976a7ce897e9cb69444936087680847140ff2fa3e74418746d1b76"
+     "sha256": "5669fdb5d5976a7ce897e9cb69444936087680847140ff2fa3e74418746d1b76",
+     "version": "version=1.0&t=1793612637289"
     }
-   ]
+   ],
+   "status": "processed",
+   "processed_at": "2026-11-17T00:00:00+00:00"
   },
   {
    "publication_id": 27489192,
@@ -265,16 +387,20 @@
      "name": "ICT Access and Usage 2026-AR.pdf",
      "size_bytes": 170916,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ICT+Access+and+Usage+2026-AR.pdf/523791bb-4b19-4fbc-e04d-69539fc56c5f",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793467241535"
     },
     {
      "type": "xlsx",
      "name": "ICT_Access_and_Usage_Statistics_2026 (1).xlsx",
      "size_bytes": 469651,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ICT_Access_and_Usage_Statistics_2026+%281%29.xlsx/01873e63-044d-74ac-4d58-2d0f3f933953",
-     "sha256": "307b0df32a7ec797219ff2fb448220a587b4bc0cac3f2787ba54e212621db0fb"
+     "sha256": "307b0df32a7ec797219ff2fb448220a587b4bc0cac3f2787ba54e212621db0fb",
+     "version": "version=1.0&t=1793467263793"
     }
-   ]
+   ],
+   "status": "processed",
+   "processed_at": "2026-11-17T00:00:00+00:00"
   },
   {
    "publication_id": 27489085,
@@ -299,16 +425,20 @@
      "name": "GDP Flash Estimates Q3-2026 AR.pdf",
      "size_bytes": 253281,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/GDP+Flash+Estimates+Q3-2026+AR.pdf/d9e3757b-f828-4e55-e88b-0c68add3447c",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793460631720"
     },
     {
      "type": "xlsx",
      "name": "GDP Flash Estimates Q3-2026-AR.xlsx",
      "size_bytes": 161359,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/GDP+Flash+Estimates+Q3-2026-AR.xlsx/9bc132e3-cab9-ed2e-ba95-ae4e8d32aeaa",
-     "sha256": "1b4bdc960c7fe38aa2db2c3cd1aed0c4b13cec0f0e0633b141adbcb78b3c2a3f"
+     "sha256": "1b4bdc960c7fe38aa2db2c3cd1aed0c4b13cec0f0e0633b141adbcb78b3c2a3f",
+     "version": "version=1.0&t=1793460655604"
     }
-   ]
+   ],
+   "status": "processed",
+   "processed_at": "2026-11-17T00:00:00+00:00"
   },
   {
    "publication_id": 27407577,
@@ -333,14 +463,16 @@
      "name": "Structural Business Statistics 2025 AR.pdf",
      "size_bytes": 240406,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Structural+Business+Statistics+2025+AR.pdf/f716b259-d236-88e2-f1d4-f4d5eecf0a37",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793201750198"
     },
     {
      "type": "xlsx",
      "name": "‏‏Structural Business Statistics 2025.xlsx",
      "size_bytes": 779217,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/%E2%80%8F%E2%80%8FStructural+Business+Statistics+2025.xlsx/6c6609ae-b647-f9e5-1020-2ac83f62eb12",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793201777881"
     }
    ]
   },
@@ -367,14 +499,16 @@
      "name": "Annual 2025 AR.pdf",
      "size_bytes": 264122,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Annual+2025+AR.pdf/da61378c-ab08-3862-e575-65e302592339",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793178925875"
     },
     {
      "type": "xlsx",
      "name": "International Trade in Services 2025.xlsx",
      "size_bytes": 279748,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/International+Trade+in+Services+2025.xlsx/11b2072c-f026-64ce-763f-1aaf5bd7d9f8",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793179168194"
     }
    ]
   },
@@ -402,14 +536,16 @@
      "name": "Mineral Resources Statistics 2025 AR.pdf",
      "size_bytes": 410199,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Mineral+Resources+Statistics+2025+AR.pdf/aa598a46-24e0-dae1-a033-cd979b538944",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793079533975"
     },
     {
      "type": "xlsx",
      "name": "Mineral Resources Statistics 2025 AR (1).xlsx",
      "size_bytes": 614213,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Mineral+Resources+Statistics+2025+AR+%281%29.xlsx/a378536d-f592-e943-275e-4e99e4dbb487",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793079551179"
     }
    ]
   },
@@ -436,14 +572,16 @@
      "name": "ECD AR.pdf",
      "size_bytes": 264326,
      "url": "https://www.stats.gov.sa/documents/20117/2435273/ECD+AR.pdf/75cb7c00-ae3f-1cd8-5278-34e2b8c4c014",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793019901266"
     },
     {
      "type": "xlsx",
      "name": "ECD AR (1).xlsx",
      "size_bytes": 149501,
      "url": "https://www.stats.gov.sa/documents/20117/2435273/ECD+AR+%281%29.xlsx/280ca6c5-8707-0cae-20d8-7d9d7f14ab15",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1793019930823"
     }
    ]
   },
@@ -470,14 +608,16 @@
      "name": "ITR Aug 2026 AR.pdf",
      "size_bytes": 180960,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR+Aug+2026+AR.pdf/ab3fa555-d11c-f6ed-fc36-a20ec6a6c7a2",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792953917127"
     },
     {
      "type": "xlsx",
      "name": "ITR_Aug 2026.xlsx",
      "size_bytes": 2158843,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792953944026"
     }
    ]
   },
@@ -504,7 +644,8 @@
      "name": "ITR_non_oil_Sep2026.xlsx",
      "size_bytes": 462970,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792954291827"
     }
    ]
   },
@@ -531,14 +672,16 @@
      "name": "Physical Activity Statistics 2026 AR (1).pdf",
      "size_bytes": 125112,
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Physical+Activity+Statistics+2026+AR+%281%29.pdf/88f012d7-93f8-caee-80aa-2f8b6ef2e03f",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792602641115"
     },
     {
      "type": "xlsx",
      "name": "PA 2026 AR (2).xlsx",
      "size_bytes": 64681,
      "url": "https://www.stats.gov.sa/documents/20117/2435273/PA+2026+AR+%282%29.xlsx/26760394-8fba-7be8-edcd-2d082a663741",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792602662318"
     }
    ]
   },
@@ -565,14 +708,16 @@
      "name": "CCI Sep 2026-AR.pdf",
      "size_bytes": 234003,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI+Sep+2026-AR.pdf/972052c9-59c8-256a-76bf-01d17a38a2ce",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792601202998"
     },
     {
      "type": "xlsx",
      "name": "CCI-Sep 2026-AR-EN (1).xlsx",
      "size_bytes": 213952,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI-Sep+2026-AR-EN+%281%29.xlsx/9a1e3705-cafc-1c70-7e0d-af7b4f92bd15",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792601418722"
     }
    ]
   },
@@ -600,14 +745,16 @@
      "name": "Services Statistics 2025_AR (1).pdf",
      "size_bytes": 156695,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Services+Statistics+2025_AR+%281%29.pdf/5c34bf08-f996-fdcc-8ed3-1a180e652c6f",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792520377268"
     },
     {
      "type": "xlsx",
      "name": "‏‏Services Statistics AR (2).xlsx",
      "size_bytes": 30292884,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/%E2%80%8F%E2%80%8FServices+Statistics+AR+%282%29.xlsx/9d8f53cb-ece2-e3b2-9e24-02554a791ee8",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792520425643"
     }
    ]
   },
@@ -634,14 +781,16 @@
      "name": "STS August 2026 - AR.pdf",
      "size_bytes": 284511,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS+August+2026+-+AR.pdf/ff7f41cb-7519-428d-dec8-76864abde182",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792667446554"
     },
     {
      "type": "xlsx",
      "name": "STS Aug 2026 (1).xlsx",
      "size_bytes": 413063,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS+Aug+2026+%281%29.xlsx/7cef483c-392a-13d5-e481-de2d0616fb59",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792421217710"
     }
    ]
   },
@@ -668,14 +817,16 @@
      "name": "REPI Q3 2026 AR.pdf",
      "size_bytes": 175856,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/REPI+Q3+2026+AR.pdf/fe37b219-67d0-ad22-2b72-19fe3adb82c0",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792394833667"
     },
     {
      "type": "xlsx",
      "name": "REPI_Q3_2026_AR_EN.xlsx",
      "size_bytes": 97344,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792394889417"
     }
    ]
   },
@@ -703,14 +854,16 @@
      "name": "‏‏Railway Transport Statistics Publication 2025-AR.pdf",
      "size_bytes": 317103,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/%E2%80%8F%E2%80%8FRailway+Transport+Statistics+Publication+2025-AR.pdf/ea64e3d2-c5b8-3d76-41a8-736976c5a901",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792310650904"
     },
     {
      "type": "xlsx",
      "name": "Railway Transport Statistics Publication Tables 2025-AR (1).xlsx",
      "size_bytes": 294207,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Railway+Transport+Statistics+Publication+Tables+2025-AR+%281%29.xlsx/51e31945-661b-75bf-f46e-cdfd082493e1",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792310691805"
     }
    ]
   },
@@ -737,14 +890,16 @@
      "name": "Annual Foreign Direct Investment 2025 AR.pdf",
      "size_bytes": 302786,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Annual+Foreign+Direct+Investment+2025+AR.pdf/4d6ebca3-f5d4-0fe0-94ec-796a372cf884",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792043077930"
     },
     {
      "type": "xlsx",
      "name": "Annual foreign direct investment 2025 AR-EN (1).xlsx",
      "size_bytes": 332881,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Annual+foreign+direct+investment+2025+AR-EN+%281%29.xlsx/48fcac4a-c1b1-dfff-7e7c-56928c9c3b20",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792043135610"
     }
    ]
   },
@@ -771,14 +926,16 @@
      "name": "CPI-Sep 2026-AR.pdf",
      "size_bytes": 193606,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CPI-Sep+2026-AR.pdf/fd93e416-f391-e800-8d00-2d42fee60aa2",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792041896693"
     },
     {
      "type": "xlsx",
      "name": "CPI Tables-Sep 2026-AR-EN (1).xlsx",
      "size_bytes": 1522428,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Sep+2026-AR-EN+%281%29.xlsx/33c4aa4c-84da-cd22-da4a-c1b045b28e69",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792041923991"
     }
    ]
   },
@@ -805,14 +962,16 @@
      "name": "WPI Sep 2026-AR.pdf",
      "size_bytes": 164137,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/WPI+Sep+2026-AR.pdf/cded0db3-b6b1-5a04-77a8-7f0ffdd1c631",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792041564414"
     },
     {
      "type": "xlsx",
      "name": "WPI_Tables_Sep  2026-AR-EN (1).xlsx",
      "size_bytes": 1368896,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Sep++2026-AR-EN+%281%29.xlsx/92fbe1da-4a4b-d517-1378-d97ba9a27052",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1792041588852"
     }
    ]
   },
@@ -839,14 +998,16 @@
      "name": "Average Prices of Goods and Services Sep 2026 AR-EN.pdf",
      "size_bytes": 1835752,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Average+Prices+of+Goods+and+Services+Sep+2026+AR-EN.pdf/5a402b90-150b-9546-5a86-ad09435e13f5",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1791968185645"
     },
     {
      "type": "xlsx",
      "name": "APGSTables-Sep2026-AR-EN.xlsx",
      "size_bytes": 192722,
      "url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1791968250207"
     }
    ]
   },
@@ -873,14 +1034,16 @@
      "name": "PPI Aug 2026-AR.pdf",
      "size_bytes": 123048,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/PPI+Aug+2026-AR.pdf/d0c1f396-58d6-009b-f383-84e209a41f36",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1791967685917"
     },
     {
      "type": "xlsx",
      "name": "PPI Aug 2026 AR-EN.xlsx",
      "size_bytes": 243239,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/PPI+Aug+2026+AR-EN.xlsx/e182ab2c-ae51-d97f-4cee-dcf2fc22713f",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1791967709168"
     }
    ]
   },
@@ -907,7 +1070,8 @@
      "name": "GASTAT_Culture and Entertainment Statistics 2025 AR.pdf",
      "size_bytes": 7766203,
      "url": "https://www.stats.gov.sa/documents/20117/2435273/GASTAT_Culture+and+Entertainment+Statistics+2025+AR.pdf/85bab79e-3925-5e7f-d7bc-913e17d56584",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1791882999270"
     }
    ]
   },
@@ -934,14 +1098,16 @@
      "name": "IPI Aug 2026-AR.pdf",
      "size_bytes": 234291,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+Aug+2026-AR.pdf/7500a130-8848-c8f5-a428-c333b37b5fc0",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1791697146782"
     },
     {
      "type": "xlsx",
      "name": "IPI Aug 2026 (1).xlsx",
      "size_bytes": 271036,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+Aug+2026+%281%29.xlsx/4218afce-d514-4f57-d7f0-5e7b4cacad8c",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1791697170743"
     }
    ]
   },
@@ -968,14 +1134,16 @@
      "name": "BCI Sep 2026 AR.pdf",
      "size_bytes": 291891,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/BCI+Sep+2026+AR.pdf/917a4244-3714-3420-e4f6-eafe866ec68e",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1791362074064"
     },
     {
      "type": "xlsx",
      "name": "Business Confidence Index AR_EN.xlsx",
      "size_bytes": 151203,
      "url": "https://www.stats.gov.sa/documents/20117/2435259/Business+Confidence+Index+AR_EN.xlsx/f4258e07-7e1a-906d-dfa1-ba222ff25c98",
-     "sha256": null
+     "sha256": null,
+     "version": "version=1.0&t=1791362039629"
     }
    ]
   },

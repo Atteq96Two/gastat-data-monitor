@@ -36,7 +36,7 @@ def write_draft_recipe(fp, pub, sheet, d, rows, meta, status):
     (ROOT / "recipes" / f"{fp}.yaml").write_text(yaml.safe_dump(rec, allow_unicode=True, sort_keys=False))
 
 
-def process(pub, xlsx):
+def process(pub, xlsx, strict=False):
     wb = openpyxl.load_workbook(xlsx, data_only=True)
     tables, all_rows = [], []
     for ws in wb.worksheets:
@@ -52,6 +52,16 @@ def process(pub, xlsx):
             fp, _ = fingerprint(g, infos, c0, b, d)
             recipe = load_recipe(fp)
             rows, meta = extract_block(g, infos, c0, b, d, pub, ws.title, bi, recipe)
+            if strict and (recipe is None or recipe.get("status") == "pending_review"):
+                # never-seen layout: quarantine (Phase 0 decision a). A pending recipe is saved for the next Claude Code session.
+                if recipe is None:
+                    st0, _ = validate_table(rows)
+                    write_draft_recipe(fp, pub, ws.title, d, rows, meta, st0)
+                    p_ = ROOT / "recipes" / f"{fp}.yaml"; r_ = yaml.safe_load(p_.read_text()); r_["status"] = "pending_review"
+                    p_.write_text(yaml.safe_dump(r_, allow_unicode=True, sort_keys=False))
+                tables.append(dict(pub=pub["publication_id"], sheet=ws.title, block=bi, dataset_id=sheet_id, fingerprint=fp,
+                                   status="quarantined_new_layout", checks=[], rows=len(rows), title=meta["title"], measure_types=[], recipe="pending_review"))
+                continue
             if rows and all(not (r["row_label_ar"] or r["row_label_en"] or r["row_code"] or r["row_level"]) and r["period_source"] != "row" for r in rows) and len(rows) <= 12:
                 tables.append(dict(pub=pub["publication_id"], sheet=ws.title, block=bi, dataset_id=sheet_id, fingerprint=fp, status="skipped_decoration",
                                    checks=[], rows=len(rows), title=meta["title"], measure_types=[], recipe="auto-draft"))
