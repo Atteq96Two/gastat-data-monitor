@@ -6,20 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check secret shape (values are never printed)
-        env:
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          ALERT_TO: ${{ secrets.ALERT_TO }}
-        run: |
-          python3 - <<'PY'
-          import os
-          u=os.environ["GMAIL_USER"]; p=os.environ["GMAIL_APP_PASSWORD"]; t=os.environ["ALERT_TO"]
-          pc=p.replace(" ","").strip()
-          print("user: len",len(u),"has_at",u.count("@")==1,"ascii",u.isascii(),"has_space_or_newline",any(c.isspace() for c in u),"domain_gmail",u.strip().lower().endswith("@gmail.com"))
-          print("pass: len",len(p),"len_without_spaces",len(pc),"ascii",pc.isascii(),"alnum_only",pc.isalnum(),"has_newline","\n" in p or "\r" in p)
-          print("to: len",len(t),"has_at",t.count("@")==1,"ascii",t.isascii())
-          PY
       - name: Send test alert
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
