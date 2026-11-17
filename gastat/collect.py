@@ -62,6 +62,9 @@ def refresh_calendar():
         date = (dt.datetime.fromisoformat(raw.replace("Z", "+00:00")) + dt.timedelta(hours=3)).date().isoformat()
         entries.append({"id": it["id"], "title_ar": it["title"], "release_date": date})
     entries.sort(key=lambda e: (e["release_date"], e["id"]))
+    old = load_json(CAL, {}).get("entries")
+    if old == entries:
+        return len(entries)
     save_json(CAL, {"source": "statistical-calendar-releases", "refreshed_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
                     "count": len(entries), "entries": entries})
     return len(entries)
@@ -102,6 +105,7 @@ def fetch_recent(days=45):
 def poll(dry_run=False):
     run_ts = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     reg = load_json(REG, {"publications": []})
+    orig = json.loads(json.dumps(reg["publications"]))   # snapshot to detect real changes
     pubs = {p["publication_id"]: p for p in reg["publications"]}
     ar, en = fetch_recent()
     events, new_ids = [], []
@@ -169,13 +173,14 @@ def poll(dry_run=False):
             p["status"] = "failed"; p["last_error"] = str(e)[:300]
             events.append(("error", f"{p['title_en']}: {e}")); traceback.print_exc()
     if not dry_run:
-        reg["publications"] = sorted(pubs.values(), key=lambda x: (x["release_date"], x["publication_id"]), reverse=True)
-        reg["count"] = len(reg["publications"]); reg["generated_at"] = run_ts
-        save_json(REG, reg)
-        latest = [{"publication_id": p["publication_id"], "title_ar": p["title_ar"], "title_en": p["title_en"], "release_date": p["release_date"],
-                   "domain": p["domain_en"], "reference_period": p["reference_period"], "status": p.get("status", "registered")}
-                  for p in reg["publications"][:30]]
-        (ROOT / "catalog").mkdir(exist_ok=True); save_json(ROOT / "catalog" / "latest_releases.json", {"generated_at": run_ts, "releases": latest})
+        new_pubs = sorted(pubs.values(), key=lambda x: (x["release_date"], x["publication_id"]), reverse=True)
+        if new_pubs != orig:      # write only on real change: no empty hourly commits
+            reg["publications"] = new_pubs; reg["count"] = len(new_pubs); reg["generated_at"] = run_ts
+            save_json(REG, reg)
+            latest = [{"publication_id": p["publication_id"], "title_ar": p["title_ar"], "title_en": p["title_en"], "release_date": p["release_date"],
+                       "domain": p["domain_en"], "reference_period": p["reference_period"], "status": p.get("status", "registered")}
+                      for p in new_pubs[:30]]
+            (ROOT / "catalog").mkdir(exist_ok=True); save_json(ROOT / "catalog" / "latest_releases.json", {"generated_at": run_ts, "releases": latest})
     for lvl, m in events:
         print(lvl.upper(), m)
     problems = [m for lvl, m in events if lvl in ("warn", "error")]
