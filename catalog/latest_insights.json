@@ -1,0 +1,662 @@
+{
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "releases": [
+  {
+   "publication_id": "27830257",
+   "title_ar": "إحصاءات الثروة الحيوانية 2025",
+   "title_en": "Livestock Statistics 2025",
+   "release_date": "2026-11-15",
+   "insight_count": 181,
+   "headlines": [
+    {
+     "id": "27830257-001",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | عددد البيض المستخدم حسب مصادر الحصول عليه / مشترى من إنتاج مشاريع محليه: 489,419,313 في 2025، مقابل 75,477,993 (+548.43%) في 2024.",
+     "text_en": "الإجمالي | عددد البيض المستخدم حسب مصادر الحصول عليه / مشترى من إنتاج مشاريع محليه: 489,419,313 in 2025, versus 75,477,993 (+548.43%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_3-7"
+    },
+    {
+     "id": "27830257-002",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | عددد البيض المستخدم حسب مصادر الحصول عليه / مستورد: 64,636,581 في 2025، مقابل 158,141,096 (-59.13%) في 2024.",
+     "text_en": "الإجمالي | عددد البيض المستخدم حسب مصادر الحصول عليه / مستورد: 64,636,581 in 2025, versus 158,141,096 (-59.13%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_3-7"
+    },
+    {
+     "id": "27830257-003",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | مستلزمات بيطرية*: 84,932 طن في 2025، مقابل 55,438 (+53.2%) في 2024.",
+     "text_en": "الإجمالي | مستلزمات بيطرية*: 84,932 tons in 2025, versus 55,438 (+53.2%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_2-3"
+    },
+    {
+     "id": "27830257-004",
+     "kind": "series_change",
+     "text_ar": "الإجمالي: 4,947,392 في 2025، مقابل 3,273,744 (+51.12%) في 2024.",
+     "text_en": "الإجمالي: 4,947,392 in 2025, versus 3,273,744 (+51.12%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_4-6"
+    },
+    {
+     "id": "27830257-005",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | الإناث الحلوب: 924,797 في 2025، مقابل 634,587 (+45.73%) في 2024.",
+     "text_en": "الإجمالي | الإناث الحلوب: 924,797 in 2025, versus 634,587 (+45.73%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_4-4"
+    },
+    {
+     "id": "27830257-006",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | نشارة الخشب: 16,917 طن في 2025، مقابل 27,287 (-38%) في 2024.",
+     "text_en": "الإجمالي | نشارة الخشب: 16,917 tons in 2025, versus 27,287 (-38%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_2-3"
+    },
+    {
+     "id": "27830257-007",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | الإناث الحلوب: 3,354,380 في 2025، مقابل 2,516,856 (+33.28%) في 2024.",
+     "text_en": "الإجمالي | الإناث الحلوب: 3,354,380 in 2025, versus 2,516,856 (+33.28%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_4-3"
+    },
+    {
+     "id": "27830257-008",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | عدد العجول المنتجة خلال العام: 54,568 في 2025، مقابل 77,613 (-29.69%) في 2024.",
+     "text_en": "الإجمالي | عدد العجول المنتجة خلال العام: 54,568 in 2025, versus 77,613 (-29.69%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_1-6"
+    },
+    {
+     "id": "27830257-009",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | المواشي المذبوحة * / ضأن: 6,551,599 في 2025، مقابل 5,115,335 (+28.08%) في 2024.",
+     "text_en": "الإجمالي | المواشي المذبوحة * / ضأن: 6,551,599 in 2025, versus 5,115,335 (+28.08%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_4-8"
+    },
+    {
+     "id": "27830257-010",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | المواشي المذبوحة * / أبقار: 183,821 في 2025، مقابل 243,636 (-24.55%) في 2024.",
+     "text_en": "الإجمالي | المواشي المذبوحة * / أبقار: 183,821 in 2025, versus 243,636 (-24.55%) in 2024.",
+     "period": "2025",
+     "dataset_id": "livestock-statistics-1_4-8"
+    }
+   ]
+  },
+  {
+   "publication_id": "27800375",
+   "title_ar": "الرقم القياسي لأسعار المستهلك لشهر أكتوبر 2026",
+   "title_en": "Consumer Price Index – October 2026",
+   "release_date": "2026-11-15",
+   "insight_count": 38,
+   "headlines": [
+    {
+     "id": "27800375-001",
+     "kind": "series_change",
+     "text_ar": "الرقم القياسي العام بدون أسعار الطاقة | الأرقام القياسية: 106.05 نقطة في أكتوبر 2026، مقابل 105.92 (+0.12%) في سبتمبر 2026، ومقابل 104.32 (+1.65%) في أكتوبر 2025.",
+     "text_en": "General Price Index Excluding Energy | Index Numbers: 106.05 points in October 2026, versus 105.92 (+0.12%) in September 2026, and versus 104.32 (+1.65%) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_1-1"
+    },
+    {
+     "id": "27800375-002",
+     "kind": "series_change",
+     "text_ar": "الرقم القياسي العام | الأرقام القياسية: 105.89 نقطة في أكتوبر 2026، مقابل 105.77 (+0.11%) في سبتمبر 2026، ومقابل 104.12 (+1.7%) في أكتوبر 2025.",
+     "text_en": "General Index | Index Numbers: 105.89 points in October 2026, versus 105.77 (+0.11%) in September 2026, and versus 104.12 (+1.7%) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_1-1"
+    },
+    {
+     "id": "27800375-003",
+     "kind": "series_change",
+     "text_ar": "خدمات الرعاية الوقائية: 2.86% في أكتوبر 2026، مقابل 2.55% (+0.31 نقطة مئوية) في سبتمبر 2026، ومقابل -2.17% (+5.03 نقطة مئوية) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2024).",
+     "text_en": "Preventive care services: 2.86% in October 2026, versus 2.55% (+0.31 percentage points) in September 2026, and versus -2.17% (+5.03 percentage points) in October 2025, the highest in the available data (since January 2024).",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_5-2"
+    },
+    {
+     "id": "27800375-004",
+     "kind": "series_change",
+     "text_ar": "الإيجارات التقديرية للسكن: 3.14% في أكتوبر 2026، مقابل 3.41% (-0.27 نقطة مئوية) في سبتمبر 2026، ومقابل 5.55% (-2.42 نقطة مئوية) في أكتوبر 2025، وهي الأدنى في البيانات المتاحة (منذ يناير 2024).",
+     "text_en": "IMPUTED RENTALS FOR HOUSING: 3.14% in October 2026, versus 3.41% (-0.27 percentage points) in September 2026, and versus 5.55% (-2.42 percentage points) in October 2025, the lowest in the available data (since January 2024).",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_5-2"
+    },
+    {
+     "id": "27800375-006",
+     "kind": "series_change",
+     "text_ar": "التأمين المرتبط بالنقل: 114.99 نقطة في أكتوبر 2026، مقابل 111.91 (+2.76%) في سبتمبر 2026، ومقابل 107.55 (+6.92%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
+     "text_en": "Insurance connected with transport: 114.99 points in October 2026, versus 111.91 (+2.76%) in September 2026, and versus 107.55 (+6.92%) in October 2025, the highest in the available data (since January 2013).",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_5-1"
+    },
+    {
+     "id": "27800375-007",
+     "kind": "series_change",
+     "text_ar": "التأمين: 114.14 نقطة في أكتوبر 2026، مقابل 111.38 (+2.47%) في سبتمبر 2026، ومقابل 107.16 (+6.51%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
+     "text_en": "INSURANCE: 114.14 points in October 2026, versus 111.38 (+2.47%) in September 2026, and versus 107.16 (+6.51%) in October 2025, the highest in the available data (since January 2013).",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_5-1"
+    },
+    {
+     "id": "27800375-009",
+     "kind": "series_change",
+     "text_ar": "الأرقام القياسية Index Numbers / الجوف: 106.63 نقطة في أكتوبر 2026، مقابل 106.35 (+0.26%) في سبتمبر 2026، ومقابل 102.36 (+4.17%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
+     "text_en": "Al Jouf: 106.63 points in October 2026, versus 106.35 (+0.26%) in September 2026, and versus 102.36 (+4.17%) in October 2025, the highest in the available data (since January 2013).",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_4-1"
+    },
+    {
+     "id": "27800375-010",
+     "kind": "series_change",
+     "text_ar": "الأرقام القياسية Index Numbers / الرياض: 108.53 نقطة في أكتوبر 2026، مقابل 108.26 (+0.24%) في سبتمبر 2026، ومقابل 106.25 (+2.14%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
+     "text_en": "Riyadh: 108.53 points in October 2026, versus 108.26 (+0.24%) in September 2026, and versus 106.25 (+2.14%) in October 2025, the highest in the available data (since January 2013).",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_4-1"
+    },
+    {
+     "id": "27800375-012",
+     "kind": "series_change",
+     "text_ar": "الأغذية الجاهزة والمنتجات الغذائية الأخرى غير المصنفة في موضع آخر: 0.84% في أكتوبر 2026، ومقابل 0.19% (+0.64 نقطة مئوية) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ أكتوبر 2013).",
+     "text_en": "Ready-made food and other food products n.e.c.: 0.84% in October 2026, and versus 0.19% (+0.64 percentage points) in October 2025, the highest in the available data (since October 2013).",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_5-3"
+    },
+    {
+     "id": "27800375-013",
+     "kind": "series_change",
+     "text_ar": "التأمين: 2.47% في أكتوبر 2026، ومقابل 0.03% (+2.45 نقطة مئوية) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ أكتوبر 2013).",
+     "text_en": "INSURANCE: 2.47% in October 2026, and versus 0.03% (+2.45 percentage points) in October 2025, the highest in the available data (since October 2013).",
+     "period": "2026-10",
+     "dataset_id": "consumer-price-index_5-3"
+    }
+   ]
+  },
+  {
+   "publication_id": "27800282",
+   "title_ar": "الرقم القياسي لأسعار الجملة لشهر أكتوبر 2026",
+   "title_en": "Wholesale Price Index – October 2026",
+   "release_date": "2026-11-15",
+   "insight_count": 17,
+   "headlines": [
+    {
+     "id": "27800282-001",
+     "kind": "series_change",
+     "text_ar": "الرقم القياسي العام | الأرقام القياسية / أكتوبر: 111.22 نقطة في 2026، مقابل 106.39 (+4.54%) في 2025.",
+     "text_en": "General index | Index Numbers / Oct: 111.22 points in 2026, versus 106.39 (+4.54%) in 2025.",
+     "period": "2026",
+     "dataset_id": "wholesale-price-index_1-1"
+    },
+    {
+     "id": "27800282-002",
+     "kind": "series_change",
+     "text_ar": "المجموع دون الطاقة | الأرقام القياسية / أكتوبر: 105.74 نقطة في 2026، مقابل 101.36 (+4.32%) في 2025.",
+     "text_en": "General Price Index Excluding Energy | Index Numbers / Oct: 105.74 points in 2026, versus 101.36 (+4.32%) in 2025.",
+     "period": "2026",
+     "dataset_id": "wholesale-price-index_1-1"
+    },
+    {
+     "id": "27800282-003",
+     "kind": "series_change",
+     "text_ar": "جبس: -4% في أكتوبر 2026، مقابل 0.36% (-4.36 نقطة مئوية) في سبتمبر 2026، ومقابل 0.02% (-4.02 نقطة مئوية) في أكتوبر 2025، وهي الأدنى في البيانات المتاحة (منذ فبراير 2023).",
+     "text_en": "October | Gypsum: -4% in October 2026, versus 0.36% (-4.36 percentage points) in September 2026, and versus 0.02% (-4.02 percentage points) in October 2025, the lowest in the available data (since February 2023).",
+     "period": "2026-10",
+     "dataset_id": "wholesale-price-index_3-2"
+    },
+    {
+     "id": "27800282-004",
+     "kind": "mover_up",
+     "text_ar": "غازات نفطية: 11.42% في أكتوبر 2026، مقابل -3.75% (+15.17 نقطة مئوية) في سبتمبر 2026، ومقابل 0% (+11.42 نقطة مئوية) في أكتوبر 2025.",
+     "text_en": "October | Petroleum gases: 11.42% in October 2026, versus -3.75% (+15.17 percentage points) in September 2026, and versus 0% (+11.42 percentage points) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "wholesale-price-index_3-2"
+    },
+    {
+     "id": "27800282-006",
+     "kind": "mover_up",
+     "text_ar": "الباحة: 1.46% في أكتوبر 2026، مقابل -1.04% (+2.49 نقطة مئوية) في سبتمبر 2026، ومقابل 0.53% (+0.92 نقطة مئوية) في أكتوبر 2025.",
+     "text_en": "October | Al Baha: 1.46% in October 2026, versus -1.04% (+2.49 percentage points) in September 2026, and versus 0.53% (+0.92 percentage points) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "wholesale-price-index_2-2"
+    },
+    {
+     "id": "27800282-007",
+     "kind": "mover_up",
+     "text_ar": "الجوف: 3.25% في أكتوبر 2026، مقابل 1.99% (+1.27 نقطة مئوية) في سبتمبر 2026، ومقابل 4.62% (-1.37 نقطة مئوية) في أكتوبر 2025.",
+     "text_en": "Al Jouf / معدل التغير السنوي Annual Rate of Change: 3.25% in October 2026, versus 1.99% (+1.27 percentage points) in September 2026, and versus 4.62% (-1.37 percentage points) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "wholesale-price-index_2-3"
+    },
+    {
+     "id": "27800282-008",
+     "kind": "mover_down",
+     "text_ar": "الرياض: 4% في أكتوبر 2026، مقابل 4.41% (-0.4 نقطة مئوية) في سبتمبر 2026، ومقابل 3.46% (+0.54 نقطة مئوية) في أكتوبر 2025.",
+     "text_en": "Riyadh / معدل التغير السنوي Annual Rate of Change: 4% in October 2026, versus 4.41% (-0.4 percentage points) in September 2026, and versus 3.46% (+0.54 percentage points) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "wholesale-price-index_2-3"
+    },
+    {
+     "id": "27800282-009",
+     "kind": "mover_up",
+     "text_ar": "فوسفات ثلاثي الأمونيوم، أملاح وأملاح بروكسية | الأرقام القياسية / أكتوبر: 164.61 نقطة في 2026، مقابل 117 (+40.7%) في 2025.",
+     "text_en": "Triammonium phosphate, salts and peroxysalts | Index Numbers / Oct: 164.61 points in 2026, versus 117 (+40.7%) in 2025.",
+     "period": "2026",
+     "dataset_id": "wholesale-price-index_1-2"
+    },
+    {
+     "id": "27800282-010",
+     "kind": "mover_down",
+     "text_ar": "ألياف تيلية نسجية اصطناعية مجهزة لأغراض الغزل | الأرقام القياسية / أكتوبر: 88.1 نقطة في 2026، مقابل 101.24 (-12.98%) في 2025.",
+     "text_en": "Man-made textile staple fibres prepared for spinning | Index Numbers / Oct: 88.1 points in 2026, versus 101.24 (-12.98%) in 2025.",
+     "period": "2026",
+     "dataset_id": "wholesale-price-index_1-2"
+    },
+    {
+     "id": "27800282-017",
+     "kind": "cross_section",
+     "text_ar": "الأعلى بين 163 بنداً هو -0.7189665800279799 [-0.7189665800279799] (38.49%) والأدنى هو -0.7189665800279799 [-0.7189665800279799] (-12.98%) في أكتوبر 2026.",
+     "text_en": "Highest of 163 items is -0.7189665800279799 [-0.7189665800279799] (38.49%), lowest is -0.7189665800279799 [-0.7189665800279799] (-12.98%) in October 2026.",
+     "period": "2026-10",
+     "dataset_id": "wholesale-price-index_3-3"
+    }
+   ]
+  },
+  {
+   "publication_id": "27741845",
+   "title_ar": "متوسطات أسعار السلع والخدمات لشهر أكتوبر 2026",
+   "title_en": "Average service prices for October 2026",
+   "release_date": "2026-11-15",
+   "insight_count": 12,
+   "headlines": [
+    {
+     "id": "27741845-001",
+     "kind": "mover_up",
+     "text_ar": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses | بصل مدور محلي | متوسطات الأسعار / أكتوبر: 5.44% في 2026، مقابل 3.82 (+42.41%) في 2025.",
+     "text_en": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses | Local Onion | Average Prices / Oct: 5.44% in 2026, versus 3.82 (+42.41%) in 2025.",
+     "period": "2026",
+     "dataset_id": "average-service-prices-for_1"
+    },
+    {
+     "id": "27741845-002",
+     "kind": "mover_down",
+     "text_ar": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses | طماطم محلي | متوسطات الأسعار / أكتوبر: 5.74% في 2026، مقابل 7.65 (-24.97%) في 2025.",
+     "text_en": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses | Local tomatoes | Average Prices / Oct: 5.74% in 2026, versus 7.65 (-24.97%) in 2025.",
+     "period": "2026",
+     "dataset_id": "average-service-prices-for_1"
+    },
+    {
+     "id": "27741845-006",
+     "kind": "cross_section",
+     "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 15 بنداً هو كيابل ربط الحديد صيني (3.19%) والأدنى هو أسلاك كهربائية 2.5 مم وطني (0.67%) في سبتمبر 2026.",
+     "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 15 items is Chinese Iron-binding cables (3.19%), lowest is 2.5mm national electrical wires (0.67%) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "average-service-prices-for_2"
+    },
+    {
+     "id": "27741845-007",
+     "kind": "cross_section",
+     "text_ar": "السلع و الخدمات GOODS AND SERVICES: الأعلى بين 15 بنداً هو برتقال أبو صرة مصري (9.47%) والأدنى هو بامية محلية (1.05%) في سبتمبر 2026.",
+     "text_en": "السلع و الخدمات GOODS AND SERVICES: Highest of 15 items is Abu Sorra egyptian Orange (9.47%), lowest is Local Okra (1.05%) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "average-service-prices-for_2"
+    },
+    {
+     "id": "27741845-008",
+     "kind": "cross_section",
+     "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 9 بنود هو خرسانة عادي 250 ك (-0.01%) والأدنى هو بلوك أسود مقاس 20 سم (-0.43%) في سبتمبر 2026.",
+     "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 9 items is 250 K Normal Concrete (-0.01%), lowest is 20cm black Block (-0.43%) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "average-service-prices-for_3"
+    },
+    {
+     "id": "27741845-009",
+     "kind": "cross_section",
+     "text_ar": "السلع و الخدمات GOODS AND SERVICES: الأعلى بين 15 بنداً هو سمك طازج هامور (-1.02%) والأدنى هو ملفوف أبيض (-6.6%) في سبتمبر 2026.",
+     "text_en": "السلع و الخدمات GOODS AND SERVICES: Highest of 15 items is Fresh Fish (Grouper) (-1.02%), lowest is white Cabbage (-6.6%) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "average-service-prices-for_3"
+    },
+    {
+     "id": "27741845-010",
+     "kind": "cross_section",
+     "text_ar": "الأخشاب Timber / م3 M3: الأعلى بين 11 بنداً هو يونيو Jun (3,945 ريال) والأدنى هو متوسط عام 2006 Ann.Average2006 (2,273 ريال) في أكتوبر 2026.",
+     "text_en": "الأخشاب Timber / م3 M3: Highest of 11 items is 1447/12/15 1448/01/15 (3,945 SAR), lowest is قبل 1427/12/11هـ Before (Jan 2006) (2,273 SAR) in October 2026.",
+     "period": "2026-10",
+     "dataset_id": "average-service-prices-for_4"
+    },
+    {
+     "id": "27741845-011",
+     "kind": "cross_section",
+     "text_ar": "الإسمنت Cement / 50كجم 50 Kg: الأعلى بين 11 بنداً هو مارس Mar (14.43 ريال) والأدنى هو متوسط عام 2006 Ann.Average2006 (12.7 ريال) في أكتوبر 2026.",
+     "text_en": "الإسمنت Cement / 50كجم 50 Kg: Highest of 11 items is 1447/09/12 1447/10/12 (14.43 SAR), lowest is قبل 1427/12/11هـ Before (Jan 2006) (12.7 SAR) in October 2026.",
+     "period": "2026-10",
+     "dataset_id": "average-service-prices-for_4"
+    }
+   ]
+  },
+  {
+   "publication_id": "27743334",
+   "title_ar": "الرقم القياسي للإنتاج الصناعي لشهر سبتمبر 2026",
+   "title_en": "Industrial Production Index- September 2026",
+   "release_date": "2026-11-10",
+   "insight_count": 11,
+   "headlines": [
+    {
+     "id": "27743334-001",
+     "kind": "series_change",
+     "text_ar": "الرقم القياسي العام | الرقم القياسي: 101.28 نقطة في سبتمبر 2026، مقابل 87.65 (+15.55%) في أغسطس 2026، ومقابل 113.69 (-10.92%) في سبتمبر 2025.",
+     "text_en": "General index | الرقم القياسي: 101.28 points in September 2026, versus 87.65 (+15.55%) in August 2026, and versus 113.69 (-10.92%) in September 2025.",
+     "period": "2026-09",
+     "dataset_id": "industrial-production-index-1_3"
+    },
+    {
+     "id": "27743334-002",
+     "kind": "series_change",
+     "text_ar": "الرقم القياسي العام | المؤشر: 101.28 نقطة في سبتمبر 2026، مقابل 87.65 (+15.55%) في أغسطس 2026، ومقابل 113.69 (-10.92%) في سبتمبر 2025.",
+     "text_en": "General index | Index: 101.28 points in September 2026, versus 87.65 (+15.55%) in August 2026, and versus 113.69 (-10.92%) in September 2025.",
+     "period": "2026-09",
+     "dataset_id": "industrial-production-index-1_1"
+    },
+    {
+     "id": "27743334-003",
+     "kind": "series_change",
+     "text_ar": "الأنشطة غير النفطية | الرقم القياسي: 134.34 نقطة في سبتمبر 2026، مقابل 133.48 (+0.64%) في أغسطس 2026، ومقابل 134.16 (+0.13%) في سبتمبر 2025، وهي الأعلى في البيانات المتاحة (منذ 2021).",
+     "text_en": "Non-Oil Activities | الرقم القياسي: 134.34 points in September 2026, versus 133.48 (+0.64%) in August 2026, and versus 134.16 (+0.13%) in September 2025, the highest in the available data (since 2021).",
+     "period": "2026-09",
+     "dataset_id": "industrial-production-index-1_3"
+    },
+    {
+     "id": "27743334-006",
+     "kind": "mover_up",
+     "text_ar": "استخراج النفط الخام والغاز الطبيعي | المؤشر: 88.86 نقطة في سبتمبر 2026، مقابل 68.42 (+29.88%) في أغسطس 2026، ومقابل 105.78 (-15.99%) في سبتمبر 2025.",
+     "text_en": "Extraction of crude petroleum and natural gas | Index: 88.86 points in September 2026, versus 68.42 (+29.88%) in August 2026, and versus 105.78 (-15.99%) in September 2025.",
+     "period": "2026-09",
+     "dataset_id": "industrial-production-index-1_1"
+    },
+    {
+     "id": "27743334-010",
+     "kind": "cross_section",
+     "text_ar": "الأعلى بين 30 بنداً هو استخراج النفط الخام والغاز الطبيعي [6|B06] (0.3%) والأدنى هو استخراج النفط الخام والغاز الطبيعي [6|B06] (-0.16%) في سبتمبر 2026.",
+     "text_en": "Highest of 30 items is Extraction of crude petroleum and natural gas [6|B06] (0.3%), lowest is Extraction of crude petroleum and natural gas [6|B06] (-0.16%) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "industrial-production-index-1_2"
+    },
+    {
+     "id": "27743334-011",
+     "kind": "cross_section",
+     "text_ar": "الوزن: الأعلى بين 15 بنداً هو التعدين واستغلال المحاجر (61.44%) والأدنى هو صُنع المشروبات (0.45%) في سبتمبر 2026.",
+     "text_en": "Weight: Highest of 15 items is Mining and quarrying (61.44%), lowest is Manufacture of beverages (0.45%) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "industrial-production-index-1_2"
+    }
+   ]
+  },
+  {
+   "publication_id": "27714198",
+   "title_ar": "مؤشر ثقة الأعمال لشهر أكتوبر 2026",
+   "title_en": "Business Confidence Index for October 2026",
+   "release_date": "2026-11-09",
+   "insight_count": 6,
+   "headlines": [
+    {
+     "id": "27714198-001",
+     "kind": "series_change",
+     "text_ar": "مؤشر ثقة الأعمال العام: -1.92% في أكتوبر 2026، مقابل -0.2% (-1.72 نقطة مئوية) في سبتمبر 2026، ومقابل -1.1% (-0.81 نقطة مئوية) في أكتوبر 2025.",
+     "text_en": "Overall Business Confidence Index | Monthly Rate of Change معدل التغيرالشهري: -1.92% in October 2026, versus -0.2% (-1.72 percentage points) in September 2026, and versus -1.1% (-0.81 percentage points) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "business-confidence-index-for_3"
+    },
+    {
+     "id": "27714198-002",
+     "kind": "series_change",
+     "text_ar": "مؤشر ثقة الأعمال العام | Index Value قيمة المؤشر: 55.52 نقطة في أكتوبر 2026، مقابل 56.6 (-1.92%) في سبتمبر 2026، ومقابل 61.05 (-9.06%) في أكتوبر 2025.",
+     "text_en": "Overall Business Confidence Index | Index Value قيمة المؤشر: 55.52 points in October 2026, versus 56.6 (-1.92%) in September 2026, and versus 61.05 (-9.06%) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "business-confidence-index-for_2"
+    },
+    {
+     "id": "27714198-003",
+     "kind": "series_change",
+     "text_ar": "مؤشر ثقة الأعمال العام | Index Value قيمة المؤشر: 55.52 نقطة في أكتوبر 2026، مقابل 56.6 (-1.92%) في سبتمبر 2026.",
+     "text_en": "Overall Business Confidence Index | Index Value قيمة المؤشر: 55.52 points in October 2026, versus 56.6 (-1.92%) in September 2026.",
+     "period": "2026-10",
+     "dataset_id": "business-confidence-index-for_1"
+    },
+    {
+     "id": "27714198-004",
+     "kind": "mover_down",
+     "text_ar": "مؤشر ثقة الأعمال لقطاع الصناعة: -1.52% في أكتوبر 2026، مقابل 0.88% (-2.4 نقطة مئوية) في سبتمبر 2026، ومقابل -0.22% (-1.3 نقطة مئوية) في أكتوبر 2025.",
+     "text_en": "Business Confidence Index for the Industry Sector | Monthly Rate of Change معدل التغيرالشهري: -1.52% in October 2026, versus 0.88% (-2.4 percentage points) in September 2026, and versus -0.22% (-1.3 percentage points) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "business-confidence-index-for_3"
+    },
+    {
+     "id": "27714198-005",
+     "kind": "mover_down",
+     "text_ar": "مؤشر ثقة الأعمال لقطاع الخدمات | Index Value قيمة المؤشر: 54.23 نقطة في أكتوبر 2026، مقابل 55.41 (-2.13%) في سبتمبر 2026، ومقابل 58.39 (-7.12%) في أكتوبر 2025.",
+     "text_en": "Business Confidence Index for the Services Sector | Index Value قيمة المؤشر: 54.23 points in October 2026, versus 55.41 (-2.13%) in September 2026, and versus 58.39 (-7.12%) in October 2025.",
+     "period": "2026-10",
+     "dataset_id": "business-confidence-index-for_2"
+    },
+    {
+     "id": "27714198-006",
+     "kind": "mover_down",
+     "text_ar": "مؤشر ثقة الأعمال لقطاع الخدمات | Index Value قيمة المؤشر: 54.23 نقطة في أكتوبر 2026، مقابل 55.41 (-2.13%) في سبتمبر 2026.",
+     "text_en": "Business Confidence Index for the Services Sector | Index Value قيمة المؤشر: 54.23 points in October 2026, versus 55.41 (-2.13%) in September 2026.",
+     "period": "2026-10",
+     "dataset_id": "business-confidence-index-for_1"
+    }
+   ]
+  },
+  {
+   "publication_id": "27548335",
+   "title_ar": "إحصاءات النقل على الطرق لعام 2025",
+   "title_en": "Road Transport Statistics 2025",
+   "release_date": "2026-11-05",
+   "insight_count": 184,
+   "headlines": [
+    {
+     "id": "27548335-001",
+     "kind": "series_change",
+     "text_ar": "المجموع | إصدار جديد: 1,062,878 في 2025، مقابل 1,025,657 (+3.63%) في 2024، وهي الأعلى في البيانات المتاحة (منذ 2020).",
+     "text_en": "المجموع | إصدار جديد: 1,062,878 in 2025, versus 1,025,657 (+3.63%) in 2024, the highest in the available data (since 2020).",
+     "period": "2025",
+     "dataset_id": "road-transport-statistics_4-2"
+    },
+    {
+     "id": "27548335-002",
+     "kind": "series_change",
+     "text_ar": "المجموع | تجديد: 2,577,007 في 2025، مقابل 2,520,487 (+2.24%) في 2024، وهي الأعلى في البيانات المتاحة (منذ 2020).",
+     "text_en": "المجموع | تجديد: 2,577,007 in 2025, versus 2,520,487 (+2.24%) in 2024, the highest in the available data (since 2020).",
+     "period": "2025",
+     "dataset_id": "road-transport-statistics_4-2"
+    },
+    {
+     "id": "27548335-003",
+     "kind": "series_change",
+     "text_ar": "الإجمالي: 27,808,831 في الربع الرابع 2025، مقابل 24,642,425 (+12.85%) في الربع الثالث 2025.",
+     "text_en": "الإجمالي: 27,808,831 in Q4 2025, versus 24,642,425 (+12.85%) in Q3 2025.",
+     "period": "2025-Q4",
+     "dataset_id": "road-transport-statistics_1-2-1"
+    },
+    {
+     "id": "27548335-004",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | قدوم: 37,006,159 في 2025، مقابل 33,157,878 (+11.61%) في 2024.",
+     "text_en": "الإجمالي | قدوم: 37,006,159 in 2025, versus 33,157,878 (+11.61%) in 2024.",
+     "period": "2025",
+     "dataset_id": "road-transport-statistics_1-1"
+    },
+    {
+     "id": "27548335-005",
+     "kind": "series_change",
+     "text_ar": "الإجمالي الكلي | كمية الشحن الصادرة: 14,327,714 طن في 2025، مقابل 13,477,491 (+6.31%) في 2024.",
+     "text_en": "الإجمالي الكلي | كمية الشحن الصادرة: 14,327,714 tons in 2025, versus 13,477,491 (+6.31%) in 2024.",
+     "period": "2025",
+     "dataset_id": "road-transport-statistics_2-1"
+    },
+    {
+     "id": "27548335-006",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | مغادرة: 33,711,939 في 2025، مقابل 32,786,056 (+2.82%) في 2024.",
+     "text_en": "الإجمالي | مغادرة: 33,711,939 in 2025, versus 32,786,056 (+2.82%) in 2024.",
+     "period": "2025",
+     "dataset_id": "road-transport-statistics_1-1"
+    },
+    {
+     "id": "27548335-007",
+     "kind": "series_change",
+     "text_ar": "الإجمالي الكلي | كمية الشحن الواردة: 12,531,390 طن في 2025، مقابل 12,237,894 (+2.4%) في 2024.",
+     "text_en": "الإجمالي الكلي | كمية الشحن الواردة: 12,531,390 tons in 2025, versus 12,237,894 (+2.4%) in 2024.",
+     "period": "2025",
+     "dataset_id": "road-transport-statistics_2-1"
+    },
+    {
+     "id": "27548335-012",
+     "kind": "mover_down",
+     "text_ar": "تبوك | معدل الإصابات لكل 100 ألف نسمة: 48.33% في 2025، مقابل 82.64% (-34.31 نقطة مئوية) في 2024.",
+     "text_en": "تبوك | معدل الإصابات لكل 100 ألف نسمة: 48.33% in 2025, versus 82.64% (-34.31 percentage points) in 2024.",
+     "period": "2025",
+     "dataset_id": "road-transport-statistics_5-2"
+    },
+    {
+     "id": "27548335-013",
+     "kind": "mover_up",
+     "text_ar": "حائل | معدل الإصابات لكل 100 ألف نسمة: 49.23% في 2025، مقابل 22.33% (+26.9 نقطة مئوية) في 2024.",
+     "text_en": "حائل | معدل الإصابات لكل 100 ألف نسمة: 49.23% in 2025, versus 22.33% (+26.9 percentage points) in 2024.",
+     "period": "2025",
+     "dataset_id": "road-transport-statistics_5-2"
+    },
+    {
+     "id": "27548335-020",
+     "kind": "mover_up",
+     "text_ar": "المدينة المنورة: 481,515 في الربع الرابع 2025، مقابل 326,779 (+47.35%) في الربع الثالث 2025.",
+     "text_en": "المدينة المنورة: 481,515 in Q4 2025, versus 326,779 (+47.35%) in Q3 2025.",
+     "period": "2025-Q4",
+     "dataset_id": "road-transport-statistics_1-2-1"
+    }
+   ]
+  },
+  {
+   "publication_id": "27489192",
+   "title_ar": "إحصاءات نفاذ واستخدام تقنية المعلومات والاتصالات للأسر والأفراد لعام 2026",
+   "title_en": "ICT Access and Usage Statistics by Households and Individuals 2026",
+   "release_date": "2026-11-01",
+   "insight_count": 52,
+   "headlines": [
+    {
+     "id": "27489192-001",
+     "kind": "cross_section",
+     "text_ar": "%: الأعلى بين 13 بنداً هو مكة المكرمة (99.9%) والأدنى هو نجران (99.3%) في 2026.",
+     "text_en": "%: Highest of 13 items is Makkah Al-Mukarramah (99.9%), lowest is Najran (99.3%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_1"
+    },
+    {
+     "id": "27489192-002",
+     "kind": "cross_section",
+     "text_ar": "اجمالي / اجمالي: الأعلى بين 3 بنود هو المشاركة في شبكات التواصل الاجتماعي مثل إنشاء حساب أو المشاركة في الشبكات الاجتماعية (99.7%) والأدنى هو المشاركة في النقاشات أو التصويت عبر الانترنت للقضايا المدنية أو مواضيع تسترعي الاهتمام العام (11.4%) في 2026.",
+     "text_en": "Total / Total: Highest of 3 items is Participating in social media networks such as creating an account or engaging in social networks (99.7%), lowest is Participating in discussions or voting online on civic issues or topics of public interest (11.4%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_10"
+    },
+    {
+     "id": "27489192-003",
+     "kind": "cross_section",
+     "text_ar": "سعودي / ذكر: الأعلى بين 3 بنود هو المشاركة في شبكات التواصل الاجتماعي مثل إنشاء حساب أو المشاركة في الشبكات الاجتماعية (99.6%) والأدنى هو المشاركة في النقاشات أو التصويت عبر الانترنت للقضايا المدنية أو مواضيع تسترعي الاهتمام العام (9.5%) في 2026.",
+     "text_en": "Saudi / Male: Highest of 3 items is Participating in social media networks such as creating an account or engaging in social networks (99.6%), lowest is Participating in discussions or voting online on civic issues or topics of public interest (9.5%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_10"
+    },
+    {
+     "id": "27489192-005",
+     "kind": "cross_section",
+     "text_ar": "اجمالي / اجمالي: الأعلى بين 3 بنود هو البحث في مواقع لأغراض التعلم عبر الإنترنت (22.8%) والأدنى هو المشاركة في الشبكات المهنية (14.1%) في 2026.",
+     "text_en": "Total / Total: Highest of 3 items is Searching websites for online learning purposes (22.8%), lowest is Participating in professional networks (14.1%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_11"
+    },
+    {
+     "id": "27489192-006",
+     "kind": "cross_section",
+     "text_ar": "سعودي / ذكر: الأعلى بين 3 بنود هو البحث في مواقع لأغراض التعلم عبر الإنترنت (31.5%) والأدنى هو المشاركة في الشبكات المهنية (13.4%) في 2026.",
+     "text_en": "Saudi / Male: Highest of 3 items is Searching websites for online learning purposes (31.5%), lowest is Participating in professional networks (13.4%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_11"
+    },
+    {
+     "id": "27489192-008",
+     "kind": "cross_section",
+     "text_ar": "اجمالي / اجمالي: الأعلى بين 7 بنود هو المسكن (99.3%) والأدنى هو مكان التعليم (7%) في 2026.",
+     "text_en": "Total / Total: Highest of 7 items is Home (99.3%), lowest is Educational Institution (7%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_14"
+    },
+    {
+     "id": "27489192-009",
+     "kind": "cross_section",
+     "text_ar": "غير سعودي / اجمالي: الأعلى بين 7 بنود هو المسكن (99.2%) والأدنى هو مكان التعليم (5.1%) في 2026.",
+     "text_en": "Non-Saudi / Total: Highest of 7 items is Home (99.2%), lowest is Educational Institution (5.1%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_14"
+    },
+    {
+     "id": "27489192-011",
+     "kind": "cross_section",
+     "text_ar": "اجمالي / اجمالي: الأعلى بين 3 بنود هو مرة واحدة في اليوم على الأقل (98%) والأدنى هو مرة واحدة في الشهر أو أكثر ولكن ليس أسبوعيا (0.6%) في 2026.",
+     "text_en": "Total / Total: Highest of 3 items is At least once a day (98%), lowest is At least once a month but not weekly (0.6%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_15"
+    },
+    {
+     "id": "27489192-012",
+     "kind": "cross_section",
+     "text_ar": "اجمالي / ذكر: الأعلى بين 3 بنود هو مرة واحدة في اليوم على الأقل (98.1%) والأدنى هو مرة واحدة في الشهر أو أكثر ولكن ليس أسبوعيا (0.6%) في 2026.",
+     "text_en": "Total / Male: Highest of 3 items is At least once a day (98.1%), lowest is At least once a month but not weekly (0.6%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_15"
+    },
+    {
+     "id": "27489192-014",
+     "kind": "cross_section",
+     "text_ar": "اجمالي / اجمالي: الأعلى بين 4 بنود هو الهاتف المتنقل (98.4%) والأدنى هو أجهزة محمولة أخرى (3.5%) في 2026.",
+     "text_en": "Total / Total: Highest of 4 items is Mobile phone (98.4%), lowest is Other devices (3.5%) in 2026.",
+     "period": "2026",
+     "dataset_id": "ict-access-and-usage-statistics-by-households-and-individuals_16"
+    }
+   ]
+  },
+  {
+   "publication_id": "27489085",
+   "title_ar": "التقديرات السريعة للناتج المحلي الإجمالي للربع الثالث 2026",
+   "title_en": "GDP - Flash Estimate Q3/2026",
+   "release_date": "2026-11-01",
+   "insight_count": 9,
+   "headlines": [
+    {
+     "id": "27489085-001",
+     "kind": "series_change",
+     "text_ar": "الناتج المحلي الإجمالي الحقيقي: 1.3% في الربع الثالث 2026، مقابل -4.81% (+6.11 نقطة مئوية) في الربع الثاني 2026، ومقابل 0.99% (+0.31 نقطة مئوية) في الربع الثالث 2025 (الجدول: (السلاسل المتحركة، 100=2023، المساهمة في معدل النمو على أساس ربعي) الأنشطة الرئيسة).",
+     "text_en": "الناتج المحلي الإجمالي الحقيقي: 1.3% in Q3 2026, versus -4.81% (+6.11 percentage points) in Q2 2026, and versus 0.99% (+0.31 percentage points) in Q3 2025 (table: (السلاسل المتحركة، 100=2023، المساهمة في معدل النمو على أساس ربعي) الأنشطة الرئيسة).",
+     "period": "2026-Q3",
+     "dataset_id": "gdp-2026-1_q3-2026"
+    },
+    {
+     "id": "27489085-002",
+     "kind": "series_change",
+     "text_ar": "الناتج المحلي الإجمالي الحقيقي: -3.8% في الربع الثالث 2026، مقابل -4.71% (+0.91 نقطة مئوية) في الربع الثاني 2026، ومقابل 5.18% (-8.98 نقطة مئوية) في الربع الثالث 2025 (الجدول: (السلاسل المتحركة، 100=2023، المساهمة في معدل النمو على أساس سنوي) الأنشطة الرئيسة).",
+     "text_en": "الناتج المحلي الإجمالي الحقيقي: -3.8% in Q3 2026, versus -4.71% (+0.91 percentage points) in Q2 2026, and versus 5.18% (-8.98 percentage points) in Q3 2025 (table: (السلاسل المتحركة، 100=2023، المساهمة في معدل النمو على أساس سنوي) الأنشطة الرئيسة).",
+     "period": "2026-Q3",
+     "dataset_id": "gdp-2026-1_q3-2026"
+    }
+   ]
+  }
+ ]
+}

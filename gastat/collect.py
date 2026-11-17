@@ -14,7 +14,7 @@ sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(ROOT / "src"))
 import fetch_list, build_register                      # noqa: E402  (src/)
 from gastat.run import process                          # noqa: E402
 from gastat.store import merge_dataset, append_revisions  # noqa: E402
-from gastat import alert                                # noqa: E402
+from gastat import alert, insights                      # noqa: E402
 
 UA = "gastat-data-monitor/0.1"
 RIYADH = dt.timezone(dt.timedelta(hours=3))
@@ -165,6 +165,11 @@ def poll(dry_run=False):
             elif (qdir / f"{pid}.json").exists():
                 (qdir / f"{pid}.json").unlink()
             p.update(status="processed" if not bad else "processed_with_quarantine", processed_at=run_ts, tables=counts, values_added=added, values_revised=revised)
+            try:   # computed insights for this release; a failure here must never block the ingest
+                ir = insights.write_for_publication(p, run_ts); insights.write_latest()
+                events.append(("ok", f"{p['title_en']}: {ir['insight_count']} insights computed"))
+            except Exception as e:  # noqa: BLE001
+                events.append(("warn", f"{p['title_en']}: insights not computed ({e})")); traceback.print_exc()
             msg = f"{p['title_en']} ({p['release_date']}): {added} new values, {revised} revised, tables {counts}"
             events.append(("warn" if bad else "ok", msg))
             if bad:

@@ -1,0 +1,289 @@
+{
+ "publication_id": "27714198",
+ "datasets": 3,
+ "insight_count": 6,
+ "headline_ids": [
+  "27714198-001",
+  "27714198-002",
+  "27714198-003",
+  "27714198-004",
+  "27714198-005",
+  "27714198-006"
+ ],
+ "insights": [
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "business-confidence-index-for_3",
+   "sheet": "3",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "fraction",
+   "unit_ok": true,
+   "text_ar": "مؤشر ثقة الأعمال العام: -1.92% في أكتوبر 2026، مقابل -0.2% (-1.72 نقطة مئوية) في سبتمبر 2026، ومقابل -1.1% (-0.81 نقطة مئوية) في أكتوبر 2025.",
+   "text_en": "Overall Business Confidence Index | Monthly Rate of Change معدل التغيرالشهري: -1.92% in October 2026, versus -0.2% (-1.72 percentage points) in September 2026, and versus -1.1% (-0.81 percentage points) in October 2025.",
+   "numbers": {
+    "value": -1.9168680789,
+    "period": "2026-10",
+    "prev_value": -0.1978216694,
+    "prev_period": "2026-09",
+    "prev_diff": -1.7190464095,
+    "yoy_value": -1.104764296,
+    "yoy_period": "2025-10",
+    "yoy_diff": -0.8121037828,
+    "history_observations": 45,
+    "history_start": "2023-02"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": -0.0191686808,
+     "cell": "3!R9C48"
+    },
+    {
+     "period": "2026-09",
+     "value": -0.0019782167,
+     "cell": "3!R9C47"
+    },
+    {
+     "period": "2025-10",
+     "value": -0.011047643,
+     "cell": "3!R9C36"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/Business+Confidence+Index+AR_EN+%284%29.xlsx/bd839c52-f83a-fdcd-df88-bcd13c15ed51",
+   "series_label": "مؤشر ثقة الأعمال العام",
+   "table_title": "معدلات التغير الشهرية لمؤشرات ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة Monthly Rate of Change in Business Confidence Index by Main Economic Sectors المؤشر Index Monthly Rate of Change معدل التغيرالشهري",
+   "id": "27714198-001",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "business-confidence-index-for_2",
+   "sheet": "2",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index",
+   "unit_ok": true,
+   "text_ar": "مؤشر ثقة الأعمال العام | Index Value قيمة المؤشر: 55.52 نقطة في أكتوبر 2026، مقابل 56.6 (-1.92%) في سبتمبر 2026، ومقابل 61.05 (-9.06%) في أكتوبر 2025.",
+   "text_en": "Overall Business Confidence Index | Index Value قيمة المؤشر: 55.52 points in October 2026, versus 56.6 (-1.92%) in September 2026, and versus 61.05 (-9.06%) in October 2025.",
+   "numbers": {
+    "value": 55.5196047913,
+    "period": "2026-10",
+    "prev_value": 56.6046410874,
+    "prev_period": "2026-09",
+    "prev_diff": -1.0850362962,
+    "prev_pct": -1.9168680789,
+    "yoy_value": 61.050625,
+    "yoy_period": "2025-10",
+    "yoy_diff": -5.5310202087,
+    "yoy_pct": -9.0597274127,
+    "history_observations": 46,
+    "history_start": "2023-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 55.5196047913,
+     "cell": "2!R9C48"
+    },
+    {
+     "period": "2026-09",
+     "value": 56.6046410874,
+     "cell": "2!R9C47"
+    },
+    {
+     "period": "2025-10",
+     "value": 61.050625,
+     "cell": "2!R9C36"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/Business+Confidence+Index+AR_EN+%284%29.xlsx/bd839c52-f83a-fdcd-df88-bcd13c15ed51",
+   "series_label": "مؤشر ثقة الأعمال العام | Index Value قيمة المؤشر",
+   "table_title": "السلسلة الزمنية لمؤشر ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة Time Series of Business Confidence Index by Main Economic Sectors المؤشر Index Index Value قيمة المؤشر",
+   "id": "27714198-002",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "business-confidence-index-for_1",
+   "sheet": "1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index",
+   "unit_ok": true,
+   "text_ar": "مؤشر ثقة الأعمال العام | Index Value قيمة المؤشر: 55.52 نقطة في أكتوبر 2026، مقابل 56.6 (-1.92%) في سبتمبر 2026.",
+   "text_en": "Overall Business Confidence Index | Index Value قيمة المؤشر: 55.52 points in October 2026, versus 56.6 (-1.92%) in September 2026.",
+   "numbers": {
+    "value": 55.5196047913,
+    "period": "2026-10",
+    "prev_value": 56.6046410874,
+    "prev_period": "2026-09",
+    "prev_diff": -1.0850362962,
+    "prev_pct": -1.9168680789
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 55.5196047913,
+     "cell": "1!R9C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 56.6046410874,
+     "cell": "1!R9C4"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/Business+Confidence+Index+AR_EN+%284%29.xlsx/bd839c52-f83a-fdcd-df88-bcd13c15ed51",
+   "series_label": "مؤشر ثقة الأعمال العام | Index Value قيمة المؤشر",
+   "table_title": "مؤشر ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة Business Confidence Index by Main Economic Sectors",
+   "id": "27714198-003",
+   "headline": true
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "business-confidence-index-for_3",
+   "sheet": "3",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "fraction",
+   "unit_ok": true,
+   "text_ar": "مؤشر ثقة الأعمال لقطاع الصناعة: -1.52% في أكتوبر 2026، مقابل 0.88% (-2.4 نقطة مئوية) في سبتمبر 2026، ومقابل -0.22% (-1.3 نقطة مئوية) في أكتوبر 2025.",
+   "text_en": "Business Confidence Index for the Industry Sector | Monthly Rate of Change معدل التغيرالشهري: -1.52% in October 2026, versus 0.88% (-2.4 percentage points) in September 2026, and versus -0.22% (-1.3 percentage points) in October 2025.",
+   "numbers": {
+    "value": -1.524406058,
+    "period": "2026-10",
+    "prev_value": 0.8774765235,
+    "prev_period": "2026-09",
+    "prev_diff": -2.4018825815,
+    "yoy_value": -0.2229186902,
+    "yoy_period": "2025-10",
+    "yoy_diff": -1.3014873677,
+    "history_observations": 45,
+    "history_start": "2023-02"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": -0.0152440606,
+     "cell": "3!R10C48"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0087747652,
+     "cell": "3!R10C47"
+    },
+    {
+     "period": "2025-10",
+     "value": -0.0022291869,
+     "cell": "3!R10C36"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/Business+Confidence+Index+AR_EN+%284%29.xlsx/bd839c52-f83a-fdcd-df88-bcd13c15ed51",
+   "series_label": "مؤشر ثقة الأعمال لقطاع الصناعة",
+   "table_title": "معدلات التغير الشهرية لمؤشرات ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة Monthly Rate of Change in Business Confidence Index by Main Economic Sectors المؤشر Index Monthly Rate of Change معدل التغيرالشهري",
+   "id": "27714198-004",
+   "headline": true
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "business-confidence-index-for_2",
+   "sheet": "2",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index",
+   "unit_ok": true,
+   "text_ar": "مؤشر ثقة الأعمال لقطاع الخدمات | Index Value قيمة المؤشر: 54.23 نقطة في أكتوبر 2026، مقابل 55.41 (-2.13%) في سبتمبر 2026، ومقابل 58.39 (-7.12%) في أكتوبر 2025.",
+   "text_en": "Business Confidence Index for the Services Sector | Index Value قيمة المؤشر: 54.23 points in October 2026, versus 55.41 (-2.13%) in September 2026, and versus 58.39 (-7.12%) in October 2025.",
+   "numbers": {
+    "value": 54.2286177529,
+    "period": "2026-10",
+    "prev_value": 55.4083571864,
+    "prev_period": "2026-09",
+    "prev_diff": -1.1797394334,
+    "prev_pct": -2.1291723728,
+    "yoy_value": 58.3886392857,
+    "yoy_period": "2025-10",
+    "yoy_diff": -4.1600215328,
+    "yoy_pct": -7.1247105322,
+    "history_observations": 46,
+    "history_start": "2023-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 54.2286177529,
+     "cell": "2!R11C48"
+    },
+    {
+     "period": "2026-09",
+     "value": 55.4083571864,
+     "cell": "2!R11C47"
+    },
+    {
+     "period": "2025-10",
+     "value": 58.3886392857,
+     "cell": "2!R11C36"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/Business+Confidence+Index+AR_EN+%284%29.xlsx/bd839c52-f83a-fdcd-df88-bcd13c15ed51",
+   "series_label": "مؤشر ثقة الأعمال لقطاع الخدمات | Index Value قيمة المؤشر",
+   "table_title": "السلسلة الزمنية لمؤشر ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة Time Series of Business Confidence Index by Main Economic Sectors المؤشر Index Index Value قيمة المؤشر",
+   "id": "27714198-005",
+   "headline": true
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "business-confidence-index-for_1",
+   "sheet": "1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index",
+   "unit_ok": true,
+   "text_ar": "مؤشر ثقة الأعمال لقطاع الخدمات | Index Value قيمة المؤشر: 54.23 نقطة في أكتوبر 2026، مقابل 55.41 (-2.13%) في سبتمبر 2026.",
+   "text_en": "Business Confidence Index for the Services Sector | Index Value قيمة المؤشر: 54.23 points in October 2026, versus 55.41 (-2.13%) in September 2026.",
+   "numbers": {
+    "value": 54.2286177529,
+    "period": "2026-10",
+    "prev_value": 55.4083571864,
+    "prev_period": "2026-09",
+    "prev_diff": -1.1797394334,
+    "prev_pct": -2.1291723728
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 54.2286177529,
+     "cell": "1!R11C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 55.4083571864,
+     "cell": "1!R11C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/Business+Confidence+Index+AR_EN+%284%29.xlsx/bd839c52-f83a-fdcd-df88-bcd13c15ed51",
+   "series_label": "مؤشر ثقة الأعمال لقطاع الخدمات | Index Value قيمة المؤشر",
+   "table_title": "مؤشر ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة Business Confidence Index by Main Economic Sectors",
+   "id": "27714198-006",
+   "headline": true
+  }
+ ],
+ "title_ar": "مؤشر ثقة الأعمال لشهر أكتوبر 2026",
+ "title_en": "Business Confidence Index for October 2026",
+ "release_date": "2026-11-09",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-17T13:33:17+00:00"
+}

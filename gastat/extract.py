@@ -1,7 +1,9 @@
 """Apply a (draft or reviewed) recipe to a detected block and emit tidy long rows: one row per single number."""
 import re, datetime as dt
-from .grid import kind, clean, norm, script, to_num, MONTHS_AR
+from .grid import kind, clean, norm, script, to_num, MONTHS_AR, MONTHS_EN
 from .detect import TOTAL
+
+ENGLISH_MONTHS = {"january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december", "jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "sept", "oct", "nov", "dec"}
 
 DIST = re.compile(r"التوزيع النسبي|التوزيع النسبى|relative distribution|percentage distribution|distribution")
 RATE = re.compile(r"معدل|نسبه التغير|نسبه النمو|التغير|التغيير|change|rate|growth|نمو")
@@ -154,9 +156,16 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         if cells and all(norm(t) in ("الوحده", "unit", "units") for t in cells):
             unit_row = b["header"][i + 1]
             break
+    # a rate whose header carries one date per column over many columns is a time axis (each date is the period): columns that share the same
+    # text but differ by date. A date on a rate column of a small table names the comparison base instead ("change compared with <date>").
+    same_text = {}
+    for c in d["val_cols"]:
+        tk = d["col_tokens"][c]
+        same_text.setdefault(tuple(t for k, t in tk if k == "text"), set()).update(t for k, t in tk if k == "date")
     for c in d["val_cols"]:
         toks = d["col_tokens"][c]
         texts = [t for k, t in toks if k == "text"]
+        texts_raw = list(texts)
         dates = [t for k, t in toks if k == "date"]
         years = [t for k, t in toks if k == "year"]
         quarters = [t for k, t in toks if k == "quarter"]
@@ -177,7 +186,7 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         ov = next((o for o in (recipe or {}).get("measure_overrides", []) if o.get("sheet") == sheet), {})
         mt = ov.get("measure_type") or (recipe or {}).get("measure_type") or (measure_type("", title_txt) if is_ts else measure_type(" ".join(texts), title_txt))
         p = pt = base = None
-        if dates and mt != "rate":
+        if dates and (mt != "rate" or len(same_text.get(tuple(texts_raw), ())) >= 3):
             dd = dates[-1]; p, pt = f"{dd.year}-{dd.month:02d}", "month"
         elif dates:
             dd = dates[0]; base = f"{dd.year}-{dd.month:02d}"
@@ -273,6 +282,18 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         if not parent and len(lv["label_ar"]) >= 2:
             parent = lv["label_ar"][0]
         lab_ar, lab_en = " / ".join(lv["label_ar"]), " / ".join(lv["label_en"])
+        if lv["year"] and not lv["month"]:     # year column + a month name (as label or inside the code columns): the row is a month of that year
+            def month_idx(t):
+                n_, e_ = norm(t), t.strip().lower()
+                return MONTHS_AR.index(n_) + 1 if n_ in MONTHS_AR else (MONTHS_EN.index(e_[:3]) + 1 if len(e_) >= 3 and e_[:3] in MONTHS_EN and re.fullmatch(r"[a-z]+", e_) and e_ in ENGLISH_MONTHS else 0)
+            cands = list(lv["code"]) + [lab_ar, lab_en]
+            found = {month_idx(t) for t in cands if t and month_idx(t)}
+            if len(found) == 1:
+                mi = found.pop()
+                lv["month"] = str(mi)
+                lv["code"] = [x for x in lv["code"] if not month_idx(x) and not (re.fullmatch(r"\d+(\.0+)?", x.strip()) and int(float(x)) == mi)]
+                lab_ar = "" if month_idx(lab_ar) else lab_ar
+                lab_en = "" if month_idx(lab_en) else lab_en
         if (recipe or {}).get("region_city_level") and len(lv["label_ar"]) >= 2:
             lv["level"] = "region" if norm(lv["label_ar"][0]) == norm(lv["label_ar"][1]) else "city"
         is_total = bool(TOTAL.search(norm(lab_ar))) or bool(TOTAL.search(norm(lab_en)))
@@ -291,7 +312,7 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
                              is_total_row=is_total, col_label_ar=ci["col_ar"], col_label_en=ci["col_en"], col_sub=ci["col_sub"],
                              period=per, period_type=pty, period_source=psrc, col_code=ci["col_code"],
                              base_period=ci["base_period"], measure_type=ci["measure_type"], unit=ci["unit"],
-                             scale=ci["scale"], value=to_num(g.cells[r][c])))
+                             scale=ci["scale"], value=to_num(g.cells[r][c]), table_title=re.sub(r"\s+", " ", title_txt).strip()[:240]))
     # a filled unit column (tonnes, count, head ...) means the numbers are quantities
     for r in rows:
         if r["measure_type"] == "unknown" and r["row_unit"]:

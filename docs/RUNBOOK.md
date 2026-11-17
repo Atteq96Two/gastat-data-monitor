@@ -16,3 +16,8 @@ When GASTAT republishes a file with changed numbers, the old and new values are 
 
 ## Secrets (set once, by you)
 `GMAIL_USER`, `GMAIL_APP_PASSWORD` and `ALERT_TO` in the repository secrets. The recipient is a secret because this repository is public.
+
+## Insights and re-running the engine (Phase 4)
+
+- Insights are written to `catalog/insights/` after every ingest. If one fails, the ingest still succeeds and the alert email says "insights not computed".
+- After any change to the extraction engine: `python3 -I gastat/reingest.py` (dry run, lists datasets that would change), then `--apply`, then `python3 -I gastat/insights.py --all` and `python3 -I tests/test_insights.py`.

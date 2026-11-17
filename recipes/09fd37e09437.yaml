@@ -1,5 +1,5 @@
 fingerprint: 09fd37e09437
-status: draft
+status: reviewed
 first_seen:
   publication_id: 27714198
   sheet: '3'
@@ -19,8 +19,10 @@ units:
 scales:
 - 1
 period_sources:
-- publication
+- header
 title_sample: 'معدلات التغير الشهرية لمؤشرات ثقة الأعمال حسب القطاعات الاقتصادية الرئيسة
   Monthly Rate of Change in Business Confidence '
 validation_on_first_run: pass
-notes: []
+unit: fraction
+notes:
+- 'Checked 2026-11-17: values are fractions of 1, not percent. Overall index 55.52 (Oct 2026) vs 56.60 (Sep 2026) is -1.92%, and the sheet shows -0.019169. Columns are months (date headers), each date is the period.'

@@ -1,0 +1,1674 @@
+{
+ "publication_id": "27800375",
+ "datasets": 11,
+ "insight_count": 38,
+ "headline_ids": [
+  "27800375-001",
+  "27800375-002",
+  "27800375-003",
+  "27800375-004",
+  "27800375-006",
+  "27800375-007",
+  "27800375-009",
+  "27800375-010",
+  "27800375-012",
+  "27800375-013"
+ ],
+ "insights": [
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "consumer-price-index_1-1",
+   "sheet": "1.1 ",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الرقم القياسي العام بدون أسعار الطاقة | الأرقام القياسية: 106.05 نقطة في أكتوبر 2026، مقابل 105.92 (+0.12%) في سبتمبر 2026، ومقابل 104.32 (+1.65%) في أكتوبر 2025.",
+   "text_en": "General Price Index Excluding Energy | Index Numbers: 106.05 points in October 2026, versus 105.92 (+0.12%) in September 2026, and versus 104.32 (+1.65%) in October 2025.",
+   "numbers": {
+    "value": 106.0471517995,
+    "period": "2026-10",
+    "prev_value": 105.9185203984,
+    "prev_period": "2026-09",
+    "prev_diff": 0.1286314011,
+    "prev_pct": 0.1214437292,
+    "yoy_value": 104.3217000368,
+    "yoy_period": "2025-10",
+    "yoy_diff": 1.7254517627,
+    "yoy_pct": 1.6539720519
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 106.0471517995,
+     "cell": "1.1 !R44C6"
+    },
+    {
+     "period": "2026-09",
+     "value": 105.9185203984,
+     "cell": "1.1 !R44C5"
+    },
+    {
+     "period": "2025-10",
+     "value": 104.3217000368,
+     "cell": "1.1 !R44C4"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الرقم القياسي العام بدون أسعار الطاقة | الأرقام القياسية",
+   "table_title": "* يتم تحديث الأوزان بداية كل عام بناء على منهجية السلاسل المتحركة * Weights are updated at the beginning of each year based on the chain-linking methodology. ملخص الأرقام القياسية الأساسية ومعدلات التغيرحسب أقسام الإنفاق،أكتوبر 2026م Summar",
+   "id": "27800375-001",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "consumer-price-index_1-1",
+   "sheet": "1.1 ",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الرقم القياسي العام | الأرقام القياسية: 105.89 نقطة في أكتوبر 2026، مقابل 105.77 (+0.11%) في سبتمبر 2026، ومقابل 104.12 (+1.7%) في أكتوبر 2025.",
+   "text_en": "General Index | Index Numbers: 105.89 points in October 2026, versus 105.77 (+0.11%) in September 2026, and versus 104.12 (+1.7%) in October 2025.",
+   "numbers": {
+    "value": 105.8929539902,
+    "period": "2026-10",
+    "prev_value": 105.7731969396,
+    "prev_period": "2026-09",
+    "prev_diff": 0.1197570506,
+    "prev_pct": 0.1132206022,
+    "yoy_value": 104.1227141911,
+    "yoy_period": "2025-10",
+    "yoy_diff": 1.7702397991,
+    "yoy_pct": 1.7001475738
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 105.8929539902,
+     "cell": "1.1 !R15C6"
+    },
+    {
+     "period": "2026-09",
+     "value": 105.7731969396,
+     "cell": "1.1 !R15C5"
+    },
+    {
+     "period": "2025-10",
+     "value": 104.1227141911,
+     "cell": "1.1 !R15C4"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الرقم القياسي العام | الأرقام القياسية",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "also_in_tables": [
+    "consumer-price-index_1-1",
+    "consumer-price-index_1-1",
+    "consumer-price-index_2-1"
+   ],
+   "id": "27800375-002",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "consumer-price-index_5-2",
+   "sheet": "5.2",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent_or_fraction",
+   "unit_ok": true,
+   "text_ar": "خدمات الرعاية الوقائية: 2.86% في أكتوبر 2026، مقابل 2.55% (+0.31 نقطة مئوية) في سبتمبر 2026، ومقابل -2.17% (+5.03 نقطة مئوية) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2024).",
+   "text_en": "Preventive care services: 2.86% in October 2026, versus 2.55% (+0.31 percentage points) in September 2026, and versus -2.17% (+5.03 percentage points) in October 2025, the highest in the available data (since January 2024).",
+   "numbers": {
+    "value": 2.8563073358,
+    "period": "2026-10",
+    "prev_value": 2.5511773949,
+    "prev_period": "2026-09",
+    "prev_diff": 0.3051299409,
+    "yoy_value": -2.1736785008,
+    "yoy_period": "2025-10",
+    "yoy_diff": 5.0299858365,
+    "history_start": "2024-01",
+    "history_observations": 34
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 2.8563073358,
+     "cell": "5.2!R177C81"
+    },
+    {
+     "period": "2026-09",
+     "value": 2.5511773949,
+     "cell": "5.2!R176C81"
+    },
+    {
+     "period": "2025-10",
+     "value": -2.1736785008,
+     "cell": "5.2!R164C81"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "خدمات الرعاية الوقائية",
+   "table_title": "سلسلة معدل التغيّر السنوي حسب فئات الإنفاق ، 2014-2026 Annual Rate of Change Series By Expenditure Category 2014-2026",
+   "id": "27800375-003",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "consumer-price-index_5-2",
+   "sheet": "5.2",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent_or_fraction",
+   "unit_ok": true,
+   "text_ar": "الإيجارات التقديرية للسكن: 3.14% في أكتوبر 2026، مقابل 3.41% (-0.27 نقطة مئوية) في سبتمبر 2026، ومقابل 5.55% (-2.42 نقطة مئوية) في أكتوبر 2025، وهي الأدنى في البيانات المتاحة (منذ يناير 2024).",
+   "text_en": "IMPUTED RENTALS FOR HOUSING: 3.14% in October 2026, versus 3.41% (-0.27 percentage points) in September 2026, and versus 5.55% (-2.42 percentage points) in October 2025, the lowest in the available data (since January 2024).",
+   "numbers": {
+    "value": 3.1376150894,
+    "period": "2026-10",
+    "prev_value": 3.4116902376,
+    "prev_period": "2026-09",
+    "prev_diff": -0.2740751482,
+    "yoy_value": 5.5531156365,
+    "yoy_period": "2025-10",
+    "yoy_diff": -2.4155005472,
+    "history_start": "2024-01",
+    "history_observations": 34
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 3.1376150894,
+     "cell": "5.2!R177C41"
+    },
+    {
+     "period": "2026-09",
+     "value": 3.4116902376,
+     "cell": "5.2!R176C41"
+    },
+    {
+     "period": "2025-10",
+     "value": 5.5531156365,
+     "cell": "5.2!R164C41"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الإيجارات التقديرية للسكن",
+   "table_title": "سلسلة معدل التغيّر السنوي حسب فئات الإنفاق ، 2014-2026 Annual Rate of Change Series By Expenditure Category 2014-2026",
+   "id": "27800375-004",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "consumer-price-index_5-2",
+   "sheet": "5.2",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent_or_fraction",
+   "unit_ok": true,
+   "text_ar": "الإيجارات التقديرية للسكن للمالكين: 3.14% في أكتوبر 2026، مقابل 3.41% (-0.27 نقطة مئوية) في سبتمبر 2026، ومقابل 5.55% (-2.42 نقطة مئوية) في أكتوبر 2025، وهي الأدنى في البيانات المتاحة (منذ يناير 2024).",
+   "text_en": "Imputed rentals of owner-occupiers for main residence: 3.14% in October 2026, versus 3.41% (-0.27 percentage points) in September 2026, and versus 5.55% (-2.42 percentage points) in October 2025, the lowest in the available data (since January 2024).",
+   "numbers": {
+    "value": 3.1376150894,
+    "period": "2026-10",
+    "prev_value": 3.4116902376,
+    "prev_period": "2026-09",
+    "prev_diff": -0.2740751482,
+    "yoy_value": 5.5531156365,
+    "yoy_period": "2025-10",
+    "yoy_diff": -2.4155005472,
+    "history_start": "2024-01",
+    "history_observations": 34
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 3.1376150894,
+     "cell": "5.2!R177C42"
+    },
+    {
+     "period": "2026-09",
+     "value": 3.4116902376,
+     "cell": "5.2!R176C42"
+    },
+    {
+     "period": "2025-10",
+     "value": 5.5531156365,
+     "cell": "5.2!R164C42"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الإيجارات التقديرية للسكن للمالكين",
+   "table_title": "سلسلة معدل التغيّر السنوي حسب فئات الإنفاق ، 2014-2026 Annual Rate of Change Series By Expenditure Category 2014-2026",
+   "id": "27800375-005",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "consumer-price-index_5-1",
+   "sheet": "5.1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index",
+   "unit_ok": true,
+   "text_ar": "التأمين المرتبط بالنقل: 114.99 نقطة في أكتوبر 2026، مقابل 111.91 (+2.76%) في سبتمبر 2026، ومقابل 107.55 (+6.92%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
+   "text_en": "Insurance connected with transport: 114.99 points in October 2026, versus 111.91 (+2.76%) in September 2026, and versus 107.55 (+6.92%) in October 2025, the highest in the available data (since January 2013).",
+   "numbers": {
+    "value": 114.9937638941,
+    "period": "2026-10",
+    "prev_value": 111.9054979196,
+    "prev_period": "2026-09",
+    "prev_diff": 3.0882659745,
+    "prev_pct": 2.7597088901,
+    "yoy_value": 107.5527073114,
+    "yoy_period": "2025-10",
+    "yoy_diff": 7.4410565827,
+    "yoy_pct": 6.9185209454,
+    "history_start": "2013-01",
+    "history_observations": 166
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 114.9937638941,
+     "cell": "5.1!R190C169"
+    },
+    {
+     "period": "2026-09",
+     "value": 111.9054979196,
+     "cell": "5.1!R189C169"
+    },
+    {
+     "period": "2025-10",
+     "value": 107.5527073114,
+     "cell": "5.1!R177C169"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "التأمين المرتبط بالنقل",
+   "table_title": "سلسلة الأرقام القياسية حسب فئات الإنفاق ، 2013-2026 Index Series by Expenditure Category, 2013-2026",
+   "id": "27800375-006",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "consumer-price-index_5-1",
+   "sheet": "5.1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index",
+   "unit_ok": true,
+   "text_ar": "التأمين: 114.14 نقطة في أكتوبر 2026، مقابل 111.38 (+2.47%) في سبتمبر 2026، ومقابل 107.16 (+6.51%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
+   "text_en": "INSURANCE: 114.14 points in October 2026, versus 111.38 (+2.47%) in September 2026, and versus 107.16 (+6.51%) in October 2025, the highest in the available data (since January 2013).",
+   "numbers": {
+    "value": 114.1364598504,
+    "period": "2026-10",
+    "prev_value": 111.3837155807,
+    "prev_period": "2026-09",
+    "prev_diff": 2.7527442697,
+    "prev_pct": 2.4714063949,
+    "yoy_value": 107.1581904983,
+    "yoy_period": "2025-10",
+    "yoy_diff": 6.9782693521,
+    "yoy_pct": 6.5121194373,
+    "history_start": "2013-01",
+    "history_observations": 166
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 114.1364598504,
+     "cell": "5.1!R190C166"
+    },
+    {
+     "period": "2026-09",
+     "value": 111.3837155807,
+     "cell": "5.1!R189C166"
+    },
+    {
+     "period": "2025-10",
+     "value": 107.1581904983,
+     "cell": "5.1!R177C166"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "التأمين",
+   "table_title": "سلسلة الأرقام القياسية حسب فئات الإنفاق ، 2013-2026 Index Series by Expenditure Category, 2013-2026",
+   "id": "27800375-007",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "consumer-price-index_5-1",
+   "sheet": "5.1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index",
+   "unit_ok": true,
+   "text_ar": "التعليم ما بعد الثانوي غير العالي: 90.6 نقطة في أكتوبر 2026، مقابل 92.34 (-1.89%) في سبتمبر 2026، ومقابل 94.33 (-3.96%) في أكتوبر 2025، وهي الأدنى في البيانات المتاحة (منذ يناير 2013).",
+   "text_en": "POST-SECONDARY NON-TERTIARY EDUCATION: 90.6 points in October 2026, versus 92.34 (-1.89%) in September 2026, and versus 94.33 (-3.96%) in October 2025, the lowest in the available data (since January 2013).",
+   "numbers": {
+    "value": 90.5976582005,
+    "period": "2026-10",
+    "prev_value": 92.3446356094,
+    "prev_period": "2026-09",
+    "prev_diff": -1.7469774089,
+    "prev_pct": -1.8918017245,
+    "yoy_value": 94.3326217445,
+    "yoy_period": "2025-10",
+    "yoy_diff": -3.734963544,
+    "yoy_pct": -3.9593551785,
+    "history_start": "2013-01",
+    "history_observations": 166
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 90.5976582005,
+     "cell": "5.1!R190C153"
+    },
+    {
+     "period": "2026-09",
+     "value": 92.3446356094,
+     "cell": "5.1!R189C153"
+    },
+    {
+     "period": "2025-10",
+     "value": 94.3326217445,
+     "cell": "5.1!R177C153"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "التعليم ما بعد الثانوي غير العالي",
+   "table_title": "سلسلة الأرقام القياسية حسب فئات الإنفاق ، 2013-2026 Index Series by Expenditure Category, 2013-2026",
+   "id": "27800375-008",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "consumer-price-index_4-1",
+   "sheet": "4.1 ",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأرقام القياسية Index Numbers / الجوف: 106.63 نقطة في أكتوبر 2026، مقابل 106.35 (+0.26%) في سبتمبر 2026، ومقابل 102.36 (+4.17%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
+   "text_en": "Al Jouf: 106.63 points in October 2026, versus 106.35 (+0.26%) in September 2026, and versus 102.36 (+4.17%) in October 2025, the highest in the available data (since January 2013).",
+   "numbers": {
+    "value": 106.6265357855,
+    "period": "2026-10",
+    "prev_value": 106.3522404966,
+    "prev_period": "2026-09",
+    "prev_diff": 0.2742952889,
+    "prev_pct": 0.2579120925,
+    "yoy_value": 102.361560406,
+    "yoy_period": "2025-10",
+    "yoy_diff": 4.2649753795,
+    "yoy_pct": 4.1665790973,
+    "history_start": "2013-01",
+    "history_observations": 166
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 106.6265357855,
+     "cell": "4.1 !R191C18"
+    },
+    {
+     "period": "2026-09",
+     "value": 106.3522404966,
+     "cell": "4.1 !R190C18"
+    },
+    {
+     "period": "2025-10",
+     "value": 102.361560406,
+     "cell": "4.1 !R178C18"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الأرقام القياسية Index Numbers / الجوف",
+   "table_title": "سلسلة الأرقام القياسية حسب المنطقة، 2013-2026 Regional Index Series, 2013-2026 2023=100 العام Year الشهر Month الأرقام القياسية Index Numbers",
+   "id": "27800375-009",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "consumer-price-index_4-1",
+   "sheet": "4.1 ",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأرقام القياسية Index Numbers / الرياض: 108.53 نقطة في أكتوبر 2026، مقابل 108.26 (+0.24%) في سبتمبر 2026، ومقابل 106.25 (+2.14%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
+   "text_en": "Riyadh: 108.53 points in October 2026, versus 108.26 (+0.24%) in September 2026, and versus 106.25 (+2.14%) in October 2025, the highest in the available data (since January 2013).",
+   "numbers": {
+    "value": 108.5259997595,
+    "period": "2026-10",
+    "prev_value": 108.2610224258,
+    "prev_period": "2026-09",
+    "prev_diff": 0.2649773337,
+    "prev_pct": 0.2447578341,
+    "yoy_value": 106.2499471259,
+    "yoy_period": "2025-10",
+    "yoy_diff": 2.2760526336,
+    "yoy_pct": 2.1421682506,
+    "history_start": "2013-01",
+    "history_observations": 166
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 108.5259997595,
+     "cell": "4.1 !R191C6"
+    },
+    {
+     "period": "2026-09",
+     "value": 108.2610224258,
+     "cell": "4.1 !R190C6"
+    },
+    {
+     "period": "2025-10",
+     "value": 106.2499471259,
+     "cell": "4.1 !R178C6"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الأرقام القياسية Index Numbers / الرياض",
+   "table_title": "سلسلة الأرقام القياسية حسب المنطقة، 2013-2026 Regional Index Series, 2013-2026 2023=100 العام Year الشهر Month الأرقام القياسية Index Numbers",
+   "id": "27800375-010",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "consumer-price-index_4-1",
+   "sheet": "4.1 ",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأرقام القياسية Index Numbers / المدينة المنورة: 107.78 نقطة في أكتوبر 2026، مقابل 107.53 (+0.23%) في سبتمبر 2026، ومقابل 106.19 (+1.5%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
+   "text_en": "Madinah: 107.78 points in October 2026, versus 107.53 (+0.23%) in September 2026, and versus 106.19 (+1.5%) in October 2025, the highest in the available data (since January 2013).",
+   "numbers": {
+    "value": 107.7777720663,
+    "period": "2026-10",
+    "prev_value": 107.529631776,
+    "prev_period": "2026-09",
+    "prev_diff": 0.2481402903,
+    "prev_pct": 0.230764568,
+    "yoy_value": 106.1876918475,
+    "yoy_period": "2025-10",
+    "yoy_diff": 1.5900802188,
+    "yoy_pct": 1.4974242223,
+    "history_start": "2013-01",
+    "history_observations": 166
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 107.7777720663,
+     "cell": "4.1 !R191C8"
+    },
+    {
+     "period": "2026-09",
+     "value": 107.529631776,
+     "cell": "4.1 !R190C8"
+    },
+    {
+     "period": "2025-10",
+     "value": 106.1876918475,
+     "cell": "4.1 !R178C8"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الأرقام القياسية Index Numbers / المدينة المنورة",
+   "table_title": "سلسلة الأرقام القياسية حسب المنطقة، 2013-2026 Regional Index Series, 2013-2026 2023=100 العام Year الشهر Month الأرقام القياسية Index Numbers",
+   "id": "27800375-011",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "consumer-price-index_5-3",
+   "sheet": "5.3",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent_or_fraction",
+   "unit_ok": true,
+   "text_ar": "الأغذية الجاهزة والمنتجات الغذائية الأخرى غير المصنفة في موضع آخر: 0.84% في أكتوبر 2026، ومقابل 0.19% (+0.64 نقطة مئوية) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ أكتوبر 2013).",
+   "text_en": "Ready-made food and other food products n.e.c.: 0.84% in October 2026, and versus 0.19% (+0.64 percentage points) in October 2025, the highest in the available data (since October 2013).",
+   "numbers": {
+    "value": 0.8393879305,
+    "period": "2026-10",
+    "yoy_value": 0.1946858436,
+    "yoy_period": "2025-10",
+    "yoy_diff": 0.6447020869,
+    "history_start": "2013-10",
+    "history_observations": 14
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 0.8393879305,
+     "cell": "5.3!R176C16"
+    },
+    {
+     "period": "2025-10",
+     "value": 0.1946858436,
+     "cell": "5.3!R164C16"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الأغذية الجاهزة والمنتجات الغذائية الأخرى غير المصنفة في موضع آخر",
+   "table_title": "سلسلة معدل التغيّر الشهري حسب فئات الإنفاق، 2013-2026 Monthly Rate of Change Series By Expenditure Category, 2013-2026",
+   "id": "27800375-012",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "consumer-price-index_5-3",
+   "sheet": "5.3",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent_or_fraction",
+   "unit_ok": true,
+   "text_ar": "التأمين: 2.47% في أكتوبر 2026، ومقابل 0.03% (+2.45 نقطة مئوية) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ أكتوبر 2013).",
+   "text_en": "INSURANCE: 2.47% in October 2026, and versus 0.03% (+2.45 percentage points) in October 2025, the highest in the available data (since October 2013).",
+   "numbers": {
+    "value": 2.4714063949,
+    "period": "2026-10",
+    "yoy_value": 0.025482986,
+    "yoy_period": "2025-10",
+    "yoy_diff": 2.4459234089,
+    "history_start": "2013-10",
+    "history_observations": 14
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 2.4714063949,
+     "cell": "5.3!R176C166"
+    },
+    {
+     "period": "2025-10",
+     "value": 0.025482986,
+     "cell": "5.3!R164C166"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "التأمين",
+   "table_title": "سلسلة معدل التغيّر الشهري حسب فئات الإنفاق، 2013-2026 Monthly Rate of Change Series By Expenditure Category, 2013-2026",
+   "id": "27800375-013",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "consumer-price-index_5-3",
+   "sheet": "5.3",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent_or_fraction",
+   "unit_ok": true,
+   "text_ar": "التأمين المرتبط بالنقل: 2.76% في أكتوبر 2026، ومقابل 0% (+2.76 نقطة مئوية) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ أكتوبر 2013).",
+   "text_en": "Insurance connected with transport: 2.76% in October 2026, and versus 0% (+2.76 percentage points) in October 2025, the highest in the available data (since October 2013).",
+   "numbers": {
+    "value": 2.7597088901,
+    "period": "2026-10",
+    "yoy_value": -0.0027516486,
+    "yoy_period": "2025-10",
+    "yoy_diff": 2.7624605386,
+    "history_start": "2013-10",
+    "history_observations": 14
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 2.7597088901,
+     "cell": "5.3!R176C169"
+    },
+    {
+     "period": "2025-10",
+     "value": -0.0027516486,
+     "cell": "5.3!R164C169"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "التأمين المرتبط بالنقل",
+   "table_title": "سلسلة معدل التغيّر الشهري حسب فئات الإنفاق، 2013-2026 Monthly Rate of Change Series By Expenditure Category, 2013-2026",
+   "id": "27800375-014",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "consumer-price-index_5-2",
+   "sheet": "5.2",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent_or_fraction",
+   "unit_ok": true,
+   "text_ar": "المجوهرات والساعات: 5.14% في أكتوبر 2026، مقابل 12.86% (-7.72 نقطة مئوية) في سبتمبر 2026، ومقابل 21.95% (-16.81 نقطة مئوية) في أكتوبر 2025.",
+   "text_en": "Jewellery and watches: 5.14% in October 2026, versus 12.86% (-7.72 percentage points) in September 2026, and versus 21.95% (-16.81 percentage points) in October 2025.",
+   "numbers": {
+    "value": 5.1392167727,
+    "period": "2026-10",
+    "prev_value": 12.8550071652,
+    "prev_period": "2026-09",
+    "prev_diff": -7.7157903926,
+    "yoy_value": 21.9523399368,
+    "yoy_period": "2025-10",
+    "yoy_diff": -16.8131231642,
+    "history_observations": 154,
+    "history_start": "2014-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 5.1392167727,
+     "cell": "5.2!R177C179"
+    },
+    {
+     "period": "2026-09",
+     "value": 12.8550071652,
+     "cell": "5.2!R176C179"
+    },
+    {
+     "period": "2025-10",
+     "value": 21.9523399368,
+     "cell": "5.2!R164C179"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "المجوهرات والساعات",
+   "table_title": "سلسلة معدل التغيّر السنوي حسب فئات الإنفاق ، 2014-2026 Annual Rate of Change Series By Expenditure Category 2014-2026",
+   "id": "27800375-015",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "consumer-price-index_5-2",
+   "sheet": "5.2",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent_or_fraction",
+   "unit_ok": true,
+   "text_ar": "التأمين المرتبط بالنقل: 6.92% في أكتوبر 2026، مقابل 4.04% (+2.87 نقطة مئوية) في سبتمبر 2026، ومقابل 14.37% (-7.45 نقطة مئوية) في أكتوبر 2025.",
+   "text_en": "Insurance connected with transport: 6.92% in October 2026, versus 4.04% (+2.87 percentage points) in September 2026, and versus 14.37% (-7.45 percentage points) in October 2025.",
+   "numbers": {
+    "value": 6.9185209454,
+    "period": "2026-10",
+    "prev_value": 4.0442602245,
+    "prev_period": "2026-09",
+    "prev_diff": 2.8742607209,
+    "yoy_value": 14.3730387484,
+    "yoy_period": "2025-10",
+    "yoy_diff": -7.454517803,
+    "history_observations": 154,
+    "history_start": "2014-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 6.9185209454,
+     "cell": "5.2!R177C169"
+    },
+    {
+     "period": "2026-09",
+     "value": 4.0442602245,
+     "cell": "5.2!R176C169"
+    },
+    {
+     "period": "2025-10",
+     "value": 14.3730387484,
+     "cell": "5.2!R164C169"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "التأمين المرتبط بالنقل",
+   "table_title": "سلسلة معدل التغيّر السنوي حسب فئات الإنفاق ، 2014-2026 Annual Rate of Change Series By Expenditure Category 2014-2026",
+   "id": "27800375-016",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "consumer-price-index_4-2",
+   "sheet": "4.2",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "حائل: 1.39% في أكتوبر 2026، مقابل 2.13% (-0.74 نقطة مئوية) في سبتمبر 2026، ومقابل 1.79% (-0.4 نقطة مئوية) في أكتوبر 2025.",
+   "text_en": "معدل التغيّر (%) Rate of Change (%) / Hail: 1.39% in October 2026, versus 2.13% (-0.74 percentage points) in September 2026, and versus 1.79% (-0.4 percentage points) in October 2025.",
+   "numbers": {
+    "value": 1.3947224019,
+    "period": "2026-10",
+    "prev_value": 2.1298678088,
+    "prev_period": "2026-09",
+    "prev_diff": -0.7351454069,
+    "yoy_value": 1.7899858639,
+    "yoy_period": "2025-10",
+    "yoy_diff": -0.395263462,
+    "history_observations": 154,
+    "history_start": "2014-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 1.3947224019,
+     "cell": "4.2!R178C13"
+    },
+    {
+     "period": "2026-09",
+     "value": 2.1298678088,
+     "cell": "4.2!R177C13"
+    },
+    {
+     "period": "2025-10",
+     "value": 1.7899858639,
+     "cell": "4.2!R165C13"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "حائل",
+   "table_title": "سلسلة معدل التغيّر السنوي حسب المنطقة، 2014-2026 Regional Annual Rate Of Change Series, 2014-2026 2023=100 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
+   "id": "27800375-017",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "consumer-price-index_4-3",
+   "sheet": "4.3",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الجوف: 0.26% في أكتوبر 2026، مقابل -0.2% (+0.46 نقطة مئوية) في سبتمبر 2026، ومقابل 0.31% (-0.05 نقطة مئوية) في أكتوبر 2025.",
+   "text_en": "October | معدل التغيّر (%) Rate of Change (%) / Al Jouf: 0.26% in October 2026, versus -0.2% (+0.46 percentage points) in September 2026, and versus 0.31% (-0.05 percentage points) in October 2025.",
+   "numbers": {
+    "value": 0.2579120925,
+    "period": "2026-10",
+    "prev_value": -0.2020972514,
+    "prev_period": "2026-09",
+    "prev_diff": 0.4600093439,
+    "yoy_value": 0.3104914929,
+    "yoy_period": "2025-10",
+    "yoy_diff": -0.0525794004,
+    "history_observations": 165,
+    "history_start": "2013-02"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 0.2579120925,
+     "cell": "4.3!R177C18"
+    },
+    {
+     "period": "2026-09",
+     "value": -0.2020972514,
+     "cell": "4.3!R176C18"
+    },
+    {
+     "period": "2025-10",
+     "value": 0.3104914929,
+     "cell": "4.3!R165C18"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الجوف",
+   "table_title": "سلسلة معدل التغيّر الشهري حسب المنطقة، 2013-2026 Regional Monthly Rate Of Change Series, 2013-2026 2023=100 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
+   "id": "27800375-018",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "consumer-price-index_4-3",
+   "sheet": "4.3",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الحدود الشمالية: -0.29% في أكتوبر 2026، مقابل 0.02% (-0.3 نقطة مئوية) في سبتمبر 2026، ومقابل 0.32% (-0.61 نقطة مئوية) في أكتوبر 2025.",
+   "text_en": "October | معدل التغيّر (%) Rate of Change (%) / Northern Borders: -0.29% in October 2026, versus 0.02% (-0.3 percentage points) in September 2026, and versus 0.32% (-0.61 percentage points) in October 2025.",
+   "numbers": {
+    "value": -0.2874225562,
+    "period": "2026-10",
+    "prev_value": 0.0158846747,
+    "prev_period": "2026-09",
+    "prev_diff": -0.303307231,
+    "yoy_value": 0.3213821305,
+    "yoy_period": "2025-10",
+    "yoy_diff": -0.6088046868,
+    "history_observations": 165,
+    "history_start": "2013-02"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": -0.2874225562,
+     "cell": "4.3!R177C14"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0158846747,
+     "cell": "4.3!R176C14"
+    },
+    {
+     "period": "2025-10",
+     "value": 0.3213821305,
+     "cell": "4.3!R165C14"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الحدود الشمالية",
+   "table_title": "سلسلة معدل التغيّر الشهري حسب المنطقة، 2013-2026 Regional Monthly Rate Of Change Series, 2013-2026 2023=100 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
+   "id": "27800375-019",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "consumer-price-index_4-2",
+   "sheet": "4.2",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "جازان: 0.92% في أكتوبر 2026، مقابل 0.64% (+0.27 نقطة مئوية) في سبتمبر 2026، ومقابل 1.67% (-0.75 نقطة مئوية) في أكتوبر 2025.",
+   "text_en": "معدل التغيّر (%) Rate of Change (%) / Jazan: 0.92% in October 2026, versus 0.64% (+0.27 percentage points) in September 2026, and versus 1.67% (-0.75 percentage points) in October 2025.",
+   "numbers": {
+    "value": 0.9176435746,
+    "period": "2026-10",
+    "prev_value": 0.6429540674,
+    "prev_period": "2026-09",
+    "prev_diff": 0.2746895072,
+    "yoy_value": 1.6717332221,
+    "yoy_period": "2025-10",
+    "yoy_diff": -0.7540896475,
+    "history_observations": 154,
+    "history_start": "2014-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 0.9176435746,
+     "cell": "4.2!R178C15"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.6429540674,
+     "cell": "4.2!R177C15"
+    },
+    {
+     "period": "2025-10",
+     "value": 1.6717332221,
+     "cell": "4.2!R165C15"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "جازان",
+   "table_title": "سلسلة معدل التغيّر السنوي حسب المنطقة، 2014-2026 Regional Annual Rate Of Change Series, 2014-2026 2023=100 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
+   "id": "27800375-020",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "consumer-price-index_5-1",
+   "sheet": "5.1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index",
+   "unit_ok": true,
+   "text_ar": "التبغ: 99.83 نقطة في أكتوبر 2026، مقابل 99.82 (+0.01%) في سبتمبر 2026، ومقابل 99.66 (+0.17%) في أكتوبر 2025.",
+   "text_en": "Tobacco: 99.83 points in October 2026, versus 99.82 (+0.01%) in September 2026, and versus 99.66 (+0.17%) in October 2025.",
+   "numbers": {
+    "value": 99.8297432804,
+    "period": "2026-10",
+    "prev_value": 99.8246185796,
+    "prev_period": "2026-09",
+    "prev_diff": 0.0051247008,
+    "prev_pct": 0.0051337044,
+    "yoy_value": 99.6640818826,
+    "yoy_period": "2025-10",
+    "yoy_diff": 0.1656613978,
+    "yoy_pct": 0.1662197601,
+    "history_observations": 166,
+    "history_start": "2013-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 99.8297432804,
+     "cell": "5.1!R190C29"
+    },
+    {
+     "period": "2026-09",
+     "value": 99.8246185796,
+     "cell": "5.1!R189C29"
+    },
+    {
+     "period": "2025-10",
+     "value": 99.6640818826,
+     "cell": "5.1!R177C29"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "التبغ",
+   "table_title": "سلسلة الأرقام القياسية حسب فئات الإنفاق ، 2013-2026 Index Series by Expenditure Category, 2013-2026",
+   "id": "27800375-021",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "consumer-price-index_2-1",
+   "sheet": "2.1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "رمان طازج | الأرقام القياسية: 102.99 نقطة في أكتوبر 2026، مقابل 111.46 (-7.6%) في سبتمبر 2026، ومقابل 96.53 (+6.7%) في أكتوبر 2025.",
+   "text_en": "Fresh pomegranate | Index Numbers: 102.99 points in October 2026, versus 111.46 (-7.6%) in September 2026, and versus 96.53 (+6.7%) in October 2025.",
+   "numbers": {
+    "value": 102.9888081702,
+    "period": "2026-10",
+    "prev_value": 111.4642985936,
+    "prev_period": "2026-09",
+    "prev_diff": -8.4754904234,
+    "prev_pct": -7.6037713692,
+    "yoy_value": 96.5261649226,
+    "yoy_period": "2025-10",
+    "yoy_diff": 6.4626432477,
+    "yoy_pct": 6.6952242979
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 102.9888081702,
+     "cell": "2.1!R97C7"
+    },
+    {
+     "period": "2026-09",
+     "value": 111.4642985936,
+     "cell": "2.1!R97C6"
+    },
+    {
+     "period": "2025-10",
+     "value": 96.5261649226,
+     "cell": "2.1!R97C5"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "رمان طازج | الأرقام القياسية",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "id": "27800375-022",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "consumer-price-index_2-1",
+   "sheet": "2.1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "برتقال طازج | الأرقام القياسية: 117.7 نقطة في أكتوبر 2026، مقابل 109.56 (+7.43%) في سبتمبر 2026، ومقابل 111.16 (+5.88%) في أكتوبر 2025.",
+   "text_en": "Fresh orange | Index Numbers: 117.7 points in October 2026, versus 109.56 (+7.43%) in September 2026, and versus 111.16 (+5.88%) in October 2025.",
+   "numbers": {
+    "value": 117.6952082741,
+    "period": "2026-10",
+    "prev_value": 109.5555516243,
+    "prev_period": "2026-09",
+    "prev_diff": 8.1396566498,
+    "prev_pct": 7.4297071477,
+    "yoy_value": 111.1631271341,
+    "yoy_period": "2025-10",
+    "yoy_diff": 6.53208114,
+    "yoy_pct": 5.8761221534
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 117.6952082741,
+     "cell": "2.1!R86C7"
+    },
+    {
+     "period": "2026-09",
+     "value": 109.5555516243,
+     "cell": "2.1!R86C6"
+    },
+    {
+     "period": "2025-10",
+     "value": 111.1631271341,
+     "cell": "2.1!R86C5"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "برتقال طازج | الأرقام القياسية",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "id": "27800375-023",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "consumer-price-index_1-1",
+   "sheet": "1.1 ",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "التأمين والخدمات المالية | الأرقام القياسية: 109.18 نقطة في أكتوبر 2026، مقابل 107.61 (+1.45%) في سبتمبر 2026، ومقابل 105.53 (+3.45%) في أكتوبر 2025.",
+   "text_en": "INSURANCE AND FINANCIAL SERVICES | Index Numbers: 109.18 points in October 2026, versus 107.61 (+1.45%) in September 2026, and versus 105.53 (+3.45%) in October 2025.",
+   "numbers": {
+    "value": 109.176489677,
+    "period": "2026-10",
+    "prev_value": 107.6141349076,
+    "prev_period": "2026-09",
+    "prev_diff": 1.5623547694,
+    "prev_pct": 1.451811856,
+    "yoy_value": 105.5338546459,
+    "yoy_period": "2025-10",
+    "yoy_diff": 3.6426350311,
+    "yoy_pct": 3.4516270095
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 109.176489677,
+     "cell": "1.1 !R27C6"
+    },
+    {
+     "period": "2026-09",
+     "value": 107.6141349076,
+     "cell": "1.1 !R27C5"
+    },
+    {
+     "period": "2025-10",
+     "value": 105.5338546459,
+     "cell": "1.1 !R27C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "التأمين والخدمات المالية | الأرقام القياسية",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "id": "27800375-024",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "consumer-price-index_1-1",
+   "sheet": "1.1 ",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "العناية الشخصية والحماية الاجتماعية والسلع والخدمات الأخرى | الأرقام القياسية: 111.11 نقطة في أكتوبر 2026، مقابل 111.75 (-0.57%) في سبتمبر 2026، ومقابل 110.06 (+0.96%) في أكتوبر 2025.",
+   "text_en": "PERSONAL CARE, SOCIAL PROTECTION AND MISCELLANEOUS GOODS AND SERVICES | Index Numbers: 111.11 points in October 2026, versus 111.75 (-0.57%) in September 2026, and versus 110.06 (+0.96%) in October 2025.",
+   "numbers": {
+    "value": 111.1123486914,
+    "period": "2026-10",
+    "prev_value": 111.7500246201,
+    "prev_period": "2026-09",
+    "prev_diff": -0.6376759286,
+    "prev_pct": -0.5706271035,
+    "yoy_value": 110.0611325158,
+    "yoy_period": "2025-10",
+    "yoy_diff": 1.0512161757,
+    "yoy_pct": 0.9551202606
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 111.1123486914,
+     "cell": "1.1 !R28C6"
+    },
+    {
+     "period": "2026-09",
+     "value": 111.7500246201,
+     "cell": "1.1 !R28C5"
+    },
+    {
+     "period": "2025-10",
+     "value": 110.0611325158,
+     "cell": "1.1 !R28C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "العناية الشخصية والحماية الاجتماعية والسلع والخدمات الأخرى | الأرقام القياسية",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "id": "27800375-025",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "consumer-price-index_1-1",
+   "sheet": "1.1 ",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "السلع المعمرة | الأرقام القياسية: 102.99 نقطة في أكتوبر 2026، مقابل 103.47 (-0.46%) في سبتمبر 2026، ومقابل 102.39 (+0.59%) في أكتوبر 2025.",
+   "text_en": "Durable Goods | Index Numbers: 102.99 points in October 2026, versus 103.47 (-0.46%) in September 2026, and versus 102.39 (+0.59%) in October 2025.",
+   "numbers": {
+    "value": 102.9916742652,
+    "period": "2026-10",
+    "prev_value": 103.4684688875,
+    "prev_period": "2026-09",
+    "prev_diff": -0.4767946223,
+    "prev_pct": -0.4608115182,
+    "yoy_value": 102.3908086067,
+    "yoy_period": "2025-10",
+    "yoy_diff": 0.6008656585,
+    "yoy_pct": 0.5868355438
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 102.9916742652,
+     "cell": "1.1 !R61C6"
+    },
+    {
+     "period": "2026-09",
+     "value": 103.4684688875,
+     "cell": "1.1 !R61C5"
+    },
+    {
+     "period": "2025-10",
+     "value": 102.3908086067,
+     "cell": "1.1 !R61C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "السلع المعمرة | الأرقام القياسية",
+   "table_title": "* يتم تحديث الأوزان بداية كل عام بناء على منهجية السلاسل المتحركة * Weights are updated at the beginning of each year based on the chain-linking methodology. ملخص الأرقام القياسية للسلع والخدمات ومعدلات التغيّرحسب أقسام الإنفاق،أكتوبر 2026 ",
+   "id": "27800375-026",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "consumer-price-index_1-1",
+   "sheet": "1.1 ",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "السلع شبه المعمرة | الأرقام القياسية: 95.26 نقطة في أكتوبر 2026، مقابل 95.01 (+0.26%) في سبتمبر 2026، ومقابل 95.61 (-0.36%) في أكتوبر 2025.",
+   "text_en": "Semi-Durable Goods | Index Numbers: 95.26 points in October 2026, versus 95.01 (+0.26%) in September 2026, and versus 95.61 (-0.36%) in October 2025.",
+   "numbers": {
+    "value": 95.2626798532,
+    "period": "2026-10",
+    "prev_value": 95.0121071552,
+    "prev_period": "2026-09",
+    "prev_diff": 0.2505726979,
+    "prev_pct": 0.2637271243,
+    "yoy_value": 95.6097835984,
+    "yoy_period": "2025-10",
+    "yoy_diff": -0.3471037453,
+    "yoy_pct": -0.3630420781
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 95.2626798532,
+     "cell": "1.1 !R60C6"
+    },
+    {
+     "period": "2026-09",
+     "value": 95.0121071552,
+     "cell": "1.1 !R60C5"
+    },
+    {
+     "period": "2025-10",
+     "value": 95.6097835984,
+     "cell": "1.1 !R60C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "السلع شبه المعمرة | الأرقام القياسية",
+   "table_title": "* يتم تحديث الأوزان بداية كل عام بناء على منهجية السلاسل المتحركة * Weights are updated at the beginning of each year based on the chain-linking methodology. ملخص الأرقام القياسية للسلع والخدمات ومعدلات التغيّرحسب أقسام الإنفاق،أكتوبر 2026 ",
+   "id": "27800375-027",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_1-1",
+   "sheet": "1.1 ",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 13 بنداً هو التأمين والخدمات المالية (1.45%) والأدنى هو العناية الشخصية والحماية الاجتماعية والسلع والخدمات الأخرى (-0.57%) في أكتوبر 2026 (الجدول: ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م).",
+   "text_en": "Highest of 13 items is INSURANCE AND FINANCIAL SERVICES (1.45%), lowest is PERSONAL CARE, SOCIAL PROTECTION AND MISCELLANEOUS GOODS AND SERVICES (-0.57%) in October 2026 (table: Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100...).",
+   "numbers": {
+    "items": 13,
+    "highest": 1.451811856,
+    "lowest": -0.5706271035,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 1.451811856,
+     "cell": "1.1 !R27C8"
+    },
+    {
+     "period": "2026-10",
+     "value": -0.5706271035,
+     "cell": "1.1 !R28C8"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "id": "27800375-028",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_1-1",
+   "sheet": "1.1 ",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 13 بنداً هو السكن والمياه والكهرباء والغاز وأنواع الوقود الأخرى (3.54%) والأدنى هو الأثاث والأجهزة المنزلية والصيانة الدورية للمنزل (-0.5%) في أكتوبر 2026 (الجدول: ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م).",
+   "text_en": "Highest of 13 items is HOUSING, WATER, ELECTRICITY, GAS AND OTHER FUELS (3.54%), lowest is FURNISHINGS, HOUSEHOLD EQUIPMENT AND ROUTINE HOUSEHOLD MAINTENANCE (-0.5%) in October 2026 (table: Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100...).",
+   "numbers": {
+    "items": 13,
+    "highest": 3.5393069246,
+    "lowest": -0.5041757083,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 3.5393069246,
+     "cell": "1.1 !R19C7"
+    },
+    {
+     "period": "2026-10",
+     "value": -0.5041757083,
+     "cell": "1.1 !R20C7"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "id": "27800375-029",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_1-1",
+   "sheet": "1.1 ",
+   "period": "2026-10",
+   "measure_type": "weight",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الأوزان* (%): الأعلى بين 13 بنداً هو الأغذية والمشروبات (21.88%) والأدنى هو التبغ (0.72%) في أكتوبر 2026.",
+   "text_en": "Weights* (%): Highest of 13 items is FOOD AND BEVERAGES (21.88%), lowest is TOBACCO (0.72%) in October 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 21.8818906701,
+    "lowest": 0.7236453915,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 21.8818906701,
+     "cell": "1.1 !R16C3"
+    },
+    {
+     "period": "2026-10",
+     "value": 0.7236453915,
+     "cell": "1.1 !R17C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الأوزان* (%)",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "id": "27800375-030",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_2-1",
+   "sheet": "2.1",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 565 بنداً هو غاز (إعادة تعبئة الأسطوانات والغاز عبر الشبكات المحلية) (44.33%) والأدنى هو الرسوم من قبل الشركات التي تتلقى الودائع (-26.97%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م).",
+   "text_en": "Highest of 565 items is Gas (refill cylinders and gas through local networks) (44.33%), lowest is Explicit charges by deposit-taking corporations (-26.97%) in October 2026 (table: Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers...).",
+   "numbers": {
+    "items": 565,
+    "highest": 44.3318243815,
+    "lowest": -26.9680567972,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 44.3318243815,
+     "cell": "2.1!R293C8"
+    },
+    {
+     "period": "2026-10",
+     "value": -26.9680567972,
+     "cell": "2.1!R700C8"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "id": "27800375-031",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_2-1",
+   "sheet": "2.1",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 565 بنداً هو برتقال طازج (7.43%) والأدنى هو رمان طازج (-7.6%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م).",
+   "text_en": "Highest of 565 items is Fresh orange (7.43%), lowest is Fresh pomegranate (-7.6%) in October 2026 (table: Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers...).",
+   "numbers": {
+    "items": 565,
+    "highest": 7.4297071477,
+    "lowest": -7.6037713692,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 7.4297071477,
+     "cell": "2.1!R86C9"
+    },
+    {
+     "period": "2026-10",
+     "value": -7.6037713692,
+     "cell": "2.1!R97C9"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "id": "27800375-032",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_2-1",
+   "sheet": "2.1",
+   "period": "2026-10",
+   "measure_type": "weight",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الأوزان* (%): الأعلى بين 565 بنداً هو الأغذية والمشروبات (21.88%) والأدنى هو المعينات السمعية الرقمية (0%) في أكتوبر 2026.",
+   "text_en": "Weights* (%): Highest of 565 items is FOOD AND BEVERAGES (21.88%), lowest is Digital hearing aids (0%) in October 2026.",
+   "numbers": {
+    "items": 565,
+    "highest": 21.8818906701,
+    "lowest": 0.000372697,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 21.8818906701,
+     "cell": "2.1!R14C4"
+    },
+    {
+     "period": "2026-10",
+     "value": 0.000372697,
+     "cell": "2.1!R411C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الأوزان* (%)",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "id": "27800375-033",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_3-1",
+   "sheet": "3.1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأرقام القياسية Index Numbers / الباحة: الأعلى بين 61 بنداً هو الأمتعة الشخصية الأخرى (164.6 نقطة) والأدنى هو خدمات نقل البضائع (80.08 نقطة) في أكتوبر 2026.",
+   "text_en": "Al Baha: Highest of 61 items is OTHER PERSONAL EFFECTS (164.6 points), lowest is TRANSPORT SERVICES OF GOODS (80.08 points) in October 2026.",
+   "numbers": {
+    "items": 61,
+    "highest": 164.5991152916,
+    "lowest": 80.083344987,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 164.5991152916,
+     "cell": "3.1!R71C15"
+    },
+    {
+     "period": "2026-10",
+     "value": 80.083344987,
+     "cell": "3.1!R44C15"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الأرقام القياسية Index Numbers / الباحة",
+   "table_title": "الأرقام القياسية حسب المنطقة وفئة الإنفاق، أكتوبر 2026م Indices By Region And Expenditure Category, October 2026 2023=100 فئة الإنفاق: الأقسام و المجموعات الأرقام القياسية Index Numbers Expenditure Category:Divisions and Groups",
+   "id": "27800375-034",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_3-1",
+   "sheet": "3.1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأرقام القياسية Index Numbers / عسير: الأعلى بين 61 بنداً هو الأمتعة الشخصية الأخرى (132.06 نقطة) والأدنى هو صيانة وإصلاح وأمن المسكن (78.61 نقطة) في أكتوبر 2026.",
+   "text_en": "Aseer: Highest of 61 items is OTHER PERSONAL EFFECTS (132.06 points), lowest is MAINTENANCE, REPAIR AND SECURITY OF THE DWELLING (78.61 points) in October 2026.",
+   "numbers": {
+    "items": 61,
+    "highest": 132.0649109297,
+    "lowest": 78.6106435568,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 132.0649109297,
+     "cell": "3.1!R71C9"
+    },
+    {
+     "period": "2026-10",
+     "value": 78.6106435568,
+     "cell": "3.1!R25C9"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الأرقام القياسية Index Numbers / عسير",
+   "table_title": "الأرقام القياسية حسب المنطقة وفئة الإنفاق، أكتوبر 2026م Indices By Region And Expenditure Category, October 2026 2023=100 فئة الإنفاق: الأقسام و المجموعات الأرقام القياسية Index Numbers Expenditure Category:Divisions and Groups",
+   "id": "27800375-035",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_3-1",
+   "sheet": "3.1",
+   "period": "2026-10",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأرقام القياسية Index Numbers / مكة المكرمة: الأعلى بين 61 بنداً هو الأمتعة الشخصية الأخرى (131.5 نقطة) والأدنى هو معدات المعلومات والاتصالات (81.07 نقطة) في أكتوبر 2026.",
+   "text_en": "Makkah: Highest of 61 items is OTHER PERSONAL EFFECTS (131.5 points), lowest is Information and communication equipment (81.07 points) in October 2026.",
+   "numbers": {
+    "items": 61,
+    "highest": 131.498597622,
+    "lowest": 81.071753224,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 131.498597622,
+     "cell": "3.1!R71C5"
+    },
+    {
+     "period": "2026-10",
+     "value": 81.071753224,
+     "cell": "3.1!R46C5"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "الأرقام القياسية Index Numbers / مكة المكرمة",
+   "table_title": "الأرقام القياسية حسب المنطقة وفئة الإنفاق، أكتوبر 2026م Indices By Region And Expenditure Category, October 2026 2023=100 فئة الإنفاق: الأقسام و المجموعات الأرقام القياسية Index Numbers Expenditure Category:Divisions and Groups",
+   "id": "27800375-036",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_3-2",
+   "sheet": "3.2",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 852 بنداً هو الأمتعة الشخصية الأخرى (22.99%) والأدنى هو الحماية الاجتماعية (-17.09%) في أكتوبر 2026.",
+   "text_en": "Highest of 852 items is OTHER PERSONAL EFFECTS (22.99%), lowest is Social protection (-17.09%) in October 2026.",
+   "numbers": {
+    "items": 852,
+    "highest": 22.9939524017,
+    "lowest": -17.0941295595,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 22.9939524017,
+     "cell": "3.2!R71C14"
+    },
+    {
+     "period": "2026-10",
+     "value": -17.0941295595,
+     "cell": "3.2!R72C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "",
+   "table_title": "معدل التغيّر السنوي حسب المنطقة وفئة الإنفاق،أكتوبر 2026م Anuual Rate of Change by Region And Expenditure Category, October 2026 2023=100 فئة الإنفاق: الأقسام و المجموعات معدل التغيّر السنوي (%) IAnnual rate of change (%) Expenditure Catego",
+   "id": "27800375-037",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "consumer-price-index_3-3",
+   "sheet": "3.3",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 852 بنداً هو السلع الثقافية (7.1%) والأدنى هو الخدمات الترفيهية (-5.25%) في أكتوبر 2026.",
+   "text_en": "Highest of 852 items is CULTURAL GOODS (7.1%), lowest is RECREATIONAL SERVICES (-5.25%) in October 2026.",
+   "numbers": {
+    "items": 852,
+    "highest": 7.1008317593,
+    "lowest": -5.2531634981,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 7.1008317593,
+     "cell": "3.3!R53C10"
+    },
+    {
+     "period": "2026-10",
+     "value": -5.2531634981,
+     "cell": "3.3!R52C11"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
+   "series_label": "",
+   "table_title": "معدل التغيّر الشهري حسب المنطقة وفئة الإنفاق،أكتوبر 2026م Monthly Rate Of Change By Region And Expenditure Category, October 2026 2023=100 فئة الإنفاق: الأقسام و المجموعات معدل التغيّر الشهري(%) Monthly Change Rate (%) Expenditure Category:",
+   "id": "27800375-038",
+   "headline": false
+  }
+ ],
+ "title_ar": "الرقم القياسي لأسعار المستهلك لشهر أكتوبر 2026",
+ "title_en": "Consumer Price Index – October 2026",
+ "release_date": "2026-11-15",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-17T13:33:13+00:00"
+}

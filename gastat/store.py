@@ -6,7 +6,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 KEY = ["dataset_id", "sheet", "block", "row_code", "row_level", "row_label_ar", "row_label_en", "row_unit", "row_group", "row_parent",
        "col_code", "col_label_ar", "col_label_en", "col_sub", "period", "base_period"]
 COLS = KEY + ["period_type", "period_source", "is_total_row", "measure_type", "measure_inferred", "unit", "unit_inferred", "scale", "multi_response",
-              "value", "publication_id", "domain", "source_file_url", "source_cell", "release_date", "ingested_at", "fingerprint"]
+              "value", "publication_id", "domain", "source_file_url", "source_cell", "release_date", "ingested_at", "fingerprint", "table_title"]
 CSV_MAX_BYTES = 1_500_000
 
 
@@ -16,7 +16,7 @@ def _frame(rows):
         if c not in df.columns:
             df[c] = None
     df = df[COLS].copy()
-    for c in KEY + ["period_type", "period_source", "measure_type", "unit", "source_file_url", "source_cell", "release_date", "ingested_at", "fingerprint"]:
+    for c in KEY + ["period_type", "period_source", "measure_type", "unit", "source_file_url", "source_cell", "release_date", "ingested_at", "fingerprint", "table_title"]:
         df[c] = df[c].fillna("").astype(str)
     for c in ("is_total_row", "measure_inferred", "unit_inferred", "multi_response"):
         df[c] = df[c].map(lambda v: bool(v) if v is not None and v == v else False).astype(bool)
@@ -34,6 +34,9 @@ def merge_dataset(domain, dataset_id, rows, run_ts):
     revisions = []
     if path.exists():
         old = pd.read_parquet(path)
+        for c in COLS:
+            if c not in old.columns:      # files written before a column existed
+                old[c] = ""
         m = new.merge(old[KEY + ["value", "release_date", "publication_id"]], on=KEY, how="left", suffixes=("", "_old"))
         has_old = m["value_old"].notna()
         changed = has_old & ((m["value"] - m["value_old"]).abs() > 1e-9)
