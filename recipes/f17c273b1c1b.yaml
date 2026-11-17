@@ -1,0 +1,22 @@
+fingerprint: f17c273b1c1b
+status: pending_review
+first_seen:
+  publication_id: 27548335
+  sheet: 5-3
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- mixed
+value_columns: 1
+measure_types:
+- distribution
+units:
+- percent
+scales:
+- 1
+period_sources:
+- publication
+title_sample: التوزيع النسبي لوفيات الحوادث المرورية حسب الجنس لعام 2025م الجنس %
+validation_on_first_run: pass
+notes: []

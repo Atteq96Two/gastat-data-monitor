@@ -1,5 +1,5 @@
 fingerprint: fbf817883546
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913795
   sheet: '3.4'
@@ -24,4 +24,6 @@ period_sources:
 title_sample: 'سلسلة التغيّر الشهري حسب الأنشطة النفطية وغير النفطية Monthly Change
   Rate Series by Oil and Non-Oil Activities 2023=100 '
 validation_on_first_run: pass
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

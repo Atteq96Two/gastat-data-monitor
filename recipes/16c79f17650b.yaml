@@ -1,5 +1,5 @@
 fingerprint: 16c79f17650b
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913882
   sheet: '5.1'
@@ -22,4 +22,6 @@ period_sources:
 title_sample: التوزيع النسبي للباحثين في مجال البحث والتطوير حسب الجنس والقطاع لعام
   2025 م Percentage distribution of Researchers in R
 validation_on_first_run: pass
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

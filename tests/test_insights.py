@@ -106,14 +106,15 @@ for lab in b2.row_label_ar.unique():
         prev = f"{y}-{m - 1:02d}" if m > 1 else f"{y - 1}-12"
         if p in s2.index and prev in s2.index:
             cons.append(("BCI monthly rate", lab, p, s3[p] * 100, (s2[p] / s2[prev] - 1) * 100))
-c1 = load("consumer-price-index_1-1")
-for lab in c1.row_label_ar.unique():
-    g = c1[(c1.row_label_ar == lab)]
-    idx = g[g.measure_type == "index"].set_index("period").value.groupby(level=0).first()
-    rt = g[(g.measure_type == "rate") & (g.base_period != "")]
-    for _, r in rt.iterrows():
-        if r.period in idx.index and r.base_period in idx.index:
-            cons.append(("CPI 1.1 published change", lab[:40], f"{r.period} vs {r.base_period}", r.value, (idx[r.period] / idx[r.base_period] - 1) * 100))
+for dsname in ("consumer-price-index_1-1", "producer-price-index-for_1-1", "producer-price-index-for_3-1"):
+  c1 = load(dsname)
+  for lab in c1.row_label_ar.unique():
+      g = c1[(c1.row_label_ar == lab)]
+      idx = g[g.measure_type == "index"].set_index("period").value.groupby(level=0).first()
+      rt = g[(g.measure_type == "rate") & (g.base_period != "")]
+      for _, r in rt.iterrows():
+          if r.period in idx.index and r.base_period in idx.index:
+              cons.append((dsname, lab[:40], f"{r.period} vs {r.base_period}", r.value, (idx[r.period] / idx[r.base_period] - 1) * 100))
 # differences between two numbers GASTAT itself publishes in the same file (checked by hand, reported to the user, not an engine error)
 KNOWN_SOURCE_DIFFS = {("BCI monthly rate", "مؤشر ثقة الأعمال لقطاع الخدمات", "2026-02")}
 bad = [c for c in cons if abs(c[3] - c[4]) > 0.06 and c[:3] not in KNOWN_SOURCE_DIFFS]

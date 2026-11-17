@@ -1,5 +1,5 @@
 fingerprint: 01060a4808b5
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913882
   sheet: Index-القائمة الرئيسية
@@ -22,4 +22,6 @@ period_sources:
 title_sample: إحصاءات البحث و التطوير 2025م Research and Development Statistics 2025
   الجداول الجداول Tables
 validation_on_first_run: review
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

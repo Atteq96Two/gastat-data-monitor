@@ -37,7 +37,7 @@
      "sha256": "00c9c55c9e3658cce78ccfb81e7f16e02e1d1b222e304211bcd389a1bd1aa198"
     }
    ],
-   "status": "processed_with_quarantine",
+   "status": "processed",
    "processed_at": "2026-11-17T07:53:07+00:00",
    "tables": {
     "quarantined_new_layout": 12,
@@ -81,7 +81,7 @@
      "sha256": "780e24bf1bd59abfa57319f8ca652e3014004757664fd3597a3a36596920ced8"
     }
    ],
-   "status": "processed_with_quarantine",
+   "status": "processed",
    "processed_at": "2026-11-17T07:53:07+00:00",
    "tables": {
     "skipped_navigation": 1,

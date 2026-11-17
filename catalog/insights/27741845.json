@@ -198,26 +198,26 @@
    "kind": "cross_section",
    "dataset_id": "average-service-prices-for_2",
    "sheet": "2",
-   "period": "2026-09",
+   "period": "2026-10",
    "measure_type": "rate",
    "unit": "percent",
    "unit_ok": true,
-   "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 15 بنداً هو كيابل ربط الحديد صيني (3.19%) والأدنى هو أسلاك كهربائية 2.5 مم وطني (0.67%) في سبتمبر 2026.",
-   "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 15 items is Chinese Iron-binding cables (3.19%), lowest is 2.5mm national electrical wires (0.67%) in September 2026.",
+   "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 15 بنداً هو كيابل ربط الحديد صيني (3.19%) والأدنى هو أسلاك كهربائية 2.5 مم وطني (0.67%) في أكتوبر 2026.",
+   "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 15 items is Chinese Iron-binding cables (3.19%), lowest is 2.5mm national electrical wires (0.67%) in October 2026.",
    "numbers": {
     "items": 15,
     "highest": 3.19,
     "lowest": 0.67,
-    "period": "2026-09"
+    "period": "2026-10"
    },
    "evidence": [
     {
-     "period": "2026-09",
+     "period": "2026-10",
      "value": 3.19,
      "cell": "2!R22C2"
     },
     {
-     "period": "2026-09",
+     "period": "2026-10",
      "value": 0.67,
      "cell": "2!R36C2"
     }
@@ -233,26 +233,26 @@
    "kind": "cross_section",
    "dataset_id": "average-service-prices-for_2",
    "sheet": "2",
-   "period": "2026-09",
+   "period": "2026-10",
    "measure_type": "rate",
    "unit": "percent",
    "unit_ok": true,
-   "text_ar": "السلع و الخدمات GOODS AND SERVICES: الأعلى بين 15 بنداً هو برتقال أبو صرة مصري (9.47%) والأدنى هو بامية محلية (1.05%) في سبتمبر 2026.",
-   "text_en": "السلع و الخدمات GOODS AND SERVICES: Highest of 15 items is Abu Sorra egyptian Orange (9.47%), lowest is Local Okra (1.05%) in September 2026.",
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES: الأعلى بين 15 بنداً هو برتقال أبو صرة مصري (9.47%) والأدنى هو بامية محلية (1.05%) في أكتوبر 2026.",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES: Highest of 15 items is Abu Sorra egyptian Orange (9.47%), lowest is Local Okra (1.05%) in October 2026.",
    "numbers": {
     "items": 15,
     "highest": 9.47,
     "lowest": 1.05,
-    "period": "2026-09"
+    "period": "2026-10"
    },
    "evidence": [
     {
-     "period": "2026-09",
+     "period": "2026-10",
      "value": 9.47,
      "cell": "2!R6C2"
     },
     {
-     "period": "2026-09",
+     "period": "2026-10",
      "value": 1.05,
      "cell": "2!R20C2"
     }
@@ -268,26 +268,26 @@
    "kind": "cross_section",
    "dataset_id": "average-service-prices-for_3",
    "sheet": "3",
-   "period": "2026-09",
+   "period": "2026-10",
    "measure_type": "rate",
    "unit": "percent",
    "unit_ok": true,
-   "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 9 بنود هو خرسانة عادي 250 ك (-0.01%) والأدنى هو بلوك أسود مقاس 20 سم (-0.43%) في سبتمبر 2026.",
-   "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 9 items is 250 K Normal Concrete (-0.01%), lowest is 20cm black Block (-0.43%) in September 2026.",
+   "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 9 بنود هو خرسانة عادي 250 ك (-0.01%) والأدنى هو بلوك أسود مقاس 20 سم (-0.43%) في أكتوبر 2026.",
+   "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 9 items is 250 K Normal Concrete (-0.01%), lowest is 20cm black Block (-0.43%) in October 2026.",
    "numbers": {
     "items": 9,
     "highest": -0.01,
     "lowest": -0.43,
-    "period": "2026-09"
+    "period": "2026-10"
    },
    "evidence": [
     {
-     "period": "2026-09",
+     "period": "2026-10",
      "value": -0.01,
      "cell": "3!R30C2"
     },
     {
-     "period": "2026-09",
+     "period": "2026-10",
      "value": -0.43,
      "cell": "3!R22C2"
     }
@@ -303,26 +303,26 @@
    "kind": "cross_section",
    "dataset_id": "average-service-prices-for_3",
    "sheet": "3",
-   "period": "2026-09",
+   "period": "2026-10",
    "measure_type": "rate",
    "unit": "percent",
    "unit_ok": true,
-   "text_ar": "السلع و الخدمات GOODS AND SERVICES: الأعلى بين 15 بنداً هو سمك طازج هامور (-1.02%) والأدنى هو ملفوف أبيض (-6.6%) في سبتمبر 2026.",
-   "text_en": "السلع و الخدمات GOODS AND SERVICES: Highest of 15 items is Fresh Fish (Grouper) (-1.02%), lowest is white Cabbage (-6.6%) in September 2026.",
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES: الأعلى بين 15 بنداً هو سمك طازج هامور (-1.02%) والأدنى هو ملفوف أبيض (-6.6%) في أكتوبر 2026.",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES: Highest of 15 items is Fresh Fish (Grouper) (-1.02%), lowest is white Cabbage (-6.6%) in October 2026.",
    "numbers": {
     "items": 15,
     "highest": -1.02,
     "lowest": -6.6,
-    "period": "2026-09"
+    "period": "2026-10"
    },
    "evidence": [
     {
-     "period": "2026-09",
+     "period": "2026-10",
      "value": -1.02,
      "cell": "3!R20C2"
     },
     {
-     "period": "2026-09",
+     "period": "2026-10",
      "value": -6.6,
      "cell": "3!R6C2"
     }
@@ -445,5 +445,5 @@
  "release_date": "2026-11-15",
  "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
  "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
- "generated_at": "2026-11-17T13:33:17+00:00"
+ "generated_at": "2026-11-17T13:48:22+00:00"
 }

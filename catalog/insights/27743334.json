@@ -56,7 +56,7 @@
    "is_total": true,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "الرقم القياسي العام | الرقم القياسي",
-   "table_title": "السلسلة الزمنية لنتائج الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Time series of the Industrial Production Index results by main economic activities (100=2021) الوزن",
+   "table_title": "السلسلة الزمنية لنتائج الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Time series of the Industrial Production Index results by main economic activities (100=2021)",
    "id": "27743334-001",
    "headline": true
   },
@@ -103,7 +103,7 @@
    "is_total": true,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "الرقم القياسي العام | المؤشر",
-   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير Annual Monthly سنوي شهري",
+   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير",
    "also_in_tables": [
     "industrial-production-index-1_2"
    ],
@@ -155,7 +155,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "الأنشطة غير النفطية | الرقم القياسي",
-   "table_title": "السلسلة الزمنية لنتائج الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Time series of the Industrial Production Index results by main economic activities (100=2021) الوزن",
+   "table_title": "السلسلة الزمنية لنتائج الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Time series of the Industrial Production Index results by main economic activities (100=2021)",
    "id": "27743334-003",
    "headline": true
   },
@@ -204,7 +204,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "استخراج النفط الخام والغاز الطبيعي | الرقم القياسي",
-   "table_title": "السلسلة الزمنية لنتائج الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Time series of the Industrial Production Index results by main economic activities (100=2021) الوزن",
+   "table_title": "السلسلة الزمنية لنتائج الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Time series of the Industrial Production Index results by main economic activities (100=2021)",
    "id": "27743334-004",
    "headline": false
   },
@@ -253,7 +253,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "إمدادات الكهرباء والغاز والبخار وتكييف الهواء | الرقم القياسي",
-   "table_title": "السلسلة الزمنية لنتائج الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Time series of the Industrial Production Index results by main economic activities (100=2021) الوزن",
+   "table_title": "السلسلة الزمنية لنتائج الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Time series of the Industrial Production Index results by main economic activities (100=2021)",
    "id": "27743334-005",
    "headline": false
   },
@@ -300,7 +300,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "استخراج النفط الخام والغاز الطبيعي | المؤشر",
-   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير Annual Monthly سنوي شهري",
+   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير",
    "also_in_tables": [
     "industrial-production-index-1_2"
    ],
@@ -350,7 +350,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "إمدادات الكهرباء والغاز والبخار وتكييف الهواء | المؤشر",
-   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير Annual Monthly سنوي شهري",
+   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير",
    "also_in_tables": [
     "industrial-production-index-1_2"
    ],
@@ -388,7 +388,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "",
-   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير Annual Monthly سنوي شهري",
+   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير",
    "id": "27743334-008",
    "headline": false
   },
@@ -423,7 +423,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "الوزن",
-   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير Annual Monthly سنوي شهري",
+   "table_title": "الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial Production Index by Main Economic Activities سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير",
    "also_in_tables": [
     "industrial-production-index-1_3"
    ],
@@ -461,7 +461,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "",
-   "table_title": "الرقم القياسي للإنتاج الصناعي حسب التصنيف الوطني للأنشطة الاقتصادية (ISIC4) Industrial Production Index by ISIC4 سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير Annual Monthly سنوي شهري",
+   "table_title": "الرقم القياسي للإنتاج الصناعي حسب التصنيف الوطني للأنشطة الاقتصادية (ISIC4) Industrial Production Index by ISIC4 سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير",
    "id": "27743334-010",
    "headline": true
   },
@@ -496,7 +496,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/IPI+September+2026+%282%29.xlsx/679f4e86-92c8-1f26-decc-d4a0904de3cd",
    "series_label": "الوزن",
-   "table_title": "الرقم القياسي للإنتاج الصناعي حسب التصنيف الوطني للأنشطة الاقتصادية (ISIC4) Industrial Production Index by ISIC4 سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير Annual Monthly سنوي شهري",
+   "table_title": "الرقم القياسي للإنتاج الصناعي حسب التصنيف الوطني للأنشطة الاقتصادية (ISIC4) Industrial Production Index by ISIC4 سبتمبر 2026 100=2021 الوزن المؤشر معدل التغير",
    "id": "27743334-011",
    "headline": true
   }
@@ -506,5 +506,5 @@
  "release_date": "2026-11-10",
  "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
  "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
- "generated_at": "2026-11-17T13:33:17+00:00"
+ "generated_at": "2026-11-17T13:48:22+00:00"
 }

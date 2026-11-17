@@ -1,5 +1,5 @@
 fingerprint: 103268a1e447
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913882
   sheet: '4'
@@ -23,4 +23,6 @@ period_sources:
 title_sample: إجمالي أعداد المشتغلين في مجال البحث والتطوير لعام 2025م Total Number
   of Employees in Research and Development field for
 validation_on_first_run: review
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

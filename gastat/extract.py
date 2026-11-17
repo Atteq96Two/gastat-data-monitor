@@ -25,14 +25,16 @@ def period_from_text(t):
     m = re.search(r"q([1-4])\D{0,3}(20\d\d)", n)
     if m:
         return f"{m.group(2)}-Q{m.group(1)}", "quarter"
-    for name, i in M_AR.items():
-        m = re.search(name + r"\D{0,3}(20\d\d)", n)
-        if m:
-            return f"{m.group(1)}-{i:02d}", "month"
-    for name, i in M_EN.items():
-        m = re.search(name + r"[a-z]*[\s,\-/]*(20\d\d)", n)
-        if m:
-            return f"{m.group(1)}-{i:02d}", "month"
+    # "change in September 2026 compared with August 2026": the period is the month named before "compared with", the base comes after it
+    n = re.split(r"مقارنه ?(?:مع|ب)|compared (?:with|to)|versus|\bvs\b", n)[0] if re.search(r"مقارنه ?(?:مع|ب)|compared (?:with|to)|versus|\bvs\b", n) and re.search(r"(20\d\d)", re.split(r"مقارنه ?(?:مع|ب)|compared (?:with|to)|versus|\bvs\b", n)[0]) else n
+    best = None
+    for table, tail in ((M_AR, r"\D{0,3}(20\d\d)"), (M_EN, r"[a-z]*[\s,\-/]*(20\d\d)")):
+        for name, i in table.items():
+            m = re.search(name + tail, n)
+            if m and (best is None or m.start() < best[0]):
+                best = (m.start(), f"{m.group(1)}-{i:02d}")
+    if best:
+        return best[1], "month"
     return None, None
 
 
@@ -127,8 +129,11 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
                          if g.anchor[r][c] and kind(g.cells[r][c]) == "text")
     # header rows carrying only a few anchored texts are really table titles (e.g. "annual rate of change series")
     for hr in b["header"]:
-        anc = [clean(g.cells[hr][c]) for c in range(g.ncols) if g.anchor[hr][c] and kind(g.cells[hr][c]) == "text"]
-        if 0 < len(anc) <= 3:
+        anc_cols = [c for c in range(g.ncols) if g.anchor[hr][c] and kind(g.cells[hr][c]) == "text"]
+        anc = [clean(g.cells[hr][c]) for c in anc_cols]
+        # texts sitting over single value columns are column headers (e.g. "Funding | Percentage distribution of funding"), not titles
+        is_colhdr = bool(anc_cols) and all(c in d["val_cols"] and not any(m[0] <= hr <= m[1] and m[2] <= c <= m[3] and m[3] > m[2] for m in g.merges) for c in anc_cols)
+        if 0 < len(anc) <= 3 and not is_colhdr:
             title_txt += " " + " ".join(anc)
     spilled_titles = set()
     for hr in b["header"]:
@@ -331,4 +336,28 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         for r in nu:
             r["unit"] = "count"; r["unit_inferred"] = True
     infer_percent_types(rows, title_txt)
+    # a distribution or share is a number of parts of a whole; a currency or count unit taken from the table title belongs to the amount columns
+    for r in rows:
+        if r["measure_type"] in ("distribution", "share") and r["unit"] not in ("percent", "percent_or_fraction", "fraction", None, ""):
+            r["unit"] = "percent_or_fraction"
+    # distributions whose parts add up to 1 (not 100) are fractions, whatever the header word says
+    import collections
+    gp = collections.defaultdict(list)
+    for r in rows:
+        if r["measure_type"] == "distribution":
+            gp[(r["block"], r["col_label_ar"], r["col_label_en"], r["period"], (r["row_label_ar"] + "|" + r["row_group"]) if r["col_sub"] else "", r["col_sub"])].append(r)
+    for rs in gp.values():
+        comp = [r for r in rs if not r["is_total_row"]]
+        if len(comp) >= 2 and all(0 <= r["value"] <= 1 for r in comp) and abs(sum(r["value"] for r in comp) - 1) <= 0.015:
+            for r in rs:
+                r["unit"] = "fraction"
+    # reviewed recipes may fix single rows of a mixed-unit table (e.g. a summary table: amount, headcount, ratio in one column)
+    for o in (recipe or {}).get("row_overrides", []) or []:
+        pat = re.compile(o["match"])
+        for r in rows:
+            if (not o.get("sheet") or o["sheet"] == sheet) and pat.search(f"{r['row_label_ar']} {r['row_label_en']}"):
+                for k in ("measure_type", "unit", "scale", "is_total_row"):
+                    if k in o:
+                        r[k] = o[k]
+                r["measure_inferred"] = False; r["unit_inferred"] = False
     return rows, dict(title=title_txt[:200], col_info={str(k): v for k, v in col_info.items()})

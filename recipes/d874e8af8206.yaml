@@ -1,5 +1,5 @@
 fingerprint: d874e8af8206
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913882
   sheet: '2'
@@ -19,4 +19,6 @@ period_sources:
 - publication
 title_sample: '*قطاع التعليم العالي *Higher Education Sector'
 validation_on_first_run: fail
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

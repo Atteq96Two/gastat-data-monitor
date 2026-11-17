@@ -41,3 +41,16 @@ One difference in GASTAT's own file is documented in the test as a source incons
 - Research and Development Statistics 2025 and Producer Price Index September 2026 are quarantined (new layouts), so they have no insights yet.
 - Some column headers still carry a wrong unit text (for example "التنويم" in consumer price sheets 5.x). Phase 4 leaves the unit out of those sentences. The values themselves are not affected.
 - Several tables repeat the same item name in different rows (for example the two "الغاز" rows in sheet 5.x of the consumer price index). The sentence then ends with the table title. A cleaner label needs the table owner's naming and is left for the review round.
+
+## Quarantine resolved (2026-11-17)
+
+Research and Development Statistics 2025 (8 tables) and Producer Price Index September 2026 (9 tables) are ingested; their 17 recipes are marked reviewed and the two quarantine files are removed. All 204,946 stored values in the database were compared with their original Excel cells: 0 differences.
+
+Engine fixes made while resolving it (education regression still 25 of 25 sheets, and re-running the engine on the stored data changed only the datasets named in the run):
+1. A row whose name starts with "*" and that has numbers (for example "*Higher education sector") is data, not a footnote.
+2. Column headers such as "Funding | Percentage distribution" no longer leak into the table title and turn the amount column into a distribution.
+3. A small table with 2 or more values (R&D "expenditure by size") is no longer skipped as navigation. Index and main-menu sheets are skipped by name.
+4. A weight or distribution table where one row is the whole (100 or 1) and the other rows add up to it counts as having a total (Producer Price Index sheet 3.1).
+5. A column headed "change in September 2026 compared with August 2026" now takes September as the period and August as the base (before, the first month found in a fixed list won). Two Average Service Prices tables were stored one month early and are corrected.
+6. Distributions that add up to 1 are stored with unit "fraction", not "percent".
+7. Reviewed recipes can set a unit per row (`row_overrides`). R&D summary sheet 1 mixes an amount (SAR), two head counts and a share of GDP in one column; the share 0.0072 is read as a fraction, because 34.5 billion SAR divided by 0.0072 gives a GDP of about 4.8 trillion SAR, while 0.0072% would imply about 480 trillion.

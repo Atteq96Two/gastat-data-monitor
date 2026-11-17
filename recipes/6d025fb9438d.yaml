@@ -1,5 +1,5 @@
 fingerprint: 6d025fb9438d
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913882
   sheet: '1'
@@ -22,4 +22,31 @@ period_sources:
 title_sample: موجز المؤشرات الإحصائية لإحصاءات البحث والتطوير لعام 2025 Statistical
   Indicators Summary of Research and Development Sta
 validation_on_first_run: fail
-notes: []
+notes:
+- Summary table with one indicator per row, so the unit is set per row (row_overrides).
+  The "Index" column header means "indicator", not a price index.
+- 'Row 4 (R&D spending as a share of GDP) is 0.0072. Read as a fraction (0.72% of
+  GDP): total spending of 34.5 billion SAR divided by 0.0072 gives a GDP of about
+  4.8 trillion SAR, which is the right size. Read as 0.0072% it would imply a GDP
+  of about 480 trillion SAR. Checked 2026-11-17.'
+row_overrides:
+- match: إجمالي الإنفاق في مجال البحث والتطوير
+  measure_type: level
+  unit: SAR
+  scale: 1
+  is_total_row: false
+- match: أعداد المشتغلين
+  measure_type: level
+  unit: count
+  scale: 1
+  is_total_row: false
+- match: أعداد الباحثين
+  measure_type: level
+  unit: count
+  scale: 1
+  is_total_row: false
+- match: كنسبة من الناتج المحلي
+  measure_type: share
+  unit: fraction
+  scale: 1
+  is_total_row: false

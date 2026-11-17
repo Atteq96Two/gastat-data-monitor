@@ -105,7 +105,7 @@
    "is_total": true,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "الرقم القياسي العام | الأرقام القياسية",
-   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from",
    "also_in_tables": [
     "consumer-price-index_1-1",
     "consumer-price-index_1-1",
@@ -447,7 +447,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "الأرقام القياسية Index Numbers / الجوف",
-   "table_title": "سلسلة الأرقام القياسية حسب المنطقة، 2013-2026 Regional Index Series, 2013-2026 2023=100 العام Year الشهر Month الأرقام القياسية Index Numbers",
+   "table_title": "سلسلة الأرقام القياسية حسب المنطقة، 2013-2026 Regional Index Series, 2013-2026 العام Year الشهر Month الأرقام القياسية Index Numbers",
    "id": "27800375-009",
    "headline": true
   },
@@ -458,7 +458,7 @@
    "sheet": "4.1 ",
    "period": "2026-10",
    "measure_type": "index",
-   "unit": "index_base_2023",
+   "unit": "index",
    "unit_ok": true,
    "text_ar": "الأرقام القياسية Index Numbers / الرياض: 108.53 نقطة في أكتوبر 2026، مقابل 108.26 (+0.24%) في سبتمبر 2026، ومقابل 106.25 (+2.14%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
    "text_en": "Riyadh: 108.53 points in October 2026, versus 108.26 (+0.24%) in September 2026, and versus 106.25 (+2.14%) in October 2025, the highest in the available data (since January 2013).",
@@ -496,7 +496,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "الأرقام القياسية Index Numbers / الرياض",
-   "table_title": "سلسلة الأرقام القياسية حسب المنطقة، 2013-2026 Regional Index Series, 2013-2026 2023=100 العام Year الشهر Month الأرقام القياسية Index Numbers",
+   "table_title": "سلسلة الأرقام القياسية حسب المنطقة، 2013-2026 Regional Index Series, 2013-2026 العام Year الشهر Month الأرقام القياسية Index Numbers",
    "id": "27800375-010",
    "headline": true
   },
@@ -507,7 +507,7 @@
    "sheet": "4.1 ",
    "period": "2026-10",
    "measure_type": "index",
-   "unit": "index_base_2023",
+   "unit": "index",
    "unit_ok": true,
    "text_ar": "الأرقام القياسية Index Numbers / المدينة المنورة: 107.78 نقطة في أكتوبر 2026، مقابل 107.53 (+0.23%) في سبتمبر 2026، ومقابل 106.19 (+1.5%) في أكتوبر 2025، وهي الأعلى في البيانات المتاحة (منذ يناير 2013).",
    "text_en": "Madinah: 107.78 points in October 2026, versus 107.53 (+0.23%) in September 2026, and versus 106.19 (+1.5%) in October 2025, the highest in the available data (since January 2013).",
@@ -545,7 +545,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "الأرقام القياسية Index Numbers / المدينة المنورة",
-   "table_title": "سلسلة الأرقام القياسية حسب المنطقة، 2013-2026 Regional Index Series, 2013-2026 2023=100 العام Year الشهر Month الأرقام القياسية Index Numbers",
+   "table_title": "سلسلة الأرقام القياسية حسب المنطقة، 2013-2026 Regional Index Series, 2013-2026 العام Year الشهر Month الأرقام القياسية Index Numbers",
    "id": "27800375-011",
    "headline": false
   },
@@ -803,7 +803,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "حائل",
-   "table_title": "سلسلة معدل التغيّر السنوي حسب المنطقة، 2014-2026 Regional Annual Rate Of Change Series, 2014-2026 2023=100 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
+   "table_title": "سلسلة معدل التغيّر السنوي حسب المنطقة، 2014-2026 Regional Annual Rate Of Change Series, 2014-2026 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
    "id": "27800375-017",
    "headline": false
   },
@@ -850,7 +850,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "الجوف",
-   "table_title": "سلسلة معدل التغيّر الشهري حسب المنطقة، 2013-2026 Regional Monthly Rate Of Change Series, 2013-2026 2023=100 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
+   "table_title": "سلسلة معدل التغيّر الشهري حسب المنطقة، 2013-2026 Regional Monthly Rate Of Change Series, 2013-2026 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
    "id": "27800375-018",
    "headline": false
   },
@@ -897,7 +897,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "الحدود الشمالية",
-   "table_title": "سلسلة معدل التغيّر الشهري حسب المنطقة، 2013-2026 Regional Monthly Rate Of Change Series, 2013-2026 2023=100 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
+   "table_title": "سلسلة معدل التغيّر الشهري حسب المنطقة، 2013-2026 Regional Monthly Rate Of Change Series, 2013-2026 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
    "id": "27800375-019",
    "headline": false
   },
@@ -944,7 +944,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "جازان",
-   "table_title": "سلسلة معدل التغيّر السنوي حسب المنطقة، 2014-2026 Regional Annual Rate Of Change Series, 2014-2026 2023=100 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
+   "table_title": "سلسلة معدل التغيّر السنوي حسب المنطقة، 2014-2026 Regional Annual Rate Of Change Series, 2014-2026 العام Year الشهر Month معدل التغيّر (%) Rate of Change (%)",
    "id": "27800375-020",
    "headline": false
   },
@@ -1040,7 +1040,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "رمان طازج | الأرقام القياسية",
-   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Level",
    "id": "27800375-022",
    "headline": false
   },
@@ -1087,7 +1087,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "برتقال طازج | الأرقام القياسية",
-   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Level",
    "id": "27800375-023",
    "headline": false
   },
@@ -1134,7 +1134,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "التأمين والخدمات المالية | الأرقام القياسية",
-   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from",
    "id": "27800375-024",
    "headline": false
   },
@@ -1181,7 +1181,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "العناية الشخصية والحماية الاجتماعية والسلع والخدمات الأخرى | الأرقام القياسية",
-   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from",
    "id": "27800375-025",
    "headline": false
   },
@@ -1310,7 +1310,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "",
-   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from",
    "id": "27800375-028",
    "headline": false
   },
@@ -1345,7 +1345,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "",
-   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from",
    "id": "27800375-029",
    "headline": false
   },
@@ -1380,7 +1380,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "الأوزان* (%)",
-   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%)",
+   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّرحسب أقسام الإنفاق، أكتوبر 2026م Indices and Rates of Changes Summary by Expenditure Divisions, October 2026 2023=100 Index Numbers Percent Change in October 2026 from",
    "id": "27800375-030",
    "headline": false
   },
@@ -1415,7 +1415,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "",
-   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Level",
    "id": "27800375-031",
    "headline": false
   },
@@ -1450,7 +1450,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "",
-   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Level",
    "id": "27800375-032",
    "headline": false
   },
@@ -1485,7 +1485,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/CPI+Tables-Oct+2026-AR-EN+%281%29.xlsx/98fd3575-4508-bd3d-1a49-f6d0c369d98d",
    "series_label": "الأوزان* (%)",
-   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Weights* (%) Level",
+   "table_title": "الأرقام القياسية ومعدلات التغيّرحسب فئات الإنفاق، أكتوبر 2026م Indices And Rates Of Change By Expenditure Category, October 2026 2023=100 Index Numbers Percent Change in October 2026 from Level",
    "id": "27800375-033",
    "headline": false
   },
@@ -1670,5 +1670,5 @@
  "release_date": "2026-11-15",
  "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
  "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
- "generated_at": "2026-11-17T13:33:13+00:00"
+ "generated_at": "2026-11-17T13:48:18+00:00"
 }

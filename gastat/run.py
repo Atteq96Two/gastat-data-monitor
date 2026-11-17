@@ -6,7 +6,7 @@ from .extract import extract_block
 from .validate import validate_table
 warnings.filterwarnings("ignore")
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-NAV = re.compile(r"^(المحتو|الفهرس|contents?|home|مقدمه|الصفحه الرئيسيه|ملاحظات|notes)", re.I)
+NAV = re.compile(r"^(index|المحتو|الفهرس|القائمه الرئيسيه|contents?|home|مقدمه|الصفحه الرئيسيه|ملاحظات|notes)", re.I)
 
 
 def load_recipe(fp):
@@ -44,7 +44,7 @@ def process(pub, xlsx, strict=False):
         sheet_id = f"{family(pub)}_{slug(ws.title)}"
         infos, c0, blocks = segment(g)
         nnum = sum(len(i["nums"]) for i in infos)
-        if c0 is None or not blocks or nnum < 6 or (NAV.match(norm(ws.title)) and nnum < 40):
+        if c0 is None or not blocks or nnum < 2 or (NAV.match(norm(ws.title)) and nnum < 40):
             tables.append(dict(pub=pub["publication_id"], sheet=ws.title, dataset_id=sheet_id, status="skipped_navigation", checks=[], rows=0))
             continue
         for bi, b in enumerate(blocks):

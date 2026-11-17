@@ -1,5 +1,5 @@
 fingerprint: 6d1d0eff6183
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913882
   sheet: '2'
@@ -22,4 +22,6 @@ period_sources:
 title_sample: التمويل في مجال البحث والتطوير لعام 2025م Research and Development field
   funding for 2025 (بالريال SR) Funding Percentag
 validation_on_first_run: review
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

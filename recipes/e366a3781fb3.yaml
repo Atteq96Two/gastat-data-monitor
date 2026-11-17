@@ -1,0 +1,23 @@
+fingerprint: e366a3781fb3
+status: pending_review
+first_seen:
+  publication_id: 27548335
+  sheet: 5-9
+  release_date: '2026-11-05'
+label_roles:
+- label_ar
+header_level_types:
+- mixed
+value_columns: 1
+measure_types:
+- distribution
+units:
+- percent
+scales:
+- 1
+period_sources:
+- publication
+title_sample: التوزيع النسبي لأبرز خمسة أسباب للحوادث المرورية لعام 2025م سبب الحادث
+  %
+validation_on_first_run: review
+notes: []

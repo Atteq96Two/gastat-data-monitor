@@ -3753,14 +3753,14 @@
    "sheet": "5-10",
    "period": "2025",
    "measure_type": "distribution",
-   "unit": "percent",
+   "unit": "fraction",
    "unit_ok": true,
-   "text_ar": "%: الأعلى بين 6 بنود هو اصطدام مركبة متحركة (0.93%) والأدنى هو انقلاب مركبة (0%) في 2025.",
-   "text_en": "%: Highest of 6 items is اصطدام مركبة متحركة (0.93%), lowest is انقلاب مركبة (0%) in 2025.",
+   "text_ar": "%: الأعلى بين 6 بنود هو اصطدام مركبة متحركة (92.8%) والأدنى هو انقلاب مركبة (0.4%) في 2025.",
+   "text_en": "%: Highest of 6 items is اصطدام مركبة متحركة (92.8%), lowest is انقلاب مركبة (0.4%) in 2025.",
    "numbers": {
     "items": 6,
-    "highest": 0.928,
-    "lowest": 0.004,
+    "highest": 92.8,
+    "lowest": 0.4,
     "period": "2025"
    },
    "evidence": [
@@ -3788,14 +3788,14 @@
    "sheet": "5-4",
    "period": "2025",
    "measure_type": "distribution",
-   "unit": "percent",
+   "unit": "fraction",
    "unit_ok": true,
-   "text_ar": "%: الأعلى بين 5 بنود هو 19-30 (0.34%) والأدنى هو 41-50 (0.13%) في 2025.",
-   "text_en": "%: Highest of 5 items is 19-30 (0.34%), lowest is 41-50 (0.13%) in 2025.",
+   "text_ar": "%: الأعلى بين 5 بنود هو 19-30 (33.51%) والأدنى هو 41-50 (12.92%) في 2025.",
+   "text_en": "%: Highest of 5 items is 19-30 (33.51%), lowest is 41-50 (12.92%) in 2025.",
    "numbers": {
     "items": 5,
-    "highest": 0.3351,
-    "lowest": 0.1292,
+    "highest": 33.51,
+    "lowest": 12.92,
     "period": "2025"
    },
    "evidence": [
@@ -3823,14 +3823,14 @@
    "sheet": "5-5",
    "period": "2025",
    "measure_type": "distribution",
-   "unit": "percent",
+   "unit": "fraction",
    "unit_ok": true,
-   "text_ar": "%: الأعلى بين 7 بنود هو سعودي (0.51%) والأدنى هو هندي (0.04%) في 2025.",
-   "text_en": "%: Highest of 7 items is سعودي (0.51%), lowest is هندي (0.04%) in 2025.",
+   "text_ar": "%: الأعلى بين 7 بنود هو سعودي (51.29%) والأدنى هو هندي (4.12%) في 2025.",
+   "text_en": "%: Highest of 7 items is سعودي (51.29%), lowest is هندي (4.12%) in 2025.",
    "numbers": {
     "items": 7,
-    "highest": 0.5129,
-    "lowest": 0.0412,
+    "highest": 51.29,
+    "lowest": 4.12,
     "period": "2025"
    },
    "evidence": [
@@ -3998,14 +3998,14 @@
    "sheet": "5-8",
    "period": "2025",
    "measure_type": "distribution",
-   "unit": "percent",
+   "unit": "fraction",
    "unit_ok": true,
-   "text_ar": "%: الأعلى بين 7 بنود هو سعودي (0.51%) والأدنى هو بنجلاديشي (0.05%) في 2025.",
-   "text_en": "%: Highest of 7 items is سعودي (0.51%), lowest is بنجلاديشي (0.05%) in 2025.",
+   "text_ar": "%: الأعلى بين 7 بنود هو سعودي (51.4%) والأدنى هو بنجلاديشي (4.8%) في 2025.",
+   "text_en": "%: Highest of 7 items is سعودي (51.4%), lowest is بنجلاديشي (4.8%) in 2025.",
    "numbers": {
     "items": 7,
-    "highest": 0.514,
-    "lowest": 0.048,
+    "highest": 51.4,
+    "lowest": 4.8,
     "period": "2025"
    },
    "evidence": [
@@ -5814,7 +5814,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/%E2%80%8F%E2%80%8FRoad+Transport+Statistics+2025+-+AR+%281%29.xlsx/5f4a03ea-4d9b-8c2c-6dbb-efdd989238b3",
    "series_label": "داخل المدن / عدد الأنفاق",
-   "table_title": "عدد الجسور وجسور المشاة والأنفاق والعبارات داخل المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية داخل المدن عدد الجسور وجسور المشاة عدد الأنفاق عدد العبارات",
+   "table_title": "عدد الجسور وجسور المشاة والأنفاق والعبارات داخل المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية داخل المدن",
    "id": "27548335-163",
    "headline": false
   },
@@ -5849,7 +5849,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/%E2%80%8F%E2%80%8FRoad+Transport+Statistics+2025+-+AR+%281%29.xlsx/5f4a03ea-4d9b-8c2c-6dbb-efdd989238b3",
    "series_label": "داخل المدن / عدد الجسور وجسور المشاة",
-   "table_title": "عدد الجسور وجسور المشاة والأنفاق والعبارات داخل المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية داخل المدن عدد الجسور وجسور المشاة عدد الأنفاق عدد العبارات",
+   "table_title": "عدد الجسور وجسور المشاة والأنفاق والعبارات داخل المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية داخل المدن",
    "id": "27548335-164",
    "headline": false
   },
@@ -5884,7 +5884,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/%E2%80%8F%E2%80%8FRoad+Transport+Statistics+2025+-+AR+%281%29.xlsx/5f4a03ea-4d9b-8c2c-6dbb-efdd989238b3",
    "series_label": "داخل المدن / عدد العبارات",
-   "table_title": "عدد الجسور وجسور المشاة والأنفاق والعبارات داخل المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية داخل المدن عدد الجسور وجسور المشاة عدد الأنفاق عدد العبارات",
+   "table_title": "عدد الجسور وجسور المشاة والأنفاق والعبارات داخل المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية داخل المدن",
    "id": "27548335-165",
    "headline": false
   },
@@ -6374,7 +6374,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/%E2%80%8F%E2%80%8FRoad+Transport+Statistics+2025+-+AR+%281%29.xlsx/5f4a03ea-4d9b-8c2c-6dbb-efdd989238b3",
    "series_label": "بين المدن / عدد الأنفاق",
-   "table_title": "عدد الجسور والأنفاق بين المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية بين المدن عدد الجسور عدد الأنفاق",
+   "table_title": "عدد الجسور والأنفاق بين المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية بين المدن",
    "id": "27548335-179",
    "headline": false
   },
@@ -6409,7 +6409,7 @@
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/%E2%80%8F%E2%80%8FRoad+Transport+Statistics+2025+-+AR+%281%29.xlsx/5f4a03ea-4d9b-8c2c-6dbb-efdd989238b3",
    "series_label": "بين المدن / عدد الجسور",
-   "table_title": "عدد الجسور والأنفاق بين المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية بين المدن عدد الجسور عدد الأنفاق",
+   "table_title": "عدد الجسور والأنفاق بين المدن حسب المنطقة الإدارية حتى نهاية عام 2025م المنطقة الإدارية بين المدن",
    "id": "27548335-180",
    "headline": false
   },
@@ -6559,5 +6559,5 @@
  "release_date": "2026-11-05",
  "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
  "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
- "generated_at": "2026-11-17T13:33:19+00:00"
+ "generated_at": "2026-11-17T13:48:24+00:00"
 }

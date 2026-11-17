@@ -1,5 +1,5 @@
 fingerprint: f15eca270366
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913795
   sheet: '3.1'
@@ -27,4 +27,6 @@ period_sources:
 title_sample: الأرقام القياسية ومعدلات التغيّر حسب الأنشطة النفطية وغير النفطية Indices
   and Rates of Change by Oil and Non-Oil Activit
 validation_on_first_run: review
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

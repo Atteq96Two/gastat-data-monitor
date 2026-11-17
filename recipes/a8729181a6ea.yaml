@@ -1,5 +1,5 @@
 fingerprint: a8729181a6ea
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913795
   sheet: '1.1'
@@ -30,4 +30,6 @@ period_sources:
 title_sample: 'ملخص الأرقام القياسية ومعدلات التغيّر للرقم القياسي لأسعار المنتجين
   Summary of Producer Price Index Indices and Rate of '
 validation_on_first_run: pass
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

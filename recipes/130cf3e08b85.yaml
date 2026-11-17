@@ -1,5 +1,5 @@
 fingerprint: 130cf3e08b85
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913882
   sheet: '5'
@@ -23,4 +23,6 @@ period_sources:
 title_sample: إجمالي أعداد الباحثين في مجال البحث والتطوير حسب القطاع لعام 2025م Total
   Number of Researchers in Research and Developme
 validation_on_first_run: review
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

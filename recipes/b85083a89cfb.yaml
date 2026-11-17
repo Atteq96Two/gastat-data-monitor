@@ -1,5 +1,5 @@
 fingerprint: b85083a89cfb
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913795
   sheet: '2.4'
@@ -25,4 +25,6 @@ period_sources:
 title_sample: 'سلسلة التغيّر الشهري حسب التصنيف الصناعي الدولي الموحَّد للأنشطة الاقتصادية
   (ISIC) The monthly percentage change on the '
 validation_on_first_run: pass
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

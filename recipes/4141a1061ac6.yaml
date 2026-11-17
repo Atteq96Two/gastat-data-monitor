@@ -1,5 +1,5 @@
 fingerprint: 4141a1061ac6
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913882
   sheet: '3'
@@ -22,4 +22,6 @@ period_sources:
 title_sample: الإنفاق في مجال البحث والتطوير حسب القطاع لعام 2025م Research and Development
   field expenditure by sector for 2025 (بالر
 validation_on_first_run: review
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

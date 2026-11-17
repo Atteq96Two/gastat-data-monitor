@@ -1,5 +1,5 @@
 fingerprint: 19718dfe2a97
-status: pending_review
+status: reviewed
 first_seen:
   publication_id: 27913795
   sheet: '3.2'
@@ -25,4 +25,6 @@ period_sources:
 title_sample: سلسلة الأرقام القياسية حسب الأنشطة النفطية وغير النفطية Index Series
   by Oil and Non-Oil Activities 100=2023
 validation_on_first_run: pass
-notes: []
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

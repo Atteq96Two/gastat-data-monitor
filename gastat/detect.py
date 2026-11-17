@@ -31,7 +31,7 @@ def _row_info(g, r):
     first = next((c for c, k in enumerate(ks) if k != "empty"), None)
     text = [clean(g.cells[r][c]) for c, k in enumerate(ks) if k == "text"]
     return dict(ks=ks, nums=nums, yearish=yearish, first=first, empty=first is None,
-                foot=bool(text) and bool(FOOT.match(norm(text[0]))) and ks[first] == "text",
+                foot=bool(text) and bool(FOOT.match(norm(text[0]))) and ks[first] == "text" and not nums,   # a "*Higher education" row with numbers is data, not a footnote
                 dates=[c for c, k in enumerate(ks) if k == "date"],
                 distinct=len({clean(g.cells[r][c]) if k != "date" else str(g.cells[r][c]) for c, k in enumerate(ks) if k != "empty"}))
 

@@ -274,8 +274,8 @@ def cross_section(members, dataset_id):
         return None
     r0 = ms[0]
     same = norm(hi["row_label_ar"]) == norm(lo["row_label_ar"]) and norm(hi["row_label_en"]) == norm(lo["row_label_en"])
-    lab_ar = lambda r: (r["row_label_ar"] or r["row_label_en"] or r["row_code"]) + (f" [{r['row_code']}]" if same and r["row_code"] else "")  # noqa: E731
-    lab_en = lambda r: (r["row_label_en"] or r["row_label_ar"] or r["row_code"]) + (f" [{r['row_code']}]" if same and r["row_code"] else "")  # noqa: E731
+    lab_ar = lambda r: (r["row_label_ar"] or r["row_label_en"] or r["row_code"]).lstrip("*") + (f" [{r['row_code']}]" if same and r["row_code"] else "")  # noqa: E731
+    lab_en = lambda r: (r["row_label_en"] or r["row_label_ar"] or r["row_code"]).lstrip("*") + (f" [{r['row_code']}]" if same and r["row_code"] else "")  # noqa: E731
     ctx_ar = " | ".join(x for x in (r0["row_group"], r0["col_label_ar"] if r0["measure_type"] != "rate" else "", r0["col_sub"]) if x)
     ctx_en = " | ".join(x for x in (r0["row_group"], (r0["col_label_en"] or r0["col_label_ar"]) if r0["measure_type"] != "rate" else "", r0["col_sub"]) if x)
     pre_ar = (ctx_ar + ": ") if ctx_ar else ""

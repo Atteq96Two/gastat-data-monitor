@@ -53,6 +53,9 @@ def validate_table(rows, skip=()):
             sm = sum(r["value"] for r in comp)
             if all(0 <= r["value"] <= 1 for r in comp) and abs(sm - 1) <= 0.015:
                 continue  # shares stored as fractions of 1
+            top = max(comp, key=lambda r: r["value"])
+            if not tot and abs(top["value"] - (sm - top["value"])) <= 0.015 * max(1.0, top["value"]) and (abs(top["value"] - 100) < 0.5 or abs(top["value"] - 1) < 0.006):
+                continue  # one row is the whole (100 or 1) and the other rows add up to it: a total row without a "total" label
             if abs(sm - 100) > 1.5 and not (tot and abs(tot[0]["value"] - 100) < 0.5 and abs(sm - 100) <= 2.5):
                 dist_fail.append(f"{key[1] or key[2]}|{key[3]}: sums to {sm:.1f}")
         elif mt == "percentage":
