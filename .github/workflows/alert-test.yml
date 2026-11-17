@@ -1,0 +1,14 @@
+name: alert-test
+# Manual: sends one test email to confirm the alert path works.
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send test alert
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: 'python3 gastat/alert.py "Test alert" "This is a test. If you can read it, alerts from the GASTAT monitor work."'
