@@ -11,14 +11,14 @@ The same files are served by the Vercel site under `/data/` (series and catalog)
 
 | File | Use |
 |---|---|
-| `catalog/catalog.json` | One entry per stored table (244 today): title (Arabic and English), release it came from, `release_date`, `frequency`, `first_period`, `last_period`, units, `keywords` (first 30 item names), `freshness` (`status`, `last_release`, `expected_next`, `calendar_next`), download links. Read `generated_at` and `coverage` first. |
+| `catalog/catalog.json` | One entry per stored table (40 today): title (Arabic and English), release it came from, `release_date`, `frequency`, `first_period`, `last_period`, units, `keywords` (first 30 item names), `freshness` (`status`, `last_release`, `expected_next`, `calendar_next`), download links. Read `generated_at` and `coverage` first. |
 | `catalog/search_index.json` | Every item name of every table, for keyword matching: `labels[dataset_id] = [names]`. |
 | `web/data/series/<dataset_id>.json` | The numbers. `periods` (sorted), `sheet`, and `series[]`, each with `label`, `label_en`, `measure` (index, level, rate, share, weight, distribution...), `unit`, `unit_text`, `unit_ok`, `base` (comparison period of a published rate), `values` (aligned with `periods`, `null` = none) and `cells` (the cell in GASTAT's Excel file for each value, `R9C48`; the sheet is `sheet`). |
 | `data/<domain>/<dataset_id>.parquet` or `.csv` | The full tidy table, if you need every column (period, unit, scale, source cell, release date). |
 | `catalog/insights/<publication_id>.json` | Computed headline numbers of a release (useful for "what is new" stories, not needed for verdicts). |
 | `registry/revisions.jsonl` | Every value GASTAT changed after publishing it (old value, new value). Check it when a verdict is old. |
 
-**Coverage today:** releases published from 2026-11-01. Earlier releases (January to October 2026) are registered as titles only until the backfill is approved. A claim about an older period gets `insufficient_data`, never a guess.
+**Coverage today:** monthly and quarterly economic releases published from 2026-11-01 (annual, environment and social reports are out of scope by the owner's decision). Earlier releases (January to October 2026) are registered as titles only until the backfill is approved. A claim about an older period gets `insufficient_data`, never a guess.
 
 ## 2. The four verdicts
 

@@ -37,13 +37,7 @@
      "sha256": "00c9c55c9e3658cce78ccfb81e7f16e02e1d1b222e304211bcd389a1bd1aa198"
     }
    ],
-   "status": "processed",
-   "processed_at": "2026-11-17T07:53:07+00:00",
-   "tables": {
-    "pass": 8
-   },
-   "values_added": 0,
-   "values_revised": 0
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27913795,
@@ -124,14 +118,7 @@
      "version": "version=1.0&t=1794826685099"
     }
    ],
-   "status": "processed",
-   "processed_at": "2026-11-17T07:53:42+00:00",
-   "tables": {
-    "skipped_navigation": 1,
-    "pass": 56
-   },
-   "values_added": 0,
-   "values_revised": 14
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27800375,
@@ -359,8 +346,7 @@
      "version": "version=1.0&t=1793612637289"
     }
    ],
-   "status": "processed",
-   "processed_at": "2026-11-17T00:00:00+00:00"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27489192,
@@ -397,8 +383,7 @@
      "version": "version=1.0&t=1793467263793"
     }
    ],
-   "status": "processed",
-   "processed_at": "2026-11-17T00:00:00+00:00"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27489085,
@@ -472,7 +457,8 @@
      "sha256": null,
      "version": "version=1.0&t=1793201777881"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27354142,
@@ -508,7 +494,8 @@
      "sha256": null,
      "version": "version=1.0&t=1793179168194"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27323688,
@@ -545,7 +532,8 @@
      "sha256": null,
      "version": "version=1.0&t=1793079551179"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27296158,
@@ -581,7 +569,8 @@
      "sha256": null,
      "version": "version=1.0&t=1793019930823"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27267531,
@@ -681,7 +670,8 @@
      "sha256": null,
      "version": "version=1.0&t=1792602662318"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 26467767,
@@ -754,7 +744,8 @@
      "sha256": null,
      "version": "version=1.0&t=1792520425643"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 25731951,
@@ -863,7 +854,8 @@
      "sha256": null,
      "version": "version=1.0&t=1792310691805"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 24383380,
@@ -899,7 +891,8 @@
      "sha256": null,
      "version": "version=1.0&t=1792043135610"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 24371752,
@@ -1071,7 +1064,8 @@
      "sha256": null,
      "version": "version=1.0&t=1791882999270"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 22095459,
@@ -1170,7 +1164,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Register-based+Labour+Market+Statistics-+Q2+2026+AR.xlsx/904ca727-c1ac-a4e0-f496-91d023e3be26",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 21717806,
@@ -1203,7 +1198,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Labor+Market+Statistics+Q2+2026+AR+%282%29.xlsx/5c6df9fc-d491-598a-6fd3-acc335267279",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 21717735,
@@ -1237,7 +1233,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/CCI.2026_Q2+%282%29.xlsx/2453399e-77aa-c671-4e00-5328d8c0c1be",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 21717650,
@@ -1306,7 +1303,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q2+of+2026+AR+%281%29.xlsx/8d39be76-e3c8-475f-6539-2f3570aa4144",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 21688140,
@@ -1504,7 +1502,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Maritime+Transport+Statistics+2025+AR.xlsx/30dc43c5-7a82-254e-72c7-8db1839e79cb",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 21048769,
@@ -1879,7 +1878,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Umrah+Statistics+Q1+2026-AR.xlsx/259313ff-0510-cd35-7ad5-8191e3d66549",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 20535839,
@@ -2152,7 +2152,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/%E2%80%8F%E2%80%8FOil+and+Gas+Statistics+2025+AR.xlsx/4526cffc-e5da-7416-2e57-6f10d1c05d1f",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 20238261,
@@ -2187,7 +2188,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Renewable+Energy+Statistics+2025+AR.xlsx/bddfc607-9743-7ddb-1cee-8c805b413a06",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 19811182,
@@ -2562,7 +2564,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 19083256,
@@ -2597,7 +2600,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435259/Fisheries+and+Aquaculture+Statistics+2025+AR.xlsx/53ea7bac-e7cc-4082-dcf4-780b26563cdb",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 19079046,
@@ -2665,7 +2669,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/CCI.2026_Q1.xlsx/313df58e-0a35-74bd-9448-f391b3353931",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 19078556,
@@ -2692,7 +2697,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Register-based+Labour+Market+Statistics-+Q1+2026+AR+%281%29.xlsx/da3673dc-1a52-1166-2641-3ac119ccf8d1",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 19078515,
@@ -2725,7 +2731,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Labor+Market+Statistics+Q1+2026+AR.xlsx/1206d299-be48-2760-7707-3021b4e1037e",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 19062214,
@@ -2759,7 +2766,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Statistically+tables+for+safety+indicators+2025-AR.xlsx/c8c80668-b78c-3e76-1d5f-1884a88eee30",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 19062147,
@@ -2861,7 +2869,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Disability+Statistics+Publication%2C+2025.xlsx/3762a3c3-7106-f413-bae9-17d8b63cda3f",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 15458309,
@@ -2929,7 +2938,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Annual_IPI_%282%29.xlsx_fixed_15458707/5dffc939-5176-3a80-51d4-a326e860e47a",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 15403099,
@@ -3133,7 +3143,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Establishments_ICT_Access_and_Usage_Statistics_2025-AR-EN_.xlsx_fixed_15232325/fb431f10-fc4b-ba64-c973-9f07ac5b9aa1",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 15232087,
@@ -3168,7 +3179,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435245/Umrah+Statistics+for+Q4+of+2025+AR%29.xlsx/02837d28-2d36-9c44-2e40-8ce9648ada2c",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 15125564,
@@ -3203,7 +3215,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Agriculture_Census_2023-AR_%281%29.xlsx_fixed_15125531/abdf3966-0818-4ba5-47e5-f40954c9e273",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 15122475,
@@ -3306,7 +3319,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Hajj_Statistics_2026_AR.xlsx_fixed_15032733/cb624ce2-8661-0e2c-625a-470d91305a32",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 14796623,
@@ -3374,7 +3388,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_2025_%281%29.xlsx_fixed_14796541/804bc0cc-2cdb-5f86-aa3f-40ba44d213b9",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 14560742,
@@ -3408,7 +3423,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Housing_Statistics_Bulletin_2025.xlsx_fixed_14560619/8fdd540e-0a99-25a0-2a16-6442916fb5b8",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 14528895,
@@ -3545,7 +3561,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Air_Transport_Statistics_table_2025-AR_%281%29.xlsx_fixed_14440740/1cf96359-3334-24df-c19c-9cfbd7d1d92b",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 14330834,
@@ -3783,7 +3800,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Safety+Statistics+2025+AR+%281%29.xlsx/7a0c7273-a5df-9d09-9f30-e0a60c1074e2",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 13769871,
@@ -4090,7 +4108,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Climate+Change+Statistics+2024+AR.xlsx/f7712ecc-31bb-8195-6d63-799a9c91f822",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 13496398,
@@ -4124,7 +4143,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Household_Culture_and_Entertainment_Statistics_2025_-AR-EN.xlsx_fixed_13496363/53c7c3df-896b-06af-c946-f46e64e6c1be",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 13419798,
@@ -4159,7 +4179,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism_Establishments_Statistics_Q4_of_2025_AR.xlsx_fixed_13419743/ebec0a23-2729-6e5b-2668-f714c6ec27c5",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 13333530,
@@ -4260,7 +4281,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Labor_Market_Statistics_Q4_2025_AR_%281%29.xlsx_fixed_13014526/880e1667-8d01-231d-0529-32a9a0fc9176",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 13014538,
@@ -4287,7 +4309,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Register-based_Labour_Market_Statistics-_Q4_2025_AR.xlsx_fixed_13014495/d0ae4cc6-1a99-8665-21f3-c9aa4cf7dead",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 12987350,
@@ -4627,7 +4650,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Volunteer_Work_Statistics_2025_AR.xlsx_fixed_12393981/53d4b554-d596-0907-6528-e98075ec1a87",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 12356867,
@@ -4730,7 +4754,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Umrah_Statistics_for_Q3_of_2025-AR_%281%29.xlsx_fixed_12207613/f628e1ec-3463-7287-f1b6-821a6e70aeb2",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 11995417,
@@ -5206,7 +5231,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Time_Series_Of_Average_prices_of_Goods_and_Services_in_the_kingdom_2009_-_2025.xlsx_fixed_10927661/9ea98999-1f6b-7df8-cd0e-8b42c09547ea",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 10927612,
@@ -5240,7 +5266,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/The_annual_average_rate_of_change_for_some_construction_products_in_the_kingdom_in_the_period.xlsx_fixed_10927589/95d9d477-beba-f274-b4f9-f909e40d6ca2",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 10899515,
@@ -5274,7 +5301,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Tables_of_annual_average_Consumer_Price_Index_2025_AR_EN_%281%29.xlsx_fixed_10899421/5a0e5cca-72d7-52d2-f0c2-a098f1d22ee3",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 10899444,
@@ -5308,7 +5336,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Tables_of_annual_average_wholesale_price_tables_for_2025_AR-EN_%281%29.xlsx_fixed_10899400/40d3ae82-73f7-1112-4256-66239c53756a",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 10899363,
@@ -5580,7 +5609,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Adult_Skills_and_Learning_Statistics_2025_AR.xlsx_fixed_10556806/154b5ee9-94a8-184f-f1b9-5277c395dbc3",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 10556774,
@@ -5615,7 +5645,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism_Establishments_Statistics_Q3_of_2025_AR_%281%29.xlsx_fixed_10556719/a73d7d10-8b33-1a13-2c14-96061f657d37",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 10556691,
@@ -5649,7 +5680,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Education_and_Training_Statistics_2025_AR_%281%29.xlsx_fixed_10556647/ee00d2d7-b57e-c42e-85f3-e0f573516b9c",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 10556615,
@@ -5717,7 +5749,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ICT_Access_and_Usage_Statistics_for_Households_and_Individuals_2025_%281%29.xlsx_fixed_10470280/bf4c31e4-22a9-d929-1407-b476596e3f24",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   }
  ]
 }

@@ -1,24 +1,8 @@
 {
  "verified_at": "2026-11-17T14:15:27+00:00",
  "publications": {
-  "27830257": {
-   "checked": 3306,
-   "different": 0
-  },
-  "27548335": {
-   "checked": 20738,
-   "different": 0
-  },
-  "27489192": {
-   "checked": 985,
-   "different": 0
-  },
   "27800375": {
    "checked": 99638,
-   "different": 0
-  },
-  "27913882": {
-   "checked": 55,
    "different": 0
   },
   "27913795": {
@@ -46,6 +30,6 @@
    "different": 0
   }
  },
- "total_checked": 204946,
+ "total_checked": 179862,
  "total_different": 0
 }

@@ -22,6 +22,16 @@ CAL_URL = ("https://www.stats.gov.sa/o/headless-delivery/v1.0/content-structures
            "?fields=contentFields,id,friendlyUrlPath,title&pageSize=100&page=1&sort=contentFields/releaseDate:asc"
            "&restrictFields=actions,keywords&filter=contentFields/releaseDate%20ge%20{since}")
 GO_LIVE_FROM = "2026-11-01"       # pilot scope: publications released from this date are ingested; older ones stay metadata-only until backfill is approved
+# Scope decided by the owner (Nov 2026): economic statistics only, monthly and quarterly only.
+# Annual economic reports and every environment/social report are registered as metadata, never ingested.
+SCOPE_DOMAINS = {"economic"}
+SCOPE_FREQUENCIES = {"monthly", "quarterly"}
+
+
+def in_scope(p):
+    return p.get("domain_id") in SCOPE_DOMAINS and p.get("frequency") in SCOPE_FREQUENCIES
+
+
 REG = ROOT / "registry" / "publications.json"
 CAL = ROOT / "registry" / "calendar.json"
 
@@ -129,7 +139,7 @@ def poll(dry_run=False):
                         for k2 in ("url", "version", "name"): o[k2] = f[k2]
             for k in ("title_ar", "title_en"): old[k] = rec[k] or old.get(k)
     todo = [pid for pid in set(new_ids) | {p for p, v in pubs.items() if v.get("status") in ("failed", "new")}
-            if pubs[pid]["release_date"] >= GO_LIVE_FROM]
+            if pubs[pid]["release_date"] >= GO_LIVE_FROM and in_scope(pubs[pid])]
     for pid in sorted(todo):
         p = pubs[pid]
         xl = next((f for f in p["files"] if f["type"] == "xlsx"), None)
