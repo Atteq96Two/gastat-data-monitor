@@ -7,7 +7,7 @@ This repository does **not** change the News Tracker. It only publishes files th
 ## 1. What to read
 
 Base URL (always the latest committed version): `https://raw.githubusercontent.com/Atteq96Two/gastat-data-monitor/main/`
-The same files are served by the Vercel site under `/data/` (series and catalog) if you prefer that host.
+The same files are served by the Vercel site (`https://gastat-data-monitor-web.vercel.app`) under `/data/` (series and catalog) if you prefer that host.
 
 | File | Use |
 |---|---|
