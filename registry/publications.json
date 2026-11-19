@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T08:00:58+00:00",
+ "generated_at": "2026-11-19T02:33:07+00:00",
  "count": 166,
  "publications": [
   {
@@ -232,7 +232,14 @@
     }
    ],
    "status": "processed",
-   "processed_at": "2026-11-17T00:00:00+00:00"
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 795,
+   "values_revised": 0
   },
   {
    "publication_id": 27743334,
@@ -421,7 +428,13 @@
     }
    ],
    "status": "processed",
-   "processed_at": "2026-11-17T00:00:00+00:00"
+   "seed": true,
+   "processed_at": "2026-11-19T02:21:28+00:00",
+   "tables": {
+    "pass": 4
+   },
+   "values_added": 264,
+   "values_revised": 0
   },
   {
    "publication_id": 27407577,
@@ -495,7 +508,7 @@
      "version": "version=1.0&t=1793179168194"
     }
    ],
-   "status": "out_of_scope"
+   "status": "phase2"
   },
   {
    "publication_id": 27323688,
@@ -707,7 +720,8 @@
      "sha256": null,
      "version": "version=1.0&t=1792601418722"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 26174353,
@@ -781,7 +795,8 @@
      "sha256": null,
      "version": "version=1.0&t=1792421217710"
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 25605129,
@@ -997,10 +1012,19 @@
      "name": "APGSTables-Sep2026-AR-EN.xlsx",
      "size_bytes": 192722,
      "url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
-     "sha256": null,
+     "sha256": "e564f335139a1187a444d4a70761b2817b080867e344b1339121c00d3a4e793d",
      "version": "version=1.0&t=1791968250207"
     }
-   ]
+   ],
+   "status": "processed",
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 782,
+   "values_revised": 0
   },
   {
    "publication_id": 23852109,
@@ -1165,7 +1189,7 @@
      "sha256": null
     }
    ],
-   "status": "out_of_scope"
+   "status": "phase2"
   },
   {
    "publication_id": 21717806,
@@ -1198,8 +1222,7 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Labor+Market+Statistics+Q2+2026+AR+%282%29.xlsx/5c6df9fc-d491-598a-6fd3-acc335267279",
      "sha256": null
     }
-   ],
-   "status": "out_of_scope"
+   ]
   },
   {
    "publication_id": 21717735,
@@ -1233,8 +1256,7 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/CCI.2026_Q2+%282%29.xlsx/2453399e-77aa-c671-4e00-5328d8c0c1be",
      "sha256": null
     }
-   ],
-   "status": "out_of_scope"
+   ]
   },
   {
    "publication_id": 21717650,
@@ -1303,8 +1325,7 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q2+of+2026+AR+%281%29.xlsx/8d39be76-e3c8-475f-6539-2f3570aa4144",
      "sha256": null
     }
-   ],
-   "status": "out_of_scope"
+   ]
   },
   {
    "publication_id": 21688140,
@@ -1338,7 +1359,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/International+Trade+in+Services+Q2+2026.xlsx/c945d607-8a57-e2c1-2430-e3c9abed1685",
      "sha256": null
     }
-   ]
+   ],
+   "status": "phase2"
   },
   {
    "publication_id": 21454941,
@@ -1433,7 +1455,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI-Aug+2026-AR-EN+%281%29.xlsx/0d117668-27f5-a5dc-2438-9e13add86f4c",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 21249613,
@@ -1467,7 +1490,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS+July+2026+%281%29.xlsx/c1de24ac-f062-49f4-b011-11762a6c3cd1",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 21138416,
@@ -1637,9 +1661,18 @@
      "name": "APGSTables-Aug2026 AR-EN.xlsx",
      "size_bytes": 192751,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGSTables-Aug2026+AR-EN.xlsx/c251d8df-d0ca-121a-7aba-98ebf2de0fe0",
-     "sha256": null
+     "sha256": "2e0cfb68c4f927a5cba0a110e7d11ab968f58fc1a15d02d65754b2d5fc2f6bc6"
     }
-   ]
+   ],
+   "status": "processed",
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 780,
+   "values_revised": 0
   },
   {
    "publication_id": 20851432,
@@ -1775,7 +1808,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Wholesale+and+Retail+Trade+Statistics-+Q2+-2026+AR-EN+%281%29.xlsx/d8724789-c443-ef79-c980-c99d94f605ce",
      "sha256": null
     }
-   ]
+   ],
+   "status": "phase2"
   },
   {
    "publication_id": 20573115,
@@ -1843,7 +1877,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435259/CCI-Jul+2026-AR-EN.xlsx/31900b70-800f-a99f-2faa-d4135560b1c2",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 20540505,
@@ -1879,7 +1914,7 @@
      "sha256": null
     }
    ],
-   "status": "out_of_scope"
+   "status": "phase2"
   },
   {
    "publication_id": 20535839,
@@ -1913,7 +1948,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS+June+2026+%281%29.xlsx/672bd761-8702-ff3b-506f-b8d82b348fd9",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 20479910,
@@ -2047,9 +2083,18 @@
      "name": "APGSTables-Jul2026-AR-EN (1).xlsx",
      "size_bytes": 190545,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGSTables-Jul2026-AR-EN+%281%29.xlsx/9632d632-2d2a-3a87-8554-1cf752d13bcf",
-     "sha256": null
+     "sha256": "6f367b9ee4534cc2e5cbdd7f45f44017d47f668fb0adfa2d11c5e63efe21c0d0"
     }
-   ]
+   ],
+   "status": "processed",
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 776,
+   "values_revised": 0
   },
   {
    "publication_id": 20412620,
@@ -2257,7 +2302,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI-Jun+2026-AR-EN+%282%29.xlsx/90dd4414-4c27-de5a-7a71-ccd3f5ac5934",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 19693813,
@@ -2325,7 +2371,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS+May+2026+%281%29.xlsx/99fffaaa-ca1e-03e0-29ca-704ef0a3a7d8",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 19550309,
@@ -2391,9 +2438,18 @@
      "name": "APGSTables-Jun2026-AR-EN (1).xlsx",
      "size_bytes": 191243,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGSTables-Jun2026-AR-EN+%281%29.xlsx/143dae4e-1685-e5d7-9ba6-5ce39a17d47c",
-     "sha256": null
+     "sha256": "ac7db9e5eba8fb929741b0e43bfa77b59f885669cd17923674a9ada003a52a4c"
     }
-   ]
+   ],
+   "status": "processed",
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 771,
+   "values_revised": 0
   },
   {
    "publication_id": 19522244,
@@ -2564,8 +2620,7 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
      "sha256": null
     }
-   ],
-   "status": "out_of_scope"
+   ]
   },
   {
    "publication_id": 19083256,
@@ -2669,8 +2724,7 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/CCI.2026_Q1.xlsx/313df58e-0a35-74bd-9448-f391b3353931",
      "sha256": null
     }
-   ],
-   "status": "out_of_scope"
+   ]
   },
   {
    "publication_id": 19078556,
@@ -2698,7 +2752,7 @@
      "sha256": null
     }
    ],
-   "status": "out_of_scope"
+   "status": "phase2"
   },
   {
    "publication_id": 19078515,
@@ -2731,8 +2785,7 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Labor+Market+Statistics+Q1+2026+AR.xlsx/1206d299-be48-2760-7707-3021b4e1037e",
      "sha256": null
     }
-   ],
-   "status": "out_of_scope"
+   ]
   },
   {
    "publication_id": 19062214,
@@ -2801,7 +2854,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/International+Trade+in+Services+Q1+2026.xlsx/bfa2d796-921f-5df9-0bb7-d2093d24eafb",
      "sha256": null
     }
-   ]
+   ],
+   "status": "phase2"
   },
   {
    "publication_id": 16922435,
@@ -2904,7 +2958,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI-May_2026-AR-EN.xlsx_fixed_15458286/0adf5e63-50b2-f582-b568-ddbb32d4d469",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 15458252,
@@ -2973,7 +3028,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS_Apr_2026_%281%29.xlsx_fixed_15403076/226ccc2a-0d6d-5f2d-6f27-dec46fb0ccbd",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 15261692,
@@ -3107,9 +3163,18 @@
      "name": "APGS_Tables-May2026-AR-EN.xlsx_fixed_15261430",
      "size_bytes": 191083,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGS_Tables-May2026-AR-EN.xlsx_fixed_15261430/ad0c18ad-1e5b-bcd9-1fe5-2bd11cb20b53",
-     "sha256": null
+     "sha256": "a65b74abbf67d87e6f2238a9c983a38b267971c2ed8917b1306cfca199074d1a"
     }
-   ]
+   ],
+   "status": "processed",
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 761,
+   "values_revised": 0
   },
   {
    "publication_id": 15232383,
@@ -3180,7 +3245,7 @@
      "sha256": null
     }
    ],
-   "status": "out_of_scope"
+   "status": "phase2"
   },
   {
    "publication_id": 15125564,
@@ -3354,7 +3419,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Wholesale_and_Retail_Trade_Statistics-_Q1_-2026_AR-EN_%281%29.xlsx_fixed_14796600/a906b3ac-0175-4a29-7561-f2f66dbbf65d",
      "sha256": null
     }
-   ]
+   ],
+   "status": "phase2"
   },
   {
    "publication_id": 14796564,
@@ -3492,7 +3558,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI_Apr_2026-AR-EN_%281%29.xlsx_fixed_14496305/de8ea2b0-b943-f0cc-90dc-673b7da23063",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 14496401,
@@ -3526,7 +3593,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/0/STS_Mar_2026.xlsx_fixed_14496376/579161a5-1e8a-6a73-5905-fe84821fa8f9",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 14440778,
@@ -3628,9 +3696,18 @@
      "name": "APGSTables-Apr2026-AR-EN_(1).xlsx_fixed_14328565",
      "size_bytes": 190996,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGSTables-Apr2026-AR-EN_%281%29.xlsx_fixed_14328565/04d01565-6926-1689-9b56-60b3072bf4a3",
-     "sha256": null
+     "sha256": "2fd72af0a80337d20ad786a4591e7b95daa732c61a7772d2ebe27d1dbcfbd67a"
     }
-   ]
+   ],
+   "status": "processed",
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 753,
+   "values_revised": 0
   },
   {
    "publication_id": 14296461,
@@ -3869,7 +3946,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI_Mar_2026-AR-EN_%283%29.xlsx_fixed_13740119/f87e000b-d917-3fb2-cf5b-7e91863cb805",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 13593114,
@@ -3903,7 +3981,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS_Feb_2026_%281%29.xlsx_fixed_13593091/da8355a8-812d-5c94-ea52-32bb4ade7228",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 13592952,
@@ -4003,9 +4082,18 @@
      "name": "APGSTables-Mar2026-AR-EN_(1).xlsx_fixed_13529715",
      "size_bytes": 190635,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGSTables-Mar2026-AR-EN_%281%29.xlsx_fixed_13529715/88b77640-d7b0-ec17-480e-3f1e6ea1f1ae",
-     "sha256": null
+     "sha256": "49f17fbaaab6424c1a7a39170e0233324af1ea4ef9706a13a2b557746bed31a2"
     }
-   ]
+   ],
+   "status": "processed",
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 745,
+   "values_revised": 0
   },
   {
    "publication_id": 13525671,
@@ -4179,8 +4267,7 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism_Establishments_Statistics_Q4_of_2025_AR.xlsx_fixed_13419743/ebec0a23-2729-6e5b-2668-f714c6ec27c5",
      "sha256": null
     }
-   ],
-   "status": "out_of_scope"
+   ]
   },
   {
    "publication_id": 13333530,
@@ -4281,8 +4368,7 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Labor_Market_Statistics_Q4_2025_AR_%281%29.xlsx_fixed_13014526/880e1667-8d01-231d-0529-32a9a0fc9176",
      "sha256": null
     }
-   ],
-   "status": "out_of_scope"
+   ]
   },
   {
    "publication_id": 13014538,
@@ -4310,7 +4396,7 @@
      "sha256": null
     }
    ],
-   "status": "out_of_scope"
+   "status": "phase2"
   },
   {
    "publication_id": 12987350,
@@ -4378,7 +4464,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/International+Trade+in+Services+Q4+2025.xlsx/7f6a142d-be75-5978-c2eb-a6adeb182ee9",
      "sha256": null
     }
-   ]
+   ],
+   "status": "phase2"
   },
   {
    "publication_id": 12851950,
@@ -4446,7 +4533,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS_Jan_2026_%281%29.xlsx_fixed_12820767/feb2e639-7fdf-021c-8cf0-13e1266f8c9c",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 12690882,
@@ -4480,7 +4568,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI_Feb_2026-AR-EN_%282%29.xlsx_fixed_12690859/3528374b-709a-c737-ee43-ee34c52848ce",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 12555629,
@@ -4614,9 +4703,18 @@
      "name": "APGSTables-Feb2026-AR-EN_(1).xlsx_fixed_12528104",
      "size_bytes": 191432,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGSTables-Feb2026-AR-EN_%281%29.xlsx_fixed_12528104/9a6a0a94-ef68-202f-e9c4-57b541b642a8",
-     "sha256": null
+     "sha256": "1d8c592090f919dd8b2f6dffc8c3e3047b7fa6fcfa0986ca1f7b5d6cc4f1088f"
     }
-   ]
+   ],
+   "status": "processed",
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 749,
+   "values_revised": 0
   },
   {
    "publication_id": 12394020,
@@ -4755,7 +4853,7 @@
      "sha256": null
     }
    ],
-   "status": "out_of_scope"
+   "status": "phase2"
   },
   {
    "publication_id": 11995417,
@@ -4789,7 +4887,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Wholesale_and_Retail_Trade_Statistics-_Q4_-2025_AR-EN_%281%29.xlsx_fixed_11995394/fc5dbdef-8f3c-2332-c6e7-fc1f0a68defd",
      "sha256": null
     }
-   ]
+   ],
+   "status": "phase2"
   },
   {
    "publication_id": 11961440,
@@ -4823,7 +4922,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Q4_-2025.xlsx_fixed_11961395/1fe2e70e-8c8b-632a-950f-80604bf6b25d",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 11961259,
@@ -4891,7 +4991,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS_Dec_2025_%281%29.xlsx_fixed_11852063/bc3dd9a7-acd4-beb1-497a-5ca809ad662c",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 11852027,
@@ -4925,7 +5026,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI_Jan_2026-AR-EN.xlsx_fixed_11852004/15cca4e9-ad1a-eb34-8fe6-8cf863bef828",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 11680523,
@@ -4991,9 +5093,18 @@
      "name": "APGSTables-Jan2026-AR-EN_(1).xlsx_fixed_11598536",
      "size_bytes": 191354,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGSTables-Jan2026-AR-EN_%281%29.xlsx_fixed_11598536/96fc8f84-4ed7-453d-0ea3-8fba3d24c12a",
-     "sha256": null
+     "sha256": "aa1b5fa09db3ac0fe0df25cf4e6407dfc885f811cc707a16611b0be547fd3c83"
     }
-   ]
+   ],
+   "status": "processed",
+   "seed": true,
+   "processed_at": "2026-11-19T02:33:07+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 4
+   },
+   "values_added": 911,
+   "values_revised": 0
   },
   {
    "publication_id": 11598483,
@@ -5197,7 +5308,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI_Dec_2025-AR-EN_%281%29.xlsx_fixed_10985778/e0c4a686-08e6-8661-d49c-950bdf85c472",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 10927784,
@@ -5405,7 +5517,8 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435267/STS_Nov_2025_%281%29.xlsx_fixed_10898984/b7812251-8fa7-6f17-d014-5c6014140033",
      "sha256": null
     }
-   ]
+   ],
+   "status": "out_of_scope"
   },
   {
    "publication_id": 10763609,
@@ -5437,9 +5550,11 @@
      "name": "APGS_Tables-Dec_2025-AR-EN.xlsx_fixed_10763539",
      "size_bytes": 269839,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/APGS_Tables-Dec_2025-AR-EN.xlsx_fixed_10763539/1f634a2f-5680-0b8e-0032-d454417f9429",
-     "sha256": null
+     "sha256": "693510666fec7b681cf8d419d2aaaa9796247891cec52e1bdf3ae1ea5d9bd478"
     }
-   ]
+   ],
+   "status": "out_of_scope",
+   "note": "December 2025 edition has an annual 2025 layout; the 2026 editions carry the series"
   },
   {
    "publication_id": 10736339,
@@ -5645,8 +5760,7 @@
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism_Establishments_Statistics_Q3_of_2025_AR_%281%29.xlsx_fixed_10556719/a73d7d10-8b33-1a13-2c14-96061f657d37",
      "sha256": null
     }
-   ],
-   "status": "out_of_scope"
+   ]
   },
   {
    "publication_id": 10556691,

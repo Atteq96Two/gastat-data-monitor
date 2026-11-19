@@ -1,5 +1,5 @@
 {
- "verified_at": "2026-11-17T14:15:27+00:00",
+ "verified_at": "2026-11-19T02:35:24+00:00",
  "publications": {
   "27800375": {
    "checked": 99638,
@@ -17,19 +17,59 @@
    "checked": 74617,
    "different": 0
   },
-  "27741845": {
-   "checked": 952,
+  "27743334": {
+   "checked": 1065,
+   "different": 0
+  },
+  "10763609": {
+   "checked": 49,
    "different": 0
   },
   "27489085": {
    "checked": 264,
    "different": 0
   },
-  "27743334": {
-   "checked": 1065,
+  "11598573": {
+   "checked": 911,
+   "different": 0
+  },
+  "12438001": {
+   "checked": 918,
+   "different": 0
+  },
+  "13529984": {
+   "checked": 914,
+   "different": 0
+  },
+  "14328695": {
+   "checked": 922,
+   "different": 0
+  },
+  "15261455": {
+   "checked": 930,
+   "different": 0
+  },
+  "19550241": {
+   "checked": 940,
+   "different": 0
+  },
+  "20473773": {
+   "checked": 945,
+   "different": 0
+  },
+  "20996003": {
+   "checked": 948,
+   "different": 0
+  },
+  "23859373": {
+   "checked": 951,
+   "different": 0
+  },
+  "27741845": {
+   "checked": 952,
    "different": 0
   }
  },
- "total_checked": 179862,
+ "total_checked": 188290,
  "total_different": 0
 }

@@ -254,6 +254,7 @@ def fingerprint(g, infos, c0, b, d):
             else:
                 t = MONTH_TOKEN.sub("MONTH", norm(clean(v)))
                 t = re.sub(r"\d{4}", "YEAR", t)
+                t = re.sub(r"\s+", " ", re.sub(r"MONTH\s*YEAR\s*\u0645?", "MONTH YEAR ", t)).strip()   # "أكتوبر2026م" and "يناير 2026م" are the same layout
                 t = re.sub(r"\d+", "N", t)
             if t not in toks:
                 toks.append(t)

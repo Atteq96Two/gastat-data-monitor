@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T08:00:58+00:00",
+ "generated_at": "2026-11-19T02:33:07+00:00",
  "releases": [
   {
    "publication_id": 27913882,
@@ -8,7 +8,7 @@
    "release_date": "2026-11-16",
    "domain": "Economic Statistics",
    "reference_period": "2025",
-   "status": "processed"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27913795,
@@ -26,7 +26,7 @@
    "release_date": "2026-11-15",
    "domain": "Environmental and Spatial Statistics",
    "reference_period": "2025",
-   "status": "processed"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27800375,
@@ -80,7 +80,7 @@
    "release_date": "2026-11-05",
    "domain": "Environmental and Spatial Statistics",
    "reference_period": "2025",
-   "status": "processed"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27489192,
@@ -89,7 +89,7 @@
    "release_date": "2026-11-01",
    "domain": "Economic Statistics",
    "reference_period": "2026",
-   "status": "processed"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27489085,
@@ -107,7 +107,7 @@
    "release_date": "2026-10-29",
    "domain": "Economic Statistics",
    "reference_period": "2025",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27354142,
@@ -116,7 +116,7 @@
    "release_date": "2026-10-29",
    "domain": "Economic Statistics",
    "reference_period": "2025",
-   "status": "registered"
+   "status": "phase2"
   },
   {
    "publication_id": 27323688,
@@ -125,7 +125,7 @@
    "release_date": "2026-10-28",
    "domain": "Environmental and Spatial Statistics",
    "reference_period": "2025",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27296158,
@@ -134,7 +134,7 @@
    "release_date": "2026-10-27",
    "domain": "Social Statistics",
    "reference_period": "2026",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 27267531,
@@ -161,7 +161,7 @@
    "release_date": "2026-10-22",
    "domain": "Social Statistics",
    "reference_period": "2026",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 26467767,
@@ -170,7 +170,7 @@
    "release_date": "2026-10-22",
    "domain": "Economic Statistics",
    "reference_period": "2026-09",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 26174353,
@@ -179,7 +179,7 @@
    "release_date": "2026-10-21",
    "domain": "Environmental and Spatial Statistics",
    "reference_period": "2025",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 25731951,
@@ -188,7 +188,7 @@
    "release_date": "2026-10-20",
    "domain": "Economic Statistics",
    "reference_period": "2026-08",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 25605129,
@@ -206,7 +206,7 @@
    "release_date": "2026-10-19",
    "domain": "Environmental and Spatial Statistics",
    "reference_period": "2025",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 24383380,
@@ -215,7 +215,7 @@
    "release_date": "2026-10-15",
    "domain": "Economic Statistics",
    "reference_period": "2025",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 24371752,
@@ -242,7 +242,7 @@
    "release_date": "2026-10-15",
    "domain": "Economic Statistics",
    "reference_period": "2026-09",
-   "status": "registered"
+   "status": "processed"
   },
   {
    "publication_id": 23852109,
@@ -260,7 +260,7 @@
    "release_date": "2026-10-14",
    "domain": "Social Statistics",
    "reference_period": "2025",
-   "status": "registered"
+   "status": "out_of_scope"
   },
   {
    "publication_id": 22095459,

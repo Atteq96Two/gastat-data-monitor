@@ -1,0 +1,159 @@
+{
+ "publication_id": "10763609",
+ "datasets": 2,
+ "insight_count": 4,
+ "headline_ids": [
+  "10763609-001",
+  "10763609-002",
+  "10763609-003",
+  "10763609-004"
+ ],
+ "insights": [
+  {
+   "kind": "cross_section",
+   "dataset_id": "average-service-prices-for_2",
+   "sheet": "2",
+   "period": "2025-12",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع الإنشائية GOODS AND SERVICES: الأعلى بين 15 بنداً هو أسلاك كهربائية 6 مم وطني (3.28%) والأدنى هو حديد تسليح 12 مم وطني (0.83%) في ديسمبر 2025.",
+   "text_en": "السلع الإنشائية GOODS AND SERVICES: Highest of 15 items is 6mm national Electrical wires (3.28%), lowest is 12mm national Reinforcing iron (0.83%) in December 2025.",
+   "numbers": {
+    "items": 15,
+    "highest": 3.28,
+    "lowest": 0.83,
+    "period": "2025-12"
+   },
+   "evidence": [
+    {
+     "period": "2025-12",
+     "value": 3.28,
+     "cell": "2!R22C2"
+    },
+    {
+     "period": "2025-12",
+     "value": 0.83,
+     "cell": "2!R36C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/APGS_Tables-Dec_2025-AR-EN.xlsx_fixed_10763539/1f634a2f-5680-0b8e-0032-d454417f9429",
+   "series_label": "السلع الإنشائية GOODS AND SERVICES",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة ارتفاع خلال شهر ديسمبر 2025م مقارنة بشهر نوفمبر 2025م Goods and services that recorded the highest percentage increase during December 2025 comparing to November 2025 البنود نسبة التغير Percent Change Item",
+   "id": "10763609-001",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "average-service-prices-for_2",
+   "sheet": "2",
+   "period": "2025-12",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES: الأعلى بين 15 بنداً هو خوخ لبناني (11.32%) والأدنى هو بيض محلي (2.22%) في ديسمبر 2025.",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES: Highest of 15 items is Lebanese Peach (11.32%), lowest is Local Eggs (2.22%) in December 2025.",
+   "numbers": {
+    "items": 15,
+    "highest": 11.32,
+    "lowest": 2.22,
+    "period": "2025-12"
+   },
+   "evidence": [
+    {
+     "period": "2025-12",
+     "value": 11.32,
+     "cell": "2!R6C2"
+    },
+    {
+     "period": "2025-12",
+     "value": 2.22,
+     "cell": "2!R20C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/APGS_Tables-Dec_2025-AR-EN.xlsx_fixed_10763539/1f634a2f-5680-0b8e-0032-d454417f9429",
+   "series_label": "السلع و الخدمات GOODS AND SERVICES",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة ارتفاع خلال شهر ديسمبر 2025م مقارنة بشهر نوفمبر 2025م Goods and services that recorded the highest percentage increase during December 2025 comparing to November 2025 البنود نسبة التغير Percent Change Item",
+   "id": "10763609-002",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "average-service-prices-for_3",
+   "sheet": "3",
+   "period": "2025-12",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع الإنشائية GOODS AND SERVICES: الأعلى بين 4 بنود هو رمل أحمر (-0.03%) والأدنى هو خشب أبلاكاش إندونيسي (-0.31%) في ديسمبر 2025.",
+   "text_en": "السلع الإنشائية GOODS AND SERVICES: Highest of 4 items is Red Sand (-0.03%), lowest is Indonesian Ablakash Wood (-0.31%) in December 2025.",
+   "numbers": {
+    "items": 4,
+    "highest": -0.03,
+    "lowest": -0.31,
+    "period": "2025-12"
+   },
+   "evidence": [
+    {
+     "period": "2025-12",
+     "value": -0.03,
+     "cell": "3!R25C2"
+    },
+    {
+     "period": "2025-12",
+     "value": -0.31,
+     "cell": "3!R22C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/APGS_Tables-Dec_2025-AR-EN.xlsx_fixed_10763539/1f634a2f-5680-0b8e-0032-d454417f9429",
+   "series_label": "السلع الإنشائية GOODS AND SERVICES",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة انخفاض خلال شهر ديسمبر 2025م مقارنة بشهر نوفمبر 2025م Goods and services that recorded the highest percentage decrease during December 2025 comparing to November 2025 البنود نسبة التغير Percent Change Item",
+   "id": "10763609-003",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "average-service-prices-for_3",
+   "sheet": "3",
+   "period": "2025-12",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES: الأعلى بين 15 بنداً هو تفاح أحمر أمريكي (-2.13%) والأدنى هو طماطم محلي (-21.36%) في ديسمبر 2025.",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES: Highest of 15 items is American red Apples (-2.13%), lowest is Local tomatoes (-21.36%) in December 2025.",
+   "numbers": {
+    "items": 15,
+    "highest": -2.13,
+    "lowest": -21.36,
+    "period": "2025-12"
+   },
+   "evidence": [
+    {
+     "period": "2025-12",
+     "value": -2.13,
+     "cell": "3!R20C2"
+    },
+    {
+     "period": "2025-12",
+     "value": -21.36,
+     "cell": "3!R6C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/APGS_Tables-Dec_2025-AR-EN.xlsx_fixed_10763539/1f634a2f-5680-0b8e-0032-d454417f9429",
+   "series_label": "السلع و الخدمات GOODS AND SERVICES",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة انخفاض خلال شهر ديسمبر 2025م مقارنة بشهر نوفمبر 2025م Goods and services that recorded the highest percentage decrease during December 2025 comparing to November 2025 البنود نسبة التغير Percent Change Item",
+   "id": "10763609-004",
+   "headline": true
+  }
+ ],
+ "title_ar": "متوسطات أسعار السلع والخدمات لشهر ديسمبر 2025",
+ "title_en": "Average Prices of Goods and Services, December 2025",
+ "release_date": "2026-01-15",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-19T02:21:28+00:00"
+}

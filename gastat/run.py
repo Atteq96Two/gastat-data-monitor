@@ -14,11 +14,18 @@ def load_recipe(fp):
     return yaml.safe_load(p.read_text()) if p.exists() else None
 
 
+PERIOD_WORDS = re.compile(r"(?i)(?<![a-z0-9])q[1-4](?![a-z0-9])|(?<!\d)20\d\d(?!\d)|(?<![a-z])(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*(?![a-z])")
+
+
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:40] or "sheet"
 
 
 def family(pub):
+    from gastat.scope import dataset_prefix
+    pre = dataset_prefix(pub)
+    if pre:
+        return pre
     s = re.sub(r"-(january|february|march|april|may|june|july|august|september|october|november|december|20\d\d|q[1-4]|flash|estimate)", "", pub["slug"])
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
@@ -41,7 +48,7 @@ def process(pub, xlsx, strict=False):
     tables, all_rows = [], []
     for ws in wb.worksheets:
         g = Grid(ws)
-        sheet_id = f"{family(pub)}_{slug(ws.title)}"
+        sheet_id = f"{family(pub)}_{slug(PERIOD_WORDS.sub(' ', ws.title))}"
         infos, c0, blocks = segment(g)
         nnum = sum(len(i["nums"]) for i in infos)
         if c0 is None or not blocks or nnum < 2 or (NAV.match(norm(ws.title)) and nnum < 40):

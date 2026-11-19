@@ -1,0 +1,375 @@
+{
+ "publication_id": "23859373",
+ "datasets": 4,
+ "insight_count": 10,
+ "headline_ids": [
+  "23859373-001",
+  "23859373-002",
+  "23859373-003",
+  "23859373-004",
+  "23859373-008",
+  "23859373-009"
+ ],
+ "insights": [
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "average-service-prices-for_2",
+   "sheet": "2",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES | كوسة محلية: 11.02% في سبتمبر 2026، مقابل 6.68% (+4.34 نقطة مئوية) في أغسطس 2026، وهي الأعلى في البيانات المتاحة (منذ فبراير 2026).",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES | Local Zucchini | نسبة التغير Percent Change: 11.02% in September 2026, versus 6.68% (+4.34 percentage points) in August 2026, the highest in the available data (since February 2026).",
+   "numbers": {
+    "value": 11.02,
+    "period": "2026-09",
+    "prev_value": 6.68,
+    "prev_period": "2026-08",
+    "prev_diff": 4.34,
+    "history_start": "2026-02",
+    "history_observations": 6
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 11.02,
+     "cell": "2!R8C2"
+    },
+    {
+     "period": "2026-08",
+     "value": 6.68,
+     "cell": "2!R9C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "السلع و الخدمات GOODS AND SERVICES | كوسة محلية",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة ارتفاع خلال شهر سبتمبر 2026 م مقارنة بشهر أغسطس 2026م Goods and services that recorded the highest percentage increase during Sep 2026 comparing to Aug 2026 البنود نسبة التغير Percent Change Items",
+   "id": "23859373-001",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "average-service-prices-for_2",
+   "sheet": "2",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES | برتقال أبو صرة مصري: 3.21% في سبتمبر 2026، وهي الأدنى في البيانات المتاحة (منذ مارس 2026).",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES | Abu Sorra egyptian Orange | نسبة التغير Percent Change: 3.21% in September 2026, the lowest in the available data (since March 2026).",
+   "numbers": {
+    "value": 3.21,
+    "period": "2026-09",
+    "history_start": "2026-03",
+    "history_observations": 6
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 3.21,
+     "cell": "2!R16C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "السلع و الخدمات GOODS AND SERVICES | برتقال أبو صرة مصري",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة ارتفاع خلال شهر سبتمبر 2026 م مقارنة بشهر أغسطس 2026م Goods and services that recorded the highest percentage increase during Sep 2026 comparing to Aug 2026 البنود نسبة التغير Percent Change Items",
+   "id": "23859373-002",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "average-service-prices-for_3",
+   "sheet": "3",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES | ملوخية محلية: -2.09% في سبتمبر 2026، وهي الأعلى في البيانات المتاحة (منذ فبراير 2026).",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES | Local Corchorus | نسبة التغير Percent Change: -2.09% in September 2026, the highest in the available data (since February 2026).",
+   "numbers": {
+    "value": -2.09,
+    "period": "2026-09",
+    "history_start": "2026-02",
+    "history_observations": 6
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": -2.09,
+     "cell": "3!R15C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "السلع و الخدمات GOODS AND SERVICES | ملوخية محلية",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة انخفاض خلال شهر سبتمبر 2026 م مقارنة بشهر أغسطس 2026م Goods and services that recorded the highest percentage decrease during Sep 2026 comparing to Aug 2026 البنود نسبة التغير Percent Change Items",
+   "id": "23859373-003",
+   "headline": true
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "average-service-prices-for_3",
+   "sheet": "3",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES | طماطم محلي: -7.58% في سبتمبر 2026، مقابل -15.18% (+7.6 نقطة مئوية) في أغسطس 2026.",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES | Local tomatoes | نسبة التغير Percent Change: -7.58% in September 2026, versus -15.18% (+7.6 percentage points) in August 2026.",
+   "numbers": {
+    "value": -7.58,
+    "period": "2026-09",
+    "prev_value": -15.18,
+    "prev_period": "2026-08",
+    "prev_diff": 7.6
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": -7.58,
+     "cell": "3!R7C2"
+    },
+    {
+     "period": "2026-08",
+     "value": -15.18,
+     "cell": "3!R6C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "السلع و الخدمات GOODS AND SERVICES | طماطم محلي",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة انخفاض خلال شهر سبتمبر 2026 م مقارنة بشهر أغسطس 2026م Goods and services that recorded the highest percentage decrease during Sep 2026 comparing to Aug 2026 البنود نسبة التغير Percent Change Items",
+   "id": "23859373-004",
+   "headline": true
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "average-service-prices-for_2",
+   "sheet": "2",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS | كيابل ربط الحديد صيني: 6.84% في سبتمبر 2026، مقابل 0.95% (+5.89 نقطة مئوية) في أغسطس 2026.",
+   "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS | Chinese Iron-binding cables | نسبة التغير Percent Change: 6.84% in September 2026, versus 0.95% (+5.89 percentage points) in August 2026.",
+   "numbers": {
+    "value": 6.84,
+    "period": "2026-09",
+    "prev_value": 0.95,
+    "prev_period": "2026-08",
+    "prev_diff": 5.89
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 6.84,
+     "cell": "2!R22C2"
+    },
+    {
+     "period": "2026-08",
+     "value": 0.95,
+     "cell": "2!R22C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "السلع الإنشائية CONSTRUCTIONAL GOODS | كيابل ربط الحديد صيني",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة ارتفاع خلال شهر سبتمبر 2026 م مقارنة بشهر أغسطس 2026م Goods and services that recorded the highest percentage increase during Sep 2026 comparing to Aug 2026 البنود نسبة التغير Percent Change Items",
+   "id": "23859373-005",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "average-service-prices-for_3",
+   "sheet": "3",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES | رمان هندي: -9.98% في سبتمبر 2026، مقابل -6.35% (-3.63 نقطة مئوية) في أغسطس 2026.",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES | Indian Pomegranates | نسبة التغير Percent Change: -9.98% in September 2026, versus -6.35% (-3.63 percentage points) in August 2026.",
+   "numbers": {
+    "value": -9.98,
+    "period": "2026-09",
+    "prev_value": -6.35,
+    "prev_period": "2026-08",
+    "prev_diff": -3.63
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": -9.98,
+     "cell": "3!R6C2"
+    },
+    {
+     "period": "2026-08",
+     "value": -6.35,
+     "cell": "3!R10C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "السلع و الخدمات GOODS AND SERVICES | رمان هندي",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة انخفاض خلال شهر سبتمبر 2026 م مقارنة بشهر أغسطس 2026م Goods and services that recorded the highest percentage decrease during Sep 2026 comparing to Aug 2026 البنود نسبة التغير Percent Change Items",
+   "id": "23859373-006",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "average-service-prices-for_2",
+   "sheet": "2",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع و الخدمات GOODS AND SERVICES | بصل مدور محلي: 16.04% في سبتمبر 2026، مقابل 17.88% (-1.84 نقطة مئوية) في أغسطس 2026.",
+   "text_en": "السلع و الخدمات GOODS AND SERVICES | Local Onion | نسبة التغير Percent Change: 16.04% in September 2026, versus 17.88% (-1.84 percentage points) in August 2026.",
+   "numbers": {
+    "value": 16.04,
+    "period": "2026-09",
+    "prev_value": 17.88,
+    "prev_period": "2026-08",
+    "prev_diff": -1.84
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 16.04,
+     "cell": "2!R7C2"
+    },
+    {
+     "period": "2026-08",
+     "value": 17.88,
+     "cell": "2!R6C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "السلع و الخدمات GOODS AND SERVICES | بصل مدور محلي",
+   "table_title": "السلع والخدمات التي سجلت أكبر نسبة ارتفاع خلال شهر سبتمبر 2026 م مقارنة بشهر أغسطس 2026م Goods and services that recorded the highest percentage increase during Sep 2026 comparing to Aug 2026 البنود نسبة التغير Percent Change Items",
+   "id": "23859373-007",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "average-service-prices-for_1",
+   "sheet": "1",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses: الأعلى بين 25 بنداً هو بصل مدور مستورد (16.99%) والأدنى هو طماطم محلي (-7.58%) في سبتمبر 2026.",
+   "text_en": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses: Highest of 25 items is imported Onion (16.99%), lowest is Local tomatoes (-7.58%) in September 2026.",
+   "numbers": {
+    "items": 25,
+    "highest": 16.99,
+    "lowest": -7.58,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 16.99,
+     "cell": "1!R96C7"
+    },
+    {
+     "period": "2026-09",
+     "value": -7.58,
+     "cell": "1!R87C7"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses",
+   "table_title": "متوسطات الأسعار و التغيرات الشهرية و السنوية في المملكة، سبتمبر 2026م Average Prices and Monthly & Annual Changes in the Kingdom, Sep 2026 Average Prices Percent Change From Sep2026 to",
+   "id": "23859373-008",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "average-service-prices-for_1",
+   "sheet": "1",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 37 بنداً هو كيابل كهربائية 50 مم وطني (27.62%) والأدنى هو خرسانة مقاوم 250 ك (-2.26%) في سبتمبر 2026 (الجدول: متوسطات الأسعار و التغيرات الشهرية و السنوية في المملكة، سبتمبر 2026م).",
+   "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 37 items is 50mm national Electrical cables (27.62%), lowest is 250 K Resistant Concrete (-2.26%) in September 2026 (table: Average Prices and Monthly & Annual Changes in the Kingdom, Sep 2026 Average Prices...).",
+   "numbers": {
+    "items": 37,
+    "highest": 27.62,
+    "lowest": -2.26,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 27.62,
+     "cell": "1!R169C8"
+    },
+    {
+     "period": "2026-09",
+     "value": -2.26,
+     "cell": "1!R152C8"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "السلع الإنشائية CONSTRUCTIONAL GOODS",
+   "table_title": "متوسطات الأسعار و التغيرات الشهرية و السنوية في المملكة، سبتمبر 2026م Average Prices and Monthly & Annual Changes in the Kingdom, Sep 2026 Average Prices Percent Change From Sep2026 to",
+   "id": "23859373-009",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "average-service-prices-for_1",
+   "sheet": "1",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 37 بنداً هو كيابل ربط الحديد صيني (6.84%) والأدنى هو خرسانة مقاوم 350 ك (-0.78%) في سبتمبر 2026 (الجدول: متوسطات الأسعار و التغيرات الشهرية و السنوية في المملكة، سبتمبر 2026م).",
+   "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 37 items is Chinese Iron-binding cables (6.84%), lowest is 350 K Resistant Concrete (-0.78%) in September 2026 (table: Average Prices and Monthly & Annual Changes in the Kingdom, Sep 2026 Average Prices...).",
+   "numbers": {
+    "items": 37,
+    "highest": 6.84,
+    "lowest": -0.78,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 6.84,
+     "cell": "1!R162C7"
+    },
+    {
+     "period": "2026-09",
+     "value": -0.78,
+     "cell": "1!R151C7"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435259/APGSTables-Sep2026-AR-EN.xlsx/9196b580-40d4-b507-77a9-7bd042a3a2ed",
+   "series_label": "السلع الإنشائية CONSTRUCTIONAL GOODS",
+   "table_title": "متوسطات الأسعار و التغيرات الشهرية و السنوية في المملكة، سبتمبر 2026م Average Prices and Monthly & Annual Changes in the Kingdom, Sep 2026 Average Prices Percent Change From Sep2026 to",
+   "id": "23859373-010",
+   "headline": false
+  }
+ ],
+ "title_ar": "متوسطات أسعار السلع والخدمات لشهر سبتمبر 2026",
+ "title_en": "Average service prices for September 2026",
+ "release_date": "2026-10-15",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-19T02:33:07+00:00"
+}

@@ -1,5 +1,5 @@
-fingerprint: 7c630a5b1d90
-status: draft
+fingerprint: fa451e3f37af
+status: reviewed
 first_seen:
   publication_id: 27741845
   sheet: '1'
@@ -29,4 +29,7 @@ period_sources:
 title_sample: متوسطات الأسعار و التغيرات الشهرية و السنوية في المملكة، أكتوبر 2026م
   Average Prices and Monthly & Annual Changes in the
 validation_on_first_run: pass
-notes: []
+unit_by_measure:
+  level: SAR
+notes:
+- Price columns are in Saudi riyals per the unit named in the Unit column (for example 10 kg); the sheet title word "Percent" belongs to the change columns only.

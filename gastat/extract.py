@@ -17,6 +17,18 @@ M_EN = {m: i + 1 for i, m in enumerate("jan feb mar apr may jun jul aug sep oct 
 Q_AR = {"الاول": 1, "الثاني": 2, "الثالث": 3, "الرابع": 4}
 
 
+def header_month(texts):
+    """Month number (1-12) named in a column header, or 0."""
+    for t in texts:
+        n_ = norm(clean(t))
+        if n_ in MONTHS_AR:
+            return MONTHS_AR.index(n_) + 1
+        e_ = n_.lower()
+        if len(e_) >= 3 and re.fullmatch(r"[a-z]+", e_) and e_ in ENGLISH_MONTHS and e_[:3] in MONTHS_EN:
+            return MONTHS_EN.index(e_[:3]) + 1
+    return 0
+
+
 def period_from_text(t):
     n = norm(t)
     m = re.search(r"ربع (\S+)\D*(20\d\d)", n)
@@ -208,6 +220,13 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
                 p, pt = f"{yr}-Q{q}", "quarter"
         elif years:
             p, pt = str(years[0]), "year"
+            mi = header_month(texts_raw)
+            if mi:                                    # a month name over the year: the column is that month, not the whole year
+                if mt == "rate":                      # "% change from <month year> to": the column belongs to the edition, the named month is the base
+                    base = f"{years[0]}-{mi:02d}"
+                    p, pt = (ref_p, ref_pt) if ref_p else (pub["reference_period"], pub["period_type"])
+                else:
+                    p, pt = f"{years[0]}-{mi:02d}", "month"
         psrc = "header"
         if p is None:
             tp, tpt = period_from_text(" ".join(texts))
@@ -237,6 +256,8 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
             u = fu; sc = fsc if sc == 1 else sc
         if ov.get("unit") or (recipe or {}).get("unit"): u = ov.get("unit") or recipe["unit"]
         if (recipe or {}).get("scale"): sc = recipe["scale"]
+        ubm = (recipe or {}).get("unit_by_measure") or {}   # a sheet that mixes a level (SAR) and a "% change" column: the title word "percent" must not decide the level unit
+        if mt in ubm: u = ubm[mt]
         if mt in ("unknown", "level") and bracket:
             mt = "ratio" if re.search(r"/|لكل|per", bracket) else "level"   # bracketed unit: a quantity, or a ratio (not additive)
         if mt == "rate" and not u: u = "percent_or_fraction"

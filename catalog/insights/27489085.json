@@ -10,7 +10,7 @@
   {
    "kind": "series_change",
    "flag": "",
-   "dataset_id": "gdp-2026-1_q3-2026",
+   "dataset_id": "gdp-flash_sheet",
    "sheet": "التقديرات السريعة Q3_2026",
    "period": "2026-Q3",
    "measure_type": "rate",
@@ -52,7 +52,7 @@
    "series_label": "الناتج المحلي الإجمالي الحقيقي",
    "table_title": "(السلاسل المتحركة، 100=2023، المساهمة في معدل النمو على أساس ربعي) الأنشطة الرئيسة",
    "also_in_tables": [
-    "gdp-2026-1_q3-2026"
+    "gdp-flash_sheet"
    ],
    "id": "27489085-001",
    "headline": true
@@ -60,7 +60,7 @@
   {
    "kind": "series_change",
    "flag": "",
-   "dataset_id": "gdp-2026-1_q3-2026",
+   "dataset_id": "gdp-flash_sheet",
    "sheet": "التقديرات السريعة Q3_2026",
    "period": "2026-Q3",
    "measure_type": "rate",
@@ -102,7 +102,7 @@
    "series_label": "الناتج المحلي الإجمالي الحقيقي",
    "table_title": "(السلاسل المتحركة، 100=2023، المساهمة في معدل النمو على أساس سنوي) الأنشطة الرئيسة",
    "also_in_tables": [
-    "gdp-2026-1_q3-2026"
+    "gdp-flash_sheet"
    ],
    "id": "27489085-002",
    "headline": true
@@ -110,7 +110,7 @@
   {
    "kind": "series_change",
    "flag": "low",
-   "dataset_id": "gdp-2026-1_q3-2026",
+   "dataset_id": "gdp-flash_sheet",
    "sheet": "التقديرات السريعة Q3_2026",
    "period": "2026-Q3",
    "measure_type": "rate",
@@ -157,7 +157,7 @@
   {
    "kind": "series_change",
    "flag": "low",
-   "dataset_id": "gdp-2026-1_q3-2026",
+   "dataset_id": "gdp-flash_sheet",
    "sheet": "التقديرات السريعة Q3_2026",
    "period": "2026-Q3",
    "measure_type": "rate",
@@ -204,7 +204,7 @@
   {
    "kind": "series_change",
    "flag": "low",
-   "dataset_id": "gdp-2026-1_q3-2026",
+   "dataset_id": "gdp-flash_sheet",
    "sheet": "التقديرات السريعة Q3_2026",
    "period": "2026-Q3",
    "measure_type": "rate",
@@ -251,7 +251,7 @@
   {
    "kind": "mover_down",
    "flag": "low",
-   "dataset_id": "gdp-2026-1_q3-2026",
+   "dataset_id": "gdp-flash_sheet",
    "sheet": "التقديرات السريعة Q3_2026",
    "period": "2026-Q3",
    "measure_type": "rate",
@@ -298,7 +298,7 @@
   {
    "kind": "mover_up",
    "flag": "",
-   "dataset_id": "gdp-2026-1_q3-2026",
+   "dataset_id": "gdp-flash_sheet",
    "sheet": "التقديرات السريعة Q3_2026",
    "period": "2026-Q3",
    "measure_type": "rate",
@@ -345,7 +345,7 @@
   {
    "kind": "mover_up",
    "flag": "",
-   "dataset_id": "gdp-2026-1_q3-2026",
+   "dataset_id": "gdp-flash_sheet",
    "sheet": "التقديرات السريعة Q3_2026",
    "period": "2026-Q3",
    "measure_type": "rate",
@@ -392,7 +392,7 @@
   {
    "kind": "mover_up",
    "flag": "",
-   "dataset_id": "gdp-2026-1_q3-2026",
+   "dataset_id": "gdp-flash_sheet",
    "sheet": "التقديرات السريعة Q3_2026",
    "period": "2026-Q3",
    "measure_type": "rate",
@@ -442,5 +442,5 @@
  "release_date": "2026-11-01",
  "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
  "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
- "generated_at": "2026-11-17T14:16:16+00:00"
+ "generated_at": "2026-11-19T02:21:28+00:00"
 }
