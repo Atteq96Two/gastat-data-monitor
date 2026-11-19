@@ -1,0 +1,32 @@
+fingerprint: d27ad4abf4b6
+status: reviewed
+first_seen:
+  publication_id: 27913795
+  sheet: '3.1'
+  release_date: '2026-11-16'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- mixed
+- mixed
+- date
+value_columns: 6
+measure_types:
+- index
+- rate
+- weight
+units:
+- percent
+scales:
+- 1
+period_sources:
+- header
+- sheet_title
+title_sample: الأرقام القياسية ومعدلات التغيّر حسب الأنشطة النفطية وغير النفطية Indices
+  and Rates of Change by Oil and Non-Oil Activit
+validation_on_first_run: review
+notes:
+- 'Reviewed 2026-11-17 (quarantine resolved): layout read correctly, measure types
+  and units checked, every validation gate passes, totals reconcile.'

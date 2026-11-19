@@ -15,7 +15,7 @@ from gastat import insights as I                      # noqa: E402
 from gastat.grid import norm                          # noqa: E402
 from gastat.run import family                         # noqa: E402
 
-WEB = ROOT / "web" / "data"
+WEB = ROOT / "catalog"      # series, catalog and registry exports for programs (News Tracker); the website only loads web/data/reports (see reportdata.py)
 RAW = "https://raw.githubusercontent.com/Atteq96Two/gastat-data-monitor/main/"
 INTERVAL = {"monthly": 31, "quarterly": 92, "annual": 366, "biennial": 731}
 GRACE = 10
@@ -205,7 +205,7 @@ def main():
     reg = load(ROOT / "registry" / "publications.json")
     pubs = reg["publications"]
     cal = load(ROOT / "registry" / "calendar.json", {"entries": []})
-    shutil.rmtree(WEB, ignore_errors=True)
+    shutil.rmtree(WEB / "series", ignore_errors=True)
     cat, search = build_datasets(pubs)
     fresh_by_ds = {}
     fam_has = {d["family"] for d in cat}
@@ -220,18 +220,12 @@ def main():
                    datasets=cat)
     jdump(ROOT / "catalog" / "catalog.json", catalog)
     jdump(ROOT / "catalog" / "search_index.json", dict(generated_at=now, labels=search))
-    jdump(WEB / "catalog.json", catalog)
-    jdump(WEB / "search_index.json", dict(generated_at=now, labels=search))
     jdump(WEB / "freshness.json", dict(generated_at=now, today=today().isoformat(), items=fresh))
     jdump(WEB / "latest.json", dict(generated_at=now, source=src, releases=build_latest(pubs)))
     jdump(WEB / "quality.json", build_quality(pubs, cat))
-    (WEB / "insights").mkdir(parents=True, exist_ok=True)
-    for f in (ROOT / "catalog" / "insights").glob("*.json"):
-        d = json.loads(f.read_text(encoding="utf-8"))
-        for i in d["insights"]:
-            i.pop("evidence_extra", None)
-        jdump(WEB / "insights" / f.name, d)
-    print("web data:", len(cat), "datasets,", len(fresh), "families,", sum(1 for _ in WEB.rglob("*.json")), "files,", round(sum(p.stat().st_size for p in WEB.rglob("*.json")) / 1e6, 1), "MB")
+    print("catalog data:", len(cat), "datasets,", len(fresh), "families,", round(sum(p.stat().st_size for p in (WEB / "series").rglob("*.json")) / 1e6, 1), "MB of series")
+    from gastat import reportdata       # the website's compact chart files, built from report_specs/*.yaml
+    reportdata.main()
 
 
 if __name__ == "__main__":

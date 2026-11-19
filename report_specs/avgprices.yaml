@@ -1,0 +1,31 @@
+id: avgprices
+name_ar: متوسطات أسعار السلع والخدمات
+group: prices
+frequency: monthly
+description_ar: متوسط أسعار سلع أساسية بالريال
+items_note: six staple items chosen by the owner; the first is the headline
+items:
+  - {key: chicken, label_ar: دجاج طازج محلي (فقية), row: "^دجاج طازج محلي \\(فقية\\)$", unit_ar: "ريال لكل 900 غرام"}
+  - {key: rice, label_ar: أرز بسمتي هندي (المهيدب), row: "^أرز بسمتي أبيض هندي \\(المهيدب\\)$", unit_ar: "ريال لكل 10 كغم"}
+  - {key: eggs, label_ar: بيض محلي, row: "^بيض محلي$", unit_ar: "ريال للطبق"}
+  - {key: milk, label_ar: حليب طازج محلي (المراعي), row: "^حليب طازج محلي \\(المراعي\\)$", unit_ar: "ريال للتر"}
+  - {key: bread, label_ar: خبز أبيض مفرود, row: "^خبز أبيض مفرود$", unit_ar: "ريال لكل 4 أرغفة"}
+  - {key: oil, label_ar: زيت ذرة للطهي (عافية), row: "^زيت ذرة \\(للطهي\\) عافية$", unit_ar: "ريال لكل 1.5 لتر"}
+dataset: average-service-prices-for_1
+headline:
+  label_ar: سعر الدجاج الطازج المحلي
+  item: chicken
+  change: {mode: published_item_rate, base: previous_period, unit: "%"}
+  press_release_value: null     # the report is an item price table; there is no headline figure in a press release
+level1:
+  title_ar: السعر الشهري للسلعة الرئيسة
+  item: chicken
+level2:
+  title_ar: السلع الأساسية الست
+  kind: small_multiples
+  items: all
+level3:
+  - title_ar: التغير السنوي لسلع المجموعة
+    kind: bars_by_group
+    unit_ar: "%"
+    groups_of_items: all

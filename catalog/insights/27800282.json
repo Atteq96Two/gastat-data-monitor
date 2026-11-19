@@ -1,7 +1,7 @@
 {
  "publication_id": "27800282",
  "datasets": 9,
- "insight_count": 17,
+ "insight_count": 13,
  "headline_ids": [
   "27800282-001",
   "27800282-002",
@@ -10,9 +10,9 @@
   "27800282-006",
   "27800282-007",
   "27800282-008",
-  "27800282-009",
-  "27800282-010",
-  "27800282-017"
+  "27800282-011",
+  "27800282-012",
+  "27800282-013"
  ],
  "insights": [
   {
@@ -20,28 +20,28 @@
    "flag": "",
    "dataset_id": "wholesale-price-index_1-1",
    "sheet": "1.1",
-   "period": "2026",
+   "period": "2026-10",
    "measure_type": "index",
    "unit": "index_base_2023",
    "unit_ok": true,
-   "text_ar": "الرقم القياسي العام | الأرقام القياسية / أكتوبر: 111.22 نقطة في 2026، مقابل 106.39 (+4.54%) في 2025.",
-   "text_en": "General index | Index Numbers / Oct: 111.22 points in 2026, versus 106.39 (+4.54%) in 2025.",
+   "text_ar": "الرقم القياسي العام | الأرقام القياسية / أكتوبر: 111.22 نقطة في أكتوبر 2026، ومقابل 106.39 (+4.54%) في أكتوبر 2025.",
+   "text_en": "General index | Index Numbers / Oct: 111.22 points in October 2026, and versus 106.39 (+4.54%) in October 2025.",
    "numbers": {
     "value": 111.220929063,
-    "period": "2026",
-    "prev_value": 106.3874709665,
-    "prev_period": "2025",
-    "prev_diff": 4.8334580965,
-    "prev_pct": 4.5432587621
+    "period": "2026-10",
+    "yoy_value": 106.3874709665,
+    "yoy_period": "2025-10",
+    "yoy_diff": 4.8334580965,
+    "yoy_pct": 4.5432587621
    },
    "evidence": [
     {
-     "period": "2026",
+     "period": "2026-10",
      "value": 111.220929063,
      "cell": "1.1!R14C6"
     },
     {
-     "period": "2025",
+     "period": "2025-10",
      "value": 106.3874709665,
      "cell": "1.1!R14C4"
     }
@@ -62,28 +62,28 @@
    "flag": "",
    "dataset_id": "wholesale-price-index_1-1",
    "sheet": "1.1",
-   "period": "2026",
+   "period": "2026-10",
    "measure_type": "index",
    "unit": "index_base_2023",
    "unit_ok": true,
-   "text_ar": "المجموع دون الطاقة | الأرقام القياسية / أكتوبر: 105.74 نقطة في 2026، مقابل 101.36 (+4.32%) في 2025.",
-   "text_en": "General Price Index Excluding Energy | Index Numbers / Oct: 105.74 points in 2026, versus 101.36 (+4.32%) in 2025.",
+   "text_ar": "المجموع دون الطاقة | الأرقام القياسية / أكتوبر: 105.74 نقطة في أكتوبر 2026، ومقابل 101.36 (+4.32%) في أكتوبر 2025.",
+   "text_en": "General Price Index Excluding Energy | Index Numbers / Oct: 105.74 points in October 2026, and versus 101.36 (+4.32%) in October 2025.",
    "numbers": {
     "value": 105.7350488682,
-    "period": "2026",
-    "prev_value": 101.3593178108,
-    "prev_period": "2025",
-    "prev_diff": 4.3757310575,
-    "prev_pct": 4.3170486463
+    "period": "2026-10",
+    "yoy_value": 101.3593178108,
+    "yoy_period": "2025-10",
+    "yoy_diff": 4.3757310575,
+    "yoy_pct": 4.3170486463
    },
    "evidence": [
     {
-     "period": "2026",
+     "period": "2026-10",
      "value": 105.7350488682,
      "cell": "1.1!R38C6"
     },
     {
-     "period": "2025",
+     "period": "2025-10",
      "value": 101.3593178108,
      "cell": "1.1!R38C4"
     }
@@ -378,181 +378,29 @@
    "headline": true
   },
   {
-   "kind": "mover_up",
-   "flag": "",
-   "dataset_id": "wholesale-price-index_1-2",
-   "sheet": "1.2",
-   "period": "2026",
-   "measure_type": "index",
-   "unit": "index_base_2023",
-   "unit_ok": true,
-   "text_ar": "فوسفات ثلاثي الأمونيوم، أملاح وأملاح بروكسية | الأرقام القياسية / أكتوبر: 164.61 نقطة في 2026، مقابل 117 (+40.7%) في 2025.",
-   "text_en": "Triammonium phosphate, salts and peroxysalts | Index Numbers / Oct: 164.61 points in 2026, versus 117 (+40.7%) in 2025.",
-   "numbers": {
-    "value": 164.6131782139,
-    "period": "2026",
-    "prev_value": 116.9974257449,
-    "prev_period": "2025",
-    "prev_diff": 47.615752469,
-    "prev_pct": 40.6981197799
-   },
-   "evidence": [
-    {
-     "period": "2026",
-     "value": 164.6131782139,
-     "cell": "1.2!R301C7"
-    },
-    {
-     "period": "2025",
-     "value": 116.9974257449,
-     "cell": "1.2!R301C5"
-    }
-   ],
-   "is_total": false,
-   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
-   "series_label": "فوسفات ثلاثي الأمونيوم، أملاح وأملاح بروكسية | الأرقام القياسية / أكتوبر",
-   "table_title": "الأرقام القياسية ومعدلات التغيّر حسب تصنيف المنتجات Price Indices and Rates of Change by Product Classification 2023=100 Index Numbers Rate of Change in Oct 2026 Compared with (%)",
-   "id": "27800282-009",
-   "headline": true
-  },
-  {
-   "kind": "mover_down",
-   "flag": "",
-   "dataset_id": "wholesale-price-index_1-2",
-   "sheet": "1.2",
-   "period": "2026",
-   "measure_type": "index",
-   "unit": "index_base_2023",
-   "unit_ok": true,
-   "text_ar": "ألياف تيلية نسجية اصطناعية مجهزة لأغراض الغزل | الأرقام القياسية / أكتوبر: 88.1 نقطة في 2026، مقابل 101.24 (-12.98%) في 2025.",
-   "text_en": "Man-made textile staple fibres prepared for spinning | Index Numbers / Oct: 88.1 points in 2026, versus 101.24 (-12.98%) in 2025.",
-   "numbers": {
-    "value": 88.102721688,
-    "period": "2026",
-    "prev_value": 101.2428566311,
-    "prev_period": "2025",
-    "prev_diff": -13.1401349431,
-    "prev_pct": -12.9788267344
-   },
-   "evidence": [
-    {
-     "period": "2026",
-     "value": 88.102721688,
-     "cell": "1.2!R190C7"
-    },
-    {
-     "period": "2025",
-     "value": 101.2428566311,
-     "cell": "1.2!R190C5"
-    }
-   ],
-   "is_total": false,
-   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
-   "series_label": "ألياف تيلية نسجية اصطناعية مجهزة لأغراض الغزل | الأرقام القياسية / أكتوبر",
-   "table_title": "الأرقام القياسية ومعدلات التغيّر حسب تصنيف المنتجات Price Indices and Rates of Change by Product Classification 2023=100 Index Numbers Rate of Change in Oct 2026 Compared with (%)",
-   "id": "27800282-010",
-   "headline": true
-  },
-  {
-   "kind": "mover_up",
-   "flag": "",
-   "dataset_id": "wholesale-price-index_1-1",
-   "sheet": "1.1",
-   "period": "2026",
-   "measure_type": "index",
-   "unit": "index_base_2023",
-   "unit_ok": true,
-   "text_ar": "سلع اخرى قابلة للنقل،فيما عدا المنتجات المعدنية والآلات | الأرقام القياسية / أكتوبر: 120.52 نقطة في 2026، مقابل 111.63 (+7.96%) في 2025.",
-   "text_en": "Other transportable goods, except metal products, machinery and equipment | Index Numbers / Oct: 120.52 points in 2026, versus 111.63 (+7.96%) in 2025.",
-   "numbers": {
-    "value": 120.5162240857,
-    "period": "2026",
-    "prev_value": 111.6266559773,
-    "prev_period": "2025",
-    "prev_diff": 8.8895681084,
-    "prev_pct": 7.9636606781
-   },
-   "evidence": [
-    {
-     "period": "2026",
-     "value": 120.5162240857,
-     "cell": "1.1!R18C6"
-    },
-    {
-     "period": "2025",
-     "value": 111.6266559773,
-     "cell": "1.1!R18C4"
-    }
-   ],
-   "is_total": false,
-   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
-   "series_label": "سلع اخرى قابلة للنقل،فيما عدا المنتجات المعدنية والآلات | الأرقام القياسية / أكتوبر",
-   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّر للرقم القياسي لأسعار الجملة حسب الأبواب الرئيسة Summary of Wholesale Price Indices and Rates of ChangeBy Main Divisions 2023=100 Index Numbers Rate of Change in Oct 2026 Compared with (%)",
-   "id": "27800282-011",
-   "headline": false
-  },
-  {
-   "kind": "mover_down",
-   "flag": "",
-   "dataset_id": "wholesale-price-index_1-1",
-   "sheet": "1.1",
-   "period": "2026",
-   "measure_type": "index",
-   "unit": "index_base_2023",
-   "unit_ok": true,
-   "text_ar": "المنتجات المعدنية والآلات والمعدات | الأرقام القياسية / أكتوبر: 100.16 نقطة في 2026، مقابل 100.43 (-0.27%) في 2025.",
-   "text_en": "Metal products, machinery and equipment | Index Numbers / Oct: 100.16 points in 2026, versus 100.43 (-0.27%) in 2025.",
-   "numbers": {
-    "value": 100.1577812969,
-    "period": "2026",
-    "prev_value": 100.4276333675,
-    "prev_period": "2025",
-    "prev_diff": -0.2698520706,
-    "prev_pct": -0.2687030069
-   },
-   "evidence": [
-    {
-     "period": "2026",
-     "value": 100.1577812969,
-     "cell": "1.1!R19C6"
-    },
-    {
-     "period": "2025",
-     "value": 100.4276333675,
-     "cell": "1.1!R19C4"
-    }
-   ],
-   "is_total": false,
-   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
-   "series_label": "المنتجات المعدنية والآلات والمعدات | الأرقام القياسية / أكتوبر",
-   "table_title": "ملخص الأرقام القياسية ومعدلات التغيّر للرقم القياسي لأسعار الجملة حسب الأبواب الرئيسة Summary of Wholesale Price Indices and Rates of ChangeBy Main Divisions 2023=100 Index Numbers Rate of Change in Oct 2026 Compared with (%)",
-   "id": "27800282-012",
-   "headline": false
-  },
-  {
    "kind": "cross_section",
    "dataset_id": "wholesale-price-index_1-1",
    "sheet": "1.1",
-   "period": "2026",
+   "period": "2026-10",
    "measure_type": "rate",
    "unit": "percent",
    "unit_ok": true,
-   "text_ar": "الأعلى بين 5 بنود هو سلع اخرى قابلة للنقل،فيما عدا المنتجات المعدنية والآلات (1.93%) والأدنى هو الركازات والمعادن (-0.22%) في 2026.",
-   "text_en": "Highest of 5 items is Other transportable goods, except metal products, machinery and equipment (1.93%), lowest is Ores and minerals (-0.22%) in 2026.",
+   "text_ar": "الأعلى بين 5 بنود هو سلع اخرى قابلة للنقل،فيما عدا المنتجات المعدنية والآلات (1.93%) والأدنى هو الركازات والمعادن (-0.22%) في أكتوبر 2026 (الجدول: ملخص الأرقام القياسية ومعدلات التغيّر للرقم القياسي لأسعار الجملة حسب الأبواب الرئيسة).",
+   "text_en": "Highest of 5 items is Other transportable goods, except metal products, machinery and equipment (1.93%), lowest is Ores and minerals (-0.22%) in October 2026 (table: Summary of Wholesale Price Indices and Rates of ChangeBy Main Divisions 2023=100 Index...).",
    "numbers": {
     "items": 5,
     "highest": 1.9332579987,
     "lowest": -0.2191527054,
-    "period": "2026"
+    "period": "2026-10"
    },
    "evidence": [
     {
-     "period": "2026",
+     "period": "2026-10",
      "value": 1.9332579987,
      "cell": "1.1!R18C8"
     },
     {
-     "period": "2026",
+     "period": "2026-10",
      "value": -0.2191527054,
      "cell": "1.1!R16C8"
     }
@@ -561,68 +409,103 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
    "series_label": "",
    "table_title": "ملخص الأرقام القياسية ومعدلات التغيّر للرقم القياسي لأسعار الجملة حسب الأبواب الرئيسة Summary of Wholesale Price Indices and Rates of ChangeBy Main Divisions 2023=100 Index Numbers Rate of Change in Oct 2026 Compared with (%)",
-   "id": "27800282-013",
+   "id": "27800282-009",
    "headline": false
   },
   {
    "kind": "cross_section",
    "dataset_id": "wholesale-price-index_1-1",
    "sheet": "1.1",
-   "period": "2026",
-   "measure_type": "index",
-   "unit": "index_base_2023",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent",
    "unit_ok": true,
-   "text_ar": "الأرقام القياسية / سبتمبر: الأعلى بين 5 بنود هو سلع اخرى قابلة للنقل،فيما عدا المنتجات المعدنية والآلات (118.23 نقطة) والأدنى هو الركازات والمعادن (95.75 نقطة) في 2026.",
-   "text_en": "Index Numbers / Sep: Highest of 5 items is Other transportable goods, except metal products, machinery and equipment (118.23 points), lowest is Ores and minerals (95.75 points) in 2026.",
+   "text_ar": "الأعلى بين 5 بنود هو سلع اخرى قابلة للنقل،فيما عدا المنتجات المعدنية والآلات (7.96%) والأدنى هو المنتجات المعدنية والآلات والمعدات (-0.27%) في أكتوبر 2026 (الجدول: ملخص الأرقام القياسية ومعدلات التغيّر للرقم القياسي لأسعار الجملة حسب الأبواب الرئيسة).",
+   "text_en": "Highest of 5 items is Other transportable goods, except metal products, machinery and equipment (7.96%), lowest is Metal products, machinery and equipment (-0.27%) in October 2026 (table: Summary of Wholesale Price Indices and Rates of ChangeBy Main Divisions 2023=100 Index...).",
    "numbers": {
     "items": 5,
-    "highest": 118.2305230421,
-    "lowest": 95.7483399317,
-    "period": "2026"
+    "highest": 7.9636606781,
+    "lowest": -0.2687030069,
+    "period": "2026-10"
    },
    "evidence": [
     {
-     "period": "2026",
-     "value": 118.2305230421,
-     "cell": "1.1!R18C5"
+     "period": "2026-10",
+     "value": 7.9636606781,
+     "cell": "1.1!R18C7"
     },
     {
-     "period": "2026",
-     "value": 95.7483399317,
-     "cell": "1.1!R16C5"
+     "period": "2026-10",
+     "value": -0.2687030069,
+     "cell": "1.1!R19C7"
     }
    ],
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
-   "series_label": "الأرقام القياسية / سبتمبر",
+   "series_label": "",
    "table_title": "ملخص الأرقام القياسية ومعدلات التغيّر للرقم القياسي لأسعار الجملة حسب الأبواب الرئيسة Summary of Wholesale Price Indices and Rates of ChangeBy Main Divisions 2023=100 Index Numbers Rate of Change in Oct 2026 Compared with (%)",
-   "id": "27800282-014",
+   "id": "27800282-010",
    "headline": false
   },
   {
    "kind": "cross_section",
    "dataset_id": "wholesale-price-index_1-2",
    "sheet": "1.2",
-   "period": "2026",
+   "period": "2026-10",
    "measure_type": "rate",
    "unit": "percent",
    "unit_ok": true,
-   "text_ar": "الأعلى بين 535 بنداً هو فوسفات ثلاثي الأمونيوم، أملاح وأملاح بروكسية (15.22%) والأدنى هو حلويات سكرية (بما في ذلك الشكولاته البيضاء) (-6.76%) في 2026.",
-   "text_en": "Highest of 535 items is Triammonium phosphate, salts and peroxysalts (15.22%), lowest is Sugar confectionery (including white chocolate) (-6.76%) in 2026.",
+   "text_ar": "الأعلى بين 535 بنداً هو فوسفات ثلاثي الأمونيوم، أملاح وأملاح بروكسية (40.7%) والأدنى هو ألياف تيلية نسجية اصطناعية مجهزة لأغراض الغزل (-12.98%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّر حسب تصنيف المنتجات).",
+   "text_en": "Highest of 535 items is Triammonium phosphate, salts and peroxysalts (40.7%), lowest is Man-made textile staple fibres prepared for spinning (-12.98%) in October 2026 (table: Price Indices and Rates of Change by Product Classification 2023=100 Index Numbers Rate...).",
+   "numbers": {
+    "items": 535,
+    "highest": 40.6981197799,
+    "lowest": -12.9788267344,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 40.6981197799,
+     "cell": "1.2!R301C8"
+    },
+    {
+     "period": "2026-10",
+     "value": -12.9788267344,
+     "cell": "1.2!R190C8"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
+   "series_label": "",
+   "table_title": "الأرقام القياسية ومعدلات التغيّر حسب تصنيف المنتجات Price Indices and Rates of Change by Product Classification 2023=100 Index Numbers Rate of Change in Oct 2026 Compared with (%)",
+   "id": "27800282-011",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "wholesale-price-index_1-2",
+   "sheet": "1.2",
+   "period": "2026-10",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 535 بنداً هو فوسفات ثلاثي الأمونيوم، أملاح وأملاح بروكسية (15.22%) والأدنى هو حلويات سكرية (بما في ذلك الشكولاته البيضاء) (-6.76%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّر حسب تصنيف المنتجات).",
+   "text_en": "Highest of 535 items is Triammonium phosphate, salts and peroxysalts (15.22%), lowest is Sugar confectionery (including white chocolate) (-6.76%) in October 2026 (table: Price Indices and Rates of Change by Product Classification 2023=100 Index Numbers Rate...).",
    "numbers": {
     "items": 535,
     "highest": 15.2235146112,
     "lowest": -6.7586568324,
-    "period": "2026"
+    "period": "2026-10"
    },
    "evidence": [
     {
-     "period": "2026",
+     "period": "2026-10",
      "value": 15.2235146112,
      "cell": "1.2!R301C9"
     },
     {
-     "period": "2026",
+     "period": "2026-10",
      "value": -6.7586568324,
      "cell": "1.2!R168C9"
     }
@@ -631,43 +514,8 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
    "series_label": "",
    "table_title": "الأرقام القياسية ومعدلات التغيّر حسب تصنيف المنتجات Price Indices and Rates of Change by Product Classification 2023=100 Index Numbers Rate of Change in Oct 2026 Compared with (%)",
-   "id": "27800282-015",
-   "headline": false
-  },
-  {
-   "kind": "cross_section",
-   "dataset_id": "wholesale-price-index_1-2",
-   "sheet": "1.2",
-   "period": "2026",
-   "measure_type": "index",
-   "unit": "index_base_2023",
-   "unit_ok": true,
-   "text_ar": "الأرقام القياسية / سبتمبر: الأعلى بين 535 بنداً هو بطاطا (196.43 نقطة) والأدنى هو بكارات وآلات رفع غير الدلاء وروافع ترسية ورحويات (80.53 نقطة) في 2026.",
-   "text_en": "Index Numbers / Sep: Highest of 535 items is Potatos (196.43 points), lowest is Pulley blocks and hoists other than skip hoists; winches and capstans (80.53 points) in 2026.",
-   "numbers": {
-    "items": 535,
-    "highest": 196.4320971161,
-    "lowest": 80.530169296,
-    "period": "2026"
-   },
-   "evidence": [
-    {
-     "period": "2026",
-     "value": 196.4320971161,
-     "cell": "1.2!R43C6"
-    },
-    {
-     "period": "2026",
-     "value": 80.530169296,
-     "cell": "1.2!R466C6"
-    }
-   ],
-   "is_total": false,
-   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
-   "series_label": "الأرقام القياسية / سبتمبر",
-   "table_title": "الأرقام القياسية ومعدلات التغيّر حسب تصنيف المنتجات Price Indices and Rates of Change by Product Classification 2023=100 Index Numbers Rate of Change in Oct 2026 Compared with (%)",
-   "id": "27800282-016",
-   "headline": false
+   "id": "27800282-012",
+   "headline": true
   },
   {
    "kind": "cross_section",
@@ -701,7 +549,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/WPI_Tables_Oct+2026-AR-EN+%281%29.xlsx/569db256-9ade-dec2-d036-2ab372cf835c",
    "series_label": "",
    "table_title": "السلسلة الزمنية لمعدلات التغيّر السنوية حسب تصنيف المنتجات Time Series of Annual Rates of Change by Product Classification العام Year الشهر Month",
-   "id": "27800282-017",
+   "id": "27800282-013",
    "headline": true
   }
  ],
@@ -710,5 +558,5 @@
  "release_date": "2026-11-15",
  "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
  "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
- "generated_at": "2026-11-17T14:16:12+00:00"
+ "generated_at": "2026-11-19T02:41:22+00:00"
 }

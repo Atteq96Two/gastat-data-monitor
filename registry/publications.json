@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T02:33:07+00:00",
+ "generated_at": "2026-11-19T02:42:34+00:00",
  "count": 166,
  "publications": [
   {
@@ -194,7 +194,15 @@
     }
    ],
    "status": "processed",
-   "processed_at": "2026-11-17T00:00:00+00:00"
+   "seed": true,
+   "processed_at": "2026-11-19T02:41:22+00:00",
+   "tables": {
+    "skipped_navigation": 2,
+    "pass": 10,
+    "skipped_decoration": 2
+   },
+   "values_added": 74617,
+   "values_revised": 0
   },
   {
    "publication_id": 27741845,
@@ -277,7 +285,14 @@
     }
    ],
    "status": "processed",
-   "processed_at": "2026-11-17T00:00:00+00:00"
+   "seed": true,
+   "processed_at": "2026-11-19T02:42:34+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 3
+   },
+   "values_added": 198,
+   "values_revised": 0
   },
   {
    "publication_id": 27714198,

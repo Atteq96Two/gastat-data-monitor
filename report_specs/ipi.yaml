@@ -1,0 +1,28 @@
+id: ipi
+name_ar: الرقم القياسي للإنتاج الصناعي
+group: growth
+frequency: monthly
+description_ar: تغير حجم الإنتاج في التعدين والصناعة والمرافق
+headline:
+  label_ar: التغير السنوي للإنتاج الصناعي
+  unit_ar: "%"
+  derived_yoy_of: {dataset: industrial-production-index-1_3, name: "^الرقم القياسي العام \\| الرقم القياسي", measure: index, period_type: month}
+  change: {mode: pp}
+  press_release_value: -10.9    # GASTAT press release, September 2026 (year on year)
+level1:
+  title_ar: الرقم القياسي العام، شهرياً
+  unit_ar: "نقطة"
+  series:
+    - {label_ar: الرقم القياسي العام, dataset: industrial-production-index-1_3, name: "^الرقم القياسي العام \\| الرقم القياسي", measure: index, period_type: month}
+level2:
+  title_ar: النفطي وغير النفطي
+  kind: line
+  unit_ar: "نقطة"
+  series:
+    - {label_ar: الأنشطة النفطية, dataset: industrial-production-index-1_3, name: "^الأنشطة النفطية \\|", measure: index, period_type: month}
+    - {label_ar: الأنشطة غير النفطية, dataset: industrial-production-index-1_3, name: "^الأنشطة غير النفطية \\|", measure: index, period_type: month}
+level3:
+  - title_ar: أنشطة الصناعة التحويلية، التغير السنوي
+    kind: bars
+    unit_ar: "%"
+    items: {dataset: industrial-production-index-1_1, name: "^(صنع|صُنع|صناعة).* \\| معدل التغير / سنوي$", measure: rate, label_cut: " | معدل التغير / سنوي"}

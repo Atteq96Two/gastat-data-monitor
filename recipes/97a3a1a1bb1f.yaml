@@ -31,4 +31,7 @@ period_sources:
 title_sample: الرقم القياسي للإنتاج الصناعي حسب الأنشطة الاقتصادية الرئيسة Industrial
   Production Index by Main Economic Activities سبت
 validation_on_first_run: pass
-notes: []
+unit_by_measure:
+  rate: fraction
+notes:
+- Annual and monthly change columns hold fractions (-0.1092 means -10.9%), as the GASTAT press release confirms; the weight column (100) must not make the dataset look like percent.

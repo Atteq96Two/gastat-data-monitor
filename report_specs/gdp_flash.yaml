@@ -1,0 +1,34 @@
+id: gdp_flash
+name_ar: التقديرات السريعة للناتج المحلي
+group: growth
+frequency: quarterly
+description_ar: أول تقدير لنمو الاقتصاد الحقيقي في الربع
+headline:
+  label_ar: نمو الناتج المحلي الحقيقي
+  unit_ar: "%"
+  series: {dataset: gdp-flash_sheet, block: 0, name: "الناتج المحلي الإجمالي الحقيقي", measure: rate, period_type: quarter}
+  change: {mode: pp}
+  press_release_value: -3.8     # GASTAT press release, Q3 2026 (year on year)
+level1:
+  title_ar: نمو الناتج الحقيقي، على أساس سنوي
+  unit_ar: "% على أساس سنوي"
+  series:
+    - {label_ar: الناتج المحلي الحقيقي, dataset: gdp-flash_sheet, block: 0, name: "الناتج المحلي الإجمالي الحقيقي", measure: rate, period_type: quarter}
+level2:
+  title_ar: الأنشطة الرئيسة
+  kind: line
+  unit_ar: "% على أساس سنوي"
+  series:
+    - {label_ar: الأنشطة النفطية, dataset: gdp-flash_sheet, block: 0, name: "الأنشطة النفطية", measure: rate, period_type: quarter}
+    - {label_ar: الأنشطة غير النفطية, dataset: gdp-flash_sheet, block: 0, name: "الأنشطة غير النفطية", measure: rate, period_type: quarter}
+    - {label_ar: الأنشطة الحكومية, dataset: gdp-flash_sheet, block: 0, name: "الأنشطة الحكومية", measure: rate, period_type: quarter}
+level3:
+  - title_ar: مساهمة الأنشطة في النمو السنوي، الربع الأخير
+    kind: bars
+    unit_ar: "نقطة مئوية"
+    items: {dataset: gdp-flash_sheet, block: 1, name: "^(?!الناتج المحلي الإجمالي الحقيقي|القيمة المضافة)", measure: rate, period_type: quarter}
+  - title_ar: النمو الربعي، معدل موسمياً
+    kind: line
+    unit_ar: "% على أساس ربعي"
+    series:
+      - {label_ar: الناتج المحلي الحقيقي, dataset: gdp-flash_sheet, block: 2, name: "الناتج المحلي الإجمالي الحقيقي", measure: rate, period_type: quarter}

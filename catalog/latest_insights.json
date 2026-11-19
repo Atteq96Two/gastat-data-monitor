@@ -184,22 +184,22 @@
    "title_ar": "الرقم القياسي لأسعار الجملة لشهر أكتوبر 2026",
    "title_en": "Wholesale Price Index – October 2026",
    "release_date": "2026-11-15",
-   "insight_count": 17,
+   "insight_count": 13,
    "headlines": [
     {
      "id": "27800282-001",
      "kind": "series_change",
-     "text_ar": "الرقم القياسي العام | الأرقام القياسية / أكتوبر: 111.22 نقطة في 2026، مقابل 106.39 (+4.54%) في 2025.",
-     "text_en": "General index | Index Numbers / Oct: 111.22 points in 2026, versus 106.39 (+4.54%) in 2025.",
-     "period": "2026",
+     "text_ar": "الرقم القياسي العام | الأرقام القياسية / أكتوبر: 111.22 نقطة في أكتوبر 2026، ومقابل 106.39 (+4.54%) في أكتوبر 2025.",
+     "text_en": "General index | Index Numbers / Oct: 111.22 points in October 2026, and versus 106.39 (+4.54%) in October 2025.",
+     "period": "2026-10",
      "dataset_id": "wholesale-price-index_1-1"
     },
     {
      "id": "27800282-002",
      "kind": "series_change",
-     "text_ar": "المجموع دون الطاقة | الأرقام القياسية / أكتوبر: 105.74 نقطة في 2026، مقابل 101.36 (+4.32%) في 2025.",
-     "text_en": "General Price Index Excluding Energy | Index Numbers / Oct: 105.74 points in 2026, versus 101.36 (+4.32%) in 2025.",
-     "period": "2026",
+     "text_ar": "المجموع دون الطاقة | الأرقام القياسية / أكتوبر: 105.74 نقطة في أكتوبر 2026، ومقابل 101.36 (+4.32%) في أكتوبر 2025.",
+     "text_en": "General Price Index Excluding Energy | Index Numbers / Oct: 105.74 points in October 2026, and versus 101.36 (+4.32%) in October 2025.",
+     "period": "2026-10",
      "dataset_id": "wholesale-price-index_1-1"
     },
     {
@@ -243,23 +243,23 @@
      "dataset_id": "wholesale-price-index_2-3"
     },
     {
-     "id": "27800282-009",
-     "kind": "mover_up",
-     "text_ar": "فوسفات ثلاثي الأمونيوم، أملاح وأملاح بروكسية | الأرقام القياسية / أكتوبر: 164.61 نقطة في 2026، مقابل 117 (+40.7%) في 2025.",
-     "text_en": "Triammonium phosphate, salts and peroxysalts | Index Numbers / Oct: 164.61 points in 2026, versus 117 (+40.7%) in 2025.",
-     "period": "2026",
+     "id": "27800282-011",
+     "kind": "cross_section",
+     "text_ar": "الأعلى بين 535 بنداً هو فوسفات ثلاثي الأمونيوم، أملاح وأملاح بروكسية (40.7%) والأدنى هو ألياف تيلية نسجية اصطناعية مجهزة لأغراض الغزل (-12.98%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّر حسب تصنيف المنتجات).",
+     "text_en": "Highest of 535 items is Triammonium phosphate, salts and peroxysalts (40.7%), lowest is Man-made textile staple fibres prepared for spinning (-12.98%) in October 2026 (table: Price Indices and Rates of Change by Product Classification 2023=100 Index Numbers Rate...).",
+     "period": "2026-10",
      "dataset_id": "wholesale-price-index_1-2"
     },
     {
-     "id": "27800282-010",
-     "kind": "mover_down",
-     "text_ar": "ألياف تيلية نسجية اصطناعية مجهزة لأغراض الغزل | الأرقام القياسية / أكتوبر: 88.1 نقطة في 2026، مقابل 101.24 (-12.98%) في 2025.",
-     "text_en": "Man-made textile staple fibres prepared for spinning | Index Numbers / Oct: 88.1 points in 2026, versus 101.24 (-12.98%) in 2025.",
-     "period": "2026",
+     "id": "27800282-012",
+     "kind": "cross_section",
+     "text_ar": "الأعلى بين 535 بنداً هو فوسفات ثلاثي الأمونيوم، أملاح وأملاح بروكسية (15.22%) والأدنى هو حلويات سكرية (بما في ذلك الشكولاته البيضاء) (-6.76%) في أكتوبر 2026 (الجدول: الأرقام القياسية ومعدلات التغيّر حسب تصنيف المنتجات).",
+     "text_en": "Highest of 535 items is Triammonium phosphate, salts and peroxysalts (15.22%), lowest is Sugar confectionery (including white chocolate) (-6.76%) in October 2026 (table: Price Indices and Rates of Change by Product Classification 2023=100 Index Numbers Rate...).",
+     "period": "2026-10",
      "dataset_id": "wholesale-price-index_1-2"
     },
     {
-     "id": "27800282-017",
+     "id": "27800282-013",
      "kind": "cross_section",
      "text_ar": "الأعلى بين 163 بنداً هو -0.7189665800279799 [-0.7189665800279799] (38.49%) والأدنى هو -0.7189665800279799 [-0.7189665800279799] (-12.98%) في أكتوبر 2026.",
      "text_en": "Highest of 163 items is -0.7189665800279799 [-0.7189665800279799] (38.49%), lowest is -0.7189665800279799 [-0.7189665800279799] (-12.98%) in October 2026.",
@@ -367,8 +367,8 @@
     {
      "id": "27743334-010",
      "kind": "cross_section",
-     "text_ar": "الأعلى بين 30 بنداً هو استخراج النفط الخام والغاز الطبيعي [6|B06] (0.3%) والأدنى هو استخراج النفط الخام والغاز الطبيعي [6|B06] (-0.16%) في سبتمبر 2026.",
-     "text_en": "Highest of 30 items is Extraction of crude petroleum and natural gas [6|B06] (0.3%), lowest is Extraction of crude petroleum and natural gas [6|B06] (-0.16%) in September 2026.",
+     "text_ar": "الأعلى بين 30 بنداً هو استخراج النفط الخام والغاز الطبيعي [6|B06] (29.88%) والأدنى هو استخراج النفط الخام والغاز الطبيعي [6|B06] (-15.99%) في سبتمبر 2026.",
+     "text_en": "Highest of 30 items is Extraction of crude petroleum and natural gas [6|B06] (29.88%), lowest is Extraction of crude petroleum and natural gas [6|B06] (-15.99%) in September 2026.",
      "period": "2026-09",
      "dataset_id": "industrial-production-index-1_2"
     },

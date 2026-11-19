@@ -233,6 +233,7 @@ def describe_block(g, infos, c0, b):  # c1 is carried on the grid
     return dict(label_cols=lab, val_cols=val_cols, data_rows=data_rows, header_rows=rows_desc, col_tokens=col_tokens)
 
 
+LEGACY_FINGERPRINT = False   # True reproduces the hashes made before "أكتوبر2026" and "أكتوبر 2026م" were treated as one layout (used once to migrate recipes)
 MONTH_TOKEN = re.compile("|".join(MONTHS_AR + MONTHS_EN), re.I)
 
 
@@ -254,7 +255,8 @@ def fingerprint(g, infos, c0, b, d):
             else:
                 t = MONTH_TOKEN.sub("MONTH", norm(clean(v)))
                 t = re.sub(r"\d{4}", "YEAR", t)
-                t = re.sub(r"\s+", " ", re.sub(r"MONTH\s*YEAR\s*\u0645?", "MONTH YEAR ", t)).strip()   # "أكتوبر2026م" and "يناير 2026م" are the same layout
+                if not LEGACY_FINGERPRINT:
+                    t = re.sub(r"MONTH\s*YEAR(?:\s*\u0645)?\s*", lambda m_: "MONTH YEAR" + (" " if m_.end() < len(t) else ""), t)   # "أكتوبر2026م" and "يناير 2026م" are the same layout
                 t = re.sub(r"\d+", "N", t)
             if t not in toks:
                 toks.append(t)

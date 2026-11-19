@@ -1,6 +1,6 @@
 """Reference implementation of the News Tracker contract: check ONE factual claim against the stored GASTAT data.
 
-It reads only the public JSON files (catalog/catalog.json, catalog/search_index.json, web/data/series/<dataset>.json), the same files the
+It reads only the public JSON files (catalog/catalog.json, catalog/search_index.json, catalog/series/<dataset>.json), the same files the
 News Tracker reads over HTTP. It never guesses: anything it cannot pin down gives "insufficient_data" with the reason and the candidates.
 
 Verdicts: supports | contradicts | insufficient_data | data_too_old   (see INTEGRATION.md)
@@ -59,7 +59,7 @@ def find(claim, root=ROOT):
         hay = norm(" ".join([d["title_ar"], d["title_en"], d["publication_title_ar"], d["publication_title_en"]] + idx.get(d["dataset_id"], [])))
         if not all(w in hay for w in qw):
             continue
-        s = _load(root / "web" / "data" / "series" / f"{d['dataset_id']}.json")
+        s = _load(root / "catalog" / "series" / f"{d['dataset_id']}.json")
         head = norm(" ".join([d["title_ar"], d["title_en"], d["publication_title_ar"], d["publication_title_en"]]))
         for x in s["series"]:
             lab = norm(x["label"] + " " + x["label_en"])

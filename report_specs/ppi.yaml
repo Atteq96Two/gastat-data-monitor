@@ -1,0 +1,40 @@
+id: ppi
+name_ar: الرقم القياسي لأسعار المنتجين
+group: prices
+frequency: monthly
+description_ar: تغير أسعار البيع عند بوابة المصنع
+headline:
+  label_ar: التغير السنوي لأسعار المنتجين
+  unit_ar: "%"
+  series: {dataset: producer-price-index-for_2-3, name: "^الرقم القياسي العام$", measure: rate, period_type: month}
+  change: {mode: pp}
+  press_release_value: 6.6      # GASTAT press release, September 2026 (the owner's first choice, 21.52, is the oil-inclusive total and is shown in level 2)
+level1:
+  title_ar: التغير السنوي، الرقم القياسي العام
+  unit_ar: "% على أساس سنوي"
+  series:
+    - {label_ar: التغير السنوي, dataset: producer-price-index-for_2-3, name: "^الرقم القياسي العام$", measure: rate, period_type: month}
+level2:
+  title_ar: النفطي وغير النفطي
+  kind: line
+  unit_ar: "% على أساس سنوي"
+  series:
+    - {label_ar: الأنشطة النفطية, dataset: producer-price-index-for_3-3, name: "^الأنشطة النفطية$", measure: rate, period_type: month}
+    - {label_ar: الأنشطة غير النفطية, dataset: producer-price-index-for_3-3, name: "الأنشطة غير النفطية$", measure: rate, period_type: month}
+    - {label_ar: الإجمالي شاملاً النفط, dataset: producer-price-index-for_3-3, name: "^الرقم القياسي حسب", measure: rate, period_type: month}
+level3:
+  - title_ar: أنشطة الصناعة، التغير السنوي
+    kind: bars
+    unit_ar: "%"
+    items: {dataset: producer-price-index-for_2-3, measure: rate, period_type: month, exclude: "^(الرقم القياسي العام|[أ-ي] /)", min_points: 20}
+  - title_ar: أسعار الجملة، التغير السنوي
+    kind: line
+    unit_ar: "% على أساس سنوي"
+    detail: true
+    series:
+      - {label_ar: الرقم القياسي العام لأسعار الجملة, dataset: wholesale-price-index_3-3, name: "^الرقم القياسي العام$", measure: rate, period_type: month}
+  - title_ar: أسعار الجملة حسب مجموعات المنتجات، التغير السنوي
+    kind: bars
+    unit_ar: "%"
+    detail: true
+    items: {dataset: wholesale-price-index_1-1, measure: rate, yoy_base: true, name: "^(منتجات الزراعة|الركازات|المنتجات الغذائية|سلع اخرى|المنتجات المعدنية)"}

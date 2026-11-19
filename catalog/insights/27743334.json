@@ -363,14 +363,14 @@
    "sheet": "1",
    "period": "2026-09",
    "measure_type": "rate",
-   "unit": "percent_or_fraction",
+   "unit": "fraction",
    "unit_ok": true,
-   "text_ar": "الأعلى بين 32 بنداً هو استخراج النفط الخام والغاز الطبيعي [6|B06] (0.3%) والأدنى هو استخراج النفط الخام والغاز الطبيعي [6|B06] (-0.16%) في سبتمبر 2026.",
-   "text_en": "Highest of 32 items is Extraction of crude petroleum and natural gas [6|B06] (0.3%), lowest is Extraction of crude petroleum and natural gas [6|B06] (-0.16%) in September 2026.",
+   "text_ar": "الأعلى بين 32 بنداً هو استخراج النفط الخام والغاز الطبيعي [6|B06] (29.88%) والأدنى هو استخراج النفط الخام والغاز الطبيعي [6|B06] (-15.99%) في سبتمبر 2026.",
+   "text_en": "Highest of 32 items is Extraction of crude petroleum and natural gas [6|B06] (29.88%), lowest is Extraction of crude petroleum and natural gas [6|B06] (-15.99%) in September 2026.",
    "numbers": {
     "items": 32,
-    "highest": 0.2988,
-    "lowest": -0.1599,
+    "highest": 29.88,
+    "lowest": -15.99,
     "period": "2026-09"
    },
    "evidence": [
@@ -436,14 +436,14 @@
    "sheet": "2",
    "period": "2026-09",
    "measure_type": "rate",
-   "unit": "percent_or_fraction",
+   "unit": "fraction",
    "unit_ok": true,
-   "text_ar": "الأعلى بين 30 بنداً هو استخراج النفط الخام والغاز الطبيعي [6|B06] (0.3%) والأدنى هو استخراج النفط الخام والغاز الطبيعي [6|B06] (-0.16%) في سبتمبر 2026.",
-   "text_en": "Highest of 30 items is Extraction of crude petroleum and natural gas [6|B06] (0.3%), lowest is Extraction of crude petroleum and natural gas [6|B06] (-0.16%) in September 2026.",
+   "text_ar": "الأعلى بين 30 بنداً هو استخراج النفط الخام والغاز الطبيعي [6|B06] (29.88%) والأدنى هو استخراج النفط الخام والغاز الطبيعي [6|B06] (-15.99%) في سبتمبر 2026.",
+   "text_en": "Highest of 30 items is Extraction of crude petroleum and natural gas [6|B06] (29.88%), lowest is Extraction of crude petroleum and natural gas [6|B06] (-15.99%) in September 2026.",
    "numbers": {
     "items": 30,
-    "highest": 0.2988,
-    "lowest": -0.1599,
+    "highest": 29.88,
+    "lowest": -15.99,
     "period": "2026-09"
    },
    "evidence": [
@@ -506,5 +506,5 @@
  "release_date": "2026-11-10",
  "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
  "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
- "generated_at": "2026-11-17T14:16:13+00:00"
+ "generated_at": "2026-11-19T02:42:34+00:00"
 }

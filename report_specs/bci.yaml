@@ -1,0 +1,25 @@
+id: bci
+name_ar: مؤشر ثقة الأعمال
+group: confidence
+frequency: monthly
+description_ar: قراءة شهرية لتوقعات الشركات حول نشاطها
+headline:
+  label_ar: مؤشر ثقة الأعمال
+  unit_ar: نقطة
+  series: {dataset: business-confidence-index-for_2, name: "^مؤشر ثقة الأعمال العام", measure: index, period_type: month}
+  change: {mode: published, unit: "%", series: {dataset: business-confidence-index-for_3, name: "^مؤشر ثقة الأعمال العام$", measure: rate, period_type: month}}
+  press_release_value: 55.5     # GASTAT press release, October 2026
+level1:
+  title_ar: المؤشر العام، شهرياً
+  unit_ar: نقطة
+  series:
+    - {label_ar: المؤشر العام, dataset: business-confidence-index-for_2, name: "^مؤشر ثقة الأعمال العام", measure: index, period_type: month}
+level2:
+  title_ar: القطاعات
+  kind: line
+  unit_ar: نقطة
+  series:
+    - {label_ar: التشييد, dataset: business-confidence-index-for_2, name: "قطاع التشييد", measure: index, period_type: month}
+    - {label_ar: الخدمات, dataset: business-confidence-index-for_2, name: "قطاع الخدمات", measure: index, period_type: month}
+    - {label_ar: الصناعة, dataset: business-confidence-index-for_2, name: "قطاع الصناعة", measure: index, period_type: month}
+level3: []
