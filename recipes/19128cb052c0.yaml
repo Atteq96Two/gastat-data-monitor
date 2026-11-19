@@ -1,0 +1,30 @@
+fingerprint: 19128cb052c0
+status: reviewed
+first_seen:
+  publication_id: 21717806
+  sheet: 3-6
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+- ar
+- ar
+value_columns: 45
+measure_types:
+- distribution
+units:
+- percent
+scales:
+- 1
+period_sources:
+- publication
+title_sample: التوزيع النسبي للمشتغلين حسب الجنسية والجنس ونوع القطاع (%) - سلسلة
+  زمنية جدول (3-6-2)
+validation_on_first_run: review
+notes:
+- 'Reviewed (owner approved 2026-11-19): percentage distribution with nested sub-totals,
+  so columns do not add to 100 as a flat sum; values are the published ones.'
+accept_review: true
+row_period_labels: true

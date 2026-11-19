@@ -1,0 +1,288 @@
+{
+ "publication_id": "25605129",
+ "datasets": 3,
+ "insight_count": 7,
+ "headline_ids": [
+  "25605129-001",
+  "25605129-002",
+  "25605129-003",
+  "25605129-005",
+  "25605129-006"
+ ],
+ "insights": [
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "real-estate-price-index_2",
+   "sheet": "2",
+   "period": "2026-Q3",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الأرقا القياسية / التغيّر الربعي: -1.2% في الربع الثالث 2026، ومقابل -1.1% (-0.1 نقطة مئوية) في الربع الثالث 2025، وهي الأدنى في البيانات المتاحة (منذ الربع الثالث 2021).",
+   "text_en": "Q3 | Index Numbers / QoQ: -1.2% in Q3 2026, and versus -1.1% (-0.1 percentage points) in Q3 2025, the lowest in the available data (since Q3 2021).",
+   "numbers": {
+    "value": -1.2,
+    "period": "2026-Q3",
+    "yoy_value": -1.1,
+    "yoy_period": "2025-Q3",
+    "yoy_diff": -0.1,
+    "history_start": "2021-Q3",
+    "history_observations": 6
+   },
+   "evidence": [
+    {
+     "period": "2026-Q3",
+     "value": -1.2,
+     "cell": "2!R41C4"
+    },
+    {
+     "period": "2025-Q3",
+     "value": -1.1,
+     "cell": "2!R36C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313",
+   "series_label": "الأرقا القياسية / التغيّر الربعي",
+   "table_title": "السلاسل الزمنية للمؤشر ومعدل التغيّر حسب القطاع ونوع العقار اعتبارا من عام 2021م (ربع سنوي - سنوي) Time Series of the Index and Rate of Change by Sector and Type of Real Estate from 2021 (Quarterly - Annually) 2023=100 Residential Commercia",
+   "also_in_tables": [
+    "real-estate-price-index_3"
+   ],
+   "id": "25605129-001",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "real-estate-price-index_2",
+   "sheet": "2",
+   "period": "2026-Q3",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "التجاري / معرض / محل / التغيّر الربعي: -1.7% في الربع الثالث 2026، ومقابل -0.5% (-1.2 نقطة مئوية) في الربع الثالث 2025، وهي الأدنى في البيانات المتاحة (منذ الربع الثالث 2021).",
+   "text_en": "Q3 | Commercial / Gallery/ Shop / QoQ: -1.7% in Q3 2026, and versus -0.5% (-1.2 percentage points) in Q3 2025, the lowest in the available data (since Q3 2021).",
+   "numbers": {
+    "value": -1.7,
+    "period": "2026-Q3",
+    "yoy_value": -0.5,
+    "yoy_period": "2025-Q3",
+    "yoy_diff": -1.2,
+    "history_start": "2021-Q3",
+    "history_observations": 6
+   },
+   "evidence": [
+    {
+     "period": "2026-Q3",
+     "value": -1.7,
+     "cell": "2!R41C31"
+    },
+    {
+     "period": "2025-Q3",
+     "value": -0.5,
+     "cell": "2!R36C31"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313",
+   "series_label": "التجاري / معرض / محل / التغيّر الربعي",
+   "table_title": "السلاسل الزمنية للمؤشر ومعدل التغيّر حسب القطاع ونوع العقار اعتبارا من عام 2021م (ربع سنوي - سنوي) Time Series of the Index and Rate of Change by Sector and Type of Real Estate from 2021 (Quarterly - Annually) 2023=100 Residential Commercia",
+   "id": "25605129-002",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "real-estate-price-index_3",
+   "sheet": "3",
+   "period": "2026-Q3",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الباحة / التغيّر الربعي: 0.6% في الربع الثالث 2026، ومقابل -1.9% (+2.5 نقطة مئوية) في الربع الثالث 2025، وهي الأعلى في البيانات المتاحة (منذ الربع الثالث 2021).",
+   "text_en": "Q3 | Al Baha / QoQ: 0.6% in Q3 2026, and versus -1.9% (+2.5 percentage points) in Q3 2025, the highest in the available data (since Q3 2021).",
+   "numbers": {
+    "value": 0.6,
+    "period": "2026-Q3",
+    "yoy_value": -1.9,
+    "yoy_period": "2025-Q3",
+    "yoy_diff": 2.5,
+    "history_start": "2021-Q3",
+    "history_observations": 6
+   },
+   "evidence": [
+    {
+     "period": "2026-Q3",
+     "value": 0.6,
+     "cell": "3!R39C40"
+    },
+    {
+     "period": "2025-Q3",
+     "value": -1.9,
+     "cell": "3!R34C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313",
+   "series_label": "الباحة / التغيّر الربعي",
+   "table_title": "السلاسل الزمنية للمؤشر ومعدل التغيّر حسب المنطقة الإدارية اعتبارا من عام 2021م (ربع سنوي - سنوي) Time Series of the Index and Rate of Change by Administrative Region from 2021 (Quarterly - Annually) 2023=100",
+   "id": "25605129-003",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "real-estate-price-index_2",
+   "sheet": "2",
+   "period": "2026-Q3",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأرقام القياسية / المؤشر: 105.11 نقطة في الربع الثالث 2026، ومقابل 103.88 (+1.18%) في الربع الثالث 2025، وهي الأعلى في البيانات المتاحة (منذ الربع الثالث 2021).",
+   "text_en": "Q3 | Index Numbers / Index: 105.11 points in Q3 2026, and versus 103.88 (+1.18%) in Q3 2025, the highest in the available data (since Q3 2021).",
+   "numbers": {
+    "value": 105.11,
+    "period": "2026-Q3",
+    "yoy_value": 103.88,
+    "yoy_period": "2025-Q3",
+    "yoy_diff": 1.23,
+    "yoy_pct": 1.1840585291,
+    "history_start": "2021-Q3",
+    "history_observations": 6
+   },
+   "evidence": [
+    {
+     "period": "2026-Q3",
+     "value": 105.11,
+     "cell": "2!R41C3"
+    },
+    {
+     "period": "2025-Q3",
+     "value": 103.88,
+     "cell": "2!R36C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313",
+   "series_label": "الأرقام القياسية / المؤشر",
+   "table_title": "السلاسل الزمنية للمؤشر ومعدل التغيّر حسب القطاع ونوع العقار اعتبارا من عام 2021م (ربع سنوي - سنوي) Time Series of the Index and Rate of Change by Sector and Type of Real Estate from 2021 (Quarterly - Annually) 2023=100 Residential Commercia",
+   "also_in_tables": [
+    "real-estate-price-index_3"
+   ],
+   "id": "25605129-004",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "real-estate-price-index_1",
+   "sheet": "1",
+   "period": "2026-Q3",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 22 بنداً هو قطعة أرض سكنية (4.9%) والأدنى هو فيلا (-7.7%) في الربع الثالث 2026.",
+   "text_en": "Highest of 22 items is Residential Plot (4.9%), lowest is Villa (-7.7%) in Q3 2026.",
+   "numbers": {
+    "items": 22,
+    "highest": 4.9,
+    "lowest": -7.7,
+    "period": "2026-Q3"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q3",
+     "value": 4.9,
+     "cell": "1!R13C6"
+    },
+    {
+     "period": "2026-Q3",
+     "value": -7.7,
+     "cell": "1!R14C6"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313",
+   "series_label": "",
+   "table_title": "الأرقام القياسية ومعدلات التغيّر حسب القطاع ونوع العقار Indices and Rates of Change by Sector and Type of Real Estate 2023=100 Index Numbers Percentage change in the Third Quarter2026 compared to",
+   "id": "25605129-005",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "real-estate-price-index_1",
+   "sheet": "1",
+   "period": "2026-Q3",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأرقام القياسية / الربع الثالث 2026: الأعلى بين 11 بنداً هو زراعي (114.42 نقطة) والأدنى هو فيلا (94.48 نقطة) في الربع الثالث 2026.",
+   "text_en": "Index Numbers / Q3_2026: Highest of 11 items is Agricultural (114.42 points), lowest is Villa (94.48 points) in Q3 2026.",
+   "numbers": {
+    "items": 11,
+    "highest": 114.42,
+    "lowest": 94.48,
+    "period": "2026-Q3"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q3",
+     "value": 114.42,
+     "cell": "1!R21C5"
+    },
+    {
+     "period": "2026-Q3",
+     "value": 94.48,
+     "cell": "1!R14C5"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313",
+   "series_label": "الأرقام القياسية / الربع الثالث 2026",
+   "table_title": "الأرقام القياسية ومعدلات التغيّر حسب القطاع ونوع العقار Indices and Rates of Change by Sector and Type of Real Estate 2023=100 Index Numbers Percentage change in the Third Quarter2026 compared to",
+   "id": "25605129-006",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "real-estate-price-index_1",
+   "sheet": "1",
+   "period": "2026-Q3",
+   "measure_type": "weight",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الأوزان (%) Weights (%): الأعلى بين 11 بنداً هو سكني (72.66%) والأدنى هو معرض / محل (0.55%) في الربع الثالث 2026.",
+   "text_en": "الأوزان (%) Weights (%): Highest of 11 items is Residential (72.66%), lowest is Gallery/ Shop (0.55%) in Q3 2026.",
+   "numbers": {
+    "items": 11,
+    "highest": 72.661,
+    "lowest": 0.553,
+    "period": "2026-Q3"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q3",
+     "value": 72.661,
+     "cell": "1!R12C2"
+    },
+    {
+     "period": "2026-Q3",
+     "value": 0.553,
+     "cell": "1!R20C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313",
+   "series_label": "الأوزان (%) Weights (%)",
+   "table_title": "الأرقام القياسية ومعدلات التغيّر حسب القطاع ونوع العقار Indices and Rates of Change by Sector and Type of Real Estate 2023=100 Index Numbers Percentage change in the Third Quarter2026 compared to",
+   "id": "25605129-007",
+   "headline": false
+  }
+ ],
+ "title_ar": "الرقم القياسي لأسعار العقارات الربع الثالث 2026",
+ "title_en": "Real Estate Price Index, Q3 2026",
+ "release_date": "2026-10-20",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-19T13:45:18+00:00"
+}

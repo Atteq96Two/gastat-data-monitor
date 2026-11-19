@@ -1,0 +1,26 @@
+fingerprint: 14234fd1bd67
+status: held
+first_seen:
+  publication_id: 21717806
+  sheet: '1'
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+- ar
+value_columns: 9
+measure_types:
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: إحصاءات سوق العمل الربع الثاني 2026 المؤشرات الرئيسية لاحصاءات سوق العمل
+  حسب الجنسية والجنس جدول (1) المؤشرات (مسح القوى
+validation_on_first_run: review
+notes:
+- Measure type cannot be determined; held by owner decision 2026-11-19.

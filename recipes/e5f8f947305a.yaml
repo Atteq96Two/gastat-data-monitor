@@ -1,0 +1,26 @@
+fingerprint: e5f8f947305a
+status: reviewed
+first_seen:
+  publication_id: 21717806
+  sheet: 2-3
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+- ar
+value_columns: 9
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: إحصاءات سوق العمل الربع الثاني 2026 معدل البطالة حسب الجنسية والجنس
+  والمستوى التعليمي جدول (2-3-1) التعليم الجنسية السعو
+validation_on_first_run: pass
+notes: []
+row_period_labels: true

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T02:42:34+00:00",
+ "generated_at": "2026-11-19T13:45:18+00:00",
  "count": 166,
  "publications": [
   {
@@ -631,10 +631,19 @@
      "name": "ITR_Aug 2026.xlsx",
      "size_bytes": 2158843,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
-     "sha256": null,
+     "sha256": "b8645b9c09b1697edecd069dda6d834f510d5f338aa8397d5f13db679b32c90b",
      "version": "version=1.0&t=1792953944026"
     }
-   ]
+   ],
+   "seed": true,
+   "status": "processed",
+   "processed_at": "2026-11-19T13:45:18+00:00",
+   "tables": {
+    "held": 15,
+    "pass": 15
+   },
+   "values_added": 0,
+   "values_revised": 0
   },
   {
    "publication_id": 27267583,
@@ -659,10 +668,20 @@
      "name": "ITR_non_oil_Sep2026.xlsx",
      "size_bytes": 462970,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
-     "sha256": null,
+     "sha256": "1f83d3a1d5bf1ad8c4ba1c2ac9246ad2902657d761861b601f97b209f90595df",
      "version": "version=1.0&t=1792954291827"
     }
-   ]
+   ],
+   "seed": true,
+   "status": "processed",
+   "processed_at": "2026-11-19T13:45:18+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 7,
+    "held": 5
+   },
+   "values_added": 0,
+   "values_revised": 0
   },
   {
    "publication_id": 26472178,
@@ -844,10 +863,19 @@
      "name": "REPI_Q3_2026_AR_EN.xlsx",
      "size_bytes": 97344,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/REPI_Q3_2026_AR_EN.xlsx/3bcfec4a-9744-d7f5-d05f-c88a53aab313",
-     "sha256": null,
+     "sha256": "220efb874d948dfe54fd8715f3fe362cd6f6da9375f149f3f70f1f64a31f9ff2",
      "version": "version=1.0&t=1792394889417"
     }
-   ]
+   ],
+   "seed": true,
+   "status": "processed",
+   "processed_at": "2026-11-19T13:45:18+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 3
+   },
+   "values_added": 0,
+   "values_revised": 0
   },
   {
    "publication_id": 25241690,
@@ -1235,9 +1263,19 @@
      "name": "Labor Market Statistics Q2 2026 AR (2).xlsx",
      "size_bytes": 419121,
      "url": "https://www.stats.gov.sa/documents/20117/2435273/Labor+Market+Statistics+Q2+2026+AR+%282%29.xlsx/5c6df9fc-d491-598a-6fd3-acc335267279",
-     "sha256": null
+     "sha256": "c16dd4d748665d178682539393269ea894c040a33bde76f55f845ed97564e91a"
     }
-   ]
+   ],
+   "seed": true,
+   "status": "processed",
+   "processed_at": "2026-11-19T13:45:18+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "held": 3,
+    "pass": 48
+   },
+   "values_added": 6861,
+   "values_revised": 0
   },
   {
    "publication_id": 21717735,
@@ -1269,9 +1307,17 @@
      "name": "CCI.2026_Q2 (2).xlsx",
      "size_bytes": 130719,
      "url": "https://www.stats.gov.sa/documents/20117/2435273/CCI.2026_Q2+%282%29.xlsx/2453399e-77aa-c671-4e00-5328d8c0c1be",
-     "sha256": null
+     "sha256": "a14195e00c811b33bffd1e5020aa865bf1e2ede2d0f29d526cc10ff2f490861c"
     }
-   ]
+   ],
+   "seed": true,
+   "status": "processed",
+   "processed_at": "2026-11-19T13:45:18+00:00",
+   "tables": {
+    "pass": 2
+   },
+   "values_added": 42,
+   "values_revised": 0
   },
   {
    "publication_id": 21717650,
@@ -1303,9 +1349,18 @@
      "name": "Foreign Direct Investment, Q2 of 2026.xlsx",
      "size_bytes": 125030,
      "url": "https://www.stats.gov.sa/documents/20117/2435267/Foreign+Direct+Investment%2C+Q2+of+2026.xlsx/58cc402a-6465-a388-9995-75a2e9627616",
-     "sha256": null
+     "sha256": "35c47447e96f0b9d4d8a0f4965ce7baf3886336f96587202373da324892a7853"
     }
-   ]
+   ],
+   "seed": true,
+   "status": "processed",
+   "processed_at": "2026-11-19T13:45:18+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 1
+   },
+   "values_added": 0,
+   "values_revised": 0
   },
   {
    "publication_id": 21692297,
@@ -1338,9 +1393,18 @@
      "name": "Tourism Establishments Statistics Q2 of 2026 AR (1).xlsx",
      "size_bytes": 511926,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q2+of+2026+AR+%281%29.xlsx/8d39be76-e3c8-475f-6539-2f3570aa4144",
-     "sha256": null
+     "sha256": "15a8839e84e82fd6733006414d4c3d5b4a64e66dfabc4099edf937fed4824d39"
     }
-   ]
+   ],
+   "seed": true,
+   "status": "processed",
+   "processed_at": "2026-11-19T13:45:18+00:00",
+   "tables": {
+    "held": 51,
+    "pass": 6
+   },
+   "values_added": 0,
+   "values_revised": 0
   },
   {
    "publication_id": 21688140,
@@ -1787,9 +1851,18 @@
      "name": "GDP_Q2_2026_AR.xlsx",
      "size_bytes": 1021590,
      "url": "https://www.stats.gov.sa/documents/20117/2435259/GDP_Q2_2026_AR.xlsx/4cff7076-e71e-4da9-654d-17136a303125",
-     "sha256": null
+     "sha256": "75574c01f41e312f24f178706792ba957f203a63be6e686b567b812ef1e81faf"
     }
-   ]
+   ],
+   "seed": true,
+   "status": "processed",
+   "processed_at": "2026-11-19T13:45:18+00:00",
+   "tables": {
+    "held": 1,
+    "pass": 44
+   },
+   "values_added": 0,
+   "values_revised": 0
   },
   {
    "publication_id": 20618040,
@@ -2633,9 +2706,19 @@
      "name": "Tourism Establishments Statistics Q1 of 2026 AR (1).xlsx",
      "size_bytes": 574518,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
-     "sha256": null
+     "sha256": "b0826a24fe643a9281481e13d04250fae783fef8de8491117434e526adf326cb"
     }
-   ]
+   ],
+   "status": "out_of_scope",
+   "processed_at": "2026-11-19T13:33:13+00:00",
+   "tables": {
+    "held": 35,
+    "pass": 6,
+    "quarantined_new_layout": 16
+   },
+   "values_added": 206,
+   "values_revised": 0,
+   "note": "history already inside the latest edition"
   },
   {
    "publication_id": 19083256,
@@ -4280,9 +4363,18 @@
      "name": "Tourism_Establishments_Statistics_Q4_of_2025_AR.xlsx_fixed_13419743",
      "size_bytes": 300907,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism_Establishments_Statistics_Q4_of_2025_AR.xlsx_fixed_13419743/ebec0a23-2729-6e5b-2668-f714c6ec27c5",
-     "sha256": null
+     "sha256": "947caf1d1549635dc071ebe1fc318622202849823bf37a807902be26e6ef3732"
     }
-   ]
+   ],
+   "status": "out_of_scope",
+   "processed_at": "2026-11-19T13:33:13+00:00",
+   "tables": {
+    "held": 17,
+    "quarantined_new_layout": 15
+   },
+   "values_added": 0,
+   "values_revised": 0,
+   "note": "history already inside the latest edition"
   },
   {
    "publication_id": 13333530,
@@ -5773,9 +5865,18 @@
      "name": "Tourism_Establishments_Statistics_Q3_of_2025_AR_(1).xlsx_fixed_10556719",
      "size_bytes": 265103,
      "url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism_Establishments_Statistics_Q3_of_2025_AR_%281%29.xlsx_fixed_10556719/a73d7d10-8b33-1a13-2c14-96061f657d37",
-     "sha256": null
+     "sha256": "820ca6565e9a170cc3b57619e2282d0e5a12a7b1cdf64002001b95f813699a9b"
     }
-   ]
+   ],
+   "status": "out_of_scope",
+   "processed_at": "2026-11-19T13:33:13+00:00",
+   "tables": {
+    "held": 17,
+    "quarantined_new_layout": 15
+   },
+   "values_added": 0,
+   "values_revised": 0,
+   "note": "history already inside the latest edition"
   },
   {
    "publication_id": 10556691,

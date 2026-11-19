@@ -1,0 +1,31 @@
+fingerprint: 8159a2624f6d
+status: reviewed
+first_seen:
+  publication_id: 21717806
+  sheet: 2-8
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+- label_ar
+header_level_types:
+- ar
+- ar
+- ar
+- ar
+value_columns: 27
+measure_types:
+- distribution
+units:
+- percent
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: إحصاءات سوق العمل الربع الثاني 2026 التوزيع النسبي للمتعطلين بحسب الجنسية
+  والجنس و مدة البحث عن عمل - سلسلة زمنية (%) جد
+validation_on_first_run: review
+notes:
+- 'Reviewed (owner approved 2026-11-19): percentage distribution with nested sub-totals,
+  so columns do not add to 100 as a flat sum; values are the published ones.'
+accept_review: true
+row_period_labels: true

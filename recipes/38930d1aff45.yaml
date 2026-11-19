@@ -1,0 +1,33 @@
+fingerprint: 38930d1aff45
+status: held
+first_seen:
+  publication_id: 27267531
+  sheet: '3'
+  release_date: '2026-10-26'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- mixed
+value_columns: 56
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- header
+- publication
+title_sample: الصادرات والواردات حسب مجموعات الدول، القيمة بالمليون ريال Exports and
+  imports by group of countries, value in SAR milli
+validation_on_first_run: fail
+notes:
+- 'Reviewed (owner approved 2026-11-19): the total row includes its own sub-rows,
+  so a flat sum double counts; values are the published ones.'
+- 'Held by owner decision 2026-11-19: measure_type_known. Needs its own column definitions
+  or a unit first.'
+header_fill_right: true
+extra_header_rows: 1
+accept_review: true

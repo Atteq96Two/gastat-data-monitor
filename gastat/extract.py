@@ -19,13 +19,14 @@ Q_AR = {"الاول": 1, "الثاني": 2, "الثالث": 3, "الرابع": 4
 
 def header_month(texts):
     """Month number (1-12) named in a column header, or 0."""
-    for t in texts:
-        n_ = norm(clean(t))
-        if n_ in MONTHS_AR:
-            return MONTHS_AR.index(n_) + 1
-        e_ = n_.lower()
-        if len(e_) >= 3 and re.fullmatch(r"[a-z]+", e_) and e_ in ENGLISH_MONTHS and e_[:3] in MONTHS_EN:
-            return MONTHS_EN.index(e_[:3]) + 1
+    for t0 in texts:
+        for t in re.split(r"\s*/\s*", clean(t0)):       # "يناير/Jan": Arabic and English month names in one cell
+            n_ = norm(t)
+            if n_ in MONTHS_AR:
+                return MONTHS_AR.index(n_) + 1
+            e_ = n_.lower()
+            if len(e_) >= 3 and re.fullmatch(r"[a-z]+", e_) and (e_ in ENGLISH_MONTHS or e_ in MONTHS_EN) and e_[:3] in MONTHS_EN:
+                return MONTHS_EN.index(e_[:3]) + 1
     return 0
 
 
@@ -152,6 +153,13 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         anc = [clean(g.cells[hr][c]) for c in range(g.ncols) if g.anchor[hr][c] and kind(g.cells[hr][c]) == "text"]
         if len(anc) == 1 and len(anc[0]) > 40:
             spilled_titles.add(anc[0])   # table title merged across value columns: not a column label
+    if (recipe or {}).get("header_fill_right") or (recipe or {}).get("extra_header_rows"):
+        # extra_header_rows: the first n rows the detector took for data (month / quarter names under a year) are header rows.
+        # header_fill_right: labels written once over a run of columns (year, export/import) also apply to the empty cells on their right.
+        from gastat.detect import build_col_tokens
+        n_ = int((recipe or {}).get("extra_header_rows") or 0)
+        b = dict(b, header=list(b["header"]) + list(range(b["start"], b["start"] + n_)), start=b["start"] + n_)
+        d = dict(d, col_tokens=build_col_tokens(g, b["header"], d["val_cols"], fill_right=bool((recipe or {}).get("header_fill_right")), stars=True))
     ref_p, ref_pt = period_from_text(title_txt)
     foot_txt = " ".join(clean(g.cells[r][c]) for r in range(b["end"] + 1, min(g.nrows, b["end"] + 7)) for c in range(g.ncols)
                         if g.anchor[r][c] and kind(g.cells[r][c]) == "text")
@@ -186,6 +194,7 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         dates = [t for k, t in toks if k == "date"]
         years = [t for k, t in toks if k == "year"]
         quarters = [t for k, t in toks if k == "quarter"]
+        months_tok = [t for k, t in toks if k == "month"]
         texts = [t for t in texts if t not in spilled_titles]
         codes = [t for t in texts if script(t) == "none" and re.fullmatch(r"[\d.\-]+", t)]
         texts = [t for t in texts if t not in codes]
@@ -220,7 +229,9 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
                 p, pt = f"{yr}-Q{q}", "quarter"
         elif years:
             p, pt = str(years[0]), "year"
-            mi = header_month(texts_raw)
+            mi = months_tok[0] if months_tok else header_month(texts_raw)
+            if not mi and (recipe or {}).get("month_in_text"):      # "قيمة المؤشر في شهر مايو 2026": the month is a word inside a sentence
+                mi = next((MONTHS_AR.index(norm(w)) + 1 for t_ in texts_raw for w in re.split(r"\s+", clean(t_)) if norm(w) in MONTHS_AR), 0)
             if mi:                                    # a month name over the year: the column is that month, not the whole year
                 if mt == "rate":                      # "% change from <month year> to": the column belongs to the edition, the named month is the base
                     base = f"{years[0]}-{mi:02d}"
@@ -264,6 +275,21 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         if mt == "index" and not u: u = "index"
         col_info[c] = dict(col_sub=sub, col_code="|".join(codes), col_ar=col_ar, col_en=col_en, measure_type=mt, period=p, period_type=pt, period_source=psrc,
                            base_period=base, unit=u, scale=sc, col_text=" | ".join(texts))
+    # a reviewed recipe may define columns outright when the header's merged cells cannot be read (one entry per 0-based sheet column)
+    for o in (recipe or {}).get("col_overrides", []) or []:
+        if (not o.get("sheet") or o["sheet"] == sheet) and o["col"] in col_info:
+            ci_ = col_info[o["col"]]
+            for k_, k2_ in (("col_ar", "col_ar"), ("col_en", "col_en"), ("sub", "col_sub"), ("measure_type", "measure_type"), ("unit", "unit"), ("scale", "scale"), ("base_period", "base_period")):
+                if k_ in o:
+                    ci_[k2_] = o[k_]
+    # a reviewed recipe may retype columns by header text (e.g. an index column the detector took for a rate)
+    for o in (recipe or {}).get("col_label_overrides", []) or []:
+        pat_ = re.compile(o["match"])
+        for ci_ in col_info.values():
+            if (not o.get("sheet") or o["sheet"] == sheet) and pat_.search(ci_["col_text"]):
+                for k_ in ("measure_type", "unit", "scale", "base_period"):
+                    if k_ in o:
+                        ci_[k_] = o[k_]
     # flattened headers where a repeated triple lost its "_gender" suffix: assign male/female/total by position
     # (the same reading used in the user's reference CSV; recorded as an inferred value)
     cols = list(col_info)
@@ -301,7 +327,7 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
             s = clean(v)
             if x["role"] == "code": lv["code"].append(s)
             elif x["role"] == "level": lv["level"] = s
-            elif x["role"] in ("year", "month"): lv[x["role"]] = s
+            elif x["role"] in ("year", "month"): lv[x["role"]] = re.sub(r"\s*[*\u00b9\u00b2\u00b3م]+$", "", s) if x["role"] == "year" else s   # "2026*" (provisional year) is the year 2026
             elif x["role"] == "unit": lv["unit"] = s
             elif x["role"] == "label_en": lv["label_en"].append(s)
             else: lv["label_ar"].append(s)
@@ -320,6 +346,23 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
                 lv["code"] = [x for x in lv["code"] if not month_idx(x) and not (re.fullmatch(r"\d+(\.0+)?", x.strip()) and int(float(x)) == mi)]
                 lab_ar = "" if month_idx(lab_ar) else lab_ar
                 lab_en = "" if month_idx(lab_en) else lab_en
+        lv["quarter"] = ""
+        if (recipe or {}).get("row_period_labels") and not lv["year"]:     # a row label such as "الربع الأول 2021": the row is that quarter
+            QN0 = {"الاول": 1, "الثاني": 2, "الثالث": 3, "الرابع": 4}
+            m_ = re.fullmatch(r"(?:الربع|البرع)\s*(الاول|الثاني|الثالث|الرابع)\s*((?:19|20)\d\d)", norm(lab_ar).replace("االث", "الث"))
+            if m_:
+                lv["year"], lv["quarter"], lab_ar = m_.group(2), str(QN0[m_.group(1)]), ""
+        if lv["year"] and not lv["month"] and not lv["quarter"]:     # a quarter row inside a year (Q1 .. Q4, الربع الأول ..): its own period, never the year's
+            QN = {"الاول": 1, "الثاني": 2, "الثالث": 3, "الرابع": 4}
+            for t in list(lv["code"]) + [lab_ar, lab_en]:
+                m_q = re.fullmatch(r"q\s*([1-4])", (t or "").strip().lower())
+                nq = int(m_q.group(1)) if m_q else next((v_ for k_, v_ in QN.items() if re.fullmatch(r"الربع\s*" + k_, norm(t or ""))), 0)
+                if nq:
+                    lv["quarter"] = str(nq)
+                    lv["code"] = [x for x in lv["code"] if x != t]
+                    lab_ar = "" if lab_ar == t else lab_ar
+                    lab_en = "" if lab_en == t else lab_en
+                    break
         if (recipe or {}).get("region_city_level") and len(lv["label_ar"]) >= 2:
             lv["level"] = "region" if norm(lv["label_ar"][0]) == norm(lv["label_ar"][1]) else "city"
         is_total = bool(TOTAL.search(norm(lab_ar))) or bool(TOTAL.search(norm(lab_en)))
@@ -331,6 +374,8 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
             per, pty, psrc = ci["period"], ci["period_type"], ci["period_source"]
             if lv["year"] and lv["month"]:
                 per, pty, psrc = f"{lv['year']}-{int(lv['month']):02d}", "month", "row"
+            elif lv["year"] and lv["quarter"]:
+                per, pty, psrc = f"{lv['year']}-Q{lv['quarter']}", "quarter", "row"
             elif lv["year"]:
                 per, pty, psrc = lv["year"], "year", "row"
             rows.append(dict(sheet=sheet, block=block_idx, source_row=r + 1, source_col=c + 1, row_code="|".join(lv["code"]), row_level=lv["level"],

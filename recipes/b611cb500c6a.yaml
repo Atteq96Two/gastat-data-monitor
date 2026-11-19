@@ -1,0 +1,47 @@
+fingerprint: b611cb500c6a
+status: reviewed
+first_seen:
+  publication_id: 21717806
+  sheet: 2-1
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+- ar
+value_columns: 9
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: إحصاءات سوق العمل الربع الثاني 2026 المعدل الربعي للبطالة حسب الجنسية
+  والجنس- سلسة زمنية جدول (2-1) الربع / السنة الجنسي
+validation_on_first_run: pass
+notes:
+- 'Reviewed (owner approved 2026-11-19): percentage distribution with nested sub-totals,
+  so columns do not add to 100 as a flat sum; values are the published ones.'
+- 'Reviewed (owner approved 2026-11-19): percentage distribution with nested sub-totals,
+  so columns do not add to 100 as a flat sum; values are the published ones.'
+- 'Reviewed (owner approved 2026-11-19): percentage distribution with nested sub-totals,
+  so columns do not add to 100 as a flat sum; values are the published ones.'
+- 'Reviewed (owner approved 2026-11-19): percentage distribution with nested sub-totals,
+  so columns do not add to 100 as a flat sum; values are the published ones.'
+- 'Reviewed (owner approved 2026-11-19): percentage distribution with nested sub-totals,
+  so columns do not add to 100 as a flat sum; values are the published ones.'
+- Measure type cannot be determined; held by owner decision 2026-11-19.
+- Quarterly series layout shared by sheets 2-1 ... 6-4. Released from hold 2026-11-19
+  because the quarterly unemployment, employment and participation series live here.
+  Distribution sums are nested sub-totals (owner approved). Sheet 6-4 is average weekly
+  working hours.
+accept_review: true
+row_period_labels: true
+row_overrides:
+- sheet: 6-4
+  match: ''
+  measure_type: level
+  unit: hours

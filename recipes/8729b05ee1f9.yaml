@@ -1,0 +1,35 @@
+fingerprint: 8729b05ee1f9
+status: held
+first_seen:
+  publication_id: 27267531
+  sheet: '12.1'
+  release_date: '2026-10-26'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+- label_ar
+- label_ar
+- code
+header_level_types:
+- mixed
+- mixed
+- ar
+- en
+value_columns: 19
+measure_types:
+- index
+- weight
+units:
+- index_base_2023
+scales:
+- 1
+period_sources:
+- publication
+title_sample: 'السلاسل الزمنية للأرقام القياسية لمتوسط سعر الصادرات حسب الأقسام الرئيسية،
+  2023=100 Time series of export average price '
+validation_on_first_run: review
+notes:
+- 'Held by owner decision 2026-11-19: hierarchy_parent_equals_children, range_share_0_100.
+  Needs its own column definitions or a unit first.'

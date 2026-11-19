@@ -1,0 +1,29 @@
+fingerprint: 57155443eb62
+status: reviewed
+first_seen:
+  publication_id: 21717806
+  sheet: 3-3
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+- ar
+value_columns: 9
+measure_types:
+- distribution
+units:
+- percent
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: إحصاءات سوق العمل الربع الثاني 2026 التوزيع النسبي للمشتغلين حسب الجنسية
+  والجنس والمستوى التعليمي (%) جدول (3-3) المستوى
+validation_on_first_run: pass
+notes:
+- 'Reviewed (owner approved 2026-11-19): averages (wages) are not additive; the total
+  row is a published average.'
+accept_review: true
+row_period_labels: true

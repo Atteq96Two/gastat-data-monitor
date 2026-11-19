@@ -1,0 +1,30 @@
+fingerprint: 30a1ba78de02
+status: held
+first_seen:
+  publication_id: 27267531
+  sheet: '4'
+  release_date: '2026-10-26'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- mixed
+value_columns: 56
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- header
+- publication
+title_sample: الصادرات والواردات حسب الدول، القيمة بالمليون ريال Exports and imports
+  by country, value in SAR million
+validation_on_first_run: fail
+notes:
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'
+header_fill_right: true
+extra_header_rows: 1

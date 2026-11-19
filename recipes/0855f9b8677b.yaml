@@ -1,0 +1,44 @@
+fingerprint: 0855f9b8677b
+status: held
+first_seen:
+  publication_id: 27267531
+  sheet: '11'
+  release_date: '2026-10-26'
+label_roles:
+- code
+- label_en
+- label_ar
+- label_en
+- code
+- code
+- label_ar
+- code
+- label_en
+- label_ar
+- label_en
+- label_ar
+- label_en
+- code
+- code
+- label_ar
+header_level_types:
+- ar
+- mixed
+- mixed
+value_columns: 5
+measure_types:
+- level
+- rate
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- header
+- sheet_title
+title_sample: 'الصادرات والواردات حسب أكبر 3 سلع لجميع الفصول (الحد السادس من النظام
+  المنسق) في شهر أغسطس 2026*م، القيمة بالمليون ريال '
+validation_on_first_run: fail
+notes:
+- 'Held by owner decision 2026-11-19: hierarchy_parent_equals_children, no_duplicate_keys,
+  range_rate. Needs its own column definitions or a unit first.'

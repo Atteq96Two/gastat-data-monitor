@@ -59,6 +59,11 @@ def process(pub, xlsx, strict=False):
             fp, _ = fingerprint(g, infos, c0, b, d)
             recipe = load_recipe(fp)
             rows, meta = extract_block(g, infos, c0, b, d, pub, ws.title, bi, recipe)
+            if recipe and recipe.get("status") == "held":
+                # the owner decided to leave this table out for now (reason in the recipe notes); not an alert, not published
+                tables.append(dict(pub=pub["publication_id"], sheet=ws.title, block=bi, dataset_id=sheet_id, fingerprint=fp, status="held",
+                                   checks=[], rows=len(rows), title=meta["title"], measure_types=[], recipe="held"))
+                continue
             if strict and (recipe is None or recipe.get("status") == "pending_review"):
                 # never-seen layout: quarantine (Phase 0 decision a). A pending recipe is saved for the next Claude Code session.
                 if recipe is None:

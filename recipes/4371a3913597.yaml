@@ -1,0 +1,34 @@
+fingerprint: 4371a3913597
+status: held
+first_seen:
+  publication_id: 21692297
+  sheet: '3.7'
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 3
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- header
+- sheet_title
+title_sample: التغير عن الربع الثاني من عام 2025 في عدد المشتغلين السعوديين في الأنشطة
+  السياحية حسب النشاط جدول 3.7
+validation_on_first_run: review
+notes:
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'

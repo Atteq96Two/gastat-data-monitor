@@ -1,0 +1,25 @@
+fingerprint: f7e7e0591c33
+status: reviewed
+first_seen:
+  publication_id: 21717735
+  sheet: Time serise
+  release_date: '2026-09-30'
+label_roles:
+- label_en
+header_level_types:
+- year
+- mixed
+value_columns: 18
+measure_types:
+- index
+units:
+- index
+scales:
+- 1
+period_sources:
+- header
+title_sample: المؤشرات الرئيسة لثقة المستهلك The Main Indices of Consumer Confidence
+  جدول(2) المؤشرات الرئيسة The Main Indices
+validation_on_first_run: pass
+notes: []
+header_fill_right: true

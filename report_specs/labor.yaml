@@ -1,0 +1,47 @@
+id: labor
+name_ar: إحصاءات سوق العمل
+group: labour
+frequency: quarterly
+description_ar: البطالة والمشاركة والتوظيف من مسح القوى العاملة
+headline:
+  label_ar: معدل البطالة، إجمالي السكان
+  unit_ar: "%"
+  series: {dataset: labor-market-statistics_2-1, block: 0, name: "^الجنسية / الإجمالي$", measure: rate, period_type: quarter}
+  change: {mode: pp}
+  press_release_value: 3.0      # GASTAT press release, Q2 2026 (total population); Saudis 6.5% shown in level 2
+level1:
+  title_ar: معدل البطالة، إجمالي السكان
+  unit_ar: "%"
+  series:
+    - {label_ar: إجمالي السكان, dataset: labor-market-statistics_2-1, block: 0, name: "^الجنسية / الإجمالي$", measure: rate, period_type: quarter}
+level2:
+  title_ar: معدل البطالة حسب الجنسية
+  kind: line
+  unit_ar: "%"
+  series:
+    - {label_ar: السعوديون, dataset: labor-market-statistics_2-1, block: 0, name: "^الجنسية / السعوديين / الإجمالي$", measure: rate, period_type: quarter}
+    - {label_ar: غير السعوديين, dataset: labor-market-statistics_2-1, block: 0, name: "^الجنسية / غير السعوديين / الإجمالي$", measure: rate, period_type: quarter}
+    - {label_ar: إجمالي السكان, dataset: labor-market-statistics_2-1, block: 0, name: "^الجنسية / الإجمالي$", measure: rate, period_type: quarter}
+level3:
+  - title_ar: معدل البطالة للسعوديين حسب الجنس
+    kind: line
+    unit_ar: "%"
+    series:
+      - {label_ar: الإناث, dataset: labor-market-statistics_2-1, block: 0, name: "^الجنسية / السعوديين / الاناث$", measure: rate, period_type: quarter}
+      - {label_ar: الذكور, dataset: labor-market-statistics_2-1, block: 0, name: "^الجنسية / السعوديين / الذكور$", measure: rate, period_type: quarter}
+  - title_ar: معدل المشتغلين من السكان في سن العمل
+    kind: line
+    unit_ar: "%"
+    series:
+      - {label_ar: السعوديون, dataset: labor-market-statistics_4-1, block: 0, name: "^الجنسية / السعوديين / الإجمالي$", measure: rate, period_type: quarter}
+      - {label_ar: إجمالي السكان, dataset: labor-market-statistics_4-1, block: 0, name: "^الجنسية / الإجمالي$", measure: rate, period_type: quarter}
+  - title_ar: معدل المشاركة في القوى العاملة
+    kind: line
+    unit_ar: "%"
+    series:
+      - {label_ar: السعوديون, dataset: labor-market-statistics_5-1, block: 0, name: "^الجنسية / السعوديين / الإجمالي$", measure: rate, period_type: quarter}
+      - {label_ar: إجمالي السكان, dataset: labor-market-statistics_5-1, block: 0, name: "^الجنسية / الإجمالي$", measure: rate, period_type: quarter}
+  - title_ar: معدل البطالة للسعوديين حسب الفئة العمرية، الربع الأخير
+    kind: bars
+    unit_ar: "%"
+    items: {dataset: labor-market-statistics_2-2, block: 0, name: "\\| الجنسية / السعوديين / الإجمالي$", measure: rate, period_type: quarter}

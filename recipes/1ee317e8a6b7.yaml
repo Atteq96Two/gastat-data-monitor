@@ -1,0 +1,32 @@
+fingerprint: 1ee317e8a6b7
+status: held
+first_seen:
+  publication_id: 27267531
+  sheet: '5'
+  release_date: '2026-10-26'
+label_roles:
+- label_ar
+- label_ar
+- label_en
+- label_en
+header_level_types:
+- ar
+- mixed
+value_columns: 56
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- header
+- publication
+title_sample: الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل
+  والمنافذ الجمركية، القيمة بالمليون ريال Non-oil ex
+validation_on_first_run: fail
+notes:
+- 'Held by owner decision 2026-11-19: range_rate, totals_reconcile. Needs its own
+  column definitions or a unit first.'
+header_fill_right: true
+extra_header_rows: 1

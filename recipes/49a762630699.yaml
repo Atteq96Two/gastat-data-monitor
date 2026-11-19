@@ -1,0 +1,25 @@
+fingerprint: 49a762630699
+status: held
+first_seen:
+  publication_id: 21692297
+  sheet: '4.1'
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 2
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: عدد المنشآت السياحية حسب النشاط للربع الثاني من عام 2026 جدول 4.1 النشاط
+  السياحي عدد المنشآت السياحية مشاركة النشاط من ا
+validation_on_first_run: review
+notes:
+- 'Held by owner decision 2026-11-19: unit_known. Needs its own column definitions
+  or a unit first.'

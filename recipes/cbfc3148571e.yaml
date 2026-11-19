@@ -1,0 +1,28 @@
+fingerprint: cbfc3148571e
+status: reviewed
+first_seen:
+  publication_id: 27267531
+  sheet: '14.1'
+  release_date: '2026-10-26'
+label_roles:
+- code
+- label_ar
+- label_en
+header_level_types:
+- mixed
+- ar
+- mixed
+value_columns: 21
+measure_types:
+- index
+- rate
+units:
+- index_base_2023
+scales:
+- 1
+period_sources:
+- publication
+title_sample: السلاسل الزمنية لمعدل التبادل التجاري الصافي حسب الأقسام الرئيسية، 2023=100
+  Time series of net trade exchange ratio by m
+validation_on_first_run: pass
+notes: []

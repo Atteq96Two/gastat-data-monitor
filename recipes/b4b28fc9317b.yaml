@@ -1,0 +1,35 @@
+fingerprint: b4b28fc9317b
+status: held
+first_seen:
+  publication_id: 21692297
+  sheet: '2.27'
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+- label_ar
+header_level_types: []
+value_columns: 3
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: التغير عن الربع الثاني من عام 2025 في معدل الإشغال حسب الشهر ونوع المرفق
+  جدول 2.27 نوع المرفق أبريل مايو يونيو الفنادق
+validation_on_first_run: fail
+notes:
+- 'Held by owner decision 2026-11-19: no_duplicate_keys. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: measure_type_known, no_duplicate_keys. Needs
+  its own column definitions or a unit first.'
+- 'Held by owner decision 2026-11-19: no_duplicate_keys. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: measure_type_known, no_duplicate_keys. Needs
+  its own column definitions or a unit first.'
+- 'Held by owner decision 2026-11-19: no_duplicate_keys. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: measure_type_known, no_duplicate_keys. Needs
+  its own column definitions or a unit first.'

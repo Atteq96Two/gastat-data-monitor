@@ -1,5 +1,5 @@
 fingerprint: bfabc78b5de5
-status: draft
+status: held
 first_seen:
   publication_id: 27800282
   sheet: '2.1'
@@ -18,4 +18,5 @@ period_sources:
 - publication
 title_sample: ''
 validation_on_first_run: fail
-notes: []
+notes:
+- 'Menu sheet: no measure can be determined.'

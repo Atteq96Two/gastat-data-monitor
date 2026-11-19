@@ -1,0 +1,29 @@
+fingerprint: d189ae62d60c
+status: reviewed
+first_seen:
+  publication_id: 27267583
+  sheet: '5'
+  release_date: '2026-10-25'
+label_roles:
+- label_ar
+- label_ar
+- label_en
+- label_en
+header_level_types:
+- ar
+value_columns: 2
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- publication
+title_sample: الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل
+  والمنافذ الجمركية، القيمة بالمليون ريال Non-oil ex
+validation_on_first_run: review
+notes:
+- 'Reviewed (owner approved 2026-11-19): the total row includes its own sub-rows,
+  so a flat sum double counts; values are the published ones.'
+accept_review: true

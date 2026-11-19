@@ -1,0 +1,26 @@
+fingerprint: daf3040dd0f8
+status: held
+first_seen:
+  publication_id: 21692297
+  sheet: '2.17'
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+value_columns: 3
+measure_types:
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: متوسط مدة الإقامة في مرافق الضيافة السياحية حسب المدن والمحافظات الرئيسية
+  ونوع المرفق للربع الثاني من عام 2026 جدول 2.17
+validation_on_first_run: review
+notes:
+- 'Held by owner decision 2026-11-19: measure_type_known. Needs its own column definitions
+  or a unit first.'

@@ -1,0 +1,25 @@
+fingerprint: b83d55adb276
+status: reviewed
+first_seen:
+  publication_id: 27267583
+  sheet: '1'
+  release_date: '2026-10-25'
+label_roles:
+- label_ar
+- label_ar
+- label_en
+header_level_types:
+- ar
+value_columns: 3
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- publication
+title_sample: الصادرات غير البترولية والواردات السلعية، القيمة بالمليون ريال Goods
+  non-oil exports and imports, value in SAR million
+validation_on_first_run: pass
+notes: []

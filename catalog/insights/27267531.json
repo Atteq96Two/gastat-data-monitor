@@ -1,0 +1,3498 @@
+{
+ "publication_id": "27267531",
+ "datasets": 15,
+ "insight_count": 74,
+ "headline_ids": [
+  "27267531-001",
+  "27267531-002",
+  "27267531-003",
+  "27267531-004",
+  "27267531-006",
+  "27267531-007",
+  "27267531-008",
+  "27267531-009",
+  "27267531-014",
+  "27267531-018"
+ ],
+ "insights": [
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-6",
+   "sheet": "7.6",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "نسبة من الإجمالي العام | صادرات Export: 0.01 مليون ريال في أغسطس 2026، مقابل 0.01 (-24.43%) في يوليو 2026، ومقابل 0.06 (-81.15%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "% of grand total | صادرات Export: 0.01 million SAR in August 2026, versus 0.01 (-24.43%) in July 2026, and versus 0.06 (-81.15%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 0.010566199,
+    "period": "2026-08",
+    "prev_value": 0.0139817613,
+    "prev_period": "2026-07",
+    "prev_diff": -0.0034155624,
+    "prev_pct": -24.4286988,
+    "yoy_value": 0.0560458775,
+    "yoy_period": "2025-08",
+    "yoy_diff": -0.0454796785,
+    "yoy_pct": -81.147232485,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.010566199,
+     "cell": "7.6!R13C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.0139817613,
+     "cell": "7.6!R13C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.0560458775,
+     "cell": "7.6!R13C12"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "نسبة من الإجمالي العام | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف سلع تكنولوجيا الاتصالات والمعلومات(*)، بالمليون ريال Exports and imports by classification of Information and Communication Technology goods(*), value in SAR million 2026* 2026*",
+   "id": "27267531-001",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-6",
+   "sheet": "7.6",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | صادرات Export: 921.76 مليون ريال في أغسطس 2026، مقابل 1,181 (-21.95%) في يوليو 2026، ومقابل 5,525 (-83.32%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Total | صادرات Export: 921.76 million SAR in August 2026, versus 1,181 (-21.95%) in July 2026, and versus 5,525 (-83.32%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 921.75779,
+    "period": "2026-08",
+    "prev_value": 1180.945397,
+    "prev_period": "2026-07",
+    "prev_diff": -259.187607,
+    "prev_pct": -21.9474674831,
+    "yoy_value": 5524.850796,
+    "yoy_period": "2025-08",
+    "yoy_diff": -4603.093006,
+    "yoy_pct": -83.3161505345,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 921.75779,
+     "cell": "7.6!R12C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 1180.945397,
+     "cell": "7.6!R12C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 5524.850796,
+     "cell": "7.6!R12C12"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف سلع تكنولوجيا الاتصالات والمعلومات(*)، بالمليون ريال Exports and imports by classification of Information and Communication Technology goods(*), value in SAR million 2026* 2026*",
+   "id": "27267531-002",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "international-trade-in-goods_7-8",
+   "sheet": "7.8",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "نسبة من الإجمالي العام | واردات Import: 0.14 مليون ريال في أغسطس 2026، مقابل 0.12 (+18.68%) في يوليو 2026، ومقابل 0.11 (+30.85%) في أغسطس 2025، وهي الأعلى في البيانات المتاحة (منذ 2025).",
+   "text_en": "% of grand total | واردات Import: 0.14 million SAR in August 2026, versus 0.12 (+18.68%) in July 2026, and versus 0.11 (+30.85%) in August 2025, the highest in the available data (since 2025).",
+   "numbers": {
+    "value": 0.1442012604,
+    "period": "2026-08",
+    "prev_value": 0.1215012095,
+    "prev_period": "2026-07",
+    "prev_diff": 0.022700051,
+    "prev_pct": 18.6829835335,
+    "yoy_value": 0.1102010579,
+    "yoy_period": "2025-08",
+    "yoy_diff": 0.0340002025,
+    "yoy_pct": 30.8528821521,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.1442012604,
+     "cell": "7.8!R25C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.1215012095,
+     "cell": "7.8!R25C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.1102010579,
+     "cell": "7.8!R25C40"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "نسبة من الإجمالي العام | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف فئات الأغذية ومكوناتها(*)، بالمليون ريال Exports and imports by classification of Food Categories and Composition(*), value in SAR million 2026* 2026*",
+   "id": "27267531-003",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "high",
+   "dataset_id": "international-trade-in-goods_7-8",
+   "sheet": "7.8",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "نسبة من الإجمالي العام | صادرات Export: 0.03 مليون ريال في أغسطس 2026، مقابل 0.03 (+2.36%) في يوليو 2026، ومقابل 0.02 (+29.06%) في أغسطس 2025، وهي الأعلى في البيانات المتاحة (منذ 2025).",
+   "text_en": "% of grand total | صادرات Export: 0.03 million SAR in August 2026, versus 0.03 (+2.36%) in July 2026, and versus 0.02 (+29.06%) in August 2025, the highest in the available data (since 2025).",
+   "numbers": {
+    "value": 0.0259712811,
+    "period": "2026-08",
+    "prev_value": 0.0253722791,
+    "prev_period": "2026-07",
+    "prev_diff": 0.0005990019,
+    "prev_pct": 2.360851905,
+    "yoy_value": 0.0201230872,
+    "yoy_period": "2025-08",
+    "yoy_diff": 0.0058481938,
+    "yoy_pct": 29.0621104993,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.0259712811,
+     "cell": "7.8!R25C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.0253722791,
+     "cell": "7.8!R25C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.0201230872,
+     "cell": "7.8!R25C12"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "نسبة من الإجمالي العام | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف فئات الأغذية ومكوناتها(*)، بالمليون ريال Exports and imports by classification of Food Categories and Composition(*), value in SAR million 2026* 2026*",
+   "id": "27267531-004",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-8",
+   "sheet": "7.8",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | واردات Import: 10,330 مليون ريال في أغسطس 2026، مقابل 8,653 (+19.38%) في يوليو 2026، ومقابل 8,688 (+18.91%) في أغسطس 2025.",
+   "text_en": "Total | واردات Import: 10,330 million SAR in August 2026, versus 8,653 (+19.38%) in July 2026, and versus 8,688 (+18.91%) in August 2025.",
+   "numbers": {
+    "value": 10330.346642,
+    "period": "2026-08",
+    "prev_value": 8653.351703,
+    "prev_period": "2026-07",
+    "prev_diff": 1676.994939,
+    "prev_pct": 19.3797154739,
+    "yoy_value": 8687.651174,
+    "yoy_period": "2025-08",
+    "yoy_diff": 1642.695468,
+    "yoy_pct": 18.9083957804,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 10330.346642,
+     "cell": "7.8!R24C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 8653.351703,
+     "cell": "7.8!R24C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 8687.651174,
+     "cell": "7.8!R24C40"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف فئات الأغذية ومكوناتها(*)، بالمليون ريال Exports and imports by classification of Food Categories and Composition(*), value in SAR million 2026* 2026*",
+   "id": "27267531-005",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-5",
+   "sheet": "7.5",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | واردات Import: 7,996 مليون ريال في أغسطس 2026، مقابل 6,764 (+18.22%) في يوليو 2026، ومقابل 7,868 (+1.63%) في أغسطس 2025.",
+   "text_en": "Total | واردات Import: 7,996 million SAR in August 2026, versus 6,764 (+18.22%) in July 2026, and versus 7,868 (+1.63%) in August 2025.",
+   "numbers": {
+    "value": 7995.953604,
+    "period": "2026-08",
+    "prev_value": 6763.533246,
+    "prev_period": "2026-07",
+    "prev_diff": 1232.420358,
+    "prev_pct": 18.2215465375,
+    "yoy_value": 7867.867276,
+    "yoy_period": "2025-08",
+    "yoy_diff": 128.086328,
+    "yoy_pct": 1.6279675738,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 7995.953604,
+     "cell": "7.5!R16C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 6763.533246,
+     "cell": "7.5!R16C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 7867.867276,
+     "cell": "7.5!R16C40"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف المنتجات عالية التقنية(*)، بالمليون ريال Exports and imports by classification of High-Technology Products(*), value in SAR million 2026* 2026*",
+   "id": "27267531-006",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-5",
+   "sheet": "7.5",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "نسبة من الإجمالي العام | واردات Import: 0.11 مليون ريال في أغسطس 2026، مقابل 0.09 (+17.53%) في يوليو 2026، ومقابل 0.1 (+11.84%) في أغسطس 2025.",
+   "text_en": "% of grand total | واردات Import: 0.11 million SAR in August 2026, versus 0.09 (+17.53%) in July 2026, and versus 0.1 (+11.84%) in August 2025.",
+   "numbers": {
+    "value": 0.1116154789,
+    "period": "2026-08",
+    "prev_value": 0.0949663781,
+    "prev_period": "2026-07",
+    "prev_diff": 0.0166491008,
+    "prev_pct": 17.5315739807,
+    "yoy_value": 0.0998022687,
+    "yoy_period": "2025-08",
+    "yoy_diff": 0.0118132102,
+    "yoy_pct": 11.8366148749,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.1116154789,
+     "cell": "7.5!R17C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.0949663781,
+     "cell": "7.5!R17C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.0998022687,
+     "cell": "7.5!R17C40"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "نسبة من الإجمالي العام | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف المنتجات عالية التقنية(*)، بالمليون ريال Exports and imports by classification of High-Technology Products(*), value in SAR million 2026* 2026*",
+   "id": "27267531-007",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-7",
+   "sheet": "7.7",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | الإجمالي | واردات Import: 1,618 مليون ريال في أغسطس 2026، مقابل 1,471 (+10.01%) في يوليو 2026، ومقابل 1,717 (-5.76%) في أغسطس 2025.",
+   "text_en": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | Total | واردات Import: 1,618 million SAR in August 2026, versus 1,471 (+10.01%) in July 2026, and versus 1,717 (-5.76%) in August 2025.",
+   "numbers": {
+    "value": 1618.044523,
+    "period": "2026-08",
+    "prev_value": 1470.838443,
+    "prev_period": "2026-07",
+    "prev_diff": 147.20608,
+    "prev_pct": 10.0083106136,
+    "yoy_value": 1716.932828,
+    "yoy_period": "2025-08",
+    "yoy_diff": -98.888305,
+    "yoy_pct": -5.7595907881,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 1618.044523,
+     "cell": "7.7!R21C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 1470.838443,
+     "cell": "7.7!R21C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 1716.932828,
+     "cell": "7.7!R21C40"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | الإجمالي | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف مجموعات منتجات الاقتصاد الإبداعي(*)، بالمليون ريال Exports and imports by classification of Creative Economy Product Groups(*), value in SAR million 2026* 2026*",
+   "id": "27267531-008",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-7",
+   "sheet": "7.7",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | نسبة من الإجمالي العام | واردات Import: 0.02 مليون ريال في أغسطس 2026، مقابل 0.02 (+9.37%) في يوليو 2026، ومقابل 0.02 (+3.71%) في أغسطس 2025.",
+   "text_en": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | % of grand total | واردات Import: 0.02 million SAR in August 2026, versus 0.02 (+9.37%) in July 2026, and versus 0.02 (+3.71%) in August 2025.",
+   "numbers": {
+    "value": 0.0225862759,
+    "period": "2026-08",
+    "prev_value": 0.0206519573,
+    "prev_period": "2026-07",
+    "prev_diff": 0.0019343186,
+    "prev_pct": 9.3662726978,
+    "yoy_value": 0.0217789377,
+    "yoy_period": "2025-08",
+    "yoy_diff": 0.0008073382,
+    "yoy_pct": 3.7069677009,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.0225862759,
+     "cell": "7.7!R22C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.0206519573,
+     "cell": "7.7!R22C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.0217789377,
+     "cell": "7.7!R22C40"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | نسبة من الإجمالي العام | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف مجموعات منتجات الاقتصاد الإبداعي(*)، بالمليون ريال Exports and imports by classification of Creative Economy Product Groups(*), value in SAR million 2026* 2026*",
+   "id": "27267531-009",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-5",
+   "sheet": "7.5",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "نسبة من الإجمالي العام | صادرات Export: 0.01 مليون ريال في أغسطس 2026، مقابل 0.01 (-9.16%) في يوليو 2026، ومقابل 0.01 (+56.1%) في أغسطس 2025.",
+   "text_en": "% of grand total | صادرات Export: 0.01 million SAR in August 2026, versus 0.01 (-9.16%) in July 2026, and versus 0.01 (+56.1%) in August 2025.",
+   "numbers": {
+    "value": 0.0092540283,
+    "period": "2026-08",
+    "prev_value": 0.0101869717,
+    "prev_period": "2026-07",
+    "prev_diff": -0.0009329435,
+    "prev_pct": -9.1582020714,
+    "yoy_value": 0.0059281183,
+    "yoy_period": "2025-08",
+    "yoy_diff": 0.00332591,
+    "yoy_pct": 56.1039744289,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.0092540283,
+     "cell": "7.5!R17C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.0101869717,
+     "cell": "7.5!R17C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.0059281183,
+     "cell": "7.5!R17C12"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "نسبة من الإجمالي العام | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف المنتجات عالية التقنية(*)، بالمليون ريال Exports and imports by classification of High-Technology Products(*), value in SAR million 2026* 2026*",
+   "id": "27267531-010",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-5",
+   "sheet": "7.5",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | صادرات Export: 807.29 مليون ريال في أغسطس 2026، مقابل 860.43 (-6.18%) في يوليو 2026، ومقابل 584.38 (+38.14%) في أغسطس 2025.",
+   "text_en": "Total | صادرات Export: 807.29 million SAR in August 2026, versus 860.43 (-6.18%) in July 2026, and versus 584.38 (+38.14%) in August 2025.",
+   "numbers": {
+    "value": 807.288663,
+    "period": "2026-08",
+    "prev_value": 860.425026,
+    "prev_period": "2026-07",
+    "prev_diff": -53.136363,
+    "prev_pct": -6.175594781,
+    "yoy_value": 584.377845,
+    "yoy_period": "2025-08",
+    "yoy_diff": 222.910818,
+    "yoy_pct": 38.1449810097,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 807.288663,
+     "cell": "7.5!R16C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 860.425026,
+     "cell": "7.5!R16C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 584.377845,
+     "cell": "7.5!R16C12"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف المنتجات عالية التقنية(*)، بالمليون ريال Exports and imports by classification of High-Technology Products(*), value in SAR million 2026* 2026*",
+   "id": "27267531-011",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-8",
+   "sheet": "7.8",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | صادرات Export: 2,266 مليون ريال في أغسطس 2026، مقابل 2,143 (+5.72%) في يوليو 2026، ومقابل 1,984 (+14.21%) في أغسطس 2025.",
+   "text_en": "Total | صادرات Export: 2,266 million SAR in August 2026, versus 2,143 (+5.72%) in July 2026, and versus 1,984 (+14.21%) in August 2025.",
+   "numbers": {
+    "value": 2265.642611,
+    "period": "2026-08",
+    "prev_value": 2143.025869,
+    "prev_period": "2026-07",
+    "prev_diff": 122.616742,
+    "prev_pct": 5.7216641093,
+    "yoy_value": 1983.679434,
+    "yoy_period": "2025-08",
+    "yoy_diff": 281.963177,
+    "yoy_pct": 14.2141503394,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 2265.642611,
+     "cell": "7.8!R24C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 2143.025869,
+     "cell": "7.8!R24C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 1983.679434,
+     "cell": "7.8!R24C12"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف فئات الأغذية ومكوناتها(*)، بالمليون ريال Exports and imports by classification of Food Categories and Composition(*), value in SAR million 2026* 2026*",
+   "id": "27267531-012",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-6",
+   "sheet": "7.6",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | واردات Import: 5,100 مليون ريال في أغسطس 2026، مقابل 4,910 (+3.87%) في يوليو 2026، ومقابل 8,841 (-42.31%) في أغسطس 2025.",
+   "text_en": "Total | واردات Import: 5,100 million SAR in August 2026, versus 4,910 (+3.87%) in July 2026, and versus 8,841 (-42.31%) in August 2025.",
+   "numbers": {
+    "value": 5100.161226,
+    "period": "2026-08",
+    "prev_value": 4910.330288,
+    "prev_period": "2026-07",
+    "prev_diff": 189.830938,
+    "prev_pct": 3.8659504935,
+    "yoy_value": 8840.511703,
+    "yoy_period": "2025-08",
+    "yoy_diff": -3740.350477,
+    "yoy_pct": -42.3092079131,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 5100.161226,
+     "cell": "7.6!R12C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 4910.330288,
+     "cell": "7.6!R12C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 8840.511703,
+     "cell": "7.6!R12C40"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف سلع تكنولوجيا الاتصالات والمعلومات(*)، بالمليون ريال Exports and imports by classification of Information and Communication Technology goods(*), value in SAR million 2026* 2026*",
+   "id": "27267531-013",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-3",
+   "sheet": "7.3",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | صادرات Export: 87,236 مليون ريال في أغسطس 2026، مقابل 84,463 (+3.28%) في يوليو 2026، ومقابل 98,577 (-11.5%) في أغسطس 2025.",
+   "text_en": "Total | صادرات Export: 87,236 million SAR in August 2026, versus 84,463 (+3.28%) in July 2026, and versus 98,577 (-11.5%) in August 2025.",
+   "numbers": {
+    "value": 87236.459541,
+    "period": "2026-08",
+    "prev_value": 84463.278088,
+    "prev_period": "2026-07",
+    "prev_diff": 2773.181453,
+    "prev_pct": 3.283298394,
+    "yoy_value": 98577.291414,
+    "yoy_period": "2025-08",
+    "yoy_diff": -11340.831873,
+    "yoy_pct": -11.5045074888,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 87236.459541,
+     "cell": "7.3!R51C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 84463.278088,
+     "cell": "7.3!R51C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 98577.291414,
+     "cell": "7.3!R51C12"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي | صادرات Export",
+   "table_title": "الصادرات والواردات حسب التصنيف المركزي للمنتجات- النسخة 2.1(*)، بالمليون ريال(**) Exports and imports by Central Product Classification Ver 2.1(*), value in SAR million(**)",
+   "id": "27267531-014",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-6",
+   "sheet": "7.6",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "نسبة من الإجمالي العام | واردات Import: 0.07 مليون ريال في أغسطس 2026، مقابل 0.07 (+3.26%) في يوليو 2026، ومقابل 0.11 (-36.51%) في أغسطس 2025.",
+   "text_en": "% of grand total | واردات Import: 0.07 million SAR in August 2026, versus 0.07 (+3.26%) in July 2026, and versus 0.11 (-36.51%) in August 2025.",
+   "numbers": {
+    "value": 0.0711931267,
+    "period": "2026-08",
+    "prev_value": 0.0689456628,
+    "prev_period": "2026-07",
+    "prev_diff": 0.0022474639,
+    "prev_pct": 3.2597610337,
+    "yoy_value": 0.1121400621,
+    "yoy_period": "2025-08",
+    "yoy_diff": -0.0409469354,
+    "yoy_pct": -36.5141008869,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.0711931267,
+     "cell": "7.6!R13C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.0689456628,
+     "cell": "7.6!R13C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.1121400621,
+     "cell": "7.6!R13C40"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "نسبة من الإجمالي العام | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف سلع تكنولوجيا الاتصالات والمعلومات(*)، بالمليون ريال Exports and imports by classification of Information and Communication Technology goods(*), value in SAR million 2026* 2026*",
+   "id": "27267531-015",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-7",
+   "sheet": "7.7",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | نسبة من الإجمالي العام | صادرات Export: 0.01 مليون ريال في أغسطس 2026، مقابل 0.01 (-1.75%) في يوليو 2026، ومقابل 0.01 (+9.53%) في أغسطس 2025.",
+   "text_en": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | % of grand total | صادرات Export: 0.01 million SAR in August 2026, versus 0.01 (-1.75%) in July 2026, and versus 0.01 (+9.53%) in August 2025.",
+   "numbers": {
+    "value": 0.0074331677,
+    "period": "2026-08",
+    "prev_value": 0.0075659376,
+    "prev_period": "2026-07",
+    "prev_diff": -0.0001327699,
+    "prev_pct": -1.7548371755,
+    "yoy_value": 0.0067865674,
+    "yoy_period": "2025-08",
+    "yoy_diff": 0.0006466003,
+    "yoy_pct": 9.5276480108,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.0074331677,
+     "cell": "7.7!R22C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.0075659376,
+     "cell": "7.7!R22C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.0067865674,
+     "cell": "7.7!R22C12"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | نسبة من الإجمالي العام | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف مجموعات منتجات الاقتصاد الإبداعي(*)، بالمليون ريال Exports and imports by classification of Creative Economy Product Groups(*), value in SAR million 2026* 2026*",
+   "id": "27267531-016",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-7",
+   "sheet": "7.7",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | الإجمالي | صادرات Export: 648.44 مليون ريال في أغسطس 2026، مقابل 639.04 (+1.47%) في يوليو 2026، ومقابل 669 (-3.07%) في أغسطس 2025.",
+   "text_en": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | Total | صادرات Export: 648.44 million SAR in August 2026, versus 639.04 (+1.47%) in July 2026, and versus 669 (-3.07%) in August 2025.",
+   "numbers": {
+    "value": 648.443231,
+    "period": "2026-08",
+    "prev_value": 639.043888,
+    "prev_period": "2026-07",
+    "prev_diff": 9.399343,
+    "prev_pct": 1.4708446754,
+    "yoy_value": 669.001434,
+    "yoy_period": "2025-08",
+    "yoy_diff": -20.558203,
+    "yoy_pct": -3.0729684505,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 648.443231,
+     "cell": "7.7!R21C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 639.043888,
+     "cell": "7.7!R21C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 669.001434,
+     "cell": "7.7!R21C12"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | الإجمالي | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف مجموعات منتجات الاقتصاد الإبداعي(*)، بالمليون ريال Exports and imports by classification of Creative Economy Product Groups(*), value in SAR million 2026* 2026*",
+   "id": "27267531-017",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_2",
+   "sheet": "2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | واردات Import: 71,638 مليون ريال في أغسطس 2026، مقابل 71,220 (+0.59%) في يوليو 2026، ومقابل 78,835 (-9.13%) في أغسطس 2025.",
+   "text_en": "Total | واردات Import: 71,638 million SAR in August 2026, versus 71,220 (+0.59%) in July 2026, and versus 78,835 (-9.13%) in August 2025.",
+   "numbers": {
+    "value": 71638.393532,
+    "period": "2026-08",
+    "prev_value": 71220.292711,
+    "prev_period": "2026-07",
+    "prev_diff": 418.100821,
+    "prev_pct": 0.5870529383,
+    "yoy_value": 78834.553313,
+    "yoy_period": "2025-08",
+    "yoy_diff": -7196.159781,
+    "yoy_pct": -9.1281798128,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 71638.393532,
+     "cell": "2!R28C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 71220.292711,
+     "cell": "2!R28C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 78834.553313,
+     "cell": "2!R28C40"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي | واردات Import",
+   "table_title": "الصادرات والواردات حسب الأقسام، القيمة بالمليون ريال Exports and imports by section, value in SAR million صادرات Export واردات Import",
+   "id": "27267531-018",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-3",
+   "sheet": "7.3",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "خامات المعادن | واردات Import: 1.92 مليون ريال في أغسطس 2026، مقابل 209.46 (-99.09%) في يوليو 2026، ومقابل 273.21 (-99.3%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Metal ores | واردات Import: 1.92 million SAR in August 2026, versus 209.46 (-99.09%) in July 2026, and versus 273.21 (-99.3%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 1.915193,
+    "period": "2026-08",
+    "prev_value": 209.457683,
+    "prev_period": "2026-07",
+    "prev_diff": -207.54249,
+    "prev_pct": -99.0856420387,
+    "yoy_value": 273.208994,
+    "yoy_period": "2025-08",
+    "yoy_diff": -271.293801,
+    "yoy_pct": -99.2990007496,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 1.915193,
+     "cell": "7.3!R15C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 209.457683,
+     "cell": "7.3!R15C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 273.208994,
+     "cell": "7.3!R15C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "خامات المعادن | واردات Import",
+   "table_title": "الصادرات والواردات حسب التصنيف المركزي للمنتجات- النسخة 2.1(*)، بالمليون ريال(**) Exports and imports by Central Product Classification Ver 2.1(*), value in SAR million(**)",
+   "id": "27267531-019",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-2",
+   "sheet": "7.2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "المنسوجات والملابس والأحذية، سلع تكوين رأس المال الثابت | صادرات Export: 0.26 مليون ريال في أغسطس 2026، مقابل 8.15 (-96.86%) في يوليو 2026، ومقابل 1.61 (-84.07%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Textile, apparel, shoes, Gross Fixed Capital Formation goods | صادرات Export: 0.26 million SAR in August 2026, versus 8.15 (-96.86%) in July 2026, and versus 1.61 (-84.07%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 0.25586,
+    "period": "2026-08",
+    "prev_value": 8.151812,
+    "prev_period": "2026-07",
+    "prev_diff": -7.895952,
+    "prev_pct": -96.8613113256,
+    "yoy_value": 1.606563,
+    "yoy_period": "2025-08",
+    "yoy_diff": -1.350703,
+    "yoy_pct": -84.0740761489,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.25586,
+     "cell": "7.2!R20C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 8.151812,
+     "cell": "7.2!R20C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 1.606563,
+     "cell": "7.2!R20C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "المنسوجات والملابس والأحذية، سلع تكوين رأس المال الثابت | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف الفئات الاقتصادية الواسعة- النسخة 5(*)، بالمليون ريال(**) Exports and imports by classification of Broad Economic Categories Rev.5(*), value in SAR million(**)",
+   "id": "27267531-020",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-1",
+   "sheet": "7.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أركزة فلزية، ونفايات فلزات | واردات Import: 16.96 مليون ريال في أغسطس 2026، مقابل 227.38 (-92.54%) في يوليو 2026، ومقابل 355.78 (-95.23%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Metalliferous ores and metal scrap | واردات Import: 16.96 million SAR in August 2026, versus 227.38 (-92.54%) in July 2026, and versus 355.78 (-95.23%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 16.962129,
+    "period": "2026-08",
+    "prev_value": 227.383179,
+    "prev_period": "2026-07",
+    "prev_diff": -210.42105,
+    "prev_pct": -92.5402885673,
+    "yoy_value": 355.781712,
+    "yoy_period": "2025-08",
+    "yoy_diff": -338.819583,
+    "yoy_pct": -95.2324337008,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 16.962129,
+     "cell": "7.1!R28C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 227.383179,
+     "cell": "7.1!R28C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 355.781712,
+     "cell": "7.1!R28C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "أركزة فلزية، ونفايات فلزات | واردات Import",
+   "table_title": "الصادرات والواردات حسب التصنيف الموحد للتجارة الدولية- النسخة 4(*)، بالمليون ريال Exports and imports by Standard International Trade Classification Rev.4(*), value in SAR million",
+   "id": "27267531-021",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-3",
+   "sheet": "7.3",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "خامات المعادن | صادرات Export: 34.48 مليون ريال في أغسطس 2026، مقابل 432.59 (-92.03%) في يوليو 2026، ومقابل 214.92 (-83.96%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Metal ores | صادرات Export: 34.48 million SAR in August 2026, versus 432.59 (-92.03%) in July 2026, and versus 214.92 (-83.96%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 34.478226,
+    "period": "2026-08",
+    "prev_value": 432.593622,
+    "prev_period": "2026-07",
+    "prev_diff": -398.115396,
+    "prev_pct": -92.0298811063,
+    "yoy_value": 214.917406,
+    "yoy_period": "2025-08",
+    "yoy_diff": -180.43918,
+    "yoy_pct": -83.9574529389,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 34.478226,
+     "cell": "7.3!R15C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 432.593622,
+     "cell": "7.3!R15C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 214.917406,
+     "cell": "7.3!R15C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "خامات المعادن | صادرات Export",
+   "table_title": "الصادرات والواردات حسب التصنيف المركزي للمنتجات- النسخة 2.1(*)، بالمليون ريال(**) Exports and imports by Central Product Classification Ver 2.1(*), value in SAR million(**)",
+   "id": "27267531-022",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-6",
+   "sheet": "7.6",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "معدات الكترونية استهلاكية | صادرات Export: 6.75 مليون ريال في أغسطس 2026، مقابل 30.63 (-77.97%) في يوليو 2026، ومقابل 18.08 (-62.69%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Consumer electronic equipment | صادرات Export: 6.75 million SAR in August 2026, versus 30.63 (-77.97%) in July 2026, and versus 18.08 (-62.69%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 6.74581,
+    "period": "2026-08",
+    "prev_value": 30.62647,
+    "prev_period": "2026-07",
+    "prev_diff": -23.88066,
+    "prev_pct": -77.9739225578,
+    "yoy_value": 18.079918,
+    "yoy_period": "2025-08",
+    "yoy_diff": -11.334108,
+    "yoy_pct": -62.6889347618,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 6.74581,
+     "cell": "7.6!R9C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 30.62647,
+     "cell": "7.6!R9C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 18.079918,
+     "cell": "7.6!R9C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "معدات الكترونية استهلاكية | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف سلع تكنولوجيا الاتصالات والمعلومات(*)، بالمليون ريال Exports and imports by classification of Information and Communication Technology goods(*), value in SAR million 2026* 2026*",
+   "id": "27267531-023",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-8",
+   "sheet": "7.8",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "المحاريات | صادرات Export: 1.46 مليون ريال في أغسطس 2026، مقابل 4.91 (-70.33%) في يوليو 2026، ومقابل 51.62 (-97.18%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Shellfish | صادرات Export: 1.46 million SAR in August 2026, versus 4.91 (-70.33%) in July 2026, and versus 51.62 (-97.18%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 1.457758,
+    "period": "2026-08",
+    "prev_value": 4.913401,
+    "prev_period": "2026-07",
+    "prev_diff": -3.455643,
+    "prev_pct": -70.3309784811,
+    "yoy_value": 51.623727,
+    "yoy_period": "2025-08",
+    "yoy_diff": -50.165969,
+    "yoy_pct": -97.1761860588,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 1.457758,
+     "cell": "7.8!R13C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 4.913401,
+     "cell": "7.8!R13C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 51.623727,
+     "cell": "7.8!R13C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "المحاريات | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف فئات الأغذية ومكوناتها(*)، بالمليون ريال Exports and imports by classification of Food Categories and Composition(*), value in SAR million 2026* 2026*",
+   "id": "27267531-024",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-3",
+   "sheet": "7.3",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "معدات النقل | صادرات Export: 997.77 مليون ريال في أغسطس 2026، مقابل 1,755 (-43.15%) في يوليو 2026، ومقابل 1,637 (-39.07%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Transport equipment | صادرات Export: 997.77 million SAR in August 2026, versus 1,755 (-43.15%) in July 2026, and versus 1,637 (-39.07%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 997.766509,
+    "period": "2026-08",
+    "prev_value": 1755.026538,
+    "prev_period": "2026-07",
+    "prev_diff": -757.260029,
+    "prev_pct": -43.1480671434,
+    "yoy_value": 1637.454622,
+    "yoy_period": "2025-08",
+    "yoy_diff": -639.688113,
+    "yoy_pct": -39.0660055189,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 997.766509,
+     "cell": "7.3!R49C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 1755.026538,
+     "cell": "7.3!R49C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 1637.454622,
+     "cell": "7.3!R49C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "معدات النقل | صادرات Export",
+   "table_title": "الصادرات والواردات حسب التصنيف المركزي للمنتجات- النسخة 2.1(*)، بالمليون ريال(**) Exports and imports by Central Product Classification Ver 2.1(*), value in SAR million(**)",
+   "id": "27267531-025",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-1",
+   "sheet": "7.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "غاز طبيعي ومصنوع | واردات Import: 0.47 مليون ريال في أغسطس 2026، مقابل 0.73 (-35.1%) في يوليو 2026، ومقابل 0.73 (-34.93%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Gas, natural and manufactured | واردات Import: 0.47 million SAR in August 2026, versus 0.73 (-35.1%) in July 2026, and versus 0.73 (-34.93%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 0.472548,
+    "period": "2026-08",
+    "prev_value": 0.728073,
+    "prev_period": "2026-07",
+    "prev_diff": -0.255525,
+    "prev_pct": -35.0960686634,
+    "yoy_value": 0.726184,
+    "yoy_period": "2025-08",
+    "yoy_diff": -0.253636,
+    "yoy_pct": -34.9272360724,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.472548,
+     "cell": "7.1!R33C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.728073,
+     "cell": "7.1!R33C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.726184,
+     "cell": "7.1!R33C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "غاز طبيعي ومصنوع | واردات Import",
+   "table_title": "الصادرات والواردات حسب التصنيف الموحد للتجارة الدولية- النسخة 4(*)، بالمليون ريال Exports and imports by Standard International Trade Classification Rev.4(*), value in SAR million",
+   "id": "27267531-026",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-1",
+   "sheet": "7.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أسماك (غير الثدييات البحرية)، وقشريات، ورخويات، ولافقارية مائية، ومحضرات منها | صادرات Export: 14.83 مليون ريال في أغسطس 2026، مقابل 20.32 (-27.04%) في يوليو 2026، ومقابل 60.2 (-75.37%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Fish (not marine mammals), crustaceans, molluscs and aquatic invertebrates, and preparations thereof | صادرات Export: 14.83 million SAR in August 2026, versus 20.32 (-27.04%) in July 2026, and versus 60.2 (-75.37%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 14.828263,
+    "period": "2026-08",
+    "prev_value": 20.323319,
+    "prev_period": "2026-07",
+    "prev_diff": -5.495056,
+    "prev_pct": -27.0381821001,
+    "yoy_value": 60.203662,
+    "yoy_period": "2025-08",
+    "yoy_diff": -45.375399,
+    "yoy_pct": -75.3698321541,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 14.828263,
+     "cell": "7.1!R10C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 20.323319,
+     "cell": "7.1!R10C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 60.203662,
+     "cell": "7.1!R10C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "أسماك (غير الثدييات البحرية)، وقشريات، ورخويات، ولافقارية مائية، ومحضرات منها | صادرات Export",
+   "table_title": "الصادرات والواردات حسب التصنيف الموحد للتجارة الدولية- النسخة 4(*)، بالمليون ريال Exports and imports by Standard International Trade Classification Rev.4(*), value in SAR million",
+   "id": "27267531-027",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-2",
+   "sheet": "7.2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الصحة والمستحضرات الصيدلانية والتعليم والثقافة والرياضة، سلع تكوين رأس المال الثابت | صادرات Export: 22.48 مليون ريال في أغسطس 2026، مقابل 29.95 (-24.94%) في يوليو 2026، ومقابل 38.89 (-42.2%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Health, pharmaceuticals, education, cultural, sport, Gross Fixed Capital Formation goods | صادرات Export: 22.48 million SAR in August 2026, versus 29.95 (-24.94%) in July 2026, and versus 38.89 (-42.2%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 22.479006,
+    "period": "2026-08",
+    "prev_value": 29.949081,
+    "prev_period": "2026-07",
+    "prev_diff": -7.470075,
+    "prev_pct": -24.9425850496,
+    "yoy_value": 38.894234,
+    "yoy_period": "2025-08",
+    "yoy_diff": -16.415228,
+    "yoy_pct": -42.2047854188,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 22.479006,
+     "cell": "7.2!R32C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 29.949081,
+     "cell": "7.2!R32C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 38.894234,
+     "cell": "7.2!R32C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الصحة والمستحضرات الصيدلانية والتعليم والثقافة والرياضة، سلع تكوين رأس المال الثابت | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف الفئات الاقتصادية الواسعة- النسخة 5(*)، بالمليون ريال(**) Exports and imports by classification of Broad Economic Categories Rev.5(*), value in SAR million(**)",
+   "id": "27267531-028",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-2",
+   "sheet": "7.2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "تكنولوجيا المعلومات والاتصالات والإعلام والكمبيوتر والأعمال التجارية والخدمات المالية، سلع استهلاك نهائي | واردات Import: 1,986 مليون ريال في أغسطس 2026، مقابل 2,554 (-22.21%) في يوليو 2026، ومقابل 5,552 (-64.22%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "ICT, media, computers, business and financial services, Final Consumption goods | واردات Import: 1,986 million SAR in August 2026, versus 2,554 (-22.21%) in July 2026, and versus 5,552 (-64.22%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 1986.456456,
+    "period": "2026-08",
+    "prev_value": 2553.733293,
+    "prev_period": "2026-07",
+    "prev_diff": -567.276837,
+    "prev_pct": -22.2136289077,
+    "yoy_value": 5551.837912,
+    "yoy_period": "2025-08",
+    "yoy_diff": -3565.381456,
+    "yoy_pct": -64.2198405738,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 1986.456456,
+     "cell": "7.2!R29C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 2553.733293,
+     "cell": "7.2!R29C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 5551.837912,
+     "cell": "7.2!R29C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "تكنولوجيا المعلومات والاتصالات والإعلام والكمبيوتر والأعمال التجارية والخدمات المالية، سلع استهلاك نهائي | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف الفئات الاقتصادية الواسعة- النسخة 5(*)، بالمليون ريال(**) Exports and imports by classification of Broad Economic Categories Rev.5(*), value in SAR million(**)",
+   "id": "27267531-029",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-6",
+   "sheet": "7.6",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "معدات الاتصالات | صادرات Export: 816.03 مليون ريال في أغسطس 2026، مقابل 1,043 (-21.72%) في يوليو 2026، ومقابل 5,421 (-84.95%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Communication equipment | صادرات Export: 816.03 million SAR in August 2026, versus 1,043 (-21.72%) in July 2026, and versus 5,421 (-84.95%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 816.03363,
+    "period": "2026-08",
+    "prev_value": 1042.520179,
+    "prev_period": "2026-07",
+    "prev_diff": -226.486549,
+    "prev_pct": -21.7249079262,
+    "yoy_value": 5421.42105,
+    "yoy_period": "2025-08",
+    "yoy_diff": -4605.38742,
+    "yoy_pct": -84.9479754021,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 816.03363,
+     "cell": "7.6!R8C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 1042.520179,
+     "cell": "7.6!R8C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 5421.42105,
+     "cell": "7.6!R8C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "معدات الاتصالات | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف سلع تكنولوجيا الاتصالات والمعلومات(*)، بالمليون ريال Exports and imports by classification of Information and Communication Technology goods(*), value in SAR million 2026* 2026*",
+   "id": "27267531-030",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-6",
+   "sheet": "7.6",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "معدات الاتصالات | واردات Import: 2,162 مليون ريال في أغسطس 2026، مقابل 2,617 (-17.37%) في يوليو 2026، ومقابل 5,852 (-63.05%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Communication equipment | واردات Import: 2,162 million SAR in August 2026, versus 2,617 (-17.37%) in July 2026, and versus 5,852 (-63.05%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 2161.964843,
+    "period": "2026-08",
+    "prev_value": 2616.533499,
+    "prev_period": "2026-07",
+    "prev_diff": -454.568656,
+    "prev_pct": -17.3729346929,
+    "yoy_value": 5851.519222,
+    "yoy_period": "2025-08",
+    "yoy_diff": -3689.554379,
+    "yoy_pct": -63.0529310256,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 2161.964843,
+     "cell": "7.6!R8C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 2616.533499,
+     "cell": "7.6!R8C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 5851.519222,
+     "cell": "7.6!R8C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "معدات الاتصالات | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف سلع تكنولوجيا الاتصالات والمعلومات(*)، بالمليون ريال Exports and imports by classification of Information and Communication Technology goods(*), value in SAR million 2026* 2026*",
+   "id": "27267531-031",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_2",
+   "sheet": "2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "آلات وأجهزة آلية ومعدات كهربائية وأجزاؤها | صادرات Export: 3,105 مليون ريال في أغسطس 2026، مقابل 3,622 (-14.26%) في يوليو 2026، ومقابل 7,357 (-57.79%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Machinery and mechanical appliances, electrical equipment, parts thereof | صادرات Export: 3,105 million SAR in August 2026, versus 3,622 (-14.26%) in July 2026, and versus 7,357 (-57.79%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 3105.339472,
+    "period": "2026-08",
+    "prev_value": 3621.859843,
+    "prev_period": "2026-07",
+    "prev_diff": -516.520371,
+    "prev_pct": -14.2611915808,
+    "yoy_value": 7356.65473,
+    "yoy_period": "2025-08",
+    "yoy_diff": -4251.315258,
+    "yoy_pct": -57.7887017133,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 3105.339472,
+     "cell": "2!R22C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 3621.859843,
+     "cell": "2!R22C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 7356.65473,
+     "cell": "2!R22C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "آلات وأجهزة آلية ومعدات كهربائية وأجزاؤها | صادرات Export",
+   "table_title": "الصادرات والواردات حسب الأقسام، القيمة بالمليون ريال Exports and imports by section, value in SAR million صادرات Export واردات Import",
+   "id": "27267531-032",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "low",
+   "dataset_id": "international-trade-in-goods_7-1",
+   "sheet": "7.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "المكنات ومعدات النقل | صادرات Export: 4,734 مليون ريال في أغسطس 2026، مقابل 5,701 (-16.96%) في يوليو 2026، ومقابل 9,578 (-50.57%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+   "text_en": "Machinery and transport equipment | صادرات Export: 4,734 million SAR in August 2026, versus 5,701 (-16.96%) in July 2026, and versus 9,578 (-50.57%) in August 2025, the lowest in the available data (since 2025).",
+   "numbers": {
+    "value": 4734.485603,
+    "period": "2026-08",
+    "prev_value": 5701.341543,
+    "prev_period": "2026-07",
+    "prev_diff": -966.85594,
+    "prev_pct": -16.9583936115,
+    "yoy_value": 9578.43684,
+    "yoy_period": "2025-08",
+    "yoy_diff": -4843.951237,
+    "yoy_pct": -50.5714170059,
+    "history_start": "2025",
+    "history_observations": 27
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 4734.485603,
+     "cell": "7.1!R68C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 5701.341543,
+     "cell": "7.1!R68C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 9578.43684,
+     "cell": "7.1!R68C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "المكنات ومعدات النقل | صادرات Export",
+   "table_title": "الصادرات والواردات حسب التصنيف الموحد للتجارة الدولية- النسخة 4(*)، بالمليون ريال Exports and imports by Standard International Trade Classification Rev.4(*), value in SAR million",
+   "id": "27267531-033",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_1-1",
+   "sheet": "1.1",
+   "period": "2026-08",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الميزان التجاري السلعي | دوري: 17.8% في أغسطس 2026، مقابل -20.3% (+38.1 نقطة مئوية) في يوليو 2026، ومقابل 3.1% (+14.7 نقطة مئوية) في أغسطس 2025.",
+   "text_en": "Merchandise trade balance | دوري: 17.8% in August 2026, versus -20.3% (+38.1 percentage points) in July 2026, and versus 3.1% (+14.7 percentage points) in August 2025.",
+   "numbers": {
+    "value": 17.8,
+    "period": "2026-08",
+    "prev_value": -20.3,
+    "prev_period": "2026-07",
+    "prev_diff": 38.1,
+    "yoy_value": 3.1,
+    "yoy_period": "2025-08",
+    "yoy_diff": 14.7,
+    "history_observations": 116,
+    "history_start": "2017-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 17.8,
+     "cell": "1.1!R168C14"
+    },
+    {
+     "period": "2026-07",
+     "value": -20.3,
+     "cell": "1.1!R167C14"
+    },
+    {
+     "period": "2025-08",
+     "value": 3.1,
+     "cell": "1.1!R151C14"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الميزان التجاري السلعي | دوري",
+   "table_title": "الصادرات والواردات وحجم التجارة والميزان التجاري في السلع، شهري، القيمة بالمليون ريال Goods exports, imports, trade volume and trade balance, monthly, value in SAR million",
+   "id": "27267531-034",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_1-2",
+   "sheet": "1.2",
+   "period": "2026-08",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الصادرات غير البترولية | سنوي: 8.5% في أغسطس 2026، مقابل -14.5% (+23 نقطة مئوية) في يوليو 2026، ومقابل -11.9% (+20.4 نقطة مئوية) في أغسطس 2025.",
+   "text_en": "Non-oil exports | سنوي: 8.5% in August 2026, versus -14.5% (+23 percentage points) in July 2026, and versus -11.9% (+20.4 percentage points) in August 2025.",
+   "numbers": {
+    "value": 8.5,
+    "period": "2026-08",
+    "prev_value": -14.5,
+    "prev_period": "2026-07",
+    "prev_diff": 23.0,
+    "yoy_value": -11.9,
+    "yoy_period": "2025-08",
+    "yoy_diff": 20.4,
+    "history_observations": 116,
+    "history_start": "2017-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 8.5,
+     "cell": "1.2!R169C7"
+    },
+    {
+     "period": "2026-07",
+     "value": -14.5,
+     "cell": "1.2!R168C7"
+    },
+    {
+     "period": "2025-08",
+     "value": -11.9,
+     "cell": "1.2!R152C7"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الصادرات غير البترولية | سنوي",
+   "table_title": "الصادرات السلعية، شهري، القيمة بالمليون ريال Goods exports, monthly, value in SAR million",
+   "id": "27267531-035",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_1-2",
+   "sheet": "1.2",
+   "period": "2026-08",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الصادرات غير البترولية | دوري: 17.8% في أغسطس 2026، مقابل 0.5% (+17.3 نقطة مئوية) في يوليو 2026، ومقابل -7.1% (+24.9 نقطة مئوية) في أغسطس 2025.",
+   "text_en": "Non-oil exports | دوري: 17.8% in August 2026, versus 0.5% (+17.3 percentage points) in July 2026, and versus -7.1% (+24.9 percentage points) in August 2025.",
+   "numbers": {
+    "value": 17.8,
+    "period": "2026-08",
+    "prev_value": 0.5,
+    "prev_period": "2026-07",
+    "prev_diff": 17.3,
+    "yoy_value": -7.1,
+    "yoy_period": "2025-08",
+    "yoy_diff": 24.9,
+    "history_observations": 116,
+    "history_start": "2017-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 17.8,
+     "cell": "1.2!R169C6"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.5,
+     "cell": "1.2!R168C6"
+    },
+    {
+     "period": "2025-08",
+     "value": -7.1,
+     "cell": "1.2!R152C6"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الصادرات غير البترولية | دوري",
+   "table_title": "الصادرات السلعية، شهري، القيمة بالمليون ريال Goods exports, monthly, value in SAR million",
+   "id": "27267531-036",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_1-1",
+   "sheet": "1.1",
+   "period": "2026-08",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "الميزان التجاري السلعي | سنوي: -21% في أغسطس 2026، مقابل -30.8% (+9.8 نقطة مئوية) في يوليو 2026، ومقابل -15.2% (-5.8 نقطة مئوية) في أغسطس 2025.",
+   "text_en": "Merchandise trade balance | سنوي: -21% in August 2026, versus -30.8% (+9.8 percentage points) in July 2026, and versus -15.2% (-5.8 percentage points) in August 2025.",
+   "numbers": {
+    "value": -21.0,
+    "period": "2026-08",
+    "prev_value": -30.8,
+    "prev_period": "2026-07",
+    "prev_diff": 9.8,
+    "yoy_value": -15.2,
+    "yoy_period": "2025-08",
+    "yoy_diff": -5.8,
+    "history_observations": 116,
+    "history_start": "2017-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": -21.0,
+     "cell": "1.1!R168C15"
+    },
+    {
+     "period": "2026-07",
+     "value": -30.8,
+     "cell": "1.1!R167C15"
+    },
+    {
+     "period": "2025-08",
+     "value": -15.2,
+     "cell": "1.1!R151C15"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الميزان التجاري السلعي | سنوي",
+   "table_title": "الصادرات والواردات وحجم التجارة والميزان التجاري في السلع، شهري، القيمة بالمليون ريال Goods exports, imports, trade volume and trade balance, monthly, value in SAR million",
+   "id": "27267531-037",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_1-2",
+   "sheet": "1.2",
+   "period": "2026-08",
+   "measure_type": "rate",
+   "unit": "percent",
+   "unit_ok": true,
+   "text_ar": "إعادة التصدير | دوري: -13.1% في أغسطس 2026، مقابل -4.2% (-8.9 نقطة مئوية) في يوليو 2026، ومقابل -20.9% (+7.8 نقطة مئوية) في أغسطس 2025.",
+   "text_en": "Re-exports | دوري: -13.1% in August 2026, versus -4.2% (-8.9 percentage points) in July 2026, and versus -20.9% (+7.8 percentage points) in August 2025.",
+   "numbers": {
+    "value": -13.1,
+    "period": "2026-08",
+    "prev_value": -4.2,
+    "prev_period": "2026-07",
+    "prev_diff": -8.9,
+    "yoy_value": -20.9,
+    "yoy_period": "2025-08",
+    "yoy_diff": 7.8,
+    "history_observations": 116,
+    "history_start": "2017-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": -13.1,
+     "cell": "1.2!R169C14"
+    },
+    {
+     "period": "2026-07",
+     "value": -4.2,
+     "cell": "1.2!R168C14"
+    },
+    {
+     "period": "2025-08",
+     "value": -20.9,
+     "cell": "1.2!R152C14"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "إعادة التصدير | دوري",
+   "table_title": "الصادرات السلعية، شهري، القيمة بالمليون ريال Goods exports, monthly, value in SAR million",
+   "id": "27267531-038",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-3",
+   "sheet": "7.3",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "المياه الطبيعية | صادرات Export: 0.09 مليون ريال في أغسطس 2026، مقابل 0 (+462,132%) في يوليو 2026، ومقابل 0 (+0.09) في أغسطس 2025.",
+   "text_en": "Natural water | صادرات Export: 0.09 million SAR in August 2026, versus 0 (+462,132%) in July 2026, and versus 0 (+0.09) in August 2025.",
+   "numbers": {
+    "value": 0.087824,
+    "period": "2026-08",
+    "prev_value": 1.9e-05,
+    "prev_period": "2026-07",
+    "prev_diff": 0.087805,
+    "prev_pct": 462131.5789473683,
+    "yoy_value": 0.0,
+    "yoy_period": "2025-08",
+    "yoy_diff": 0.087824,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.087824,
+     "cell": "7.3!R19C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 1.9e-05,
+     "cell": "7.3!R19C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.0,
+     "cell": "7.3!R19C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "المياه الطبيعية | صادرات Export",
+   "table_title": "الصادرات والواردات حسب التصنيف المركزي للمنتجات- النسخة 2.1(*)، بالمليون ريال(**) Exports and imports by Central Product Classification Ver 2.1(*), value in SAR million(**)",
+   "id": "27267531-039",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-1",
+   "sheet": "7.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "مواد كيميائية ومنتجات متصلة بها، غير مذكورة ولا داخلة في موضع آخر | صادرات Export: 10,902 مليون ريال في أغسطس 2026، مقابل 9,044 (+20.54%) في يوليو 2026، ومقابل 11,705 (-6.86%) في أغسطس 2025.",
+   "text_en": "Chemicals and related products, n.e.s. | صادرات Export: 10,902 million SAR in August 2026, versus 9,044 (+20.54%) in July 2026, and versus 11,705 (-6.86%) in August 2025.",
+   "numbers": {
+    "value": 10901.829491,
+    "period": "2026-08",
+    "prev_value": 9043.932178,
+    "prev_period": "2026-07",
+    "prev_diff": 1857.897313,
+    "prev_pct": 20.5430257153,
+    "yoy_value": 11705.000651,
+    "yoy_period": "2025-08",
+    "yoy_diff": -803.17116,
+    "yoy_pct": -6.8617780037,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 10901.829491,
+     "cell": "7.1!R48C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 9043.932178,
+     "cell": "7.1!R48C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 11705.000651,
+     "cell": "7.1!R48C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "مواد كيميائية ومنتجات متصلة بها، غير مذكورة ولا داخلة في موضع آخر | صادرات Export",
+   "table_title": "الصادرات والواردات حسب التصنيف الموحد للتجارة الدولية- النسخة 4(*)، بالمليون ريال Exports and imports by Standard International Trade Classification Rev.4(*), value in SAR million",
+   "id": "27267531-040",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-3",
+   "sheet": "7.3",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "المياه الطبيعية | واردات Import: 0.48 مليون ريال في أغسطس 2026، مقابل 0.07 (+617.63%) في يوليو 2026، ومقابل 0.71 (-32.28%) في أغسطس 2025.",
+   "text_en": "Natural water | واردات Import: 0.48 million SAR in August 2026, versus 0.07 (+617.63%) in July 2026, and versus 0.71 (-32.28%) in August 2025.",
+   "numbers": {
+    "value": 0.481711,
+    "period": "2026-08",
+    "prev_value": 0.067125,
+    "prev_period": "2026-07",
+    "prev_diff": 0.414586,
+    "prev_pct": 617.6327746741,
+    "yoy_value": 0.711364,
+    "yoy_period": "2025-08",
+    "yoy_diff": -0.229653,
+    "yoy_pct": -32.2834723152,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.481711,
+     "cell": "7.3!R19C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.067125,
+     "cell": "7.3!R19C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.711364,
+     "cell": "7.3!R19C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "المياه الطبيعية | واردات Import",
+   "table_title": "الصادرات والواردات حسب التصنيف المركزي للمنتجات- النسخة 2.1(*)، بالمليون ريال(**) Exports and imports by Central Product Classification Ver 2.1(*), value in SAR million(**)",
+   "id": "27267531-041",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-6",
+   "sheet": "7.6",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أصناف متنوعة | صادرات Export: 17.97 مليون ريال في أغسطس 2026، مقابل 3.79 (+374.61%) في يوليو 2026، ومقابل 9.48 (+89.51%) في أغسطس 2025.",
+   "text_en": "Miscellaneous | صادرات Export: 17.97 million SAR in August 2026, versus 3.79 (+374.61%) in July 2026, and versus 9.48 (+89.51%) in August 2025.",
+   "numbers": {
+    "value": 17.973913,
+    "period": "2026-08",
+    "prev_value": 3.787092,
+    "prev_period": "2026-07",
+    "prev_diff": 14.186821,
+    "prev_pct": 374.6098853685,
+    "yoy_value": 9.484245,
+    "yoy_period": "2025-08",
+    "yoy_diff": 8.489668,
+    "yoy_pct": 89.513377185,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 17.973913,
+     "cell": "7.6!R11C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 3.787092,
+     "cell": "7.6!R11C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 9.484245,
+     "cell": "7.6!R11C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "أصناف متنوعة | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف سلع تكنولوجيا الاتصالات والمعلومات(*)، بالمليون ريال Exports and imports by classification of Information and Communication Technology goods(*), value in SAR million 2026* 2026*",
+   "id": "27267531-042",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_2",
+   "sheet": "2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "مواد نسجية ومصنوعاتها | صادرات Export: 749.89 مليون ريال في أغسطس 2026، مقابل 211.65 (+254.31%) في يوليو 2026، ومقابل 202.42 (+270.47%) في أغسطس 2025.",
+   "text_en": "Textiles and their articles | صادرات Export: 749.89 million SAR in August 2026, versus 211.65 (+254.31%) in July 2026, and versus 202.42 (+270.47%) in August 2025.",
+   "numbers": {
+    "value": 749.887773,
+    "period": "2026-08",
+    "prev_value": 211.646482,
+    "prev_period": "2026-07",
+    "prev_diff": 538.241291,
+    "prev_pct": 254.311475397,
+    "yoy_value": 202.416751,
+    "yoy_period": "2025-08",
+    "yoy_diff": 547.471022,
+    "yoy_pct": 270.4672510034,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 749.887773,
+     "cell": "2!R17C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 211.646482,
+     "cell": "2!R17C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 202.416751,
+     "cell": "2!R17C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "مواد نسجية ومصنوعاتها | صادرات Export",
+   "table_title": "الصادرات والواردات حسب الأقسام، القيمة بالمليون ريال Exports and imports by section, value in SAR million صادرات Export واردات Import",
+   "id": "27267531-043",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-1",
+   "sheet": "7.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "دهون وزيوت حيوانية أو نباتية، مجهزة؛ شموع من أصل حيواني أو نباتي؛ أخلاط أو محضرات غير صالحة للأكل من الدهون أو الزيوت الحيوانية أو النباتية، غير مذكورة ولا داخلة في موضع آخر | واردات Import: 96.79 مليون ريال في أغسطس 2026، مقابل 30.69 (+215.34%) في يوليو 2026، ومقابل 61.84 (+56.52%) في أغسطس 2025.",
+   "text_en": "Animal or vegetable fats and oils, processed; waxes of animal or vegetable origin; inedible mixtures or preparations of animal or vegetable fats or oils, n.e.s. | واردات Import: 96.79 million SAR in August 2026, versus 30.69 (+215.34%) in July 2026, and versus 61.84 (+56.52%) in August 2025.",
+   "numbers": {
+    "value": 96.793283,
+    "period": "2026-08",
+    "prev_value": 30.694579,
+    "prev_period": "2026-07",
+    "prev_diff": 66.098704,
+    "prev_pct": 215.3432500247,
+    "yoy_value": 61.840569,
+    "yoy_period": "2025-08",
+    "yoy_diff": 34.952714,
+    "yoy_pct": 56.5206862828,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 96.793283,
+     "cell": "7.1!R37C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 30.694579,
+     "cell": "7.1!R37C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 61.840569,
+     "cell": "7.1!R37C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "دهون وزيوت حيوانية أو نباتية، مجهزة؛ شموع من أصل حيواني أو نباتي؛ أخلاط أو محضرات غير صالحة للأكل من الدهون أو الزيوت الحيوانية أو النباتية، غير مذكورة ولا داخلة في موضع آخر | واردات Import",
+   "table_title": "الصادرات والواردات حسب التصنيف الموحد للتجارة الدولية- النسخة 4(*)، بالمليون ريال Exports and imports by Standard International Trade Classification Rev.4(*), value in SAR million",
+   "id": "27267531-044",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-7",
+   "sheet": "7.7",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | منتجات الخوص | صادرات Export: 2.17 مليون ريال في أغسطس 2026، مقابل 0.77 (+180.94%) في يوليو 2026، ومقابل 0.34 (+530.57%) في أغسطس 2025.",
+   "text_en": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | Wickerware | صادرات Export: 2.17 million SAR in August 2026, versus 0.77 (+180.94%) in July 2026, and versus 0.34 (+530.57%) in August 2025.",
+   "numbers": {
+    "value": 2.1741,
+    "period": "2026-08",
+    "prev_value": 0.773879,
+    "prev_period": "2026-07",
+    "prev_diff": 1.400221,
+    "prev_pct": 180.9353917085,
+    "yoy_value": 0.344781,
+    "yoy_period": "2025-08",
+    "yoy_diff": 1.829319,
+    "yoy_pct": 530.5741905731,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 2.1741,
+     "cell": "7.7!R14C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.773879,
+     "cell": "7.7!R14C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.344781,
+     "cell": "7.7!R14C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | منتجات الخوص | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف مجموعات منتجات الاقتصاد الإبداعي(*)، بالمليون ريال Exports and imports by classification of Creative Economy Product Groups(*), value in SAR million 2026* 2026*",
+   "id": "27267531-045",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-2",
+   "sheet": "7.2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "التعدين واستغلال المحاجر والمصافي والوقود والكيماويات والكهرباء والمياه ومعالجة النفايات، سلع تكوين رأس المال الثابت | صادرات Export: 307.46 مليون ريال في أغسطس 2026، مقابل 134.87 (+127.97%) في يوليو 2026، ومقابل 214.13 (+43.59%) في أغسطس 2025.",
+   "text_en": "Mining, quarrying, refinery, fuels, chemicals, electricity, water, waste treatment, Gross Fixed Capital Formation goods | صادرات Export: 307.46 million SAR in August 2026, versus 134.87 (+127.97%) in July 2026, and versus 214.13 (+43.59%) in August 2025.",
+   "numbers": {
+    "value": 307.462647,
+    "period": "2026-08",
+    "prev_value": 134.867304,
+    "prev_period": "2026-07",
+    "prev_diff": 172.595343,
+    "prev_pct": 127.9741923217,
+    "yoy_value": 214.12909,
+    "yoy_period": "2025-08",
+    "yoy_diff": 93.333557,
+    "yoy_pct": 43.5875186319,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 307.462647,
+     "cell": "7.2!R12C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 134.867304,
+     "cell": "7.2!R12C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 214.12909,
+     "cell": "7.2!R12C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "التعدين واستغلال المحاجر والمصافي والوقود والكيماويات والكهرباء والمياه ومعالجة النفايات، سلع تكوين رأس المال الثابت | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف الفئات الاقتصادية الواسعة- النسخة 5(*)، بالمليون ريال(**) Exports and imports by classification of Broad Economic Categories Rev.5(*), value in SAR million(**)",
+   "id": "27267531-046",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-7",
+   "sheet": "7.7",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | الديكور الداخلي | واردات Import: 460.28 مليون ريال في أغسطس 2026، مقابل 336.64 (+36.73%) في يوليو 2026، ومقابل 496.88 (-7.37%) في أغسطس 2025.",
+   "text_en": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | Interior | واردات Import: 460.28 million SAR in August 2026, versus 336.64 (+36.73%) in July 2026, and versus 496.88 (-7.37%) in August 2025.",
+   "numbers": {
+    "value": 460.280417,
+    "period": "2026-08",
+    "prev_value": 336.636478,
+    "prev_period": "2026-07",
+    "prev_diff": 123.643939,
+    "prev_pct": 36.7292159586,
+    "yoy_value": 496.878261,
+    "yoy_period": "2025-08",
+    "yoy_diff": -36.597844,
+    "yoy_pct": -7.3655554836,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 460.280417,
+     "cell": "7.7!R11C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 336.636478,
+     "cell": "7.7!R11C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 496.878261,
+     "cell": "7.7!R11C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | الديكور الداخلي | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف مجموعات منتجات الاقتصاد الإبداعي(*)، بالمليون ريال Exports and imports by classification of Creative Economy Product Groups(*), value in SAR million 2026* 2026*",
+   "id": "27267531-047",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-1",
+   "sheet": "7.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "صلال (جلود خام) الذبائح الكبيرة والصغيرة وجلود الفراء، خام | واردات Import: 0 مليون ريال في أغسطس 2026، مقابل 0.01 (-100%) في يوليو 2026، ومقابل 0.02 (-100%) في أغسطس 2025.",
+   "text_en": "Hides, skins and furskins, raw | واردات Import: 0 million SAR in August 2026, versus 0.01 (-100%) in July 2026, and versus 0.02 (-100%) in August 2025.",
+   "numbers": {
+    "value": 0.0,
+    "period": "2026-08",
+    "prev_value": 0.013805,
+    "prev_period": "2026-07",
+    "prev_diff": -0.013805,
+    "prev_pct": -100.0,
+    "yoy_value": 0.024,
+    "yoy_period": "2025-08",
+    "yoy_diff": -0.024,
+    "yoy_pct": -100.0,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.0,
+     "cell": "7.1!R21C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.013805,
+     "cell": "7.1!R21C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.024,
+     "cell": "7.1!R21C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "صلال (جلود خام) الذبائح الكبيرة والصغيرة وجلود الفراء، خام | واردات Import",
+   "table_title": "الصادرات والواردات حسب التصنيف الموحد للتجارة الدولية- النسخة 4(*)، بالمليون ريال Exports and imports by Standard International Trade Classification Rev.4(*), value in SAR million",
+   "id": "27267531-048",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-3",
+   "sheet": "7.3",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "خامات ومركزات اليورانيوم والثوريوم | صادرات Export: 0 مليون ريال في أغسطس 2026، مقابل 0.02 (-100%) في يوليو 2026، ومقابل 0 (0) في أغسطس 2025.",
+   "text_en": "Uranium and thorium ores and concentrates | صادرات Export: 0 million SAR in August 2026, versus 0.02 (-100%) in July 2026, and versus 0 (0) in August 2025.",
+   "numbers": {
+    "value": 0.0,
+    "period": "2026-08",
+    "prev_value": 0.017848,
+    "prev_period": "2026-07",
+    "prev_diff": -0.017848,
+    "prev_pct": -100.0,
+    "yoy_value": 0.0,
+    "yoy_period": "2025-08",
+    "yoy_diff": 0.0,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.0,
+     "cell": "7.3!R14C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.017848,
+     "cell": "7.3!R14C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.0,
+     "cell": "7.3!R14C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "خامات ومركزات اليورانيوم والثوريوم | صادرات Export",
+   "table_title": "الصادرات والواردات حسب التصنيف المركزي للمنتجات- النسخة 2.1(*)، بالمليون ريال(**) Exports and imports by Central Product Classification Ver 2.1(*), value in SAR million(**)",
+   "id": "27267531-049",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-7",
+   "sheet": "7.7",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الوسائط السمعية والبصرية، الوسائط المتعددة والتصوير الفوتوغرافي | صادرات Export: 0 مليون ريال في أغسطس 2026، مقابل 0.09 (-100%) في يوليو 2026، ومقابل 0 (0) في أغسطس 2025.",
+   "text_en": "Audiovisual, multimedia and photography | صادرات Export: 0 million SAR in August 2026, versus 0.09 (-100%) in July 2026, and versus 0 (0) in August 2025.",
+   "numbers": {
+    "value": 0.0,
+    "period": "2026-08",
+    "prev_value": 0.092681,
+    "prev_period": "2026-07",
+    "prev_diff": -0.092681,
+    "prev_pct": -100.0,
+    "yoy_value": 0.0,
+    "yoy_period": "2025-08",
+    "yoy_diff": 0.0,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 0.0,
+     "cell": "7.7!R7C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 0.092681,
+     "cell": "7.7!R7C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 0.0,
+     "cell": "7.7!R7C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الوسائط السمعية والبصرية، الوسائط المتعددة والتصوير الفوتوغرافي | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف مجموعات منتجات الاقتصاد الإبداعي(*)، بالمليون ريال Exports and imports by classification of Creative Economy Product Groups(*), value in SAR million 2026* 2026*",
+   "id": "27267531-050",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_2",
+   "sheet": "2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أسلحة وذخائر، أجزاؤها ولوازمها | واردات Import: 909.05 مليون ريال في أغسطس 2026، مقابل 477.58 (+90.35%) في يوليو 2026، ومقابل 625.08 (+45.43%) في أغسطس 2025.",
+   "text_en": "Arms and ammunition; parts and accessories thereof | واردات Import: 909.05 million SAR in August 2026, versus 477.58 (+90.35%) in July 2026, and versus 625.08 (+45.43%) in August 2025.",
+   "numbers": {
+    "value": 909.05028,
+    "period": "2026-08",
+    "prev_value": 477.578809,
+    "prev_period": "2026-07",
+    "prev_diff": 431.471471,
+    "prev_pct": 90.3456063939,
+    "yoy_value": 625.081546,
+    "yoy_period": "2025-08",
+    "yoy_diff": 283.968734,
+    "yoy_pct": 45.4290701457,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 909.05028,
+     "cell": "2!R25C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 477.578809,
+     "cell": "2!R25C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 625.081546,
+     "cell": "2!R25C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "أسلحة وذخائر، أجزاؤها ولوازمها | واردات Import",
+   "table_title": "الصادرات والواردات حسب الأقسام، القيمة بالمليون ريال Exports and imports by section, value in SAR million صادرات Export واردات Import",
+   "id": "27267531-051",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-6",
+   "sheet": "7.6",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أصناف متنوعة | واردات Import: 67.6 مليون ريال في أغسطس 2026، مقابل 36.76 (+83.89%) في يوليو 2026، ومقابل 116.26 (-41.85%) في أغسطس 2025.",
+   "text_en": "Miscellaneous | واردات Import: 67.6 million SAR in August 2026, versus 36.76 (+83.89%) in July 2026, and versus 116.26 (-41.85%) in August 2025.",
+   "numbers": {
+    "value": 67.597302,
+    "period": "2026-08",
+    "prev_value": 36.759415,
+    "prev_period": "2026-07",
+    "prev_diff": 30.837887,
+    "prev_pct": 83.8911255797,
+    "yoy_value": 116.255061,
+    "yoy_period": "2025-08",
+    "yoy_diff": -48.657759,
+    "yoy_pct": -41.8543146264,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 67.597302,
+     "cell": "7.6!R11C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 36.759415,
+     "cell": "7.6!R11C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 116.255061,
+     "cell": "7.6!R11C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "أصناف متنوعة | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف سلع تكنولوجيا الاتصالات والمعلومات(*)، بالمليون ريال Exports and imports by classification of Information and Communication Technology goods(*), value in SAR million 2026* 2026*",
+   "id": "27267531-052",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-8",
+   "sheet": "7.8",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "السكريات، المربيات | واردات Import: 477.12 مليون ريال في أغسطس 2026، مقابل 276.67 (+72.45%) في يوليو 2026، ومقابل 657.8 (-27.47%) في أغسطس 2025.",
+   "text_en": "Sugars, Jams | واردات Import: 477.12 million SAR in August 2026, versus 276.67 (+72.45%) in July 2026, and versus 657.8 (-27.47%) in August 2025.",
+   "numbers": {
+    "value": 477.121085,
+    "period": "2026-08",
+    "prev_value": 276.670804,
+    "prev_period": "2026-07",
+    "prev_diff": 200.450281,
+    "prev_pct": 72.4508253498,
+    "yoy_value": 657.804175,
+    "yoy_period": "2025-08",
+    "yoy_diff": -180.68309,
+    "yoy_pct": -27.4676107065,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 477.121085,
+     "cell": "7.8!R21C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 276.670804,
+     "cell": "7.8!R21C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 657.804175,
+     "cell": "7.8!R21C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "السكريات، المربيات | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف فئات الأغذية ومكوناتها(*)، بالمليون ريال Exports and imports by classification of Food Categories and Composition(*), value in SAR million 2026* 2026*",
+   "id": "27267531-053",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-5",
+   "sheet": "7.5",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الأسلحة | واردات Import: 927.77 مليون ريال في أغسطس 2026، مقابل 538.47 (+72.3%) في يوليو 2026، ومقابل 966.35 (-3.99%) في أغسطس 2025.",
+   "text_en": "Armament | واردات Import: 927.77 million SAR in August 2026, versus 538.47 (+72.3%) in July 2026, and versus 966.35 (-3.99%) in August 2025.",
+   "numbers": {
+    "value": 927.768387,
+    "period": "2026-08",
+    "prev_value": 538.467384,
+    "prev_period": "2026-07",
+    "prev_diff": 389.301003,
+    "prev_pct": 72.2979728332,
+    "yoy_value": 966.349025,
+    "yoy_period": "2025-08",
+    "yoy_diff": -38.580638,
+    "yoy_pct": -3.9924123688,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 927.768387,
+     "cell": "7.5!R15C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 538.467384,
+     "cell": "7.5!R15C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 966.349025,
+     "cell": "7.5!R15C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الأسلحة | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف المنتجات عالية التقنية(*)، بالمليون ريال Exports and imports by classification of High-Technology Products(*), value in SAR million 2026* 2026*",
+   "id": "27267531-054",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-2",
+   "sheet": "7.2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الخدمات الحكومية والعسكرية وغيرها، سلع استهلاك وسيط | واردات Import: 617.43 مليون ريال في أغسطس 2026، مقابل 379.91 (+62.52%) في يوليو 2026، ومقابل 290.16 (+112.79%) في أغسطس 2025.",
+   "text_en": "Government, military and other, Intermediate Consumption goods | واردات Import: 617.43 million SAR in August 2026, versus 379.91 (+62.52%) in July 2026, and versus 290.16 (+112.79%) in August 2025.",
+   "numbers": {
+    "value": 617.426829,
+    "period": "2026-08",
+    "prev_value": 379.905979,
+    "prev_period": "2026-07",
+    "prev_diff": 237.52085,
+    "prev_pct": 62.5209560074,
+    "yoy_value": 290.160149,
+    "yoy_period": "2025-08",
+    "yoy_diff": 327.26668,
+    "yoy_pct": 112.7882933366,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 617.426829,
+     "cell": "7.2!R35C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 379.905979,
+     "cell": "7.2!R35C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 290.160149,
+     "cell": "7.2!R35C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الخدمات الحكومية والعسكرية وغيرها، سلع استهلاك وسيط | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف الفئات الاقتصادية الواسعة- النسخة 5(*)، بالمليون ريال(**) Exports and imports by classification of Broad Economic Categories Rev.5(*), value in SAR million(**)",
+   "id": "27267531-055",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-5",
+   "sheet": "7.5",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الآلات غير الكهربائية | صادرات Export: 100.3 مليون ريال في أغسطس 2026، مقابل 226.34 (-55.69%) في يوليو 2026، ومقابل 30.59 (+227.91%) في أغسطس 2025.",
+   "text_en": "Non-Electrical Machinery | صادرات Export: 100.3 million SAR in August 2026, versus 226.34 (-55.69%) in July 2026, and versus 30.59 (+227.91%) in August 2025.",
+   "numbers": {
+    "value": 100.298392,
+    "period": "2026-08",
+    "prev_value": 226.337111,
+    "prev_period": "2026-07",
+    "prev_diff": -126.038719,
+    "prev_pct": -55.6862807178,
+    "yoy_value": 30.587589,
+    "yoy_period": "2025-08",
+    "yoy_diff": 69.710803,
+    "yoy_pct": 227.905517496,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 100.298392,
+     "cell": "7.5!R14C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 226.337111,
+     "cell": "7.5!R14C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 30.587589,
+     "cell": "7.5!R14C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الآلات غير الكهربائية | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف المنتجات عالية التقنية(*)، بالمليون ريال Exports and imports by classification of High-Technology Products(*), value in SAR million 2026* 2026*",
+   "id": "27267531-056",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-5",
+   "sheet": "7.5",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الفضاء | صادرات Export: 334.8 مليون ريال في أغسطس 2026، مقابل 225.51 (+48.46%) في يوليو 2026، ومقابل 169.86 (+97.1%) في أغسطس 2025.",
+   "text_en": "Aerospace | صادرات Export: 334.8 million SAR in August 2026, versus 225.51 (+48.46%) in July 2026, and versus 169.86 (+97.1%) in August 2025.",
+   "numbers": {
+    "value": 334.80247,
+    "period": "2026-08",
+    "prev_value": 225.511847,
+    "prev_period": "2026-07",
+    "prev_diff": 109.290623,
+    "prev_pct": 48.4633621044,
+    "yoy_value": 169.864195,
+    "yoy_period": "2025-08",
+    "yoy_diff": 164.938275,
+    "yoy_pct": 97.1000833931,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 334.80247,
+     "cell": "7.5!R7C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 225.511847,
+     "cell": "7.5!R7C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 169.864195,
+     "cell": "7.5!R7C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الفضاء | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف المنتجات عالية التقنية(*)، بالمليون ريال Exports and imports by classification of High-Technology Products(*), value in SAR million 2026* 2026*",
+   "id": "27267531-057",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-8",
+   "sheet": "7.8",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "المحاريات | واردات Import: 6.82 مليون ريال في أغسطس 2026، مقابل 12.87 (-46.99%) في يوليو 2026، ومقابل 17.47 (-60.94%) في أغسطس 2025.",
+   "text_en": "Shellfish | واردات Import: 6.82 million SAR in August 2026, versus 12.87 (-46.99%) in July 2026, and versus 17.47 (-60.94%) in August 2025.",
+   "numbers": {
+    "value": 6.823832,
+    "period": "2026-08",
+    "prev_value": 12.873322,
+    "prev_period": "2026-07",
+    "prev_diff": -6.04949,
+    "prev_pct": -46.9924546283,
+    "yoy_value": 17.471062,
+    "yoy_period": "2025-08",
+    "yoy_diff": -10.64723,
+    "yoy_pct": -60.9420881226,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 6.823832,
+     "cell": "7.8!R13C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 12.873322,
+     "cell": "7.8!R13C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 17.471062,
+     "cell": "7.8!R13C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "المحاريات | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف فئات الأغذية ومكوناتها(*)، بالمليون ريال Exports and imports by classification of Food Categories and Composition(*), value in SAR million 2026* 2026*",
+   "id": "27267531-058",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_2",
+   "sheet": "2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أحجار أو معادن ثمينة ومصنوعاتها، مجوهرات | واردات Import: 3,804 مليون ريال في أغسطس 2026، مقابل 6,283 (-39.46%) في يوليو 2026، ومقابل 3,074 (+23.74%) في أغسطس 2025.",
+   "text_en": "Precious stones or metals and their articles, jewelry | واردات Import: 3,804 million SAR in August 2026, versus 6,283 (-39.46%) in July 2026, and versus 3,074 (+23.74%) in August 2025.",
+   "numbers": {
+    "value": 3804.060665,
+    "period": "2026-08",
+    "prev_value": 6283.305264,
+    "prev_period": "2026-07",
+    "prev_diff": -2479.244599,
+    "prev_pct": -39.457649992,
+    "yoy_value": 3074.150183,
+    "yoy_period": "2025-08",
+    "yoy_diff": 729.910482,
+    "yoy_pct": 23.7434880715,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 3804.060665,
+     "cell": "2!R20C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 6283.305264,
+     "cell": "2!R20C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 3074.150183,
+     "cell": "2!R20C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "أحجار أو معادن ثمينة ومصنوعاتها، مجوهرات | واردات Import",
+   "table_title": "الصادرات والواردات حسب الأقسام، القيمة بالمليون ريال Exports and imports by section, value in SAR million صادرات Export واردات Import",
+   "id": "27267531-059",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-2",
+   "sheet": "7.2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "المنسوجات والملابس والأحذية، سلع استهلاك وسيط | واردات Import: 4,014 مليون ريال في أغسطس 2026، مقابل 6,491 (-38.16%) في يوليو 2026، ومقابل 3,206 (+25.21%) في أغسطس 2025.",
+   "text_en": "Textile, apparel, shoes, Intermediate Consumption goods | واردات Import: 4,014 million SAR in August 2026, versus 6,491 (-38.16%) in July 2026, and versus 3,206 (+25.21%) in August 2025.",
+   "numbers": {
+    "value": 4014.189111,
+    "period": "2026-08",
+    "prev_value": 6491.340125,
+    "prev_period": "2026-07",
+    "prev_diff": -2477.151014,
+    "prev_pct": -38.1608568693,
+    "yoy_value": 3206.052551,
+    "yoy_period": "2025-08",
+    "yoy_diff": 808.13656,
+    "yoy_pct": 25.2065911941,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 4014.189111,
+     "cell": "7.2!R19C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 6491.340125,
+     "cell": "7.2!R19C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 3206.052551,
+     "cell": "7.2!R19C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "المنسوجات والملابس والأحذية، سلع استهلاك وسيط | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف الفئات الاقتصادية الواسعة- النسخة 5(*)، بالمليون ريال(**) Exports and imports by classification of Broad Economic Categories Rev.5(*), value in SAR million(**)",
+   "id": "27267531-060",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-8",
+   "sheet": "7.8",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "اللحوم | صادرات Export: 54.43 مليون ريال في أغسطس 2026، مقابل 40.73 (+33.63%) في يوليو 2026، ومقابل 70.04 (-22.29%) في أغسطس 2025.",
+   "text_en": "Meat | صادرات Export: 54.43 million SAR in August 2026, versus 40.73 (+33.63%) in July 2026, and versus 70.04 (-22.29%) in August 2025.",
+   "numbers": {
+    "value": 54.431882,
+    "period": "2026-08",
+    "prev_value": 40.733645,
+    "prev_period": "2026-07",
+    "prev_diff": 13.698237,
+    "prev_pct": 33.628802431,
+    "yoy_value": 70.041107,
+    "yoy_period": "2025-08",
+    "yoy_diff": -15.609225,
+    "yoy_pct": -22.2858056769,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 54.431882,
+     "cell": "7.8!R10C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 40.733645,
+     "cell": "7.8!R10C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 70.041107,
+     "cell": "7.8!R10C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "اللحوم | صادرات Export",
+   "table_title": "الصادرات والواردات حسب تصنيف فئات الأغذية ومكوناتها(*)، بالمليون ريال Exports and imports by classification of Food Categories and Composition(*), value in SAR million 2026* 2026*",
+   "id": "27267531-061",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_2",
+   "sheet": "2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "تحف فنية وقطع أثرية | صادرات Export: 121.68 مليون ريال في أغسطس 2026، مقابل 168.91 (-27.96%) في يوليو 2026، ومقابل 84.87 (+43.38%) في أغسطس 2025.",
+   "text_en": "Works of arts and antiqes | صادرات Export: 121.68 million SAR in August 2026, versus 168.91 (-27.96%) in July 2026, and versus 84.87 (+43.38%) in August 2025.",
+   "numbers": {
+    "value": 121.684842,
+    "period": "2026-08",
+    "prev_value": 168.909615,
+    "prev_period": "2026-07",
+    "prev_diff": -47.224773,
+    "prev_pct": -27.9586055536,
+    "yoy_value": 84.870749,
+    "yoy_period": "2025-08",
+    "yoy_diff": 36.814093,
+    "yoy_pct": 43.3766561905,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 121.684842,
+     "cell": "2!R27C29"
+    },
+    {
+     "period": "2026-07",
+     "value": 168.909615,
+     "cell": "2!R27C28"
+    },
+    {
+     "period": "2025-08",
+     "value": 84.870749,
+     "cell": "2!R27C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "تحف فنية وقطع أثرية | صادرات Export",
+   "table_title": "الصادرات والواردات حسب الأقسام، القيمة بالمليون ريال Exports and imports by section, value in SAR million صادرات Export واردات Import",
+   "id": "27267531-062",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-7",
+   "sheet": "7.7",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | المجوهرات | واردات Import: 299.26 مليون ريال في أغسطس 2026، مقابل 319.51 (-6.34%) في يوليو 2026، ومقابل 349 (-14.25%) في أغسطس 2025.",
+   "text_en": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | Jewellery | واردات Import: 299.26 million SAR in August 2026, versus 319.51 (-6.34%) in July 2026, and versus 349 (-14.25%) in August 2025.",
+   "numbers": {
+    "value": 299.262033,
+    "period": "2026-08",
+    "prev_value": 319.506929,
+    "prev_period": "2026-07",
+    "prev_diff": -20.244896,
+    "prev_pct": -6.3362932577,
+    "yoy_value": 348.998544,
+    "yoy_period": "2025-08",
+    "yoy_diff": -49.736511,
+    "yoy_pct": -14.2512087386,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 299.262033,
+     "cell": "7.7!R12C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 319.506929,
+     "cell": "7.7!R12C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 348.998544,
+     "cell": "7.7!R12C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | المجوهرات | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف مجموعات منتجات الاقتصاد الإبداعي(*)، بالمليون ريال Exports and imports by classification of Creative Economy Product Groups(*), value in SAR million 2026* 2026*",
+   "id": "27267531-063",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_7-5",
+   "sheet": "7.5",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الكيمياء | واردات Import: 188.93 مليون ريال في أغسطس 2026، مقابل 232.95 (-18.9%) في يوليو 2026، ومقابل 127.6 (+48.06%) في أغسطس 2025.",
+   "text_en": "Chemistry | واردات Import: 188.93 million SAR in August 2026, versus 232.95 (-18.9%) in July 2026, and versus 127.6 (+48.06%) in August 2025.",
+   "numbers": {
+    "value": 188.927081,
+    "period": "2026-08",
+    "prev_value": 232.948,
+    "prev_period": "2026-07",
+    "prev_diff": -44.020919,
+    "prev_pct": -18.8973157099,
+    "yoy_value": 127.602707,
+    "yoy_period": "2025-08",
+    "yoy_diff": 61.324374,
+    "yoy_pct": 48.0588346766,
+    "history_observations": 27,
+    "history_start": "2025"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 188.927081,
+     "cell": "7.5!R13C57"
+    },
+    {
+     "period": "2026-07",
+     "value": 232.948,
+     "cell": "7.5!R13C56"
+    },
+    {
+     "period": "2025-08",
+     "value": 127.602707,
+     "cell": "7.5!R13C40"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الكيمياء | واردات Import",
+   "table_title": "الصادرات والواردات حسب تصنيف المنتجات عالية التقنية(*)، بالمليون ريال Exports and imports by classification of High-Technology Products(*), value in SAR million 2026* 2026*",
+   "id": "27267531-064",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_14-1",
+   "sheet": "14.1",
+   "period": "2026-08",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 360 بنداً هو الربع الثاني (119.5%) والأدنى هو الربع الرابع (80.42%) في أغسطس 2026.",
+   "text_en": "Highest of 360 items is Q2 (119.5%), lowest is Q4 (80.42%) in August 2026.",
+   "numbers": {
+    "items": 360,
+    "highest": 119.5,
+    "lowest": 80.42,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 119.5,
+     "cell": "14.1!R65C4"
+    },
+    {
+     "period": "2026-08",
+     "value": 80.42,
+     "cell": "14.1!R39C10"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "",
+   "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الصافي حسب الأقسام الرئيسية، 2023=100 Time series of net trade exchange ratio by main sections, 2023=100",
+   "id": "27267531-065",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_14-1",
+   "sheet": "14.1",
+   "period": "2026-08",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الرقم القياسي لأسعار الواردات غير المعدنية: الأعلى بين 18 بنداً هو الربع الأول (104.94 نقطة) والأدنى هو الربع الثاني (95.52 نقطة) في أغسطس 2026.",
+   "text_en": "Import Price Index for Non-Mineral Products: Highest of 18 items is Q1 (104.94 points), lowest is Q2 (95.52 points) in August 2026.",
+   "numbers": {
+    "items": 18,
+    "highest": 104.94,
+    "lowest": 95.52,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 104.94,
+     "cell": "14.1!R44C24"
+    },
+    {
+     "period": "2026-08",
+     "value": 95.52,
+     "cell": "14.1!R65C24"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الرقم القياسي لأسعار الواردات غير المعدنية",
+   "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الصافي حسب الأقسام الرئيسية، 2023=100 Time series of net trade exchange ratio by main sections, 2023=100",
+   "id": "27267531-066",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_14-2",
+   "sheet": "14.2",
+   "period": "2026-08",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 360 بنداً هو الربع الثالث (123.04%) والأدنى هو الربع الثاني (75.72%) في أغسطس 2026 (الجدول: السلاسل الزمنية لمعدل التبادل التجاري الإجمالي حسب الأقسام الرئيسية، 2023=100).",
+   "text_en": "Highest of 360 items is Q3 (123.04%), lowest is Q2 (75.72%) in August 2026 (table: Time series of gross terms of trade ratio by main sections, 2023=100).",
+   "numbers": {
+    "items": 360,
+    "highest": 123.04,
+    "lowest": 75.72,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 123.04,
+     "cell": "14.2!R35C10"
+    },
+    {
+     "period": "2026-08",
+     "value": 75.72,
+     "cell": "14.2!R65C26"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "",
+   "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الإجمالي حسب الأقسام الرئيسية، 2023=100 Time series of gross terms of trade ratio by main sections, 2023=100",
+   "id": "27267531-067",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_14-2",
+   "sheet": "14.2",
+   "period": "2026-08",
+   "measure_type": "index",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأعلى بين 18 بنداً هو الربع الثالث (104.71 نقطة) والأدنى هو الربع الأول (92.74 نقطة) في أغسطس 2026 (الجدول: السلاسل الزمنية لمعدل التبادل التجاري الإجمالي حسب الأقسام الرئيسية، 2023=100).",
+   "text_en": "Quantity Index of Non-Mineral Imxports: Highest of 18 items is Q3 (104.71 points), lowest is Q1 (92.74 points) in August 2026 (table: Time series of gross terms of trade ratio by main sections, 2023=100).",
+   "numbers": {
+    "items": 18,
+    "highest": 104.71,
+    "lowest": 92.74,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 104.71,
+     "cell": "14.2!R35C24"
+    },
+    {
+     "period": "2026-08",
+     "value": 92.74,
+     "cell": "14.2!R61C24"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "",
+   "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الإجمالي حسب الأقسام الرئيسية، 2023=100 Time series of gross terms of trade ratio by main sections, 2023=100",
+   "id": "27267531-068",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_6-1",
+   "sheet": "6.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي: الأعلى بين 130 بنداً هو الإمارات العربية المتحدة (5,052 مليون ريال) والأدنى هو المالديف (0.58 مليون ريال) في أغسطس 2026.",
+   "text_en": "القسم Section / Total: Highest of 130 items is United Arab Emirates (5,052 million SAR), lowest is Maldives (0.58 million SAR) in August 2026.",
+   "numbers": {
+    "items": 130,
+    "highest": 5052.412475,
+    "lowest": 0.576955,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 5052.412475,
+     "cell": "6.1!R7C3"
+    },
+    {
+     "period": "2026-08",
+     "value": 0.576955,
+     "cell": "6.1!R135C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر أغسطس 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in August 2026*, value in SAR million الدولة Country القسم Sec",
+   "id": "27267531-069",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_6-1",
+   "sheet": "6.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "دهون وزيوت وشموع حيوانية أو نباتية ومنتجاتها: الأعلى بين 130 بنداً هو هولندا (33.78 مليون ريال) والأدنى هو سلوفينيا (0 مليون ريال) في أغسطس 2026.",
+   "text_en": "Animal and vegetable fats, oils, waxex and their products: Highest of 130 items is Netherlands (33.78 million SAR), lowest is Slovenia (0 million SAR) in August 2026.",
+   "numbers": {
+    "items": 130,
+    "highest": 33.776087,
+    "lowest": 0.0,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 33.776087,
+     "cell": "6.1!R29C6"
+    },
+    {
+     "period": "2026-08",
+     "value": 0.0,
+     "cell": "6.1!R97C6"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "دهون وزيوت وشموع حيوانية أو نباتية ومنتجاتها",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر أغسطس 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in August 2026*, value in SAR million الدولة Country القسم Sec",
+   "id": "27267531-070",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_6-1",
+   "sheet": "6.1",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "منتجات نباتية: الأعلى بين 130 بنداً هو الإمارات العربية المتحدة (78.19 مليون ريال) والأدنى هو سلوفينيا (0 مليون ريال) في أغسطس 2026.",
+   "text_en": "Plant Products: Highest of 130 items is United Arab Emirates (78.19 million SAR), lowest is Slovenia (0 million SAR) in August 2026.",
+   "numbers": {
+    "items": 130,
+    "highest": 78.191322,
+    "lowest": 0.0,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 78.191322,
+     "cell": "6.1!R7C5"
+    },
+    {
+     "period": "2026-08",
+     "value": 0.0,
+     "cell": "6.1!R97C5"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "منتجات نباتية",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر أغسطس 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in August 2026*, value in SAR million الدولة Country القسم Sec",
+   "id": "27267531-071",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_6-2",
+   "sheet": "6.2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي: الأعلى بين 126 بنداً هو الصين (15,697 مليون ريال) والأدنى هو هندوراس (0.57 مليون ريال) في أغسطس 2026.",
+   "text_en": "القسم Section / Total: Highest of 126 items is China (15,697 million SAR), lowest is Honduras (0.57 million SAR) in August 2026.",
+   "numbers": {
+    "items": 126,
+    "highest": 15697.20352,
+    "lowest": 0.571768,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 15697.20352,
+     "cell": "6.2!R7C3"
+    },
+    {
+     "period": "2026-08",
+     "value": 0.571768,
+     "cell": "6.2!R131C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "الإجمالي",
+   "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر أغسطس 2026*م، القيمة بالمليون ريال Imports by country and main section in August 2026*, value in SAR million الدولة Country القسم Section",
+   "id": "27267531-072",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_6-2",
+   "sheet": "6.2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "خشب وفلين ومواد ضفر ومصنوعاتها: الأعلى بين 126 بنداً هو الصين (70.18 مليون ريال) والأدنى هو زيمبابوي (0 مليون ريال) في أغسطس 2026.",
+   "text_en": "Wood, cork, plaiting materials and their articles: Highest of 126 items is China (70.18 million SAR), lowest is Zimbabwe (0 million SAR) in August 2026.",
+   "numbers": {
+    "items": 126,
+    "highest": 70.183838,
+    "lowest": 0.0,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 70.183838,
+     "cell": "6.2!R7C12"
+    },
+    {
+     "period": "2026-08",
+     "value": 0.0,
+     "cell": "6.2!R109C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "خشب وفلين ومواد ضفر ومصنوعاتها",
+   "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر أغسطس 2026*م، القيمة بالمليون ريال Imports by country and main section in August 2026*, value in SAR million الدولة Country القسم Section",
+   "id": "27267531-073",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_6-2",
+   "sheet": "6.2",
+   "period": "2026-08",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "ورق وورق مقوى ومصنوعاتهما: الأعلى بين 126 بنداً هو الصين (225.31 مليون ريال) والأدنى هو زيمبابوي (0 مليون ريال) في أغسطس 2026.",
+   "text_en": "Paper, paperboard and their articles: Highest of 126 items is China (225.31 million SAR), lowest is Zimbabwe (0 million SAR) in August 2026.",
+   "numbers": {
+    "items": 126,
+    "highest": 225.312851,
+    "lowest": 0.0,
+    "period": "2026-08"
+   },
+   "evidence": [
+    {
+     "period": "2026-08",
+     "value": 225.312851,
+     "cell": "6.2!R7C13"
+    },
+    {
+     "period": "2026-08",
+     "value": 0.0,
+     "cell": "6.2!R109C13"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Aug+2026.xlsx/ffdc823e-02dd-a48b-d979-59a71a2c31d8",
+   "series_label": "ورق وورق مقوى ومصنوعاتهما",
+   "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر أغسطس 2026*م، القيمة بالمليون ريال Imports by country and main section in August 2026*, value in SAR million الدولة Country القسم Section",
+   "id": "27267531-074",
+   "headline": false
+  }
+ ],
+ "title_ar": "التجارة الدولية في السلع أغسطس 2026",
+ "title_en": "International Trade in Goods, August 2026",
+ "release_date": "2026-10-26",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-19T13:45:18+00:00"
+}

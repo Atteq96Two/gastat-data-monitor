@@ -16,14 +16,15 @@ CORE = [
     dict(id="gdp_flash", prefix="gdp-flash", name_ar="التقديرات السريعة للناتج المحلي", group="growth", freq="quarterly", rx=r"^GDP\s*-\s*Flash", ingest="latest"),
     dict(id="gdp_na", prefix="gdp-national-accounts", name_ar="الناتج المحلي والحسابات القومية", group="growth", freq="quarterly", rx=r"^GDP and National Accounts", ingest="latest"),
     dict(id="ipi", prefix="industrial-production-index-1", name_ar="الرقم القياسي للإنتاج الصناعي", group="growth", freq="monthly", rx=r"^Industrial Production Index", ingest="latest"),
-    dict(id="trade", prefix="international-trade-in-goods", name_ar="التجارة الدولية للسلع", group="trade", freq="monthly", rx=r"^(Non oil )?International Trade in Goods", ingest="latest"),
+    dict(id="trade", prefix="international-trade-in-goods", name_ar="التجارة الدولية للسلع", group="trade", freq="monthly", rx=r"^International Trade in Goods", ingest="latest"),
     dict(id="fdi", prefix="foreign-direct-investment", name_ar="الاستثمار الأجنبي المباشر", group="trade", freq="quarterly", rx=r"^Foreign Direct Investment", ingest="latest"),
     dict(id="labor", prefix="labor-market-statistics", name_ar="إحصاءات سوق العمل", group="labour", freq="quarterly", rx=r"^Labou?r Market Statistics", ingest="latest"),
     dict(id="bci", prefix="business-confidence-index-for", name_ar="مؤشر ثقة الأعمال", group="confidence", freq="monthly", rx=r"^Business Confidence Index", ingest="latest"),
     dict(id="cci", prefix="consumer-confidence-index", name_ar="مؤشر ثقة المستهلك", group="confidence", freq="quarterly", rx=r"^Consumer Confidence Index", ingest="latest"),
     dict(id="tourism", prefix="tourism-establishments", name_ar="إحصاءات منشآت السياحة", group="tourism", freq="quarterly", rx=r"^Tourism Establishments Statistics", ingest="latest"),
 ]
-DETAIL = [dict(id="wpi", prefix="wholesale-price-index", name_ar="الرقم القياسي لأسعار الجملة", parent="ppi", freq="monthly", rx=r"^Wholesale Price Index", ingest="latest")]
+DETAIL = [dict(id="nonoil", prefix="non-oil-trade", name_ar="التجارة غير النفطية", parent="trade", freq="monthly", rx=r"^Non oil International trade in goods", ingest="latest"),
+          dict(id="wpi", prefix="wholesale-price-index", name_ar="الرقم القياسي لأسعار الجملة", parent="ppi", freq="monthly", rx=r"^Wholesale Price Index", ingest="latest")]
 PHASE2 = [r"^Register-based Labou?r", r"^Wholesale and Retail Trade", r"^International Trade in Services", r"^Umrah"]
 
 

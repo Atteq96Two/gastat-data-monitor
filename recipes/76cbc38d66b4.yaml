@@ -1,0 +1,29 @@
+fingerprint: 76cbc38d66b4
+status: held
+first_seen:
+  publication_id: 27267531
+  sheet: Sheet1
+  release_date: '2026-10-26'
+label_roles:
+- code
+- code
+- code
+- label_ar
+- label_ar
+header_level_types:
+- en
+value_columns: 7
+measure_types:
+- distribution
+- unknown
+units:
+- ''
+scales:
+- 1
+period_sources:
+- publication
+title_sample: ''
+validation_on_first_run: fail
+notes:
+- 'Held by owner decision 2026-11-19: measure_type_known, no_duplicate_keys. Needs
+  its own column definitions or a unit first.'

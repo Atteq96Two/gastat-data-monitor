@@ -1,0 +1,23 @@
+id: cci
+name_ar: مؤشر ثقة المستهلك
+group: confidence
+frequency: quarterly
+description_ar: مدى تفاؤل المستهلكين تجاه الاقتصاد، والحياد عند 100
+headline:
+  label_ar: المؤشر العام لثقة المستهلك
+  unit_ar: "نقطة"
+  series: {dataset: consumer-confidence-index_time-serise, name: "المؤشر العام", measure: index, period_type: month}
+  change: {mode: derived_pct, lag: 1}
+  press_release_value: 110.0    # GASTAT press release, Q2 2026 (June 2026, 110 points)
+level1:
+  title_ar: المؤشر العام لثقة المستهلك
+  unit_ar: "نقطة"
+  series:
+    - {label_ar: المؤشر العام, dataset: consumer-confidence-index_time-serise, name: "المؤشر العام", measure: index, period_type: month}
+level2:
+  title_ar: المؤشر العام ومؤشر الحالة الاقتصادية
+  kind: line
+  unit_ar: "نقطة"
+  series:
+    - {label_ar: المؤشر العام, dataset: consumer-confidence-index_time-serise, name: "المؤشر العام", measure: index, period_type: month}
+    - {label_ar: مؤشر الحالة الاقتصادية, dataset: consumer-confidence-index_time-serise, name: "مؤشر الحالة الاقتصادية", measure: index, period_type: month}

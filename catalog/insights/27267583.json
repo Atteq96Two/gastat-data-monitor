@@ -1,0 +1,445 @@
+{
+ "publication_id": "27267583",
+ "datasets": 7,
+ "insight_count": 12,
+ "headline_ids": [
+  "27267583-001",
+  "27267583-002",
+  "27267583-003",
+  "27267583-004",
+  "27267583-005",
+  "27267583-006",
+  "27267583-007",
+  "27267583-008",
+  "27267583-010",
+  "27267583-011"
+ ],
+ "insights": [
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_2",
+   "sheet": "2",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "صادرات غير بترولية non-oil exports: الأعلى بين 21 بنداً هو لدائن ومطاط ومصنوعاتها (6,040 مليون ريال) والأدنى هو أحذية، أغطية رأس، مظلات وعصي (17.3 مليون ريال) في سبتمبر 2026.",
+   "text_en": "صادرات غير بترولية non-oil exports: Highest of 21 items is Plastics, rubber and their articles (6,040 million SAR), lowest is Footwear, headgear, umbrellas, sticks (17.3 million SAR) in September 2026.",
+   "numbers": {
+    "items": 21,
+    "highest": 6039.862998,
+    "lowest": 17.300486,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 6039.862998,
+     "cell": "2!R11C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 17.300486,
+     "cell": "2!R16C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الأقسام، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by section, value in SAR million",
+   "id": "27267583-001",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_2",
+   "sheet": "2",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "واردات Import: الأعلى بين 21 بنداً هو آلات وأجهزة آلية ومعدات كهربائية وأجزاؤها (17,344 مليون ريال) والأدنى هو صلال وجلود ومصنوعاتها، حقائب وما يماثلها (191.78 مليون ريال) في سبتمبر 2026.",
+   "text_en": "واردات Import: Highest of 21 items is Machinery and mechanical appliances, electrical equipment, parts thereof (17,344 million SAR), lowest is Skins, leather and their articles, handbags and similar (191.78 million SAR) in September 2026.",
+   "numbers": {
+    "items": 21,
+    "highest": 17344.396462,
+    "lowest": 191.781403,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 17344.396462,
+     "cell": "2!R20C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 191.781403,
+     "cell": "2!R12C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الأقسام، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by section, value in SAR million",
+   "id": "27267583-002",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_4",
+   "sheet": "4",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "صادرات غير بترولية non-oil exports: الأعلى بين 148 بنداً هو الإمارات العربية المتحدة (7,991 مليون ريال) والأدنى هو سلوفاكيا (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "صادرات غير بترولية non-oil exports: Highest of 148 items is United Arab Emirates (7,991 million SAR), lowest is Slovakia (0 million SAR) in September 2026.",
+   "numbers": {
+    "items": 148,
+    "highest": 7990.762338,
+    "lowest": 0.0,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 7990.762338,
+     "cell": "4!R6C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0,
+     "cell": "4!R62C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الدول، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by country, value in SAR million",
+   "id": "27267583-003",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_4",
+   "sheet": "4",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "واردات Import: الأعلى بين 148 بنداً هو الصين (16,927 مليون ريال) والأدنى هو غينيا بيساو (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "واردات Import: Highest of 148 items is China (16,927 million SAR), lowest is Guinea-Bissau (0 million SAR) in September 2026.",
+   "numbers": {
+    "items": 148,
+    "highest": 16927.202321,
+    "lowest": 0.0,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 16927.202321,
+     "cell": "4!R5C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0,
+     "cell": "4!R132C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الدول، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by country, value in SAR million",
+   "id": "27267583-004",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "صادرات غير بترولية non-oil exports: الأعلى بين 38 بنداً هو بحري / ميناء جدة الإسلامي (6,675 مليون ريال) والأدنى هو جوي / مطار الأحساء الدولي (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "صادرات غير بترولية non-oil exports: Highest of 38 items is Jeddah Islamic Sea Port (6,675 million SAR), lowest is Al-Ahsa International Airport (0 million SAR) in September 2026.",
+   "numbers": {
+    "items": 38,
+    "highest": 6674.533352,
+    "lowest": 0.0,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 6674.533352,
+     "cell": "5!R6C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0,
+     "cell": "5!R40C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "27267583-005",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "واردات Import: الأعلى بين 38 بنداً هو بحري / ميناء جدة الإسلامي (29,160 مليون ريال) والأدنى هو جوي / مطار الأمير عبدالمحسن بينبع (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "واردات Import: Highest of 38 items is Jeddah Islamic Sea Port (29,160 million SAR), lowest is Prince Abdulmohsin Airport in Yanbu (0 million SAR) in September 2026.",
+   "numbers": {
+    "items": 38,
+    "highest": 29160.166585,
+    "lowest": 0.000312,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 29160.166585,
+     "cell": "5!R6C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.000312,
+     "cell": "5!R45C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "27267583-006",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_6-1",
+   "sheet": "6.1",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي: الأعلى بين 132 بنداً هو الإمارات العربية المتحدة (7,991 مليون ريال) والأدنى هو بورتوريكو (0.53 مليون ريال) في سبتمبر 2026.",
+   "text_en": "القسم Section / Total: Highest of 132 items is United Arab Emirates (7,991 million SAR), lowest is Puerto Rico (0.53 million SAR) in September 2026.",
+   "numbers": {
+    "items": 132,
+    "highest": 7990.762338,
+    "lowest": 0.528467,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 7990.762338,
+     "cell": "6.1!R7C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.528467,
+     "cell": "6.1!R137C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "الإجمالي",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة، القيمة بالمليون ريال Non-oil exports (include re-exports) by main section, value in SAR million الدولة Country القسم Section",
+   "id": "27267583-007",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_6-1",
+   "sheet": "6.1",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "خشب وفلين ومواد ضفر ومصنوعاتها: الأعلى بين 132 بنداً هو الإمارات العربية المتحدة (66.76 مليون ريال) والأدنى هو سلوفينيا (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "Wood, cork, plaiting materials and their articles: Highest of 132 items is United Arab Emirates (66.76 million SAR), lowest is Slovenia (0 million SAR) in September 2026.",
+   "numbers": {
+    "items": 132,
+    "highest": 66.757637,
+    "lowest": 0.0,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 66.757637,
+     "cell": "6.1!R7C12"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0,
+     "cell": "6.1!R75C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "خشب وفلين ومواد ضفر ومصنوعاتها",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة، القيمة بالمليون ريال Non-oil exports (include re-exports) by main section, value in SAR million الدولة Country القسم Section",
+   "id": "27267583-008",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_6-1",
+   "sheet": "6.1",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "ورق وورق مقوى ومصنوعاتهما: الأعلى بين 132 بنداً هو الإمارات العربية المتحدة (53.74 مليون ريال) والأدنى هو سنغافورة (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "Paper, paperboard and their articles: Highest of 132 items is United Arab Emirates (53.74 million SAR), lowest is Singapore (0 million SAR) in September 2026.",
+   "numbers": {
+    "items": 132,
+    "highest": 53.744424,
+    "lowest": 0.0,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 53.744424,
+     "cell": "6.1!R7C13"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0,
+     "cell": "6.1!R23C13"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "ورق وورق مقوى ومصنوعاتهما",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة، القيمة بالمليون ريال Non-oil exports (include re-exports) by main section, value in SAR million الدولة Country القسم Section",
+   "id": "27267583-009",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_6-2",
+   "sheet": "6.2",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي: الأعلى بين 126 بنداً هو الصين (16,927 مليون ريال) والأدنى هو الجابون (0.52 مليون ريال) في سبتمبر 2026.",
+   "text_en": "القسم Section / Total: Highest of 126 items is China (16,927 million SAR), lowest is Gabon (0.52 million SAR) in September 2026.",
+   "numbers": {
+    "items": 126,
+    "highest": 16927.202321,
+    "lowest": 0.518948,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 16927.202321,
+     "cell": "6.2!R7C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.518948,
+     "cell": "6.2!R131C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "الإجمالي",
+   "table_title": "الواردات حسب الدول والأقسام الرئيسة، القيمة بالمليون ريال Imports by main section, value in SAR million الدولة Country القسم Section",
+   "id": "27267583-010",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_6-2",
+   "sheet": "6.2",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "خشب وفلين ومواد ضفر ومصنوعاتها: الأعلى بين 126 بنداً هو الصين (83.16 مليون ريال) والأدنى هو سانت هيلانة (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "Wood, cork, plaiting materials and their articles: Highest of 126 items is China (83.16 million SAR), lowest is Saint Helena (0 million SAR) in September 2026.",
+   "numbers": {
+    "items": 126,
+    "highest": 83.156046,
+    "lowest": 0.0,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 83.156046,
+     "cell": "6.2!R7C12"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0,
+     "cell": "6.2!R125C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "خشب وفلين ومواد ضفر ومصنوعاتها",
+   "table_title": "الواردات حسب الدول والأقسام الرئيسة، القيمة بالمليون ريال Imports by main section, value in SAR million الدولة Country القسم Section",
+   "id": "27267583-011",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_6-2",
+   "sheet": "6.2",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "ورق وورق مقوى ومصنوعاتهما: الأعلى بين 126 بنداً هو الصين (237.3 مليون ريال) والأدنى هو ساحل العاج (كوت ديفوار) (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "Paper, paperboard and their articles: Highest of 126 items is China (237.3 million SAR), lowest is Cote d'Ivoire (0 million SAR) in September 2026.",
+   "numbers": {
+    "items": 126,
+    "highest": 237.297318,
+    "lowest": 0.0,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 237.297318,
+     "cell": "6.2!R7C13"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0,
+     "cell": "6.2!R116C13"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non_oil_Sep2026.xlsx/c066b5db-d8b0-6a3b-6e21-9cf345734504",
+   "series_label": "ورق وورق مقوى ومصنوعاتهما",
+   "table_title": "الواردات حسب الدول والأقسام الرئيسة، القيمة بالمليون ريال Imports by main section, value in SAR million الدولة Country القسم Section",
+   "id": "27267583-012",
+   "headline": false
+  }
+ ],
+ "title_ar": "التجارة الدولية السلعية غير البترولية للمملكة العربية السعودية لشهر سبتمبر 2026",
+ "title_en": "Non oil International trade in goods for Saudi Arabia in September 2026",
+ "release_date": "2026-10-25",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-19T13:45:18+00:00"
+}

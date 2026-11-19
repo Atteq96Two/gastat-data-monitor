@@ -1,0 +1,33 @@
+fingerprint: aa6ed43ca5d8
+status: reviewed
+first_seen:
+  publication_id: 25605129
+  sheet: '1'
+  release_date: '2026-10-20'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- mixed
+- ar
+- mixed
+value_columns: 6
+measure_types:
+- index
+- rate
+- weight
+units:
+- index_base_2023
+- percent
+scales:
+- 1
+period_sources:
+- header
+- publication
+title_sample: الأرقام القياسية ومعدلات التغيّر حسب القطاع ونوع العقار Indices and
+  Rates of Change by Sector and Type of Real Estate 20
+validation_on_first_run: review
+notes:
+- 'Reviewed (owner approved 2026-11-19): weights add to about 100 with rounding.'
+accept_review: true

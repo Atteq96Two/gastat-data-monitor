@@ -1,0 +1,26 @@
+fingerprint: 25e938c837b3
+status: reviewed
+first_seen:
+  publication_id: 27267531
+  sheet: '6.1'
+  release_date: '2026-10-26'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- en
+- ar
+- en
+value_columns: 22
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- sheet_title
+title_sample: الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة
+  في شهر أغسطس 2026*م، القيمة بالمليون ريال Non-oil
+validation_on_first_run: pass
+notes: []

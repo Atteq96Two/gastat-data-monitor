@@ -158,6 +158,57 @@ def segment(g):
     return infos, c0, merged
 
 
+def build_col_tokens(g, hdr, val_cols, fill_right=False, stars=False):
+    """Header tokens per value column. fill_right: a label written once over a run of columns (not merged) also applies to the empty cells on its right, in every header row but the last."""
+    col_tokens = {}
+    carry = {}
+    for c in val_cols:
+        toks = []
+        for hi, h in enumerate(hdr):
+            v = g.cells[h][c]; k = kind(v)
+            if k == "empty" and fill_right and hi < len(hdr) - 1:
+                if h in carry:
+                    v = carry[h]; k = kind(v)
+            elif k != "empty":
+                carry[h] = v
+            if k == "empty":
+                continue
+            if k == "date":
+                tok = ("date", v)
+            elif k == "num" and is_year(v):
+                tok = ("year", int(v))
+            elif k == "num":
+                tok = ("text", str(v))
+            elif stars and re.fullmatch(r"\*{0,3}\s*(19|20)\d\d\s*\*{0,3}", clean(v)) and re.search(r"\*", clean(v)):
+                tok = ("year", int(re.search(r"(19|20)\d\d", clean(v)).group()))       # "2026*": provisional year
+            elif stars and k == "text" and re.search(r"(^|\s|/)(q[1-4]|الربع\s*(الاول|الأول|الثاني|الثالث|الرابع))($|\s|/)", norm(v).replace("ا", "ا")):
+                tok = ("quarter", clean(v))
+            elif stars and k == "text" and _month_in(v):
+                tok = ("month", _month_in(v))           # "يناير/Jan": the column is that month of the year above it
+            elif QUARTER.match(norm(v)):
+                tok = ("quarter", clean(v))
+            else:
+                tok = ("text", clean(v))
+            if not toks or toks[-1][1] != tok[1]:
+                toks.append(tok)
+        col_tokens[c] = toks
+    return col_tokens
+
+
+def _month_in(v):
+    ws = [w for w in re.split(r"[\s/]+", clean(v)) if w]
+    if len(ws) > 2:                                       # a sentence that merely mentions a month ("annual change in August") is a label
+        return 0
+    for w in ws:
+        n_ = norm(w)
+        if n_ in MONTHS_AR:
+            return MONTHS_AR.index(n_) + 1
+        if re.fullmatch(r"[a-z]{3,9}", n_.lower()) and n_.lower()[:3] in MONTHS_EN and n_.lower() in ("january","february","march","april","may","june","july","august","september","october","november","december","jan","feb","mar","apr","jun","jul","aug","sep","sept","oct","nov","dec"):
+            return MONTHS_EN.index(n_.lower()[:3]) + 1
+    return 0
+
+
+
 def describe_block(g, infos, c0, b):  # c1 is carried on the grid
     """Structure of one block: label columns with roles, value columns with header paths."""
     data_rows = [r for r in range(b["start"], b["end"] + 1) if any(c0 <= c <= g.c1 for c in infos[r]["nums"])]
@@ -192,26 +243,7 @@ def describe_block(g, infos, c0, b):  # c1 is carried on the grid
             role = ("label_ar" if sc.count("ar") >= sc.count("en") else "label_en") if sc else "label_ar"
         lab.append(dict(col=c, role=role, header=hdr_txt))
     # per-column header tokens (kept in reading order, consecutive duplicates removed)
-    col_tokens = {}
-    for c in val_cols:
-        toks = []
-        for h in hdr:
-            v = g.cells[h][c]; k = kind(v)
-            if k == "empty":
-                continue
-            if k == "date":
-                tok = ("date", v)
-            elif k == "num" and is_year(v):
-                tok = ("year", int(v))
-            elif k == "num":
-                tok = ("text", str(v))
-            elif QUARTER.match(norm(v)):
-                tok = ("quarter", clean(v))
-            else:
-                tok = ("text", clean(v))
-            if not toks or toks[-1][1] != tok[1]:
-                toks.append(tok)
-        col_tokens[c] = toks
+    col_tokens = build_col_tokens(g, hdr, val_cols)
     # header rows -> per-row type
     rows_desc = []
     for h in hdr:

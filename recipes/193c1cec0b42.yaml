@@ -1,0 +1,30 @@
+fingerprint: 193c1cec0b42
+status: held
+first_seen:
+  publication_id: 27267531
+  sheet: '10'
+  release_date: '2026-10-26'
+label_roles:
+- year
+- label_ar
+- label_en
+header_level_types:
+- ar
+- mixed
+value_columns: 6
+measure_types:
+- level
+units:
+- ''
+- A
+- B
+scales:
+- 1000.0
+period_sources:
+- publication
+title_sample: كميات الصادرات والواردات، شهري، بألف طن Export and import quantities,
+  monthly, in thousand tons
+validation_on_first_run: fail
+notes:
+- 'Held by owner decision 2026-11-19: no_duplicate_keys, unit_known. Needs its own
+  column definitions or a unit first.'

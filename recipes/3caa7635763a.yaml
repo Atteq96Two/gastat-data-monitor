@@ -1,0 +1,29 @@
+fingerprint: 3caa7635763a
+status: reviewed
+first_seen:
+  publication_id: 21717806
+  sheet: 6-3
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+- ar
+value_columns: 9
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: إحصاءات سوق العمل الربع الثاني 2026 متوسط ​​الأجر الشهري للمشتغلين بأجر
+  في العمل الرئيسي حسب الجنسية والجنس والأنشطة الا
+validation_on_first_run: review
+notes:
+- 'Reviewed (owner approved 2026-11-19): averages (wages) are not additive; the total
+  row is a published average.'
+accept_review: true
+row_period_labels: true

@@ -465,173 +465,229 @@
    ]
   },
   {
-   "publication_id": "23859373",
-   "title_ar": "متوسطات أسعار السلع والخدمات لشهر سبتمبر 2026",
-   "title_en": "Average service prices for September 2026",
-   "release_date": "2026-10-15",
-   "insight_count": 10,
+   "publication_id": "27267531",
+   "title_ar": "التجارة الدولية في السلع أغسطس 2026",
+   "title_en": "International Trade in Goods, August 2026",
+   "release_date": "2026-10-26",
+   "insight_count": 74,
    "headlines": [
     {
-     "id": "23859373-001",
+     "id": "27267531-001",
      "kind": "series_change",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | كوسة محلية: 11.02% في سبتمبر 2026، مقابل 6.68% (+4.34 نقطة مئوية) في أغسطس 2026، وهي الأعلى في البيانات المتاحة (منذ فبراير 2026).",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Local Zucchini | نسبة التغير Percent Change: 11.02% in September 2026, versus 6.68% (+4.34 percentage points) in August 2026, the highest in the available data (since February 2026).",
-     "period": "2026-09",
-     "dataset_id": "average-service-prices-for_2"
+     "text_ar": "نسبة من الإجمالي العام | صادرات Export: 0.01 مليون ريال في أغسطس 2026، مقابل 0.01 (-24.43%) في يوليو 2026، ومقابل 0.06 (-81.15%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+     "text_en": "% of grand total | صادرات Export: 0.01 million SAR in August 2026, versus 0.01 (-24.43%) in July 2026, and versus 0.06 (-81.15%) in August 2025, the lowest in the available data (since 2025).",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_7-6"
     },
     {
-     "id": "23859373-002",
+     "id": "27267531-002",
      "kind": "series_change",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | برتقال أبو صرة مصري: 3.21% في سبتمبر 2026، وهي الأدنى في البيانات المتاحة (منذ مارس 2026).",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Abu Sorra egyptian Orange | نسبة التغير Percent Change: 3.21% in September 2026, the lowest in the available data (since March 2026).",
-     "period": "2026-09",
-     "dataset_id": "average-service-prices-for_2"
+     "text_ar": "الإجمالي | صادرات Export: 921.76 مليون ريال في أغسطس 2026، مقابل 1,181 (-21.95%) في يوليو 2026، ومقابل 5,525 (-83.32%) في أغسطس 2025، وهي الأدنى في البيانات المتاحة (منذ 2025).",
+     "text_en": "Total | صادرات Export: 921.76 million SAR in August 2026, versus 1,181 (-21.95%) in July 2026, and versus 5,525 (-83.32%) in August 2025, the lowest in the available data (since 2025).",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_7-6"
     },
     {
-     "id": "23859373-003",
+     "id": "27267531-003",
      "kind": "series_change",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | ملوخية محلية: -2.09% في سبتمبر 2026، وهي الأعلى في البيانات المتاحة (منذ فبراير 2026).",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Local Corchorus | نسبة التغير Percent Change: -2.09% in September 2026, the highest in the available data (since February 2026).",
-     "period": "2026-09",
-     "dataset_id": "average-service-prices-for_3"
+     "text_ar": "نسبة من الإجمالي العام | واردات Import: 0.14 مليون ريال في أغسطس 2026، مقابل 0.12 (+18.68%) في يوليو 2026، ومقابل 0.11 (+30.85%) في أغسطس 2025، وهي الأعلى في البيانات المتاحة (منذ 2025).",
+     "text_en": "% of grand total | واردات Import: 0.14 million SAR in August 2026, versus 0.12 (+18.68%) in July 2026, and versus 0.11 (+30.85%) in August 2025, the highest in the available data (since 2025).",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_7-8"
     },
     {
-     "id": "23859373-004",
-     "kind": "mover_up",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | طماطم محلي: -7.58% في سبتمبر 2026، مقابل -15.18% (+7.6 نقطة مئوية) في أغسطس 2026.",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Local tomatoes | نسبة التغير Percent Change: -7.58% in September 2026, versus -15.18% (+7.6 percentage points) in August 2026.",
-     "period": "2026-09",
-     "dataset_id": "average-service-prices-for_3"
+     "id": "27267531-004",
+     "kind": "series_change",
+     "text_ar": "نسبة من الإجمالي العام | صادرات Export: 0.03 مليون ريال في أغسطس 2026، مقابل 0.03 (+2.36%) في يوليو 2026، ومقابل 0.02 (+29.06%) في أغسطس 2025، وهي الأعلى في البيانات المتاحة (منذ 2025).",
+     "text_en": "% of grand total | صادرات Export: 0.03 million SAR in August 2026, versus 0.03 (+2.36%) in July 2026, and versus 0.02 (+29.06%) in August 2025, the highest in the available data (since 2025).",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_7-8"
     },
     {
-     "id": "23859373-008",
-     "kind": "cross_section",
-     "text_ar": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses: الأعلى بين 25 بنداً هو بصل مدور مستورد (16.99%) والأدنى هو طماطم محلي (-7.58%) في سبتمبر 2026.",
-     "text_en": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses: Highest of 25 items is imported Onion (16.99%), lowest is Local tomatoes (-7.58%) in September 2026.",
-     "period": "2026-09",
-     "dataset_id": "average-service-prices-for_1"
+     "id": "27267531-006",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | واردات Import: 7,996 مليون ريال في أغسطس 2026، مقابل 6,764 (+18.22%) في يوليو 2026، ومقابل 7,868 (+1.63%) في أغسطس 2025.",
+     "text_en": "Total | واردات Import: 7,996 million SAR in August 2026, versus 6,764 (+18.22%) in July 2026, and versus 7,868 (+1.63%) in August 2025.",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_7-5"
     },
     {
-     "id": "23859373-009",
-     "kind": "cross_section",
-     "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 37 بنداً هو كيابل كهربائية 50 مم وطني (27.62%) والأدنى هو خرسانة مقاوم 250 ك (-2.26%) في سبتمبر 2026 (الجدول: متوسطات الأسعار و التغيرات الشهرية و السنوية في المملكة، سبتمبر 2026م).",
-     "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 37 items is 50mm national Electrical cables (27.62%), lowest is 250 K Resistant Concrete (-2.26%) in September 2026 (table: Average Prices and Monthly & Annual Changes in the Kingdom, Sep 2026 Average Prices...).",
-     "period": "2026-09",
-     "dataset_id": "average-service-prices-for_1"
+     "id": "27267531-007",
+     "kind": "series_change",
+     "text_ar": "نسبة من الإجمالي العام | واردات Import: 0.11 مليون ريال في أغسطس 2026، مقابل 0.09 (+17.53%) في يوليو 2026، ومقابل 0.1 (+11.84%) في أغسطس 2025.",
+     "text_en": "% of grand total | واردات Import: 0.11 million SAR in August 2026, versus 0.09 (+17.53%) in July 2026, and versus 0.1 (+11.84%) in August 2025.",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_7-5"
+    },
+    {
+     "id": "27267531-008",
+     "kind": "series_change",
+     "text_ar": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | الإجمالي | واردات Import: 1,618 مليون ريال في أغسطس 2026، مقابل 1,471 (+10.01%) في يوليو 2026، ومقابل 1,717 (-5.76%) في أغسطس 2025.",
+     "text_en": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | Total | واردات Import: 1,618 million SAR in August 2026, versus 1,471 (+10.01%) in July 2026, and versus 1,717 (-5.76%) in August 2025.",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_7-7"
+    },
+    {
+     "id": "27267531-009",
+     "kind": "series_change",
+     "text_ar": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | نسبة من الإجمالي العام | واردات Import: 0.02 مليون ريال في أغسطس 2026، مقابل 0.02 (+9.37%) في يوليو 2026، ومقابل 0.02 (+3.71%) في أغسطس 2025.",
+     "text_en": "تصنيع الحرف اليدوية ومنتجات التصميم: Manufacturing of crafts and design goods: | % of grand total | واردات Import: 0.02 million SAR in August 2026, versus 0.02 (+9.37%) in July 2026, and versus 0.02 (+3.71%) in August 2025.",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_7-7"
+    },
+    {
+     "id": "27267531-014",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | صادرات Export: 87,236 مليون ريال في أغسطس 2026، مقابل 84,463 (+3.28%) في يوليو 2026، ومقابل 98,577 (-11.5%) في أغسطس 2025.",
+     "text_en": "Total | صادرات Export: 87,236 million SAR in August 2026, versus 84,463 (+3.28%) in July 2026, and versus 98,577 (-11.5%) in August 2025.",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_7-3"
+    },
+    {
+     "id": "27267531-018",
+     "kind": "series_change",
+     "text_ar": "الإجمالي | واردات Import: 71,638 مليون ريال في أغسطس 2026، مقابل 71,220 (+0.59%) في يوليو 2026، ومقابل 78,835 (-9.13%) في أغسطس 2025.",
+     "text_en": "Total | واردات Import: 71,638 million SAR in August 2026, versus 71,220 (+0.59%) in July 2026, and versus 78,835 (-9.13%) in August 2025.",
+     "period": "2026-08",
+     "dataset_id": "international-trade-in-goods_2"
     }
    ]
   },
   {
-   "publication_id": "20996003",
-   "title_ar": "متوسطات أسعار السلع والخدمات لشهر أغسطس 2026",
-   "title_en": "Average Prices of Goods and Services August 2026",
-   "release_date": "2026-09-15",
-   "insight_count": 11,
+   "publication_id": "27267583",
+   "title_ar": "التجارة الدولية السلعية غير البترولية للمملكة العربية السعودية لشهر سبتمبر 2026",
+   "title_en": "Non oil International trade in goods for Saudi Arabia in September 2026",
+   "release_date": "2026-10-25",
+   "insight_count": 12,
    "headlines": [
     {
-     "id": "20996003-001",
-     "kind": "mover_down",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | طماطم محلي: -15.18% في أغسطس 2026، مقابل -9.75% (-5.43 نقطة مئوية) في يوليو 2026.",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Local tomatoes | نسبة التغير Percent Change: -15.18% in August 2026, versus -9.75% (-5.43 percentage points) in July 2026.",
-     "period": "2026-08",
-     "dataset_id": "average-service-prices-for_3"
-    },
-    {
-     "id": "20996003-002",
-     "kind": "mover_down",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | شقة مفروشة: 2.82% في أغسطس 2026، مقابل 6.74% (-3.92 نقطة مئوية) في يوليو 2026.",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Furnished apartment | نسبة التغير Percent Change: 2.82% in August 2026, versus 6.74% (-3.92 percentage points) in July 2026.",
-     "period": "2026-08",
-     "dataset_id": "average-service-prices-for_2"
-    },
-    {
-     "id": "20996003-003",
-     "kind": "mover_up",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | كوسة محلية: 6.68% في أغسطس 2026، مقابل 3.14% (+3.54 نقطة مئوية) في يوليو 2026.",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Local Zucchini | نسبة التغير Percent Change: 6.68% in August 2026, versus 3.14% (+3.54 percentage points) in July 2026.",
-     "period": "2026-08",
-     "dataset_id": "average-service-prices-for_2"
-    },
-    {
-     "id": "20996003-004",
-     "kind": "mover_up",
-     "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS | حديد تسليح 18 مم وطني: -0.99% في أغسطس 2026، مقابل -3.59% (+2.6 نقطة مئوية) في يوليو 2026.",
-     "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS | 18mm national reinforcing iron | نسبة التغير Percent Change: -0.99% in August 2026, versus -3.59% (+2.6 percentage points) in July 2026.",
-     "period": "2026-08",
-     "dataset_id": "average-service-prices-for_3"
-    },
-    {
-     "id": "20996003-005",
+     "id": "27267583-001",
      "kind": "cross_section",
-     "text_ar": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses: الأعلى بين 25 بنداً هو جزر محلي (24.67%) والأدنى هو جرجير محلي (-4.72%) في أغسطس 2026.",
-     "text_en": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses: Highest of 25 items is Local Carrots (24.67%), lowest is local watercress (-4.72%) in August 2026.",
-     "period": "2026-08",
-     "dataset_id": "average-service-prices-for_1"
+     "text_ar": "صادرات غير بترولية non-oil exports: الأعلى بين 21 بنداً هو لدائن ومطاط ومصنوعاتها (6,040 مليون ريال) والأدنى هو أحذية، أغطية رأس، مظلات وعصي (17.3 مليون ريال) في سبتمبر 2026.",
+     "text_en": "صادرات غير بترولية non-oil exports: Highest of 21 items is Plastics, rubber and their articles (6,040 million SAR), lowest is Footwear, headgear, umbrellas, sticks (17.3 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_2"
     },
     {
-     "id": "20996003-006",
+     "id": "27267583-002",
      "kind": "cross_section",
-     "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 37 بنداً هو كيابل ربط الحديد صيني (0.95%) والأدنى هو حديد تسليح 8 مم وطني (-1.97%) في أغسطس 2026 (الجدول: متوسطات الأسعار و التغيرات الشهرية و السنوية في المملكة، أغسطس 2026م).",
-     "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 37 items is Chinese Iron-binding cables (0.95%), lowest is 8mm National Reinforcing iron (-1.97%) in August 2026 (table: Average Prices and Monthly & Annual Changes in the Kingdom, Aug 2026 Average Prices...).",
-     "period": "2026-08",
-     "dataset_id": "average-service-prices-for_1"
+     "text_ar": "واردات Import: الأعلى بين 21 بنداً هو آلات وأجهزة آلية ومعدات كهربائية وأجزاؤها (17,344 مليون ريال) والأدنى هو صلال وجلود ومصنوعاتها، حقائب وما يماثلها (191.78 مليون ريال) في سبتمبر 2026.",
+     "text_en": "واردات Import: Highest of 21 items is Machinery and mechanical appliances, electrical equipment, parts thereof (17,344 million SAR), lowest is Skins, leather and their articles, handbags and similar (191.78 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_2"
+    },
+    {
+     "id": "27267583-003",
+     "kind": "cross_section",
+     "text_ar": "صادرات غير بترولية non-oil exports: الأعلى بين 148 بنداً هو الإمارات العربية المتحدة (7,991 مليون ريال) والأدنى هو سلوفاكيا (0 مليون ريال) في سبتمبر 2026.",
+     "text_en": "صادرات غير بترولية non-oil exports: Highest of 148 items is United Arab Emirates (7,991 million SAR), lowest is Slovakia (0 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_4"
+    },
+    {
+     "id": "27267583-004",
+     "kind": "cross_section",
+     "text_ar": "واردات Import: الأعلى بين 148 بنداً هو الصين (16,927 مليون ريال) والأدنى هو غينيا بيساو (0 مليون ريال) في سبتمبر 2026.",
+     "text_en": "واردات Import: Highest of 148 items is China (16,927 million SAR), lowest is Guinea-Bissau (0 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_4"
+    },
+    {
+     "id": "27267583-005",
+     "kind": "cross_section",
+     "text_ar": "صادرات غير بترولية non-oil exports: الأعلى بين 38 بنداً هو بحري / ميناء جدة الإسلامي (6,675 مليون ريال) والأدنى هو جوي / مطار الأحساء الدولي (0 مليون ريال) في سبتمبر 2026.",
+     "text_en": "صادرات غير بترولية non-oil exports: Highest of 38 items is Jeddah Islamic Sea Port (6,675 million SAR), lowest is Al-Ahsa International Airport (0 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_5"
+    },
+    {
+     "id": "27267583-006",
+     "kind": "cross_section",
+     "text_ar": "واردات Import: الأعلى بين 38 بنداً هو بحري / ميناء جدة الإسلامي (29,160 مليون ريال) والأدنى هو جوي / مطار الأمير عبدالمحسن بينبع (0 مليون ريال) في سبتمبر 2026.",
+     "text_en": "واردات Import: Highest of 38 items is Jeddah Islamic Sea Port (29,160 million SAR), lowest is Prince Abdulmohsin Airport in Yanbu (0 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_5"
+    },
+    {
+     "id": "27267583-007",
+     "kind": "cross_section",
+     "text_ar": "الإجمالي: الأعلى بين 132 بنداً هو الإمارات العربية المتحدة (7,991 مليون ريال) والأدنى هو بورتوريكو (0.53 مليون ريال) في سبتمبر 2026.",
+     "text_en": "القسم Section / Total: Highest of 132 items is United Arab Emirates (7,991 million SAR), lowest is Puerto Rico (0.53 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_6-1"
+    },
+    {
+     "id": "27267583-008",
+     "kind": "cross_section",
+     "text_ar": "خشب وفلين ومواد ضفر ومصنوعاتها: الأعلى بين 132 بنداً هو الإمارات العربية المتحدة (66.76 مليون ريال) والأدنى هو سلوفينيا (0 مليون ريال) في سبتمبر 2026.",
+     "text_en": "Wood, cork, plaiting materials and their articles: Highest of 132 items is United Arab Emirates (66.76 million SAR), lowest is Slovenia (0 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_6-1"
+    },
+    {
+     "id": "27267583-010",
+     "kind": "cross_section",
+     "text_ar": "الإجمالي: الأعلى بين 126 بنداً هو الصين (16,927 مليون ريال) والأدنى هو الجابون (0.52 مليون ريال) في سبتمبر 2026.",
+     "text_en": "القسم Section / Total: Highest of 126 items is China (16,927 million SAR), lowest is Gabon (0.52 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_6-2"
+    },
+    {
+     "id": "27267583-011",
+     "kind": "cross_section",
+     "text_ar": "خشب وفلين ومواد ضفر ومصنوعاتها: الأعلى بين 126 بنداً هو الصين (83.16 مليون ريال) والأدنى هو سانت هيلانة (0 مليون ريال) في سبتمبر 2026.",
+     "text_en": "Wood, cork, plaiting materials and their articles: Highest of 126 items is China (83.16 million SAR), lowest is Saint Helena (0 million SAR) in September 2026.",
+     "period": "2026-09",
+     "dataset_id": "non-oil-trade_6-2"
     }
    ]
   },
   {
-   "publication_id": "20473773",
-   "title_ar": "متوسطات أسعار السلع والخدمات لشهر يوليو 2026",
-   "title_en": "Average Prices of Goods and Services July 2026",
-   "release_date": "2026-08-13",
-   "insight_count": 10,
+   "publication_id": "25605129",
+   "title_ar": "الرقم القياسي لأسعار العقارات الربع الثالث 2026",
+   "title_en": "Real Estate Price Index, Q3 2026",
+   "release_date": "2026-10-20",
+   "insight_count": 7,
    "headlines": [
     {
-     "id": "20473773-001",
-     "kind": "mover_down",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | حليب طازج محلي (المراعي): 3.24% في يوليو 2026، مقابل 13% (-9.76 نقطة مئوية) في يونيو 2026.",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Local Fresh Milk (Al Marai) | نسبة التغير Percent Change: 3.24% in July 2026, versus 13% (-9.76 percentage points) in June 2026.",
-     "period": "2026-07",
-     "dataset_id": "average-service-prices-for_2"
+     "id": "25605129-001",
+     "kind": "series_change",
+     "text_ar": "الأرقا القياسية / التغيّر الربعي: -1.2% في الربع الثالث 2026، ومقابل -1.1% (-0.1 نقطة مئوية) في الربع الثالث 2025، وهي الأدنى في البيانات المتاحة (منذ الربع الثالث 2021).",
+     "text_en": "Q3 | Index Numbers / QoQ: -1.2% in Q3 2026, and versus -1.1% (-0.1 percentage points) in Q3 2025, the lowest in the available data (since Q3 2021).",
+     "period": "2026-Q3",
+     "dataset_id": "real-estate-price-index_2"
     },
     {
-     "id": "20473773-002",
-     "kind": "mover_up",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | عنب لبناني: -5.04% في يوليو 2026، مقابل -12.11% (+7.07 نقطة مئوية) في يونيو 2026.",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Lebanese Grapes | نسبة التغير Percent Change: -5.04% in July 2026, versus -12.11% (+7.07 percentage points) in June 2026.",
-     "period": "2026-07",
-     "dataset_id": "average-service-prices-for_3"
+     "id": "25605129-002",
+     "kind": "series_change",
+     "text_ar": "التجاري / معرض / محل / التغيّر الربعي: -1.7% في الربع الثالث 2026، ومقابل -0.5% (-1.2 نقطة مئوية) في الربع الثالث 2025، وهي الأدنى في البيانات المتاحة (منذ الربع الثالث 2021).",
+     "text_en": "Q3 | Commercial / Gallery/ Shop / QoQ: -1.7% in Q3 2026, and versus -0.5% (-1.2 percentage points) in Q3 2025, the lowest in the available data (since Q3 2021).",
+     "period": "2026-Q3",
+     "dataset_id": "real-estate-price-index_2"
     },
     {
-     "id": "20473773-003",
-     "kind": "mover_down",
-     "text_ar": "السلع و الخدمات GOODS AND SERVICES | ملوخية محلية: -9.47% في يوليو 2026، مقابل -3.3% (-6.17 نقطة مئوية) في يونيو 2026.",
-     "text_en": "السلع و الخدمات GOODS AND SERVICES | Local Corchorus | نسبة التغير Percent Change: -9.47% in July 2026, versus -3.3% (-6.17 percentage points) in June 2026.",
-     "period": "2026-07",
-     "dataset_id": "average-service-prices-for_3"
+     "id": "25605129-003",
+     "kind": "series_change",
+     "text_ar": "الباحة / التغيّر الربعي: 0.6% في الربع الثالث 2026، ومقابل -1.9% (+2.5 نقطة مئوية) في الربع الثالث 2025، وهي الأعلى في البيانات المتاحة (منذ الربع الثالث 2021).",
+     "text_en": "Q3 | Al Baha / QoQ: 0.6% in Q3 2026, and versus -1.9% (+2.5 percentage points) in Q3 2025, the highest in the available data (since Q3 2021).",
+     "period": "2026-Q3",
+     "dataset_id": "real-estate-price-index_3"
     },
     {
-     "id": "20473773-004",
+     "id": "25605129-005",
      "kind": "cross_section",
-     "text_ar": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses: الأعلى بين 25 بنداً هو طماطم محلي (39.5%) والأدنى هو بصل مدور مستورد (-4.97%) في يوليو 2026.",
-     "text_en": "الخضروات والدرنات والموز والبقوليات المطهوة Cooked vegetables, tubers, bananas and pulses: Highest of 25 items is Local tomatoes (39.5%), lowest is imported Onion (-4.97%) in July 2026.",
-     "period": "2026-07",
-     "dataset_id": "average-service-prices-for_1"
+     "text_ar": "الأعلى بين 22 بنداً هو قطعة أرض سكنية (4.9%) والأدنى هو فيلا (-7.7%) في الربع الثالث 2026.",
+     "text_en": "Highest of 22 items is Residential Plot (4.9%), lowest is Villa (-7.7%) in Q3 2026.",
+     "period": "2026-Q3",
+     "dataset_id": "real-estate-price-index_1"
     },
     {
-     "id": "20473773-005",
+     "id": "25605129-006",
      "kind": "cross_section",
-     "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 37 بنداً هو ألمنيوم (حلق جنب سعودي) (1.47%) والأدنى هو حديد تسليح 8 مم وطني (-3.88%) في يوليو 2026 (الجدول: متوسطات الأسعار و التغيرات الشهرية و السنوية في المملكة، يوليو 2026م).",
-     "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 37 items is Aluminum (Saudi, Arch side) (1.47%), lowest is 8mm National Reinforcing iron (-3.88%) in July 2026 (table: Average Prices and Monthly & Annual Changes in the Kingdom, Jul 2026 Average Prices...).",
-     "period": "2026-07",
-     "dataset_id": "average-service-prices-for_1"
-    },
-    {
-     "id": "20473773-007",
-     "kind": "cross_section",
-     "text_ar": "السلع الإنشائية CONSTRUCTIONAL GOODS: الأعلى بين 15 بنداً هو ألمنيوم (حلق جنب سعودي) (1.47%) والأدنى هو كيابل كهربائية 120 مم وطني (0.32%) في يوليو 2026.",
-     "text_en": "السلع الإنشائية CONSTRUCTIONAL GOODS: Highest of 15 items is Aluminum (Saudi, Arch side) (1.47%), lowest is 120mm national Electrical cables (0.32%) in July 2026.",
-     "period": "2026-07",
-     "dataset_id": "average-service-prices-for_2"
+     "text_ar": "الأرقام القياسية / الربع الثالث 2026: الأعلى بين 11 بنداً هو زراعي (114.42 نقطة) والأدنى هو فيلا (94.48 نقطة) في الربع الثالث 2026.",
+     "text_en": "Index Numbers / Q3_2026: Highest of 11 items is Agricultural (114.42 points), lowest is Villa (94.48 points) in Q3 2026.",
+     "period": "2026-Q3",
+     "dataset_id": "real-estate-price-index_1"
     }
    ]
   }

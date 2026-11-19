@@ -1,0 +1,42 @@
+id: trade
+name_ar: التجارة الدولية للسلع
+group: trade
+frequency: monthly
+description_ar: الصادرات والواردات والميزان التجاري الشهري للسلع
+headline:
+  label_ar: الصادرات السلعية
+  unit_ar: "مليار ريال"
+  series: {dataset: international-trade-in-goods_1-1, block: 0, name: "^الصادرات السلعية$", measure: level, period_type: month, div: 1000}
+  change: {mode: published, series: {dataset: international-trade-in-goods_1-1, block: 0, name: "^الصادرات السلعية \\| سنوي$", measure: rate, period_type: month}}
+  press_release_change: -11.5   # GASTAT press release, August 2026 (annual change in goods exports)
+level1:
+  title_ar: الصادرات السلعية الشهرية
+  unit_ar: "مليار ريال"
+  series:
+    - {label_ar: الصادرات السلعية, dataset: international-trade-in-goods_1-1, block: 0, name: "^الصادرات السلعية$", measure: level, period_type: month, div: 1000}
+level2:
+  title_ar: الصادرات والواردات
+  kind: line
+  unit_ar: "مليار ريال"
+  series:
+    - {label_ar: الصادرات, dataset: international-trade-in-goods_1-1, block: 0, name: "^الصادرات السلعية$", measure: level, period_type: month, div: 1000}
+    - {label_ar: الواردات, dataset: international-trade-in-goods_1-1, block: 0, name: "^الواردات السلعية$", measure: level, period_type: month, div: 1000}
+level3:
+  - title_ar: الميزان التجاري السلعي
+    kind: line
+    unit_ar: "مليار ريال"
+    series:
+      - {label_ar: الميزان التجاري, dataset: international-trade-in-goods_1-1, block: 0, name: "^الميزان التجاري السلعي$", measure: level, period_type: month, div: 1000}
+  - title_ar: الصادرات حسب النوع
+    kind: line
+    unit_ar: "مليار ريال"
+    series:
+      - {label_ar: البترولية, dataset: international-trade-in-goods_1-2, block: 0, name: "^الصادرات البترولية$", measure: level, period_type: month, div: 1000}
+      - {label_ar: غير البترولية, dataset: international-trade-in-goods_1-2, block: 0, name: "^الصادرات غير البترولية$", measure: level, period_type: month, div: 1000}
+      - {label_ar: إعادة التصدير, dataset: international-trade-in-goods_1-2, block: 0, name: "^إعادة التصدير$", measure: level, period_type: month, div: 1000}
+  - title_ar: نسبة الصادرات غير البترولية إلى الواردات
+    kind: line
+    unit_ar: "%"
+    detail: true
+    series:
+      - {label_ar: النسبة, dataset: international-trade-in-goods_8, block: 0, name: "^نسبة الصادرات غير البترولية", measure: ratio, period_type: month}

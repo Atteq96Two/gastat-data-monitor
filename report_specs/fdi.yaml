@@ -1,0 +1,24 @@
+id: fdi
+name_ar: الاستثمار الأجنبي المباشر
+group: trade
+frequency: quarterly
+description_ar: صافي تدفقات الاستثمار الأجنبي المباشر الداخلة للمملكة
+headline:
+  label_ar: صافي التدفقات
+  unit_ar: "مليار ريال"
+  series: {dataset: foreign-direct-investment_sheet, name: "^صافي التدفقات$", measure: level, period_type: quarter, div: 1000}
+  change: {mode: derived_pct, lag: 4}
+  press_release_value: 19.1     # GASTAT press release, Q2 2026 (SAR billion; -19.5% on the same quarter last year)
+  press_release_change: -19.5
+level1:
+  title_ar: صافي تدفقات الاستثمار الأجنبي المباشر
+  unit_ar: "مليار ريال"
+  series:
+    - {label_ar: صافي التدفقات, dataset: foreign-direct-investment_sheet, name: "^صافي التدفقات$", measure: level, period_type: quarter, div: 1000}
+level2:
+  title_ar: التدفقات الخارجة
+  kind: line
+  unit_ar: "مليار ريال"
+  series:
+    - {label_ar: صافي التدفقات, dataset: foreign-direct-investment_sheet, name: "^صافي التدفقات$", measure: level, period_type: quarter, div: 1000}
+    - {label_ar: التدفقات الخارجة, dataset: foreign-direct-investment_sheet, name: "^التدفقات الخارجة$", measure: level, period_type: quarter, div: 1000}

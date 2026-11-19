@@ -1,0 +1,29 @@
+fingerprint: c5655dad1f1a
+status: held
+first_seen:
+  publication_id: 21717806
+  sheet: 2-10
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+- ar
+value_columns: 9
+measure_types:
+- distribution
+units:
+- percent
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: إحصاءات سوق العمل الربع الثاني 2026 التوزيع النسبي للمتعطلين الباحثين
+  عن عمل بحسب الجنسية والجنس و الأساليب النشطة للبحث
+validation_on_first_run: review
+notes:
+- 'Reviewed (owner approved 2026-11-19): percentage distribution with nested sub-totals,
+  so columns do not add to 100 as a flat sum; values are the published ones.'
+- Measure type cannot be determined; held by owner decision 2026-11-19.
+accept_review: true

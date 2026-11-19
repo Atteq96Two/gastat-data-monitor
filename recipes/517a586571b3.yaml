@@ -1,0 +1,123 @@
+fingerprint: 517a586571b3
+status: reviewed
+first_seen:
+  publication_id: 27267531
+  sheet: '1.1'
+  release_date: '2026-10-26'
+label_roles:
+- year
+- label_ar
+- label_en
+header_level_types:
+- mixed
+- mixed
+value_columns: 12
+measure_types:
+- level
+units:
+- A
+- A + B
+- A - B
+- B
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- publication
+title_sample: الصادرات والواردات وحجم التجارة والميزان التجاري في السلع، شهري، القيمة
+  بالمليون ريال Goods exports, imports, trade volu
+validation_on_first_run: fail
+notes:
+- Trade balance changes can exceed +-1000% when the balance is near zero; this is
+  genuine, not an error.
+col_overrides:
+- sheet: '1.1'
+  col: 3
+  col_ar: الصادرات السلعية
+  col_en: Goods exports
+  sub: ''
+  measure_type: level
+  unit: SAR
+  scale: 1000000.0
+- sheet: '1.1'
+  col: 4
+  col_ar: الصادرات السلعية
+  col_en: Goods exports
+  sub: دوري
+  measure_type: rate
+  unit: percent
+- sheet: '1.1'
+  col: 5
+  col_ar: الصادرات السلعية
+  col_en: Goods exports
+  sub: سنوي
+  measure_type: rate
+  unit: percent
+- sheet: '1.1'
+  col: 6
+  col_ar: الواردات السلعية
+  col_en: Goods imports
+  sub: ''
+  measure_type: level
+  unit: SAR
+  scale: 1000000.0
+- sheet: '1.1'
+  col: 7
+  col_ar: الواردات السلعية
+  col_en: Goods imports
+  sub: دوري
+  measure_type: rate
+  unit: percent
+- sheet: '1.1'
+  col: 8
+  col_ar: الواردات السلعية
+  col_en: Goods imports
+  sub: سنوي
+  measure_type: rate
+  unit: percent
+- sheet: '1.1'
+  col: 9
+  col_ar: حجم التجارة السلعي
+  col_en: Merchandise trade volume
+  sub: ''
+  measure_type: level
+  unit: SAR
+  scale: 1000000.0
+- sheet: '1.1'
+  col: 10
+  col_ar: حجم التجارة السلعي
+  col_en: Merchandise trade volume
+  sub: دوري
+  measure_type: rate
+  unit: percent
+- sheet: '1.1'
+  col: 11
+  col_ar: حجم التجارة السلعي
+  col_en: Merchandise trade volume
+  sub: سنوي
+  measure_type: rate
+  unit: percent
+- sheet: '1.1'
+  col: 12
+  col_ar: الميزان التجاري السلعي
+  col_en: Merchandise trade balance
+  sub: ''
+  measure_type: level
+  unit: SAR
+  scale: 1000000.0
+- sheet: '1.1'
+  col: 13
+  col_ar: الميزان التجاري السلعي
+  col_en: Merchandise trade balance
+  sub: دوري
+  measure_type: rate
+  unit: percent
+- sheet: '1.1'
+  col: 14
+  col_ar: الميزان التجاري السلعي
+  col_en: Merchandise trade balance
+  sub: سنوي
+  measure_type: rate
+  unit: percent
+skip_checks:
+- range_rate

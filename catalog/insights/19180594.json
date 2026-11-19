@@ -1,0 +1,479 @@
+{
+ "publication_id": "19180594",
+ "datasets": 6,
+ "insight_count": 13,
+ "headline_ids": [
+  "19180594-001",
+  "19180594-002",
+  "19180594-004",
+  "19180594-005",
+  "19180594-007",
+  "19180594-008",
+  "19180594-009",
+  "19180594-011",
+  "19180594-012"
+ ],
+ "insights": [
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_1-1",
+   "sheet": "1.1",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "إجمالي المرافق المرخصة: الأعلى بين 9 بنود هو الربع الأول 2026 (6,122) والأدنى هو الربع الأول 2024 (2,802) في الربع الأول 2026.",
+   "text_en": "إجمالي المرافق المرخصة: Highest of 9 items is الربع الأول 2026 (6,122), lowest is الربع الأول 2024 (2,802) in Q1 2026.",
+   "numbers": {
+    "items": 9,
+    "highest": 6122.0,
+    "lowest": 2802.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 6122.0,
+     "cell": "1.1!R13C4"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 2802.0,
+     "cell": "1.1!R5C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "إجمالي المرافق المرخصة",
+   "table_title": "عدد مرافق الضيافة السياحية المرخصة جدول 1.1",
+   "id": "19180594-001",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_1-1",
+   "sheet": "1.1",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "عدد الشقق المخدومة ومرافق الضيافة الأخرى: الأعلى بين 9 بنود هو الربع الأول 2026 (3,159) والأدنى هو الربع الأول 2024 (1,361) في الربع الأول 2026.",
+   "text_en": "عدد الشقق المخدومة ومرافق الضيافة الأخرى: Highest of 9 items is الربع الأول 2026 (3,159), lowest is الربع الأول 2024 (1,361) in Q1 2026.",
+   "numbers": {
+    "items": 9,
+    "highest": 3159.0,
+    "lowest": 1361.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 3159.0,
+     "cell": "1.1!R13C2"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 1361.0,
+     "cell": "1.1!R5C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "عدد الشقق المخدومة ومرافق الضيافة الأخرى",
+   "table_title": "عدد مرافق الضيافة السياحية المرخصة جدول 1.1",
+   "id": "19180594-002",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_1-1",
+   "sheet": "1.1",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "عدد الفنادق: الأعلى بين 9 بنود هو الربع الأول 2026 (2,963) والأدنى هو الربع الأول 2024 (1,441) في الربع الأول 2026.",
+   "text_en": "عدد الفنادق: Highest of 9 items is الربع الأول 2026 (2,963), lowest is الربع الأول 2024 (1,441) in Q1 2026.",
+   "numbers": {
+    "items": 9,
+    "highest": 2963.0,
+    "lowest": 1441.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 2963.0,
+     "cell": "1.1!R13C3"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 1441.0,
+     "cell": "1.1!R5C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "عدد الفنادق",
+   "table_title": "عدد مرافق الضيافة السياحية المرخصة جدول 1.1",
+   "id": "19180594-003",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_1-5",
+   "sheet": "1.5",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "إجمالي المشتغلين: الأعلى بين 13 بنداً هو الربع الأول 2026 (1,047,313) والأدنى هو الربع الأول 2023 (900,532) في الربع الأول 2026.",
+   "text_en": "إجمالي المشتغلين: Highest of 13 items is الربع الأول 2026 (1,047,313), lowest is الربع الأول 2023 (900,532) in Q1 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 1047313.0,
+    "lowest": 900532.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 1047313.0,
+     "cell": "1.5!R17C4"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 900532.0,
+     "cell": "1.5!R5C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "إجمالي المشتغلين",
+   "table_title": "المؤشرات الرئيسية للمشتغلين في الأنشطة السياحية جدول 1.5",
+   "id": "19180594-004",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_1-5",
+   "sheet": "1.5",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "عدد المشتغلين السعوديين: الأعلى بين 13 بنداً هو الربع الأول 2026 (250,094) والأدنى هو الربع الأول 2023 (239,740) في الربع الأول 2026.",
+   "text_en": "عدد المشتغلين السعوديين: Highest of 13 items is الربع الأول 2026 (250,094), lowest is الربع الأول 2023 (239,740) in Q1 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 250094.0,
+    "lowest": 239740.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 250094.0,
+     "cell": "1.5!R17C2"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 239740.0,
+     "cell": "1.5!R5C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "عدد المشتغلين السعوديين",
+   "table_title": "المؤشرات الرئيسية للمشتغلين في الأنشطة السياحية جدول 1.5",
+   "id": "19180594-005",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_1-5",
+   "sheet": "1.5",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "عدد المشتغلين غير السعوديين: الأعلى بين 13 بنداً هو الربع الأول 2026 (797,219) والأدنى هو الربع الأول 2023 (660,792) في الربع الأول 2026.",
+   "text_en": "عدد المشتغلين غير السعوديين: Highest of 13 items is الربع الأول 2026 (797,219), lowest is الربع الأول 2023 (660,792) in Q1 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 797219.0,
+    "lowest": 660792.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 797219.0,
+     "cell": "1.5!R17C3"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 660792.0,
+     "cell": "1.5!R5C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "عدد المشتغلين غير السعوديين",
+   "table_title": "المؤشرات الرئيسية للمشتغلين في الأنشطة السياحية جدول 1.5",
+   "id": "19180594-006",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_1-6",
+   "sheet": "1.6 ",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "عدد المنشآت السياحية: الأعلى بين 17 بنداً هو الربع الأول 2026 (177,031) والأدنى هو الربع الأول 2022 (109,681) في الربع الأول 2026.",
+   "text_en": "عدد المنشآت السياحية: Highest of 17 items is الربع الأول 2026 (177,031), lowest is الربع الأول 2022 (109,681) in Q1 2026.",
+   "numbers": {
+    "items": 17,
+    "highest": 177031.0,
+    "lowest": 109681.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 177031.0,
+     "cell": "1.6 !R21C2"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 109681.0,
+     "cell": "1.6 !R5C2"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "عدد المنشآت السياحية",
+   "table_title": "المؤشرات الرئيسية للمنشآت السياحية جدول 1.6 الربع عدد المنشآت السياحية",
+   "id": "19180594-007",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_2-1",
+   "sheet": "2.1",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "إجمالي المرافق المرخصة: الأعلى بين 13 بنداً هو مكة المكرمة (2,321) والأدنى هو الحدود الشمالية (45) في الربع الأول 2026.",
+   "text_en": "إجمالي المرافق المرخصة: Highest of 13 items is مكة المكرمة (2,321), lowest is الحدود الشمالية (45) in Q1 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 2321.0,
+    "lowest": 45.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 2321.0,
+     "cell": "2.1!R6C5"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 45.0,
+     "cell": "2.1!R13C5"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "إجمالي المرافق المرخصة",
+   "table_title": "عدد مرافق الضيافة السياحية المرخصة حسب المناطق الإدارية ونوع المرفق للربع الأول لعام 2026 جدول 2.1",
+   "id": "19180594-008",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_2-1",
+   "sheet": "2.1",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "عدد الشقق المخدومة ومرافق الضيافة الأخرى: الأعلى بين 13 بنداً هو الرياض (984) والأدنى هو الحدود الشمالية (28) في الربع الأول 2026.",
+   "text_en": "عدد الشقق المخدومة ومرافق الضيافة الأخرى: Highest of 13 items is الرياض (984), lowest is الحدود الشمالية (28) in Q1 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 984.0,
+    "lowest": 28.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 984.0,
+     "cell": "2.1!R5C3"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 28.0,
+     "cell": "2.1!R13C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "عدد الشقق المخدومة ومرافق الضيافة الأخرى",
+   "table_title": "عدد مرافق الضيافة السياحية المرخصة حسب المناطق الإدارية ونوع المرفق للربع الأول لعام 2026 جدول 2.1",
+   "id": "19180594-009",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_2-1",
+   "sheet": "2.1",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "عدد الفنادق: الأعلى بين 13 بنداً هو مكة المكرمة (1,669) والأدنى هو الجوف (13) في الربع الأول 2026.",
+   "text_en": "عدد الفنادق: Highest of 13 items is مكة المكرمة (1,669), lowest is الجوف (13) in Q1 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 1669.0,
+    "lowest": 13.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 1669.0,
+     "cell": "2.1!R6C4"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 13.0,
+     "cell": "2.1!R17C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "عدد الفنادق",
+   "table_title": "عدد مرافق الضيافة السياحية المرخصة حسب المناطق الإدارية ونوع المرفق للربع الأول لعام 2026 جدول 2.1",
+   "id": "19180594-010",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_2-2",
+   "sheet": "2.2",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "إجمالي الغرف المتاحة: الأعلى بين 13 بنداً هو مكة المكرمة (392,314) والأدنى هو الحدود الشمالية (1,815) في الربع الأول 2026.",
+   "text_en": "إجمالي الغرف المتاحة: Highest of 13 items is مكة المكرمة (392,314), lowest is الحدود الشمالية (1,815) in Q1 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 392314.0,
+    "lowest": 1815.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 392314.0,
+     "cell": "2.2!R6C5"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 1815.0,
+     "cell": "2.2!R13C5"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "إجمالي الغرف المتاحة",
+   "table_title": "عدد الغرف المتاحة في مرافق الضيافة السياحية المرخصة حسب المناطق الإدارية ونوع المرفق للربع الأول لعام 2026 جدول 2.2",
+   "id": "19180594-011",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_2-2",
+   "sheet": "2.2",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "عدد الغرف المتاحة في الشقق المخدومة ومرافق الضيافة الأخرى: الأعلى بين 13 بنداً هو الرياض (30,707) والأدنى هو الحدود الشمالية (786) في الربع الأول 2026.",
+   "text_en": "عدد الغرف المتاحة في الشقق المخدومة ومرافق الضيافة الأخرى: Highest of 13 items is الرياض (30,707), lowest is الحدود الشمالية (786) in Q1 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 30707.0,
+    "lowest": 786.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 30707.0,
+     "cell": "2.2!R5C3"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 786.0,
+     "cell": "2.2!R13C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "عدد الغرف المتاحة في الشقق المخدومة ومرافق الضيافة الأخرى",
+   "table_title": "عدد الغرف المتاحة في مرافق الضيافة السياحية المرخصة حسب المناطق الإدارية ونوع المرفق للربع الأول لعام 2026 جدول 2.2",
+   "id": "19180594-012",
+   "headline": true
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "tourism-establishments_2-2",
+   "sheet": "2.2",
+   "period": "2026-Q1",
+   "measure_type": "level",
+   "unit": "count",
+   "unit_ok": true,
+   "text_ar": "عدد الغرف المتاحة في الفنادق: الأعلى بين 13 بنداً هو مكة المكرمة (365,503) والأدنى هو الباحة (510) في الربع الأول 2026.",
+   "text_en": "عدد الغرف المتاحة في الفنادق: Highest of 13 items is مكة المكرمة (365,503), lowest is الباحة (510) in Q1 2026.",
+   "numbers": {
+    "items": 13,
+    "highest": 365503.0,
+    "lowest": 510.0,
+    "period": "2026-Q1"
+   },
+   "evidence": [
+    {
+     "period": "2026-Q1",
+     "value": 365503.0,
+     "cell": "2.2!R6C4"
+    },
+    {
+     "period": "2026-Q1",
+     "value": 510.0,
+     "cell": "2.2!R16C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435281/Tourism+Establishments+Statistics+Q1+of+2026+AR+%281%29.xlsx/de21086c-0ff1-f737-b6fb-9baa65bc5187",
+   "series_label": "عدد الغرف المتاحة في الفنادق",
+   "table_title": "عدد الغرف المتاحة في مرافق الضيافة السياحية المرخصة حسب المناطق الإدارية ونوع المرفق للربع الأول لعام 2026 جدول 2.2",
+   "id": "19180594-013",
+   "headline": false
+  }
+ ],
+ "title_ar": "إحصاءات المنشآت السياحية للربع الأول 2026",
+ "title_en": "Tourism Establishments Statistics – Q1 of 2026",
+ "release_date": "2026-07-05",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-19T13:33:13+00:00"
+}

@@ -1,0 +1,65 @@
+{
+ "publication_id": "21717735",
+ "datasets": 2,
+ "insight_count": 1,
+ "headline_ids": [
+  "21717735-001"
+ ],
+ "insights": [
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "consumer-confidence-index_time-serise",
+   "sheet": "Time serise",
+   "period": "2026-06",
+   "measure_type": "index",
+   "unit": "index",
+   "unit_ok": true,
+   "text_ar": ": 109.95 نقطة في يونيو 2026، مقابل 113.46 (-3.09%) في مايو 2026، ومقابل 112.14 (-1.95%) في يونيو 2025.",
+   "text_en": "المؤشر العام لثقة المستهلك General Index of Consumer Confidence - ICC: 109.95 points in June 2026, versus 113.46 (-3.09%) in May 2026, and versus 112.14 (-1.95%) in June 2025.",
+   "numbers": {
+    "value": 109.9524618337,
+    "period": "2026-06",
+    "prev_value": 113.4551490349,
+    "prev_period": "2026-05",
+    "prev_diff": -3.5026872012,
+    "prev_pct": -3.0872879997,
+    "yoy_value": 112.14,
+    "yoy_period": "2025-06",
+    "yoy_diff": -2.1875381663,
+    "yoy_pct": -1.9507206762,
+    "history_observations": 18,
+    "history_start": "2025-01"
+   },
+   "evidence": [
+    {
+     "period": "2026-06",
+     "value": 109.9524618337,
+     "cell": "Time serise!R6C19"
+    },
+    {
+     "period": "2026-05",
+     "value": 113.4551490349,
+     "cell": "Time serise!R6C18"
+    },
+    {
+     "period": "2025-06",
+     "value": 112.14,
+     "cell": "Time serise!R6C7"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435273/CCI.2026_Q2+%282%29.xlsx/2453399e-77aa-c671-4e00-5328d8c0c1be",
+   "series_label": "",
+   "table_title": "المؤشرات الرئيسة لثقة المستهلك The Main Indices of Consumer Confidence جدول(2) المؤشرات الرئيسة The Main Indices",
+   "id": "21717735-001",
+   "headline": true
+  }
+ ],
+ "title_ar": "مؤشر ثقة المستهلك للربع الثاني 2026",
+ "title_en": "Consumer Confidence Index – Q2 of 2026",
+ "release_date": "2026-09-30",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-19T13:45:18+00:00"
+}

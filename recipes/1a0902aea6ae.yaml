@@ -1,0 +1,30 @@
+fingerprint: 1a0902aea6ae
+status: reviewed
+first_seen:
+  publication_id: 27267531
+  sheet: '7.8'
+  release_date: '2026-10-26'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+- mixed
+value_columns: 56
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- header
+- publication
+title_sample: الصادرات والواردات حسب تصنيف فئات الأغذية ومكوناتها(*)، بالمليون ريال
+  Exports and imports by classification of Food Cate
+validation_on_first_run: fail
+notes: []
+header_fill_right: true
+extra_header_rows: 1

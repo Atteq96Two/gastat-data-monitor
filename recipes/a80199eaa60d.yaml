@@ -1,0 +1,25 @@
+fingerprint: a80199eaa60d
+status: held
+first_seen:
+  publication_id: 21692297
+  sheet: '3.1'
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 4
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: عدد المشتغلين السعوديين في الأنشطة السياحية حسب النوع والنشاط للربع
+  الثاني من عام 2026 جدول 3.1
+validation_on_first_run: review
+notes:
+- 'Held by owner decision 2026-11-19: totals_reconcile, unit_known. Needs its own
+  column definitions or a unit first.'

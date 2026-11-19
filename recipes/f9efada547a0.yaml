@@ -1,0 +1,24 @@
+fingerprint: f9efada547a0
+status: reviewed
+first_seen:
+  publication_id: 21692297
+  sheet: '2.2'
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 3
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- sheet_title
+title_sample: عدد الغرف المتاحة في مرافق الضيافة السياحية المرخصة حسب المناطق الإدارية
+  ونوع المرفق للربع الثاني لعام 2026 جدول 2.2
+validation_on_first_run: pass
+notes: []
+row_period_labels: true

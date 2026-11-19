@@ -1,0 +1,33 @@
+fingerprint: b9ed147c679c
+status: reviewed
+first_seen:
+  publication_id: 27267531
+  sheet: '7.3'
+  release_date: '2026-10-26'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+- mixed
+value_columns: 56
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- header
+- publication
+title_sample: الصادرات والواردات حسب التصنيف المركزي للمنتجات- النسخة 2.1(*)، بالمليون
+  ريال(**) Exports and imports by Central Product
+validation_on_first_run: fail
+notes:
+- 'Reviewed (owner approved 2026-11-19): changes above 1000% come from very small
+  bases; genuine published values.'
+header_fill_right: true
+extra_header_rows: 1
+accept_review: true

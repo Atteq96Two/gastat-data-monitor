@@ -1,0 +1,23 @@
+fingerprint: 0001cdd90ad5
+status: pending_review
+first_seen:
+  publication_id: 10556774
+  sheet: '1.2'
+  release_date: '2026-01-08'
+label_roles:
+- code
+- label_ar
+header_level_types:
+- ar
+value_columns: 7
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- header
+title_sample: معدل إشغال الغرف في مرافق الضيافة السياحية المرخصة جدول 1.2
+validation_on_first_run: pass
+notes: []

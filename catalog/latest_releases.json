@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T02:42:34+00:00",
+ "generated_at": "2026-11-19T13:45:18+00:00",
  "releases": [
   {
    "publication_id": 27913882,
@@ -143,7 +143,7 @@
    "release_date": "2026-10-26",
    "domain": "Economic Statistics",
    "reference_period": "2026-08",
-   "status": "registered"
+   "status": "processed"
   },
   {
    "publication_id": 27267583,
@@ -152,7 +152,7 @@
    "release_date": "2026-10-25",
    "domain": "Economic Statistics",
    "reference_period": "2026-09",
-   "status": "registered"
+   "status": "processed"
   },
   {
    "publication_id": 26472178,
@@ -197,7 +197,7 @@
    "release_date": "2026-10-20",
    "domain": "Economic Statistics",
    "reference_period": "2026-Q3",
-   "status": "registered"
+   "status": "processed"
   },
   {
    "publication_id": 25241690,

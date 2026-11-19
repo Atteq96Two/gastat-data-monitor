@@ -1,0 +1,27 @@
+fingerprint: 2a6c0720d5c5
+status: reviewed
+first_seen:
+  publication_id: 20851384
+  sheet: '1.2'
+  release_date: '2026-09-08'
+label_roles:
+- label_ar
+- label_ar
+header_level_types:
+- year
+- quarter
+value_columns: 62
+measure_types:
+- rate
+units:
+- percent
+scales:
+- 1
+period_sources:
+- header
+title_sample: القائمة الرئيسية الناتج المحلي الإجمالي حسب الأنشطة الاقتصادية الرئيسة
+  بالأسعار الجارية (معدل النمو على أساس سنوي %)
+validation_on_first_run: pass
+notes: []
+header_fill_right: true
+unit: percent

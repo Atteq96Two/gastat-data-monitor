@@ -1,0 +1,28 @@
+fingerprint: 1d3b4d82ba91
+status: reviewed
+first_seen:
+  publication_id: 27267531
+  sheet: '7.5'
+  release_date: '2026-10-26'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- mixed
+value_columns: 56
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- header
+- publication
+title_sample: الصادرات والواردات حسب تصنيف المنتجات عالية التقنية(*)، بالمليون ريال
+  Exports and imports by classification of High-Tech
+validation_on_first_run: fail
+notes: []
+header_fill_right: true
+extra_header_rows: 1

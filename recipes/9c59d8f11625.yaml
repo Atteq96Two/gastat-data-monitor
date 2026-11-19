@@ -1,0 +1,24 @@
+fingerprint: 9c59d8f11625
+status: pending_review
+first_seen:
+  publication_id: 13419798
+  sheet: '3.7'
+  release_date: '2026-04-12'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 3
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- header
+- sheet_title
+title_sample: التغير عن الربع الرابع من عام 2024 في عدد المشتغلين السعوديين في الأنشطة
+  السياحية حسب النشاط جدول 3.7
+validation_on_first_run: review
+notes: []

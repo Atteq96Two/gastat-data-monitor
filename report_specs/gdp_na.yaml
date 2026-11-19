@@ -1,0 +1,39 @@
+id: gdp_na
+name_ar: الناتج المحلي والحسابات القومية
+group: growth
+frequency: quarterly
+description_ar: النمو الحقيقي للاقتصاد ومكوناته الربعية
+headline:
+  label_ar: نمو الناتج المحلي الحقيقي
+  unit_ar: "%"
+  series: {dataset: gdp-national-accounts_2-3, block: 0, name: "^الناتج المحلي الإجمالي / الناتج المحلي الإجمالي$", measure: rate, period_type: quarter}
+  change: {mode: pp}
+  press_release_value: -4.7     # GASTAT press release, Q2 2026 (year on year)
+level1:
+  title_ar: نمو الناتج الحقيقي، على أساس سنوي
+  unit_ar: "% على أساس سنوي"
+  series:
+    - {label_ar: الناتج المحلي الحقيقي, dataset: gdp-national-accounts_2-3, block: 0, name: "^الناتج المحلي الإجمالي / الناتج المحلي الإجمالي$", measure: rate, period_type: quarter}
+level2:
+  title_ar: الأنشطة الرئيسة
+  kind: line
+  unit_ar: "% على أساس سنوي"
+  series:
+    - {label_ar: الأنشطة النفطية, dataset: gdp-national-accounts_2-3, block: 0, name: "الأنشطة النفطية$", measure: rate, period_type: quarter}
+    - {label_ar: الأنشطة غير النفطية, dataset: gdp-national-accounts_2-3, block: 0, name: "الأنشطة غير النفطية$", measure: rate, period_type: quarter}
+    - {label_ar: الأنشطة الحكومية, dataset: gdp-national-accounts_2-3, block: 0, name: "الأنشطة الحكومية$", measure: rate, period_type: quarter}
+level3:
+  - title_ar: النمو السنوي لمكونات الإنفاق، الربع الأخير
+    kind: bars
+    unit_ar: "%"
+    items: {dataset: gdp-national-accounts_2-18, block: 0, name: "^(1- / إجمالي|2- / إجمالي تكوين|3- /|4- /)", measure: rate, period_type: quarter, min_points: 20}
+  - title_ar: النمو الربعي، معدل موسمياً
+    kind: line
+    unit_ar: "% على أساس ربعي"
+    series:
+      - {label_ar: الناتج المحلي الحقيقي, dataset: gdp-national-accounts_3-3, block: 0, name: "^الناتج المحلي الإجمالي / الناتج المحلي الإجمالي$", measure: rate, period_type: quarter}
+  - title_ar: الناتج المحلي بالأسعار الجارية
+    kind: line
+    unit_ar: "مليار ريال"
+    series:
+      - {label_ar: الناتج المحلي الإجمالي, dataset: gdp-national-accounts_1-1, block: 0, name: "^الناتج المحلي الإجمالي / الناتج المحلي الإجمالي$", measure: level, period_type: quarter, div: 1000000000}

@@ -1,0 +1,25 @@
+fingerprint: 047f6e9eb6b2
+status: pending_review
+first_seen:
+  publication_id: 10556774
+  sheet: '1.3'
+  release_date: '2026-01-08'
+label_roles:
+- code
+- label_ar
+header_level_types:
+- ar
+- ar
+value_columns: 7
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1
+period_sources:
+- header
+title_sample: متوسط السعر اليومي للغرفة في مرافق الضيافة السياحية المرخصة جدول 1.3
+  ريال سعودي
+validation_on_first_run: pass
+notes: []

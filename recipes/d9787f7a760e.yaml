@@ -1,0 +1,39 @@
+fingerprint: d9787f7a760e
+status: reviewed
+first_seen:
+  publication_id: 25605129
+  sheet: '2'
+  release_date: '2026-10-20'
+label_roles:
+- year
+- label_ar
+- label_en
+- year
+header_level_types:
+- en
+- ar
+- mixed
+- mixed
+- en
+- ar
+- en
+value_columns: 36
+measure_types:
+- rate
+units:
+- index_base_2023
+scales:
+- 1
+period_sources:
+- publication
+title_sample: السلاسل الزمنية للمؤشر ومعدل التغيّر حسب القطاع ونوع العقار اعتبارا
+  من عام 2021م (ربع سنوي - سنوي) Time Series of the In
+validation_on_first_run: pass
+notes: []
+col_label_overrides:
+- match: المؤشر
+  measure_type: index
+  unit: index_base_2023
+- match: التغيّر (الربعي|السنوي)
+  measure_type: rate
+  unit: percent

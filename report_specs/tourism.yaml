@@ -1,0 +1,36 @@
+id: tourism
+name_ar: إحصاءات منشآت السياحة
+group: tourism
+frequency: quarterly
+description_ar: إشغال الفنادق وعدد المرافق والمشتغلين في السياحة
+headline:
+  label_ar: معدل إشغال الغرف في الفنادق
+  unit_ar: "%"
+  series: {dataset: tourism-establishments_1-2, block: 0, name: "^معدل الإشغال في الفنادق$", measure: rate, period_type: quarter, mul: 100}
+  change: {mode: pp, lag: 4}   # a seasonal series: compared with the same quarter last year, as the press release does
+  press_release_value: 51.0     # GASTAT press release, Q2 2026 (hotel room occupancy; -2.2 points on Q2 2025)
+level1:
+  title_ar: معدل إشغال الغرف في الفنادق
+  unit_ar: "%"
+  series:
+    - {label_ar: الفنادق, dataset: tourism-establishments_1-2, block: 0, name: "^معدل الإشغال في الفنادق$", measure: rate, period_type: quarter, mul: 100}
+level2:
+  title_ar: الإشغال حسب نوع المرفق
+  kind: line
+  unit_ar: "%"
+  series:
+    - {label_ar: الفنادق, dataset: tourism-establishments_1-2, block: 0, name: "^معدل الإشغال في الفنادق$", measure: rate, period_type: quarter, mul: 100}
+    - {label_ar: الشقق المخدومة ومرافق أخرى, dataset: tourism-establishments_1-2, block: 0, name: "^معدل الإشغال في الشقق", measure: rate, period_type: quarter, mul: 100}
+level3:
+  - title_ar: عدد مرافق الضيافة المرخصة
+    kind: line
+    unit_ar: "مرفق"
+    series:
+      - {label_ar: الفنادق, dataset: tourism-establishments_1-1, block: 0, name: "^عدد الفنادق$", measure: level, period_type: quarter}
+      - {label_ar: الشقق المخدومة ومرافق أخرى, dataset: tourism-establishments_1-1, block: 0, name: "^عدد الشقق", measure: level, period_type: quarter}
+  - title_ar: المشتغلون في الأنشطة السياحية
+    kind: line
+    unit_ar: "مشتغل"
+    series:
+      - {label_ar: السعوديون, dataset: tourism-establishments_1-5, block: 0, name: "^عدد المشتغلين السعوديين$", measure: level, period_type: quarter}
+      - {label_ar: غير السعوديين, dataset: tourism-establishments_1-5, block: 0, name: "^عدد المشتغلين غير السعوديين$", measure: level, period_type: quarter}

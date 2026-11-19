@@ -1,0 +1,26 @@
+fingerprint: 3def50f35d4c
+status: reviewed
+first_seen:
+  publication_id: 21717806
+  sheet: 2-3
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+- ar
+- ar
+value_columns: 10
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- publication
+title_sample: معدل البطالة للحاصلين على الدبلوم العالي حسب الجنسية و الجنس والتخصص
+  الدراسي جدول (2-3-2) التخصصات التعليمية الجنسية الس
+validation_on_first_run: pass
+notes: []
+row_period_labels: true

@@ -1,0 +1,34 @@
+fingerprint: a99a200c7db1
+status: held
+first_seen:
+  publication_id: 21692297
+  sheet: '2.21'
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+header_level_types:
+- ar
+value_columns: 3
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- header
+- sheet_title
+title_sample: التغير عن الربع الثاني من عام 2025 في معدل الإشغال في الشقق المخدومة
+  ومرافق الضيافة الأخرى حسب المناطق الإدارية جدول 2.2
+validation_on_first_run: pass
+notes:
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'
+- 'Held by owner decision 2026-11-19: range_rate. Needs its own column definitions
+  or a unit first.'

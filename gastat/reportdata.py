@@ -28,7 +28,9 @@ def load(ds):
         for c in ("row_label_ar", "col_label_ar", "col_sub", "row_group"):
             df[c] = df[c].fillna("").astype(str)
         sub = df["col_sub"].where(df["col_sub"] == "", " | " + df["col_sub"])
-        parts = [df["row_label_ar"], df["col_label_ar"] + sub]
+        en_ = df["row_label_en"].fillna("").astype(str)
+        row_lab = df["row_label_ar"].where((df["row_label_ar"] != "") | ~en_.str.contains("[\u0600-\u06ff]"), en_)   # a label written in one mixed-script cell lands in the English column
+        parts = [row_lab, df["col_label_ar"] + sub]
         df["_name"] = (parts[0] + " | " + parts[1]).str.strip(" |").str.replace(r"\s*\|\s*\|\s*", " | ", regex=True)
         df["_ord"] = [I.ordinal(p)[0] for p in df["period"]]
         _cache[ds] = df
@@ -88,9 +90,18 @@ def many(sel, min_points=1):
     return out
 
 
-def change_pp(points):
-    a, b = points[-1][1], points[-2][1]
-    return dict(value=sig(a - b), unit="نقطة مئوية", kind="pp", ref=points[-2][0])
+def ser(x, label=None):
+    """One series for a selector; optional mul / div convert units (fraction -> percent, million -> billion)."""
+    s_ = to_series(select(x), label or x.get("label_ar"))
+    k = x.get("mul", 1) / x.get("div", 1)
+    if k != 1:
+        s_["points"] = [[p, sig(v * k)] for p, v in s_["points"]]
+    return s_
+
+
+def change_pp(points, lag=1):
+    a, b = points[-1][1], points[-1 - lag][1]
+    return dict(value=sig(a - b), unit="نقطة مئوية", kind="pp", ref=points[-1 - lag][0])
 
 
 def direction(v):
@@ -121,11 +132,14 @@ def build_report(spec, fresh):
         hs = dict(label=h["label_ar"], points=pts, cell=base["cell"], file=base["file"], release=base["release"])
         hs["unit"] = "%"
     else:
-        hs = to_series(select(h["series"]), h["label_ar"])
+        hs = ser(h["series"], h["label_ar"])
     last_p, last_v = hs["points"][-1]
     ch = h["change"]
     if ch["mode"] == "pp":
-        change = change_pp(hs["points"])
+        change = change_pp(hs["points"], ch.get("lag", 1))
+    elif ch["mode"] == "derived_pct":      # percent change against the point `lag` periods back (1 = previous period, 4 = same quarter last year, 12 = same month last year)
+        a, b = hs["points"][-1], hs["points"][-1 - ch["lag"]]
+        change = dict(value=sig((a[1] / b[1] - 1) * 100), unit="%", kind="pct", ref=b[0])
     else:
         cs = to_series(select(ch["series"]))
         assert cs["points"][-1][0] == last_p, "published change is for another period"
@@ -134,6 +148,9 @@ def build_report(spec, fresh):
     pr = h.get("press_release_value")
     if pr is not None and abs(round(last_v, 1) - pr) > 0.051:
         raise AssertionError(f"{rid}: headline {last_v:.3f} does not match the GASTAT press release ({pr})")
+    prc = h.get("press_release_change")
+    if prc is not None and abs(round(change["value"], 1) - prc) > 0.051:
+        raise AssertionError(f"{rid}: change {change['value']:.3f} does not match the GASTAT press release ({prc})")
     rep["headline"] = dict(label=h["label_ar"], value=last_v, unit=h["unit_ar"], period=last_p, change=change, direction=direction(change["value"]), press_release_value=pr)
     ds_main = (h.get("series") or h["derived_yoy_of"])["dataset"]
     rep["period"] = last_p
@@ -144,7 +161,7 @@ def build_report(spec, fresh):
         return dict(title=title, kind=kind, unit=unit, scale=1, period=series[0]["points"][-1][0], series=series, source=source_of(series[0], ds))
 
     l1 = spec["level1"]
-    s1 = [to_series(select(x), x["label_ar"]) for x in l1["series"]]
+    s1 = [ser(x) for x in l1["series"]]
     rep["level1"] = chart(l1["title_ar"], "line", l1["unit_ar"], s1, l1["series"][0]["dataset"])
     rep["levels"] = 1
     l2 = spec.get("level2")
@@ -159,19 +176,19 @@ def build_report(spec, fresh):
                     raise ValueError(f"no weight for division {name}")
                 wmap[name] = float(g.sort_values("release_date")["value"].iloc[-1])
             top = sorted(wmap, key=lambda n: -wmap[n])[: t["top"]]
-            ser = [to_series(select(dict(t["series"], name="^" + re.escape(n) + "$")), n) for n in top]
+            sers = [to_series(select(dict(t["series"], name="^" + re.escape(n) + "$")), n) for n in top]
             ds2 = t["series"]["dataset"]
             rep["weights"] = {n: round(wmap[n], 2) for n in t["divisions"]}
         else:
-            ser = [to_series(select(x), x["label_ar"]) for x in l2["series"]]
+            sers = [ser(x) for x in l2["series"]]
             ds2 = l2["series"][0]["dataset"]
-        rep["level2"] = chart(l2["title_ar"], l2["kind"], l2["unit_ar"], ser, ds2)
+        rep["level2"] = chart(l2["title_ar"], l2["kind"], l2["unit_ar"], sers, ds2)
         rep["levels"] = 2
     l3 = []
     for sec in spec.get("level3") or []:
         if sec["kind"] == "line":
-            ser = [to_series(select(x), x["label_ar"]) for x in sec["series"]]
-            c = chart(sec["title_ar"], "line", sec["unit_ar"], ser, sec["series"][0]["dataset"])
+            sers = [ser(x) for x in sec["series"]]
+            c = chart(sec["title_ar"], "line", sec["unit_ar"], sers, sec["series"][0]["dataset"])
         else:
             it = sec["items"]
             if it.get("names_from") == "divisions":
@@ -188,7 +205,7 @@ def build_report(spec, fresh):
                 if r["_ord"] != lastp:
                     continue
                 lab = clean_label(r["row_label_ar"] or name)
-                bars.append(dict(label=lab, value=sig(r["value"]), cell=r["source_cell"]))
+                bars.append(dict(label=lab, value=sig(r["value"] * it.get("mul", 1) / it.get("div", 1)), cell=r["source_cell"]))
             if not bars:
                 raise ValueError(f"{rid}: level 3 '{sec['title_ar']}' is empty")
             bars.sort(key=lambda b: -b["value"])

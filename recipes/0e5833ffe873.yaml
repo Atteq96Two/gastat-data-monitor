@@ -1,0 +1,28 @@
+fingerprint: 0e5833ffe873
+status: reviewed
+first_seen:
+  publication_id: 20851384
+  sheet: '3.3'
+  release_date: '2026-09-08'
+label_roles:
+- label_ar
+- label_ar
+- label_ar
+header_level_types:
+- year
+- quarter
+value_columns: 65
+measure_types:
+- rate
+units:
+- percent_or_fraction
+scales:
+- 1
+period_sources:
+- header
+title_sample: القائمة الرئيسية الناتج المحلي الإجمالي الحقيقي بالتعديلات الموسمية
+  حسب الأنشطة الاقتصادية الرئيسة (السلاسل المتحركة، 10
+validation_on_first_run: pass
+notes: []
+header_fill_right: true
+unit: percent

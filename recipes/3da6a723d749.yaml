@@ -1,0 +1,35 @@
+fingerprint: 3da6a723d749
+status: reviewed
+first_seen:
+  publication_id: 20851384
+  sheet: '1.1'
+  release_date: '2026-09-08'
+label_roles:
+- label_ar
+- label_ar
+header_level_types:
+- mixed
+- quarter
+value_columns: 66
+measure_types:
+- level
+units:
+- ''
+scales:
+- 1
+period_sources:
+- header
+title_sample: القائمة الرئيسية الناتج المحلي الإجمالي حسب الأنشطة الاقتصادية الرئيسة
+  بالأسعار الجارية (مليون ) *2024 *2025 *2026
+validation_on_first_run: review
+notes:
+- 'Reviewed (owner approved 2026-11-19): the total row includes its own sub-rows,
+  so a flat sum double counts; values are the published ones.'
+- 'Reviewed (owner approved 2026-11-19): the total row includes its own sub-rows,
+  so a flat sum double counts; values are the published ones.'
+- 'Reviewed (owner approved 2026-11-19): the total row includes its own sub-rows,
+  so a flat sum double counts; values are the published ones.'
+accept_review: true
+header_fill_right: true
+unit: SAR
+scale: 1000000.0

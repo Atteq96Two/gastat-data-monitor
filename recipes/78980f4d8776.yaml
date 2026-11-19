@@ -1,0 +1,33 @@
+fingerprint: 78980f4d8776
+status: reviewed
+first_seen:
+  publication_id: 27267531
+  sheet: '7.1'
+  release_date: '2026-10-26'
+label_roles:
+- code
+- label_ar
+- label_en
+- code
+header_level_types:
+- ar
+- mixed
+value_columns: 56
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- header
+- publication
+title_sample: الصادرات والواردات حسب التصنيف الموحد للتجارة الدولية- النسخة 4(*)،
+  بالمليون ريال Exports and imports by Standard Intern
+validation_on_first_run: fail
+notes:
+- 'Reviewed (owner approved 2026-11-19): changes above 1000% come from very small
+  bases; genuine published values.'
+header_fill_right: true
+extra_header_rows: 1
+accept_review: true

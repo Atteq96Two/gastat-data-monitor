@@ -1,0 +1,28 @@
+fingerprint: 093c2fb0a305
+status: reviewed
+first_seen:
+  publication_id: 27267531
+  sheet: '8'
+  release_date: '2026-10-26'
+label_roles:
+- year
+- label_ar
+- label_en
+header_level_types:
+- ar
+value_columns: 3
+measure_types:
+- level
+- ratio
+units:
+- A
+- B
+- percent
+scales:
+- 1000000.0
+period_sources:
+- publication
+title_sample: نسبة الصادرات غير البترولية (تشمل إعادة التصدير) للواردات، شهري، القيمة
+  بالمليون ريال Ratio of non-oil exports (includin
+validation_on_first_run: pass
+notes: []

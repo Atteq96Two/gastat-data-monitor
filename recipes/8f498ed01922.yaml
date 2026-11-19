@@ -1,0 +1,27 @@
+fingerprint: 8f498ed01922
+status: reviewed
+first_seen:
+  publication_id: 21717650
+  sheet: 'نتائج تدفقات الاستثمار الأجنبي '
+  release_date: '2026-09-30'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- ar
+- ar
+- year
+value_columns: 14
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- header
+title_sample: 'تدفقات الاستثمار الأجنبي المباشر الربعي لعام 2026 * Quarterly ( in
+  flow , out flow , net inflow ) FDI 2026* (مليون ريال '
+validation_on_first_run: pass
+notes: []
+extra_header_rows: 1
