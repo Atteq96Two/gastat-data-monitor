@@ -1,0 +1,33 @@
+{
+ "publication_id": 28173775,
+ "title_en": "Non oil International trade in goods for Saudi Arabia in October 2026",
+ "release_date": "2026-11-25",
+ "tables": [
+  {
+   "pub": 28173775,
+   "sheet": "6.1",
+   "block": 0,
+   "dataset_id": "non-oil-trade_6-1",
+   "fingerprint": "c908e4994075",
+   "status": "quarantined_new_layout",
+   "checks": [],
+   "rows": 2860,
+   "title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة، القيمة بالمليون ريال Non-oil exports (include re-exports) by main section, value in SAR million الدولة Country القسم Section",
+   "measure_types": [],
+   "recipe": "pending_review"
+  },
+  {
+   "pub": 28173775,
+   "sheet": "6.2",
+   "block": 0,
+   "dataset_id": "non-oil-trade_6-2",
+   "fingerprint": "c908e4994075",
+   "status": "quarantined_new_layout",
+   "checks": [],
+   "rows": 2728,
+   "title": "الواردات حسب الدول والأقسام الرئيسة، القيمة بالمليون ريال Imports by main section, value in SAR million الدولة Country القسم Section",
+   "measure_types": [],
+   "recipe": "pending_review"
+  }
+ ]
+}

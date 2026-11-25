@@ -1,5 +1,5 @@
 {
- "verified_at": "2026-11-19T13:53:47+00:00",
+ "verified_at": "2026-11-25T16:08:16+00:00",
  "publications": {
   "21692297": {
    "checked": 216,
@@ -96,8 +96,16 @@
   "21717735": {
    "checked": 42,
    "different": 0
+  },
+  "28173735": {
+   "checked": 33248,
+   "different": 0
+  },
+  "28173775": {
+   "checked": 412,
+   "different": 0
   }
  },
- "total_checked": 258875,
+ "total_checked": 292535,
  "total_different": 0
 }

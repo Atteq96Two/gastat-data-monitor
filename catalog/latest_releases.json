@@ -1,6 +1,60 @@
 {
- "generated_at": "2026-11-19T13:45:18+00:00",
+ "generated_at": "2026-11-25T16:05:50+00:00",
  "releases": [
+  {
+   "publication_id": 28173775,
+   "title_ar": "التجارة الدولية السلعية غير البترولية للمملكة العربية السعودية لشهر أكتوبر 2026",
+   "title_en": "Non oil International trade in goods for Saudi Arabia in October 2026",
+   "release_date": "2026-11-25",
+   "domain": "Economic Statistics",
+   "reference_period": "2026-10",
+   "status": "processed_with_quarantine"
+  },
+  {
+   "publication_id": 28173735,
+   "title_ar": "التجارة الدولية في السلع سبتمبر 2026",
+   "title_en": "International Trade in Goods, September 2026",
+   "release_date": "2026-11-25",
+   "domain": "Economic Statistics",
+   "reference_period": "2026-09",
+   "status": "processed_with_quarantine"
+  },
+  {
+   "publication_id": 28143661,
+   "title_ar": "إحصاءات الطاقة الكهربائية 2025",
+   "title_en": "Electrical Energy Statistics 2025",
+   "release_date": "2026-11-24",
+   "domain": "Environmental and Spatial Statistics",
+   "reference_period": "2025",
+   "status": "new"
+  },
+  {
+   "publication_id": 28114598,
+   "title_ar": "الرقم القياسي لتكاليف البناء لشهر أكتوبر 2026",
+   "title_en": "Construction Cost Index for October 2026",
+   "release_date": "2026-11-23",
+   "domain": "Economic Statistics",
+   "reference_period": "2026-10",
+   "status": "new"
+  },
+  {
+   "publication_id": 28086788,
+   "title_ar": "الإحصاءات الزراعية 2025",
+   "title_en": "Agricultural Statistics 2025",
+   "release_date": "2026-11-22",
+   "domain": "Environmental and Spatial Statistics",
+   "reference_period": "2025",
+   "status": "new"
+  },
+  {
+   "publication_id": 28086726,
+   "title_ar": "إحصاءات مؤشرات الأعمال قصيرة المدى لشهر سبتمبر 2026",
+   "title_en": "Short-Term Business Indicators Statistics- September 2026",
+   "release_date": "2026-11-22",
+   "domain": "Economic Statistics",
+   "reference_period": "2026-09",
+   "status": "new"
+  },
   {
    "publication_id": 27913882,
    "title_ar": "إحصاءات البحث والتطوير 2025",
@@ -216,60 +270,6 @@
    "domain": "Economic Statistics",
    "reference_period": "2025",
    "status": "out_of_scope"
-  },
-  {
-   "publication_id": 24371752,
-   "title_ar": "الرقم القياسي لأسعار المستهلك لشهر سبتمبر 2026",
-   "title_en": "Consumer Price Index – September 2026",
-   "release_date": "2026-10-15",
-   "domain": "Economic Statistics",
-   "reference_period": "2026-09",
-   "status": "registered"
-  },
-  {
-   "publication_id": 24367371,
-   "title_ar": "الرقم القياسي لأسعار الجملة لشهر سبتمبر 2026",
-   "title_en": "Wholesale Price Index – September 2026",
-   "release_date": "2026-10-15",
-   "domain": "Economic Statistics",
-   "reference_period": "2026-09",
-   "status": "registered"
-  },
-  {
-   "publication_id": 23859373,
-   "title_ar": "متوسطات أسعار السلع والخدمات لشهر سبتمبر 2026",
-   "title_en": "Average service prices for September 2026",
-   "release_date": "2026-10-15",
-   "domain": "Economic Statistics",
-   "reference_period": "2026-09",
-   "status": "processed"
-  },
-  {
-   "publication_id": 23852109,
-   "title_ar": "الرقم القياسي لأسعار المنتجين أغسطس 2026",
-   "title_en": "Producer Price Index - August 2026",
-   "release_date": "2026-10-15",
-   "domain": "Economic Statistics",
-   "reference_period": "2026-08",
-   "status": "registered"
-  },
-  {
-   "publication_id": 23161649,
-   "title_ar": "تقرير الثقافة والترفيه 2025",
-   "title_en": "Culture and Entertainment Report 2025",
-   "release_date": "2026-10-14",
-   "domain": "Social Statistics",
-   "reference_period": "2025",
-   "status": "out_of_scope"
-  },
-  {
-   "publication_id": 22095459,
-   "title_ar": "الرقم القياسي للإنتاج الصناعي لشهر أغسطس 2026",
-   "title_en": "Industrial Production Index- August 2026",
-   "release_date": "2026-10-11",
-   "domain": "Economic Statistics",
-   "reference_period": "2026-08",
-   "status": "registered"
   }
  ]
 }

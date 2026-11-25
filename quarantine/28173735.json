@@ -1,0 +1,20 @@
+{
+ "publication_id": 28173735,
+ "title_en": "International Trade in Goods, September 2026",
+ "release_date": "2026-11-25",
+ "tables": [
+  {
+   "pub": 28173735,
+   "sheet": "11",
+   "block": 0,
+   "dataset_id": "international-trade-in-goods_11",
+   "fingerprint": "669ad799b4c6",
+   "status": "quarantined_new_layout",
+   "checks": [],
+   "rows": 1630,
+   "title": "الصادرات والواردات حسب أكبر 3 سلع لجميع الفصول (الحد السادس من النظام المنسق) في شهر سبتمبر 2026*م، القيمة بالمليون ريال Exports and imports by top 3 commodity for all chapters (HS 6 digit) in Septemb",
+   "measure_types": [],
+   "recipe": "pending_review"
+  }
+ ]
+}

@@ -1,0 +1,924 @@
+{
+ "publication_id": "28173775",
+ "datasets": 5,
+ "insight_count": 24,
+ "headline_ids": [
+  "28173775-001",
+  "28173775-002",
+  "28173775-007",
+  "28173775-008",
+  "28173775-011",
+  "28173775-015"
+ ],
+ "insights": [
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "جوي / المجموع | صادرات غير بترولية non-oil exports: 3,080 مليون ريال في أكتوبر 2026، مقابل 4,133 (-25.48%) في سبتمبر 2026.",
+   "text_en": "Total / Air | صادرات غير بترولية non-oil exports: 3,080 million SAR in October 2026, versus 4,133 (-25.48%) in September 2026.",
+   "numbers": {
+    "value": 3080.077159,
+    "period": "2026-10",
+    "prev_value": 4133.129589,
+    "prev_period": "2026-09",
+    "prev_diff": -1053.05243,
+    "prev_pct": -25.4783308223
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 3080.077159,
+     "cell": "5!R33C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 4133.129589,
+     "cell": "5!R33C3"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "جوي / المجموع | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-001",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "بري / المجموع | واردات Import: 9,597 مليون ريال في أكتوبر 2026، مقابل 8,424 (+13.93%) في سبتمبر 2026.",
+   "text_en": "Total / Land | واردات Import: 9,597 million SAR in October 2026, versus 8,424 (+13.93%) in September 2026.",
+   "numbers": {
+    "value": 9597.479893,
+    "period": "2026-10",
+    "prev_value": 8423.71152,
+    "prev_period": "2026-09",
+    "prev_diff": 1173.768373,
+    "prev_pct": 13.9340998349
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 9597.479893,
+     "cell": "5!R20C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 8423.71152,
+     "cell": "5!R20C4"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "بري / المجموع | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-002",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "بحري / المجموع | واردات Import: 44,501 مليون ريال في أكتوبر 2026، مقابل 40,211 (+10.67%) في سبتمبر 2026.",
+   "text_en": "Total / Sea | واردات Import: 44,501 million SAR in October 2026, versus 40,211 (+10.67%) in September 2026.",
+   "numbers": {
+    "value": 44500.728544,
+    "period": "2026-10",
+    "prev_value": 40211.216892,
+    "prev_period": "2026-09",
+    "prev_diff": 4289.511652,
+    "prev_pct": 10.6674504866
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 44500.728544,
+     "cell": "5!R5C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 40211.216892,
+     "cell": "5!R5C4"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "بحري / المجموع | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-003",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "بري / المجموع | صادرات غير بترولية non-oil exports: 9,139 مليون ريال في أكتوبر 2026، مقابل 8,303 (+10.07%) في سبتمبر 2026.",
+   "text_en": "Total / Land | صادرات غير بترولية non-oil exports: 9,139 million SAR in October 2026, versus 8,303 (+10.07%) in September 2026.",
+   "numbers": {
+    "value": 9139.479789,
+    "period": "2026-10",
+    "prev_value": 8303.359889,
+    "prev_period": "2026-09",
+    "prev_diff": 836.1199,
+    "prev_pct": 10.0696574781
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 9139.479789,
+     "cell": "5!R20C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 8303.359889,
+     "cell": "5!R20C3"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "بري / المجموع | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-004",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "بحري / المجموع | صادرات غير بترولية non-oil exports: 16,808 مليون ريال في أكتوبر 2026، مقابل 15,391 (+9.21%) في سبتمبر 2026.",
+   "text_en": "Total / Sea | صادرات غير بترولية non-oil exports: 16,808 million SAR in October 2026, versus 15,391 (+9.21%) in September 2026.",
+   "numbers": {
+    "value": 16808.47749,
+    "period": "2026-10",
+    "prev_value": 15391.47073,
+    "prev_period": "2026-09",
+    "prev_diff": 1417.00676,
+    "prev_pct": 9.2064415731
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 16808.47749,
+     "cell": "5!R5C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 15391.47073,
+     "cell": "5!R5C3"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "بحري / المجموع | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-005",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "جوي / الإجمالي | واردات Import: 73,700 مليون ريال في أكتوبر 2026، مقابل 69,127 (+6.62%) في سبتمبر 2026.",
+   "text_en": "Total | واردات Import: 73,700 million SAR in October 2026, versus 69,127 (+6.62%) in September 2026.",
+   "numbers": {
+    "value": 73699.509798,
+    "period": "2026-10",
+    "prev_value": 69126.626997,
+    "prev_period": "2026-09",
+    "prev_diff": 4572.882801,
+    "prev_pct": 6.6152262878
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 73699.509798,
+     "cell": "5!R45C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 69126.626997,
+     "cell": "5!R46C4"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "جوي / الإجمالي | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-006",
+   "headline": false
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "non-oil-trade_4",
+   "sheet": "4",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | واردات Import: 73,700 مليون ريال في أكتوبر 2026، مقابل 69,127 (+6.62%) في سبتمبر 2026.",
+   "text_en": "Total | واردات Import: 73,700 million SAR in October 2026, versus 69,127 (+6.62%) in September 2026.",
+   "numbers": {
+    "value": 73699.509798,
+    "period": "2026-10",
+    "prev_value": 69126.626997,
+    "prev_period": "2026-09",
+    "prev_diff": 4572.882801,
+    "prev_pct": 6.6152262878
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 73699.509798,
+     "cell": "4!R144C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 69126.626997,
+     "cell": "4!R153C4"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "الإجمالي | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الدول، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by country, value in SAR million",
+   "id": "28173775-007",
+   "headline": true
+  },
+  {
+   "kind": "series_change",
+   "flag": "",
+   "dataset_id": "non-oil-trade_2",
+   "sheet": "2",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإجمالي | صادرات غير بترولية non-oil exports: 29,028 مليون ريال في أكتوبر 2026، مقابل 27,828 (+4.31%) في سبتمبر 2026.",
+   "text_en": "Total | صادرات غير بترولية non-oil exports: 29,028 million SAR in October 2026, versus 27,828 (+4.31%) in September 2026.",
+   "numbers": {
+    "value": 29028.034438,
+    "period": "2026-10",
+    "prev_value": 27827.960208,
+    "prev_period": "2026-09",
+    "prev_diff": 1200.07423,
+    "prev_pct": 4.3124764483
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 29028.034438,
+     "cell": "2!R26C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 27827.960208,
+     "cell": "2!R26C3"
+    }
+   ],
+   "is_total": true,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "الإجمالي | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الأقسام، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by section, value in SAR million",
+   "also_in_tables": [
+    "non-oil-trade_4"
+   ],
+   "id": "28173775-008",
+   "headline": true
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "جوي / مطار الأمير عبدالمحسن بينبع | واردات Import: 1.47 مليون ريال في أكتوبر 2026، مقابل 0 (+471,289%) في سبتمبر 2026.",
+   "text_en": "Prince Abdulmohsin Airport in Yanbu | واردات Import: 1.47 million SAR in October 2026, versus 0 (+471,289%) in September 2026.",
+   "numbers": {
+    "value": 1.470735,
+    "period": "2026-10",
+    "prev_value": 0.000312,
+    "prev_period": "2026-09",
+    "prev_diff": 1.470423,
+    "prev_pct": 471289.4230769231
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 1.470735,
+     "cell": "5!R41C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.000312,
+     "cell": "5!R45C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "جوي / مطار الأمير عبدالمحسن بينبع | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-009",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "جوي / مطار الأمير نايف بالقصيم | صادرات غير بترولية non-oil exports: 18.05 مليون ريال في أكتوبر 2026، مقابل 0.05 (+36,856%) في سبتمبر 2026.",
+   "text_en": "Prince Naif Airport in Qassim | صادرات غير بترولية non-oil exports: 18.05 million SAR in October 2026, versus 0.05 (+36,856%) in September 2026.",
+   "numbers": {
+    "value": 18.054943,
+    "period": "2026-10",
+    "prev_value": 0.048855,
+    "prev_period": "2026-09",
+    "prev_diff": 18.006088,
+    "prev_pct": 36856.1825811074
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 18.054943,
+     "cell": "5!R40C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.048855,
+     "cell": "5!R42C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "جوي / مطار الأمير نايف بالقصيم | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-010",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "non-oil-trade_4",
+   "sheet": "4",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الصين | واردات Import: 20,544 مليون ريال في أكتوبر 2026، مقابل 16,927 (+21.37%) في سبتمبر 2026.",
+   "text_en": "China | واردات Import: 20,544 million SAR in October 2026, versus 16,927 (+21.37%) in September 2026.",
+   "numbers": {
+    "value": 20543.869854,
+    "period": "2026-10",
+    "prev_value": 16927.202321,
+    "prev_period": "2026-09",
+    "prev_diff": 3616.667533,
+    "prev_pct": 21.3660087734
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 20543.869854,
+     "cell": "4!R5C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 16927.202321,
+     "cell": "4!R5C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "الصين | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الدول، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by country, value in SAR million",
+   "id": "28173775-011",
+   "headline": true
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "non-oil-trade_4",
+   "sheet": "4",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الولايات المتحدة الأمريكية | صادرات غير بترولية non-oil exports: 2,290 مليون ريال في أكتوبر 2026، مقابل 402.28 (+469.25%) في سبتمبر 2026.",
+   "text_en": "U.S.A | صادرات غير بترولية non-oil exports: 2,290 million SAR in October 2026, versus 402.28 (+469.25%) in September 2026.",
+   "numbers": {
+    "value": 2289.990899,
+    "period": "2026-10",
+    "prev_value": 402.282677,
+    "prev_period": "2026-09",
+    "prev_diff": 1887.708222,
+    "prev_pct": 469.2491946403
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 2289.990899,
+     "cell": "4!R7C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 402.282677,
+     "cell": "4!R8C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "الولايات المتحدة الأمريكية | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الدول، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by country, value in SAR million",
+   "id": "28173775-012",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "non-oil-trade_4",
+   "sheet": "4",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "الإمارات العربية المتحدة | صادرات غير بترولية non-oil exports: 6,304 مليون ريال في أكتوبر 2026، مقابل 7,991 (-21.11%) في سبتمبر 2026.",
+   "text_en": "United Arab Emirates | صادرات غير بترولية non-oil exports: 6,304 million SAR in October 2026, versus 7,991 (-21.11%) in September 2026.",
+   "numbers": {
+    "value": 6304.163603,
+    "period": "2026-10",
+    "prev_value": 7990.762338,
+    "prev_period": "2026-09",
+    "prev_diff": -1686.598735,
+    "prev_pct": -21.1068564382
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 6304.163603,
+     "cell": "4!R6C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 7990.762338,
+     "cell": "4!R6C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "الإمارات العربية المتحدة | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الدول، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by country, value in SAR million",
+   "id": "28173775-013",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "non-oil-trade_4",
+   "sheet": "4",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "مصر | واردات Import: 3,167 مليون ريال في أكتوبر 2026، مقابل 4,384 (-27.76%) في سبتمبر 2026.",
+   "text_en": "Egypt | واردات Import: 3,167 million SAR in October 2026, versus 4,384 (-27.76%) in September 2026.",
+   "numbers": {
+    "value": 3167.079543,
+    "period": "2026-10",
+    "prev_value": 4383.856598,
+    "prev_period": "2026-09",
+    "prev_diff": -1216.777055,
+    "prev_pct": -27.7558589748
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 3167.079543,
+     "cell": "4!R10C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 4383.856598,
+     "cell": "4!R9C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "مصر | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الدول، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by country, value in SAR million",
+   "id": "28173775-014",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "non-oil-trade_2",
+   "sheet": "2",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أسلحة وذخائر، أجزاؤها ولوازمها | واردات Import: 1,070 مليون ريال في أكتوبر 2026، مقابل 517.46 (+106.74%) في سبتمبر 2026.",
+   "text_en": "Arms and ammunition; parts and accessories thereof | واردات Import: 1,070 million SAR in October 2026, versus 517.46 (+106.74%) in September 2026.",
+   "numbers": {
+    "value": 1069.772237,
+    "period": "2026-10",
+    "prev_value": 517.457523,
+    "prev_period": "2026-09",
+    "prev_diff": 552.314714,
+    "prev_pct": 106.7362420007
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 1069.772237,
+     "cell": "2!R23C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 517.457523,
+     "cell": "2!R23C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "أسلحة وذخائر، أجزاؤها ولوازمها | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الأقسام، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by section, value in SAR million",
+   "id": "28173775-015",
+   "headline": true
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "بحري / ميناء الخفجي | واردات Import: 0 مليون ريال في أكتوبر 2026، مقابل 16.88 (-100%) في سبتمبر 2026.",
+   "text_en": "Al Khafji Sea Port | واردات Import: 0 million SAR in October 2026, versus 16.88 (-100%) in September 2026.",
+   "numbers": {
+    "value": 0.0,
+    "period": "2026-10",
+    "prev_value": 16.875,
+    "prev_period": "2026-09",
+    "prev_diff": -16.875,
+    "prev_pct": -100.0
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 0.0,
+     "cell": "5!R19C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 16.875,
+     "cell": "5!R19C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "بحري / ميناء الخفجي | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-016",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "non-oil-trade_5",
+   "sheet": "5",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "بحري / ميناء مدينة جازان الصناعية | صادرات غير بترولية non-oil exports: 6.42 مليون ريال في أكتوبر 2026، مقابل 164.8 (-96.11%) في سبتمبر 2026.",
+   "text_en": "Jazan Industrial City Sea Port | صادرات غير بترولية non-oil exports: 6.42 million SAR in October 2026, versus 164.8 (-96.11%) in September 2026.",
+   "numbers": {
+    "value": 6.418125,
+    "period": "2026-10",
+    "prev_value": 164.799173,
+    "prev_period": "2026-09",
+    "prev_diff": -158.381048,
+    "prev_pct": -96.1054871313
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 6.418125,
+     "cell": "5!R15C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 164.799173,
+     "cell": "5!R12C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "بحري / ميناء مدينة جازان الصناعية | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب وسيلة النقل والمنافذ الجمركية، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by mode of transport and customs port, value in SAR million",
+   "id": "28173775-017",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "non-oil-trade_2",
+   "sheet": "2",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أسلحة وذخائر، أجزاؤها ولوازمها | صادرات غير بترولية non-oil exports: 225.07 مليون ريال في أكتوبر 2026، مقابل 118.24 (+90.36%) في سبتمبر 2026.",
+   "text_en": "Arms and ammunition; parts and accessories thereof | صادرات غير بترولية non-oil exports: 225.07 million SAR in October 2026, versus 118.24 (+90.36%) in September 2026.",
+   "numbers": {
+    "value": 225.071039,
+    "period": "2026-10",
+    "prev_value": 118.237331,
+    "prev_period": "2026-09",
+    "prev_diff": 106.833708,
+    "prev_pct": 90.3553108789
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 225.071039,
+     "cell": "2!R23C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 118.237331,
+     "cell": "2!R23C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "أسلحة وذخائر، أجزاؤها ولوازمها | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الأقسام، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by section, value in SAR million",
+   "id": "28173775-018",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "non-oil-trade_2",
+   "sheet": "2",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أدوات وأجهزة للبصريات أو للتصوير أو للقياس أو للفحص أو للطب، الساعات والأدوات الموسيقية | صادرات غير بترولية non-oil exports: 99.19 مليون ريال في أكتوبر 2026، مقابل 311.69 (-68.18%) في سبتمبر 2026.",
+   "text_en": "Optical, photographic, measuring, checking, medical instruments and apparatus; clocks and musical Instruments | صادرات غير بترولية non-oil exports: 99.19 million SAR in October 2026, versus 311.69 (-68.18%) in September 2026.",
+   "numbers": {
+    "value": 99.193188,
+    "period": "2026-10",
+    "prev_value": 311.686739,
+    "prev_period": "2026-09",
+    "prev_diff": -212.493551,
+    "prev_pct": -68.1753582721
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 99.193188,
+     "cell": "2!R22C3"
+    },
+    {
+     "period": "2026-09",
+     "value": 311.686739,
+     "cell": "2!R22C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "أدوات وأجهزة للبصريات أو للتصوير أو للقياس أو للفحص أو للطب، الساعات والأدوات الموسيقية | صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الأقسام، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by section, value in SAR million",
+   "id": "28173775-019",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "non-oil-trade_2",
+   "sheet": "2",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "أدوات وأجهزة للبصريات أو للتصوير أو للقياس أو للفحص أو للطب، الساعات والأدوات الموسيقية | واردات Import: 1,808 مليون ريال في أكتوبر 2026، مقابل 2,258 (-19.94%) في سبتمبر 2026.",
+   "text_en": "Optical, photographic, measuring, checking, medical instruments and apparatus; clocks and musical Instruments | واردات Import: 1,808 million SAR in October 2026, versus 2,258 (-19.94%) in September 2026.",
+   "numbers": {
+    "value": 1807.707307,
+    "period": "2026-10",
+    "prev_value": 2257.820378,
+    "prev_period": "2026-09",
+    "prev_diff": -450.113071,
+    "prev_pct": -19.9357342766
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 1807.707307,
+     "cell": "2!R22C4"
+    },
+    {
+     "period": "2026-09",
+     "value": 2257.820378,
+     "cell": "2!R22C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "أدوات وأجهزة للبصريات أو للتصوير أو للقياس أو للفحص أو للطب، الساعات والأدوات الموسيقية | واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الأقسام، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by section, value in SAR million",
+   "id": "28173775-020",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_2",
+   "sheet": "2",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "صادرات غير بترولية non-oil exports: الأعلى بين 3 بنود هو عربات، طائرات، بواخر، ومعدات نقل مماثلة (2,987 مليون ريال) والأدنى هو دهون وزيوت وشموع حيوانية أو نباتية ومنتجاتها (147.72 مليون ريال) في أكتوبر 2026.",
+   "text_en": "صادرات غير بترولية non-oil exports: Highest of 3 items is Vehicles, aircraft, vessels and associated transport equipment (2,987 million SAR), lowest is Animal and vegetable fats, oils, waxes and their products (147.72 million SAR) in October 2026.",
+   "numbers": {
+    "items": 3,
+    "highest": 2986.583833,
+    "lowest": 147.719505,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 2986.583833,
+     "cell": "2!R21C3"
+    },
+    {
+     "period": "2026-10",
+     "value": 147.719505,
+     "cell": "2!R7C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الأقسام، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by section, value in SAR million",
+   "id": "28173775-021",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_2",
+   "sheet": "2",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "واردات Import: الأعلى بين 3 بنود هو عربات، طائرات، بواخر، ومعدات نقل مماثلة (8,800 مليون ريال) والأدنى هو دهون وزيوت وشموع حيوانية أو نباتية ومنتجاتها (701.12 مليون ريال) في أكتوبر 2026.",
+   "text_en": "واردات Import: Highest of 3 items is Vehicles, aircraft, vessels and associated transport equipment (8,800 million SAR), lowest is Animal and vegetable fats, oils, waxes and their products (701.12 million SAR) in October 2026.",
+   "numbers": {
+    "items": 3,
+    "highest": 8799.616388,
+    "lowest": 701.117309,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 8799.616388,
+     "cell": "2!R21C4"
+    },
+    {
+     "period": "2026-10",
+     "value": 701.117309,
+     "cell": "2!R7C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الأقسام، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by section, value in SAR million",
+   "id": "28173775-022",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_4",
+   "sheet": "4",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "صادرات غير بترولية non-oil exports: الأعلى بين 4 بنود هو فنزويلا (4.68 مليون ريال) والأدنى هو بابوا غينيا الجديدة (0.07 مليون ريال) في أكتوبر 2026.",
+   "text_en": "صادرات غير بترولية non-oil exports: Highest of 4 items is Venezuela (4.68 million SAR), lowest is Papua New Guinea (0.07 million SAR) in October 2026.",
+   "numbers": {
+    "items": 4,
+    "highest": 4.682779,
+    "lowest": 0.065967,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 4.682779,
+     "cell": "4!R123C3"
+    },
+    {
+     "period": "2026-10",
+     "value": 0.065967,
+     "cell": "4!R141C3"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "صادرات غير بترولية non-oil exports",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الدول، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by country, value in SAR million",
+   "id": "28173775-023",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "non-oil-trade_4",
+   "sheet": "4",
+   "period": "2026-10",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "واردات Import: الأعلى بين 4 بنود هو بابوا غينيا الجديدة (1.31 مليون ريال) والأدنى هو إقليم المحيط الهندي البريطاني (0 مليون ريال) في أكتوبر 2026.",
+   "text_en": "واردات Import: Highest of 4 items is Papua New Guinea (1.31 million SAR), lowest is British Indian Ocean Territory (0 million SAR) in October 2026.",
+   "numbers": {
+    "items": 4,
+    "highest": 1.311399,
+    "lowest": 6.2e-05,
+    "period": "2026-10"
+   },
+   "evidence": [
+    {
+     "period": "2026-10",
+     "value": 1.311399,
+     "cell": "4!R141C4"
+    },
+    {
+     "period": "2026-10",
+     "value": 6.2e-05,
+     "cell": "4!R135C4"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+   "series_label": "واردات Import",
+   "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) والواردات حسب الدول، القيمة بالمليون ريال Non-oil exports (include re-exports) and imports by country, value in SAR million",
+   "id": "28173775-024",
+   "headline": false
+  }
+ ],
+ "title_ar": "التجارة الدولية السلعية غير البترولية للمملكة العربية السعودية لشهر أكتوبر 2026",
+ "title_en": "Non oil International trade in goods for Saudi Arabia in October 2026",
+ "release_date": "2026-11-25",
+ "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
+ "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
+ "generated_at": "2026-11-25T16:05:50+00:00"
+}

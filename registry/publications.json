@@ -1,7 +1,240 @@
 {
- "generated_at": "2026-11-19T13:45:18+00:00",
- "count": 166,
+ "generated_at": "2026-11-25T16:05:50+00:00",
+ "count": 172,
  "publications": [
+  {
+   "publication_id": 28173775,
+   "slug": "non-oil-international-trade-in-goods-for-saudi-arabia-in-october-2026",
+   "title_ar": "التجارة الدولية السلعية غير البترولية للمملكة العربية السعودية لشهر أكتوبر 2026",
+   "title_en": "Non oil International trade in goods for Saudi Arabia in October 2026",
+   "domain_id": "economic",
+   "domain_ar": "الإحصاءات الاقتصادية",
+   "domain_en": "Economic Statistics",
+   "subjects_ar": [
+    "إحصاءات التجارة الدولية",
+    "التجارة الدولية للسلع"
+   ],
+   "frequency": "monthly",
+   "release_date": "2026-11-25",
+   "published_at_utc": "2026-11-25T05:47:00Z",
+   "reference_period": "2026-10",
+   "period_type": "month",
+   "files": [
+    {
+     "type": "xlsx",
+     "name": "ITR_non-oil_Oct2026.xlsx",
+     "size_bytes": 467230,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_non-oil_Oct2026.xlsx/c9455208-bb1b-5384-2109-497d5cca6f26",
+     "version": "version=1.0&t=1795537814835",
+     "sha256": "28fd23c019a2c1b38ae7f3e004d9705d84d6b951a100e05a143788a5d8a113de"
+    }
+   ],
+   "status": "processed_with_quarantine",
+   "processed_at": "2026-11-25T16:05:50+00:00",
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 5,
+    "held": 5,
+    "quarantined_new_layout": 2
+   },
+   "values_added": 412,
+   "values_revised": 0
+  },
+  {
+   "publication_id": 28173735,
+   "slug": "international-trade-in-goods-september-2026",
+   "title_ar": "التجارة الدولية في السلع سبتمبر 2026",
+   "title_en": "International Trade in Goods, September 2026",
+   "domain_id": "economic",
+   "domain_ar": "الإحصاءات الاقتصادية",
+   "domain_en": "Economic Statistics",
+   "subjects_ar": [
+    "إحصاءات التجارة الدولية",
+    "التجارة الدولية للسلع"
+   ],
+   "frequency": "monthly",
+   "release_date": "2026-11-25",
+   "published_at_utc": "2026-11-25T05:47:00Z",
+   "reference_period": "2026-09",
+   "period_type": "month",
+   "files": [
+    {
+     "type": "pdf",
+     "name": "ITR Sep2026 AR.pdf",
+     "size_bytes": 168883,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR+Sep2026+AR.pdf/bfa59371-2094-1806-3c41-186e6b280168",
+     "version": "version=1.0&t=1795537600395",
+     "sha256": null
+    },
+    {
+     "type": "xlsx",
+     "name": "ITR_Sep2026 (1).xlsx",
+     "size_bytes": 2254985,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
+     "version": "version=1.0&t=1795537636952",
+     "sha256": "1b438452bd6f9d61a09867c9571c7d94ce9dad0196000a4d276184f28132b441"
+    }
+   ],
+   "status": "processed_with_quarantine",
+   "processed_at": "2026-11-25T16:05:50+00:00",
+   "tables": {
+    "held": 15,
+    "pass": 17,
+    "quarantined_new_layout": 1
+   },
+   "values_added": 16158,
+   "values_revised": 327
+  },
+  {
+   "publication_id": 28143661,
+   "slug": "electrical-energy-statistics-2025",
+   "title_ar": "إحصاءات الطاقة الكهربائية 2025",
+   "title_en": "Electrical Energy Statistics 2025",
+   "domain_id": "environment_spatial",
+   "domain_ar": "الإحصاءات البيئية والمكانية",
+   "domain_en": "Environmental and Spatial Statistics",
+   "subjects_ar": [
+    "إحصاءات الطاقة",
+    "إحصاءات الطاقة الكهربائية",
+    "الإحصاءات المكانية والموارد"
+   ],
+   "frequency": "annual",
+   "release_date": "2026-11-24",
+   "published_at_utc": "2026-11-24T05:41:00Z",
+   "reference_period": "2025",
+   "period_type": "year",
+   "files": [
+    {
+     "type": "pdf",
+     "name": "Electrical Energy Statistics 2025 AR.pdf",
+     "size_bytes": 369629,
+     "url": "https://www.stats.gov.sa/documents/20117/2435281/Electrical+Energy+Statistics+2025+AR.pdf/1b88f8cc-8ad4-b3be-1788-4cf87c225636",
+     "version": "version=1.0&t=1795433571087",
+     "sha256": null
+    },
+    {
+     "type": "xlsx",
+     "name": "Electrical Energy Statistics 2025 AR.xlsx",
+     "size_bytes": 247241,
+     "url": "https://www.stats.gov.sa/documents/20117/2435281/Electrical+Energy+Statistics+2025+AR.xlsx/3349cb28-e61c-e967-13f3-9b19fefc4663",
+     "version": "version=1.0&t=1795433591425",
+     "sha256": null
+    }
+   ],
+   "status": "new"
+  },
+  {
+   "publication_id": 28114598,
+   "slug": "construction-cost-index-for-october-2026",
+   "title_ar": "الرقم القياسي لتكاليف البناء لشهر أكتوبر 2026",
+   "title_en": "Construction Cost Index for October 2026",
+   "domain_id": "economic",
+   "domain_ar": "الإحصاءات الاقتصادية",
+   "domain_en": "Economic Statistics",
+   "subjects_ar": [
+    "إحصاءات الأسعار",
+    "إحصاءات الرقم القياسي لتكاليف البناء"
+   ],
+   "frequency": "monthly",
+   "release_date": "2026-11-23",
+   "published_at_utc": "2026-11-23T05:36:00Z",
+   "reference_period": "2026-10",
+   "period_type": "month",
+   "files": [
+    {
+     "type": "pdf",
+     "name": "CCI Oct 2026-AR.pdf",
+     "size_bytes": 232964,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI+Oct+2026-AR.pdf/eee637eb-7a75-f349-5fd5-0055527c2237",
+     "version": "version=1.0&t=1795346833349",
+     "sha256": null
+    },
+    {
+     "type": "xlsx",
+     "name": "CCI-Oct 2026-AR-EN (1).xlsx",
+     "size_bytes": 214622,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI-Oct+2026-AR-EN+%281%29.xlsx/fd1be152-e71c-4eb5-d8a4-1337c0e876ab",
+     "version": "version=1.0&t=1795346874696",
+     "sha256": null
+    }
+   ],
+   "status": "new"
+  },
+  {
+   "publication_id": 28086788,
+   "slug": "agricultural-statistics-2025-1",
+   "title_ar": "الإحصاءات الزراعية 2025",
+   "title_en": "Agricultural Statistics 2025",
+   "domain_id": "environment_spatial",
+   "domain_ar": "الإحصاءات البيئية والمكانية",
+   "domain_en": "Environmental and Spatial Statistics",
+   "subjects_ar": [
+    "إحصاءات الزراعة",
+    "الإحصاءات الزراعية",
+    "الإحصاءات المكانية والموارد"
+   ],
+   "frequency": "annual",
+   "release_date": "2026-11-22",
+   "published_at_utc": "2026-11-22T05:49:00Z",
+   "reference_period": "2025",
+   "period_type": "year",
+   "files": [
+    {
+     "type": "pdf",
+     "name": "Agricultural Statistics 2025 - AR.pdf",
+     "size_bytes": 319742,
+     "url": "https://www.stats.gov.sa/documents/20117/2435281/Agricultural+Statistics+2025+-+AR.pdf/3bf385ab-71fc-cebe-0f7b-c5c0af9653b6",
+     "version": "version=1.0&t=1795296465274",
+     "sha256": null
+    },
+    {
+     "type": "xlsx",
+     "name": "Agricultural Statistics 2025 - AR (1).xlsx",
+     "size_bytes": 469518,
+     "url": "https://www.stats.gov.sa/documents/20117/2435281/Agricultural+Statistics+2025+-+AR+%281%29.xlsx/f7967f6f-13b6-4c54-3a8e-4e93a81ded7f",
+     "version": "version=1.0&t=1795296490724",
+     "sha256": null
+    }
+   ],
+   "status": "new"
+  },
+  {
+   "publication_id": 28086726,
+   "slug": "short-term-business-indicators-statistics-september-2026",
+   "title_ar": "إحصاءات مؤشرات الأعمال قصيرة المدى لشهر سبتمبر 2026",
+   "title_en": "Short-Term Business Indicators Statistics- September 2026",
+   "domain_id": "economic",
+   "domain_ar": "الإحصاءات الاقتصادية",
+   "domain_en": "Economic Statistics",
+   "subjects_ar": [
+    "إحصاءات الأعمال قصيرة المدى",
+    "إحصاءات مؤشر الاعمال قصيرة المدى"
+   ],
+   "frequency": "monthly",
+   "release_date": "2026-11-22",
+   "published_at_utc": "2026-11-22T05:47:00Z",
+   "reference_period": "2026-09",
+   "period_type": "month",
+   "files": [
+    {
+     "type": "pdf",
+     "name": "STS September 2026 - AR.pdf",
+     "size_bytes": 298587,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/STS+September+2026+-+AR.pdf/c1bf73c1-94c3-1786-7784-b27a59241338",
+     "version": "version=1.0&t=1795296151380",
+     "sha256": null
+    },
+    {
+     "type": "xlsx",
+     "name": "STS Sep 2026 (1).xlsx",
+     "size_bytes": 414186,
+     "url": "https://www.stats.gov.sa/documents/20117/2435267/STS+Sep+2026+%281%29.xlsx/f701c4e3-1aee-5840-e2c1-bca72f611d75",
+     "version": "version=1.0&t=1795296165555",
+     "sha256": null
+    }
+   ],
+   "status": "new"
+  },
   {
    "publication_id": 27913882,
    "slug": "research-and-development-statistics-2025",

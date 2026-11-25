@@ -1,0 +1,26 @@
+fingerprint: c908e4994075
+status: pending_review
+first_seen:
+  publication_id: 28173775
+  sheet: '6.1'
+  release_date: '2026-11-25'
+label_roles:
+- label_ar
+- label_en
+header_level_types:
+- en
+- ar
+- en
+value_columns: 22
+measure_types:
+- level
+units:
+- SAR
+scales:
+- 1000000.0
+period_sources:
+- publication
+title_sample: الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة،
+  القيمة بالمليون ريال Non-oil exports (include re
+validation_on_first_run: pass
+notes: []
