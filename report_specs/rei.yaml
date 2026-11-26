@@ -1,3 +1,5 @@
+schema: 2
+differs: prices
 id: rei
 name_ar: الرقم القياسي لأسعار العقارات
 group: prices
@@ -10,20 +12,50 @@ headline:
   change: {mode: published, series: {dataset: real-estate-price-index_2, name: "^الأرقام القياسية / التغيّر السنوي$", measure: rate, period_type: quarter}}
   press_release_change: 1.2     # GASTAT press release, Q3 2026 (+1.2% on the same quarter last year)
 level1:
+  kind: line
   title_ar: الرقم القياسي العام لأسعار العقارات
-  unit_ar: "نقطة (2023=100)"
+  unit_ar: "الرقم القياسي (2023 = 100)"
+  why_ar: "هل ترتفع أسعار العقارات؟ الخط هو الرقم القياسي العام ربع السنوي منذ 2021، فصعوده يعني ارتفاع أسعار الصفقات المسجلة."
+  explain: [repi_def, repi_unit]
   series:
     - {label_ar: الرقم القياسي العام, dataset: real-estate-price-index_2, name: "^الأرقام القياسية / المؤشر$", measure: index, period_type: quarter}
 level2:
-  title_ar: القطاعات
-  kind: line
-  unit_ar: "نقطة (2023=100)"
-  series:
-    - {label_ar: السكني, dataset: real-estate-price-index_2, name: "^السكني / جملة السكني / المؤشر$", measure: index, period_type: quarter}
-    - {label_ar: التجاري, dataset: real-estate-price-index_2, name: "^التجاري / جملة التجاري / المؤشر$", measure: index, period_type: quarter}
-    - {label_ar: الزراعي, dataset: real-estate-price-index_2, name: "^الزراعي / جملة الزراعي / المؤشر$", measure: index, period_type: quarter}
-level3:
-  - title_ar: التغير السنوي حسب المنطقة الإدارية، الربع الأخير
-    kind: bars
-    unit_ar: "%"
-    items: {dataset: real-estate-price-index_3, block: 0, name: "التغيّر السنوي$", exclude: "^(الأرقام القياسية|المتوسط السنوي)", measure: rate, period_type: quarter, min_points: 10}
+  - kind: line
+    title_ar: القطاعات وأنواع العقار
+    unit_ar: "الرقم القياسي (2023 = 100)"
+    why_ar: "أي قطاع أو نوع عقار ارتفع أكثر؟ اختر حتى ستة خطوط من القطاعات الثلاثة وأنواعها؛ الوزن هو حصة الصنف من قيمة الصفقات."
+    explain: [repi_weight]
+    pick:
+      dataset: real-estate-price-index_2
+      block: 0
+      measure: index
+      period_type: quarter
+      exclude: "^(الأرقام القياسية|المتوسط السنوي)"
+      min_points: 15
+      label_map:
+        - ["^السكني / جملة", "السكني"]
+        - ["^التجاري / جملة", "التجاري"]
+        - ["^الزراعي / جملة", "الزراعي"]
+        - ["^السكني / شقة", "شقة"]
+        - ["^السكني / فيلا", "فيلا"]
+        - ["^السكني / دور", "دور"]
+        - ["^السكني / قطعة أرض", "أرض سكنية"]
+        - ["^التجاري / عمارة", "عمارة"]
+        - ["^التجاري / قطعة أرض", "أرض تجارية"]
+        - ["^التجاري / معرض", "معرض / محل"]
+        - ["^الزراعي / أراض", "أرض زراعية"]
+      weights: {dataset: real-estate-price-index_1, alias: {"السكني": "سكني", "التجاري": "تجاري", "الزراعي": "زراعي", "أرض سكنية": "قطعة أرض سكنية", "أرض تجارية": "قطعة أرض تجارية"}}
+      default: [السكني, التجاري, الزراعي]
+  - kind: line
+    title_ar: الأسعار في المناطق الإدارية
+    unit_ar: "الرقم القياسي (2023 = 100)"
+    why_ar: "كيف تختلف حركة الأسعار بين المناطق؟ لكل منطقة رقم قياسي بسنة أساس واحدة، فالخطوط تقارن الارتفاع لا المستوى."
+    pick:
+      dataset: real-estate-price-index_3
+      block: 0
+      measure: index
+      period_type: quarter
+      exclude: "^(الأرقام القياسية|المتوسط السنوي)"
+      label_re: "^(.+?) / المؤشر$"
+      min_points: 15
+      default: [الرياض, مكة المكرمة, المنطقة الشرقية]

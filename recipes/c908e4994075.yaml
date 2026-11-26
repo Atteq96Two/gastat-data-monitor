@@ -1,5 +1,5 @@
 fingerprint: c908e4994075
-status: pending_review
+status: held
 first_seen:
   publication_id: 28173775
   sheet: '6.1'
@@ -23,4 +23,6 @@ period_sources:
 title_sample: الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة،
   القيمة بالمليون ريال Non-oil exports (include re
 validation_on_first_run: pass
-notes: []
+notes:
+- Held 2026-11-26 until the trade batch (round 2, batch 3) reviews these sheets.
+- Held 2026-11-26 until the trade batch (round 2, batch 3) reviews these sheets.

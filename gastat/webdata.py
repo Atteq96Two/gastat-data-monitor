@@ -11,7 +11,7 @@ import pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from gastat import insights as I                      # noqa: E402
+from gastat import insights as I, seriesio          # noqa: E402
 from gastat.grid import norm                          # noqa: E402
 from gastat.run import family                         # noqa: E402
 
@@ -117,7 +117,7 @@ def build_datasets(pubs):
                     csv_url=(RAW + f"data/{pub['domain_id']}/{ds}.csv") if f.with_suffix(".csv").exists() else None)
         cat.append(item)
         search[ds] = labels[:400]
-        jdump(WEB / "series" / f"{ds}.json", dict(dataset_id=ds, title_ar=item["title_ar"], sheet=raw["sheet"].iloc[0], periods=periods, series=series))
+        seriesio.write(WEB / "series" / f"{ds}.parquet", ds, item["title_ar"], raw["sheet"].iloc[0], periods, series)
     return cat, search
 
 
@@ -223,7 +223,7 @@ def main():
     jdump(WEB / "freshness.json", dict(generated_at=now, today=today().isoformat(), items=fresh))
     jdump(WEB / "latest.json", dict(generated_at=now, source=src, releases=build_latest(pubs)))
     jdump(WEB / "quality.json", build_quality(pubs, cat))
-    print("catalog data:", len(cat), "datasets,", len(fresh), "families,", round(sum(p.stat().st_size for p in (WEB / "series").rglob("*.json")) / 1e6, 1), "MB of series")
+    print("catalog data:", len(cat), "datasets,", len(fresh), "families,", round(sum(p.stat().st_size for p in (WEB / "series").rglob("*.parquet")) / 1e6, 1), "MB of series")
     from gastat import reportdata       # the website's compact chart files, built from report_specs/*.yaml
     reportdata.main()
 

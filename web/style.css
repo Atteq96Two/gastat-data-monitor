@@ -114,3 +114,44 @@ html[dir=rtl] .card::before{border-radius:3px 0 0 3px}
   .bar{grid-template-columns:minmax(80px,40%) 1fr 48px;font-size:12.5px}
   .top{padding-top:28px}
 }
+/* schema 2 */
+.why{margin:10px 0 0;color:var(--ink-2);font-size:14px;line-height:1.7}
+.note{margin:6px 0 0;color:var(--ink-3);font-size:12.5px}
+.explain{margin-top:8px;border:1px solid var(--line);border-radius:10px;padding:6px 12px;background:var(--surface-2);font-size:13px}
+.explain summary{cursor:pointer;color:var(--ink);font-weight:500}
+.explain p{margin:6px 0;color:var(--ink-2)}
+.explain .q{color:var(--ink-3);font-size:12.5px}
+.explain .s{margin:2px 0 4px;font-size:12.5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 6px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:3px 10px;font:inherit;font-size:12.5px;cursor:pointer}
+.chip i{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ink-3);flex:none}
+.chip[aria-pressed=true]{color:var(--ink);border-color:var(--ink-3);background:var(--surface-2)}
+.chip[aria-pressed=true] i{border-color:transparent}
+.chip small,.bar .l small{color:var(--ink-3);font-size:11.5px;margin-inline-start:4px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 10px}
+.tab{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:10px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
+.tab[aria-selected=true]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.pick{font:inherit;font-size:14px;margin:8px 0;padding:6px 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);max-width:100%}
+.tblwrap{overflow-x:auto;margin-top:8px}
+.tbl{border-collapse:collapse;width:100%;font-size:13px}
+.tbl th{font-weight:500;color:var(--ink-3);text-align:end;padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+.tbl td{padding:6px 8px;text-align:end;border-bottom:1px solid var(--grid);white-space:nowrap}
+.tbl th.l,.tbl td.l{text-align:start;white-space:normal;min-width:180px}
+.tbl td.l small{display:block;color:var(--ink-3);font-size:11.5px}
+.tbl tr.lv1 td{font-weight:600;background:var(--surface-2)}
+.chg{display:inline-flex;align-items:center;gap:3px;color:var(--ink-2)}
+.spark{color:var(--ink-3)}
+.ud{margin-top:8px}
+.udr{display:grid;grid-template-columns:minmax(120px,1.2fr) 2fr minmax(120px,1fr);gap:10px;align-items:center;padding:6px 0;border-bottom:1px solid var(--grid);font-size:13px}
+.udr.all{font-weight:600}
+.udr .t{display:flex;height:12px;border-radius:6px;overflow:hidden;background:var(--grid)}
+.udr .t i{display:block;height:100%}.udr .u{background:var(--ink)}.udr .f{background:var(--ink-3)}.udr .d{background:var(--s1)}
+.udr .v{color:var(--ink-2);font-size:12.5px}
+@media (max-width:560px){.udr{grid-template-columns:1fr;gap:4px}}
+.differs{margin-top:28px;padding-top:20px;border-top:1px solid var(--line)}
+.differs h3{margin:0 0 12px;font-weight:500;font-size:16px}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.ditem{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--surface);font-size:13.5px}
+.ditem.self{border-color:var(--ink-3)}
+.ditem p{margin:6px 0;color:var(--ink-2)}.ditem a{font-size:12px;color:var(--ink-3)}
+.udlg{display:flex;gap:14px;font-size:12.5px;color:var(--ink-2);margin:4px 0 6px}.udlg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-inline-end:5px;vertical-align:-1px}.udlg .u{background:var(--ink)}.udlg .f{background:var(--ink-3)}.udlg .d{background:var(--s1)}

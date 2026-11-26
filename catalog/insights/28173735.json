@@ -1,7 +1,7 @@
 {
  "publication_id": "28173735",
  "datasets": 15,
- "insight_count": 94,
+ "insight_count": 98,
  "headline_ids": [
   "28173735-001",
   "28173735-002",
@@ -3662,6 +3662,154 @@
    "headline": false
   },
   {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_14-2",
+   "sheet": "14.2",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "معدات النقل وأجزاؤها: 99.15% في سبتمبر 2026، مقابل 111.6% (-12.45 نقطة مئوية) في أغسطس 2026.",
+   "text_en": "April | Transport Equipment and Parts Thereof: 99.15% in September 2026, versus 111.6% (-12.45 percentage points) in August 2026.",
+   "numbers": {
+    "value": 99.15,
+    "period": "2026-09",
+    "prev_value": 111.6,
+    "prev_period": "2026-08",
+    "prev_diff": -12.45
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 99.15,
+     "cell": "14.2!R28C20"
+    },
+    {
+     "period": "2026-08",
+     "value": 111.6,
+     "cell": "14.2!R36C20"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
+   "series_label": "معدات النقل وأجزاؤها",
+   "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الإجمالي حسب الأقسام الرئيسية، 2023=100 Time series of gross terms of trade ratio by main sections, 2023=100",
+   "id": "28173735-079",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_14-2",
+   "sheet": "14.2",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الأحذية وأغطية الرأس، مظلات، عصي، سياط، زهور صناعية، مصنوعات من الشعر البشري: 103.1% في سبتمبر 2026، مقابل 92.66% (+10.44 نقطة مئوية) في أغسطس 2026.",
+   "text_en": "April | Footwear, Headgear, Umbrellas, Whips, Artificial Flowers, Articles of Human Hair: 103.1% in September 2026, versus 92.66% (+10.44 percentage points) in August 2026.",
+   "numbers": {
+    "value": 103.1,
+    "period": "2026-09",
+    "prev_value": 92.66,
+    "prev_period": "2026-08",
+    "prev_diff": 10.44
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 103.1,
+     "cell": "14.2!R28C15"
+    },
+    {
+     "period": "2026-08",
+     "value": 92.66,
+     "cell": "14.2!R36C15"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
+   "series_label": "الأحذية وأغطية الرأس، مظلات، عصي، سياط، زهور صناعية، مصنوعات من الشعر البشري",
+   "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الإجمالي حسب الأقسام الرئيسية، 2023=100 Time series of gross terms of trade ratio by main sections, 2023=100",
+   "id": "28173735-080",
+   "headline": false
+  },
+  {
+   "kind": "mover_up",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_14-1",
+   "sheet": "14.1",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "معدات النقل وأجزاؤها: 99.83% في سبتمبر 2026، مقابل 91.73% (+8.1 نقطة مئوية) في أغسطس 2026.",
+   "text_en": "April | Transport Equipment and Parts Thereof: 99.83% in September 2026, versus 91.73% (+8.1 percentage points) in August 2026.",
+   "numbers": {
+    "value": 99.83,
+    "period": "2026-09",
+    "prev_value": 91.73,
+    "prev_period": "2026-08",
+    "prev_diff": 8.1
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 99.83,
+     "cell": "14.1!R28C20"
+    },
+    {
+     "period": "2026-08",
+     "value": 91.73,
+     "cell": "14.1!R36C20"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
+   "series_label": "معدات النقل وأجزاؤها",
+   "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الصافي حسب الأقسام الرئيسية، 2023=100 Time series of net trade exchange ratio by main sections, 2023=100",
+   "id": "28173735-081",
+   "headline": false
+  },
+  {
+   "kind": "mover_down",
+   "flag": "",
+   "dataset_id": "international-trade-in-goods_14-1",
+   "sheet": "14.1",
+   "period": "2026-09",
+   "measure_type": "rate",
+   "unit": "index_base_2023",
+   "unit_ok": true,
+   "text_ar": "الخشب ومصنوعاته، الفح الخشبي، الفلين: 87.46% في سبتمبر 2026، مقابل 88.35% (-0.89 نقطة مئوية) في أغسطس 2026.",
+   "text_en": "June | Wood and Articles of Wood Charcoal; Cork and Articles of Cork.: 87.46% in September 2026, versus 88.35% (-0.89 percentage points) in August 2026.",
+   "numbers": {
+    "value": 87.46,
+    "period": "2026-09",
+    "prev_value": 88.35,
+    "prev_period": "2026-08",
+    "prev_diff": -0.89
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 87.46,
+     "cell": "14.1!R64C12"
+    },
+    {
+     "period": "2026-08",
+     "value": 88.35,
+     "cell": "14.1!R36C12"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
+   "series_label": "الخشب ومصنوعاته، الفح الخشبي، الفلين",
+   "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الصافي حسب الأقسام الرئيسية، 2023=100 Time series of net trade exchange ratio by main sections, 2023=100",
+   "id": "28173735-082",
+   "headline": false
+  },
+  {
    "kind": "mover_up",
    "flag": "",
    "dataset_id": "international-trade-in-goods_6-1",
@@ -3696,7 +3844,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "إيرلندا | الإجمالي",
    "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in September 2026*, value in SAR million الدولة Country القسم",
-   "id": "28173735-079",
+   "id": "28173735-083",
    "headline": false
   },
   {
@@ -3734,7 +3882,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "الجزائر | الإجمالي",
    "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Imports by country and main section in September 2026*, value in SAR million الدولة Country القسم Section",
-   "id": "28173735-080",
+   "id": "28173735-084",
    "headline": false
   },
   {
@@ -3772,7 +3920,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "الهند | لدائن ومطاط ومصنوعاتها",
    "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in September 2026*, value in SAR million الدولة Country القسم",
-   "id": "28173735-081",
+   "id": "28173735-085",
    "headline": false
   },
   {
@@ -3810,7 +3958,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "الصين | مواد نسجية ومصنوعاتها",
    "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Imports by country and main section in September 2026*, value in SAR million الدولة Country القسم Section",
-   "id": "28173735-082",
+   "id": "28173735-086",
    "headline": false
   },
   {
@@ -3848,7 +3996,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "ناميبيا | الإجمالي",
    "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in September 2026*, value in SAR million الدولة Country القسم",
-   "id": "28173735-083",
+   "id": "28173735-087",
    "headline": false
   },
   {
@@ -3886,7 +4034,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "أوزبكستان | الإجمالي",
    "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Imports by country and main section in September 2026*, value in SAR million الدولة Country القسم Section",
-   "id": "28173735-084",
+   "id": "28173735-088",
    "headline": false
   },
   {
@@ -3924,7 +4072,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "ماليزيا | لدائن ومطاط ومصنوعاتها",
    "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in September 2026*, value in SAR million الدولة Country القسم",
-   "id": "28173735-085",
+   "id": "28173735-089",
    "headline": false
   },
   {
@@ -3962,7 +4110,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "اليابان | مواد نسجية ومصنوعاتها",
    "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Imports by country and main section in September 2026*, value in SAR million الدولة Country القسم Section",
-   "id": "28173735-086",
+   "id": "28173735-090",
    "headline": false
   },
   {
@@ -3997,7 +4145,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "",
    "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الصافي حسب الأقسام الرئيسية، 2023=100 Time series of net trade exchange ratio by main sections, 2023=100",
-   "id": "28173735-087",
+   "id": "28173735-091",
    "headline": false
   },
   {
@@ -4032,7 +4180,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "",
    "table_title": "السلاسل الزمنية لمعدل التبادل التجاري الإجمالي حسب الأقسام الرئيسية، 2023=100 Time series of gross terms of trade ratio by main sections, 2023=100",
-   "id": "28173735-088",
+   "id": "28173735-092",
    "headline": false
   },
   {
@@ -4067,7 +4215,7 @@
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "الإجمالي",
    "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in September 2026*, value in SAR million الدولة Country القسم",
-   "id": "28173735-089",
+   "id": "28173735-093",
    "headline": false
   },
   {
@@ -4078,8 +4226,8 @@
    "measure_type": "level",
    "unit": "SAR",
    "unit_ok": true,
-   "text_ar": "الحيوانات ومنتجاتها: الأعلى بين 11 بنداً هو النيجر (0.15 مليون ريال) والأدنى هو أوروغواي (0 مليون ريال) في سبتمبر 2026.",
-   "text_en": "Animals and their products: Highest of 11 items is Niger (0.15 million SAR), lowest is Uruguay (0 million SAR) in September 2026.",
+   "text_ar": "الحيوانات ومنتجاتها: الأعلى بين 11 بنداً هو النيجر (0.15 مليون ريال) والأدنى هو طاجاكستان (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "Animals and their products: Highest of 11 items is Niger (0.15 million SAR), lowest is Tajikistan (0 million SAR) in September 2026.",
    "numbers": {
     "items": 11,
     "highest": 0.148883,
@@ -4095,14 +4243,14 @@
     {
      "period": "2026-09",
      "value": 0.0,
-     "cell": "6.1!R119C4"
+     "cell": "6.1!R135C4"
     }
    ],
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "الحيوانات ومنتجاتها",
    "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in September 2026*, value in SAR million الدولة Country القسم",
-   "id": "28173735-090",
+   "id": "28173735-094",
    "headline": false
   },
   {
@@ -4113,8 +4261,8 @@
    "measure_type": "level",
    "unit": "SAR",
    "unit_ok": true,
-   "text_ar": "منتجات نباتية: الأعلى بين 11 بنداً هو طاجاكستان (0.73 مليون ريال) والأدنى هو أوروغواي (0 مليون ريال) في سبتمبر 2026.",
-   "text_en": "Plant Products: Highest of 11 items is Tajikistan (0.73 million SAR), lowest is Uruguay (0 million SAR) in September 2026.",
+   "text_ar": "منتجات نباتية: الأعلى بين 11 بنداً هو طاجاكستان (0.73 مليون ريال) والأدنى هو جزيرة ريونيون (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "Plant Products: Highest of 11 items is Tajikistan (0.73 million SAR), lowest is Reunion (0 million SAR) in September 2026.",
    "numbers": {
     "items": 11,
     "highest": 0.728676,
@@ -4130,14 +4278,14 @@
     {
      "period": "2026-09",
      "value": 0.0,
-     "cell": "6.1!R119C5"
+     "cell": "6.1!R116C5"
     }
    ],
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "منتجات نباتية",
    "table_title": "الصادرات غير البترولية (تشمل إعادة التصدير) حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Non-oil exports (include re-exports) by country and main section in September 2026*, value in SAR million الدولة Country القسم",
-   "id": "28173735-091",
+   "id": "28173735-095",
    "headline": false
   },
   {
@@ -4148,43 +4296,8 @@
    "measure_type": "level",
    "unit": "SAR",
    "unit_ok": true,
-   "text_ar": "الإجمالي: الأعلى بين 7 بنود هو ملاوي (2.69 مليون ريال) والأدنى هو موناكو (0.54 مليون ريال) في سبتمبر 2026.",
-   "text_en": "القسم Section / Total: Highest of 7 items is Malawi (2.69 million SAR), lowest is Monaco (0.54 million SAR) in September 2026.",
-   "numbers": {
-    "items": 7,
-    "highest": 2.685427,
-    "lowest": 0.536541,
-    "period": "2026-09"
-   },
-   "evidence": [
-    {
-     "period": "2026-09",
-     "value": 2.685427,
-     "cell": "6.2!R111C3"
-    },
-    {
-     "period": "2026-09",
-     "value": 0.536541,
-     "cell": "6.2!R131C3"
-    }
-   ],
-   "is_total": false,
-   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
-   "series_label": "الإجمالي",
-   "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Imports by country and main section in September 2026*, value in SAR million الدولة Country القسم Section",
-   "id": "28173735-092",
-   "headline": false
-  },
-  {
-   "kind": "cross_section",
-   "dataset_id": "international-trade-in-goods_6-2",
-   "sheet": "6.2",
-   "period": "2026-09",
-   "measure_type": "level",
-   "unit": "SAR",
-   "unit_ok": true,
-   "text_ar": "دهون وزيوت وشموع حيوانية أو نباتية ومنتجاتها: الأعلى بين 7 بنود هو بوليفيا (0.24 مليون ريال) والأدنى هو أيسلندا (0 مليون ريال) في سبتمبر 2026.",
-   "text_en": "Animal and vegetable fats, oils, waxex and their products: Highest of 7 items is Bolivia (0.24 million SAR), lowest is Iceland (0 million SAR) in September 2026.",
+   "text_ar": "دهون وزيوت وشموع حيوانية أو نباتية ومنتجاتها: الأعلى بين 7 بنود هو بوليفيا (0.24 مليون ريال) والأدنى هو سانت هيلانة (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "Animal and vegetable fats, oils, waxex and their products: Highest of 7 items is Bolivia (0.24 million SAR), lowest is Saint Helena (0 million SAR) in September 2026.",
    "numbers": {
     "items": 7,
     "highest": 0.243612,
@@ -4200,14 +4313,14 @@
     {
      "period": "2026-09",
      "value": 0.0,
-     "cell": "6.2!R123C6"
+     "cell": "6.2!R126C6"
     }
    ],
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
    "series_label": "دهون وزيوت وشموع حيوانية أو نباتية ومنتجاتها",
    "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Imports by country and main section in September 2026*, value in SAR million الدولة Country القسم Section",
-   "id": "28173735-093",
+   "id": "28173735-096",
    "headline": false
   },
   {
@@ -4218,31 +4331,66 @@
    "measure_type": "level",
    "unit": "SAR",
    "unit_ok": true,
-   "text_ar": "منتجات نباتية: الأعلى بين 7 بنود هو ملاوي (2.69 مليون ريال) والأدنى هو أيسلندا (0 مليون ريال) في سبتمبر 2026.",
-   "text_en": "Plant Products: Highest of 7 items is Malawi (2.69 million SAR), lowest is Iceland (0 million SAR) in September 2026.",
+   "text_ar": "منتجات الصناعات الكيماوية: الأعلى بين 7 بنود هو موناكو (0.02 مليون ريال) والأدنى هو سانت هيلانة (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "Products of the chemical industries: Highest of 7 items is Monaco (0.02 million SAR), lowest is Saint Helena (0 million SAR) in September 2026.",
    "numbers": {
     "items": 7,
-    "highest": 2.685263,
+    "highest": 0.018912,
     "lowest": 0.0,
     "period": "2026-09"
    },
    "evidence": [
     {
      "period": "2026-09",
-     "value": 2.685263,
-     "cell": "6.2!R111C5"
+     "value": 0.018912,
+     "cell": "6.2!R131C9"
     },
     {
      "period": "2026-09",
      "value": 0.0,
-     "cell": "6.2!R123C5"
+     "cell": "6.2!R126C9"
     }
    ],
    "is_total": false,
    "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
-   "series_label": "منتجات نباتية",
+   "series_label": "منتجات الصناعات الكيماوية",
    "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Imports by country and main section in September 2026*, value in SAR million الدولة Country القسم Section",
-   "id": "28173735-094",
+   "id": "28173735-097",
+   "headline": false
+  },
+  {
+   "kind": "cross_section",
+   "dataset_id": "international-trade-in-goods_6-2",
+   "sheet": "6.2",
+   "period": "2026-09",
+   "measure_type": "level",
+   "unit": "SAR",
+   "unit_ok": true,
+   "text_ar": "منتجات صناعة الأغذية، مشروبات وتبغ: الأعلى بين 7 بنود هو بوليفيا (0.01 مليون ريال) والأدنى هو سانت هيلانة (0 مليون ريال) في سبتمبر 2026.",
+   "text_en": "Prepared foodstuffs, beverages and tobacco: Highest of 7 items is Bolivia (0.01 million SAR), lowest is Saint Helena (0 million SAR) in September 2026.",
+   "numbers": {
+    "items": 7,
+    "highest": 0.008128,
+    "lowest": 0.0,
+    "period": "2026-09"
+   },
+   "evidence": [
+    {
+     "period": "2026-09",
+     "value": 0.008128,
+     "cell": "6.2!R119C7"
+    },
+    {
+     "period": "2026-09",
+     "value": 0.0,
+     "cell": "6.2!R126C7"
+    }
+   ],
+   "is_total": false,
+   "source_file_url": "https://www.stats.gov.sa/documents/20117/2435267/ITR_Sep2026+%281%29.xlsx/07c720b6-eeac-d5d8-0ade-398251014e53",
+   "series_label": "منتجات صناعة الأغذية، مشروبات وتبغ",
+   "table_title": "الواردات حسب الدول والأقسام الرئيسة في شهر سبتمبر 2026*م، القيمة بالمليون ريال Imports by country and main section in September 2026*, value in SAR million الدولة Country القسم Section",
+   "id": "28173735-098",
    "headline": false
   }
  ],
@@ -4251,5 +4399,5 @@
  "release_date": "2026-11-25",
  "source": "الهيئة العامة للإحصاء / General Authority for Statistics",
  "method": "Computed from stored data with fixed templates. No language model. Each insight lists the source cells.",
- "generated_at": "2026-11-25T16:05:50+00:00"
+ "generated_at": "2026-11-26T18:01:01+00:00"
 }

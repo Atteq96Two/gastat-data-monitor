@@ -198,6 +198,8 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
         texts = [t for t in texts if t not in spilled_titles]
         codes = [t for t in texts if script(t) == "none" and re.fullmatch(r"[\d.\-]+", t)]
         texts = [t for t in texts if t not in codes]
+        base_toks = [t for t in texts if re.fullmatch(r"\s*(\d{4}\s*=\s*100|100\s*=\s*\d{4})\s*", t)]
+        texts = [t for t in texts if t not in base_toks]        # the index base year ("2023=100") is a unit note, never part of a column's name
         row_unit_txt = ""
         if unit_row is not None:
             row_unit_txt = clean(g.cells[unit_row][c]) if kind(g.cells[unit_row][c]) == "text" else ""
@@ -247,7 +249,7 @@ def extract_block(g, infos, c0, b, d, pub, sheet, block_idx, recipe):
                 p, pt, psrc = ref_p, ref_pt, "sheet_title"
             else:
                 p, pt, psrc = pub["reference_period"], pub["period_type"], "publication"
-        u, sc = unit_scale(title_txt, " ".join(texts))
+        u, sc = unit_scale(title_txt, " ".join(texts + base_toks))
         if row_unit_txt:
             u2, sc2 = parse_unit_text(row_unit_txt)
             u, sc = u2, (sc2 if sc2 != 1 else sc)

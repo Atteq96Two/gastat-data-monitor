@@ -114,12 +114,9 @@ def source_of(s, ds):
     return dict(file=s["file"], sheet=sheet, release=s["release"])
 
 
-def build_report(spec, fresh):
+def fill_headline(spec, rep):
+    """Headline value, change and its press-release assertions; returns the headline series."""
     rid = spec["id"]
-    rep = dict(id=rid, name_ar=spec["name_ar"], group=spec["group"], frequency=spec["frequency"], description_ar=spec["description_ar"], source_ar=SOURCE_AR)
-    check = []
-    if rid == "avgprices":
-        return build_avg(spec, rep, fresh)
     h = spec["headline"]
     if "derived_yoy_of" in h:
         base = to_series(select(h["derived_yoy_of"]))
@@ -156,6 +153,18 @@ def build_report(spec, fresh):
     rep["period"] = last_p
     rep["release_date"] = hs["release"]
     rep["source"] = source_of(hs, ds_main)
+    return hs
+
+
+def build_report(spec, fresh):
+    rid = spec["id"]
+    rep = dict(id=rid, name_ar=spec["name_ar"], group=spec["group"], frequency=spec["frequency"], description_ar=spec["description_ar"], source_ar=SOURCE_AR)
+    if spec.get("schema") == 2:
+        from gastat import reportv2
+        return reportv2.build(spec, rep, fresh)
+    if rid == "avgprices":
+        return build_avg(spec, rep, fresh)
+    fill_headline(spec, rep)
 
     def chart(title, kind, unit, series, ds):
         return dict(title=title, kind=kind, unit=unit, scale=1, period=series[0]["points"][-1][0], series=series, source=source_of(series[0], ds))
@@ -275,7 +284,7 @@ def main():
     out_dir = WEB / "reports"
     out_dir.mkdir(parents=True, exist_ok=True)
     cards = []
-    for f in sorted(SPECS.glob("*.yaml")):
+    for f in sorted(SPECS.glob("[!_]*.yaml")):
         spec = yaml.safe_load(f.read_text(encoding="utf-8"))
         core = next(c for c in scope.CORE if c["id"] == spec["id"])
         fr = fresh_all.get(core["prefix"], {})

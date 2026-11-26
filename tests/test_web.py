@@ -16,14 +16,31 @@ for rid in ids:
     r = json.loads((W / "reports" / f"{rid}.json").read_text(encoding="utf-8"))
     check(1 <= r["levels"] <= 3, f"{rid}: at most 3 levels")
     check(len(r["description_ar"].split()) <= 10, f"{rid}: description of 10 words or fewer")
-    blocks = [r["level1"]] + ([r["level2"]] if r.get("level2") else []) + r.get("level3", [])
+    v2 = r.get("schema") == 2
+    l2 = r.get("level2") or []
+    l2 = l2 if isinstance(l2, list) else [l2]
+    blocks = [r["level1"]] + l2 + r.get("level3", [])
+    if v2:
+        check(len(l2) <= 3, f"{rid}: level 2 has at most 3 charts")
+        check(all(b.get("tab") for b in r.get("level3", [])), f"{rid}: every level-3 chart is a tab")
     for b in blocks:
         check(b.get("source", {}).get("file", "").startswith("http"), f"{rid}: '{b['title']}' has a source link")
-        check(bool(b.get("unit")) and b.get("period"), f"{rid}: '{b['title']}' shows unit and period")
+        check((bool(b.get("unit")) or b["kind"] == "table") and b.get("period"), f"{rid}: '{b['title']}' shows unit and period")
+        if v2:
+            check(bool(b.get("why")), f"{rid}: '{b['title']}' has its why-this-chart caption")
+            check(all(x.get("url", "").startswith("http") and x.get("quote") for x in b.get("explain", [])), f"{rid}: '{b['title']}' explanations quote and link GASTAT")
         if b["kind"] in ("line", "small_multiples"):
-            check(len(b["series"]) <= 6, f"{rid}: '{b['title']}' has at most 6 series")
+            shown = len(b.get("default") or b["series"]) if b.get("selectable") else len(b["series"])
+            check(shown <= 6, f"{rid}: '{b['title']}' shows at most 6 series")
             for s in b["series"]:
-                check(len(s["points"]) >= 8 or b["kind"] == "small_multiples", f"{rid}: '{s['label']}' has 8 or more periods")
+                check(len(s["points"]) >= 8 or b["kind"] == "small_multiples" or (v2 and len(s["points"]) >= 3), f"{rid}: '{s['label']}' has enough periods")
+                kinds = {("Q" if "Q" in p else "M" if len(p) == 7 else "Y") for p, _ in s["points"]}
+                check(len(kinds) == 1, f"{rid}: '{s['label']}' does not mix annual and monthly periods")
+                check("=100" not in s["label"] and "=" not in s["label"][:6], f"{rid}: '{s['label']}' has no base-year text in its name")
+        if b["kind"] == "bars":
+            check(all("=100" not in x["label"] for x in b["bars"]), f"{rid}: no base-year text in bar labels")
+        if b["kind"] == "bars_filter":
+            check(all("=100" not in x["label"] for g in b["groups"].values() for x in g), f"{rid}: no base-year text in bar labels")
     pr = r["headline"].get("press_release_value")
     if pr is not None:
         check(abs(round(r["headline"]["value"], 1) - pr) <= 0.051, f"{rid}: headline equals the GASTAT press release")

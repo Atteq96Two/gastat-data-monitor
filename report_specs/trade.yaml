@@ -8,7 +8,7 @@ headline:
   unit_ar: "مليار ريال"
   series: {dataset: international-trade-in-goods_1-1, block: 0, name: "^الصادرات السلعية$", measure: level, period_type: month, div: 1000}
   change: {mode: published, series: {dataset: international-trade-in-goods_1-1, block: 0, name: "^الصادرات السلعية \\| سنوي$", measure: rate, period_type: month}}
-  press_release_change: -11.5   # GASTAT press release, August 2026 (annual change in goods exports)
+  press_release_change: 14.2    # GASTAT press release, September 2026 (annual change in goods exports; August was -11.5)
 level1:
   title_ar: الصادرات السلعية الشهرية
   unit_ar: "مليار ريال"

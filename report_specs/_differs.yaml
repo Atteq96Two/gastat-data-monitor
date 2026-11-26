@@ -1,0 +1,8 @@
+# "How this report differs from the other three": each entry is built from the sourced glossary (_glossary.yaml), never free text.
+prices:
+  title_ar: كيف يختلف هذا التقرير عن التقارير الثلاثة الأخرى؟
+  items:
+    - {id: avgprices, name_ar: متوسطات الأسعار, gloss: [avg_def]}
+    - {id: cpi, name_ar: الرقم القياسي لأسعار المستهلك, gloss: [cpi_def, cpi_weight]}
+    - {id: ppi, name_ar: الرقم القياسي لأسعار المنتجين, gloss: [ppi_def, ppi_exfactory, ppi_early]}
+    - {id: rei, name_ar: الرقم القياسي لأسعار العقارات, gloss: [repi_def, repi_unit]}

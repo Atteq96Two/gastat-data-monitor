@@ -114,6 +114,7 @@ const route = () => { const id = location.hash.slice(1); if (id && HOME.groups.s
 addEventListener('hashchange', () => { if (!location.hash) closeReport(); else route(); });
 
 function render(rep, body) {
+  if (rep.schema === 2) return render2(rep, body);
   const h = rep.headline;
   body.innerHTML = '';
   const head = el('div', 'rep-head');
@@ -132,6 +133,134 @@ function render(rep, body) {
     });
     body.append(more, box);
   }
+}
+
+/* ------------------------------------------------------------ schema 2: one chart, up to three, then tabs; caption, explanation, weights */
+function render2(rep, body) {
+  const h = rep.headline;
+  body.innerHTML = '';
+  const head = el('div', 'rep-head');
+  head.innerHTML = `<h2 id="sheet-title">${rep.name_ar}</h2>
+    <div class="hl"><span class="val">${ltr(fmt(h.value, decimalsFor(h.unit)))}<small class="lab"> ${cardUnit(h.unit)}</small></span><span class="lab">${h.label} · ${plabel(h.period)}</span>${deltaHTML(h)}</div>`;
+  body.append(head);
+  body.append(chart2(rep.level1));
+  for (const c of rep.level2 || []) body.append(chart2(c));
+  if (rep.level3 && rep.level3.length) {
+    const more = el('div', 'more'); const btn = el('button', null, 'تفاصيل أكثر'); btn.setAttribute('aria-expanded', 'false'); more.append(btn);
+    const box = el('div', 'l3'); box.hidden = true;
+    btn.addEventListener('click', () => {
+      const open = box.hidden; box.hidden = !open; btn.textContent = open ? 'إخفاء التفاصيل' : 'تفاصيل أكثر'; btn.setAttribute('aria-expanded', String(open));
+      if (open && !box.childElementCount) tabs(box, rep.level3);
+      else if (open) box.querySelectorAll('.plot').forEach(p => p._redraw && p._redraw());
+    });
+    body.append(more, box);
+  }
+  if (rep.differs) body.append(differs(rep.differs));
+}
+function tabs(box, charts) {
+  const bar = el('div', 'tabs'); bar.setAttribute('role', 'tablist');
+  const panel = el('div', 'panel'); panel.setAttribute('role', 'tabpanel');
+  const built = new Map();
+  const show = i => {
+    [...bar.children].forEach((b, j) => { b.setAttribute('aria-selected', String(i === j)); b.tabIndex = i === j ? 0 : -1; });
+    if (!built.has(i)) built.set(i, chart2(charts[i]));
+    panel.replaceChildren(built.get(i));
+    panel.querySelectorAll('.plot').forEach(p => p._redraw && p._redraw());
+  };
+  charts.forEach((c, i) => { const b = el('button', 'tab', c.tab || c.title); b.setAttribute('role', 'tab'); b.addEventListener('click', () => show(i)); bar.append(b); });
+  box.append(bar, panel); show(0);
+}
+function chart2(c) {
+  const d = el('div', 'chart');
+  d.append(el('h4', null, c.title));
+  const meta = c.kind === 'table' || c.kind === 'updown' || c.kind === 'bars' || c.kind === 'bars_filter' ? 'الفترة: ' : 'حتى ';
+  d.append(el('div', 'meta', `${c.unit ? 'الوحدة: ' + c.unit + ' · ' : ''}${meta}${plabel(c.period)}`));
+  if (c.kind === 'line') c.selectable ? pickLine(d, c) : fixedLine(d, c);
+  else if (c.kind === 'bars') bars(d, c);
+  else if (c.kind === 'bars_filter') barsFilter(d, c);
+  else if (c.kind === 'table') table(d, c);
+  else if (c.kind === 'updown') updown(d, c);
+  d.append(el('p', 'why', c.why));
+  if (c.note) d.append(el('p', 'note', c.note));
+  if (c.computed) d.append(el('p', 'note', 'الأرقام هنا محسوبة من نسب الهيئة المنشورة، وليست رقماً منشوراً بذاته.'));
+  for (const x of c.explain || []) {
+    const e = el('details', 'explain');
+    e.innerHTML = `<summary>${x.term_ar}</summary><p>${x.text_ar}</p><p class="q">من منهجية الهيئة: «${x.quote}»</p><p class="s"><a href="${x.url}" target="_blank" rel="noopener">${x.source_ar}</a></p>`;
+    d.append(e);
+  }
+  d.append(srcLine(c.source));
+  return d;
+}
+const colorOf = i => `var(${SERIES_VARS[i]})`;
+function fixedLine(d, c) {
+  const cols = c.series.map((_, i) => colorOf(i % 6));
+  if (c.series.length > 1) d.append(legend(c.series.map(s => ({ ...s, label: s.label + (s.weight != null ? ' · الوزن ' + fmt(s.weight, 1) + '%' : '') })), cols));
+  const host = el('div', 'plot'); d.append(host); line(host, c.series, cols, { unit: c.unit });
+}
+function pickLine(d, c) {
+  const slots = Array(6).fill(null), chosen = [];
+  const take = l => { let i = slots.indexOf(null); if (i < 0) { const old = chosen.shift(); i = slots.indexOf(old); slots[i] = null; } slots[i] = l; chosen.push(l); };
+  c.default.slice(0, 6).forEach(take);
+  const chips = el('div', 'chips'); chips.setAttribute('role', 'group'); chips.setAttribute('aria-label', 'اختر حتى ستة خطوط');
+  const host = el('div', 'plot');
+  const draw = () => {
+    chips.querySelectorAll('button').forEach(b => { const l = b.dataset.l, i = slots.indexOf(l); b.setAttribute('aria-pressed', String(i >= 0)); b.querySelector('i').style.background = i >= 0 ? colorOf(i) : 'transparent'; });
+    const sel = chosen.map(l => c.series.find(s => s.label === l)).filter(Boolean);
+    line(host, sel, sel.map(s => colorOf(slots.indexOf(s.label))), { unit: c.unit, force: true }); host._redraw = draw;
+  };
+  for (const s of c.series) {
+    const b = el('button', 'chip', `<i></i><span>${s.label}</span>${s.weight != null ? `<small>الوزن ${ltr(fmt(s.weight, 1) + '%')}</small>` : ''}`); b.type = 'button'; b.dataset.l = s.label;
+    b.addEventListener('click', () => { const i = chosen.indexOf(s.label); if (i >= 0) { if (chosen.length === 1) return; chosen.splice(i, 1); slots[slots.indexOf(s.label)] = null; } else take(s.label); draw(); });
+    chips.append(b);
+  }
+  d.append(chips, host); host._redraw = draw; draw();
+  if (window.ResizeObserver) new ResizeObserver(() => { if (host.clientWidth) draw(); }).observe(host);
+}
+function barsFilter(d, c) {
+  const sel = el('select', 'pick'); sel.setAttribute('aria-label', 'القسم');
+  for (const f of c.filters) { const o = el('option', null, f); o.value = f; if (f === c.default) o.selected = true; sel.append(o); }
+  const box = el('div');
+  const draw = () => { box.innerHTML = ''; bars(box, { bars: c.groups[sel.value] }); };
+  sel.addEventListener('change', draw); d.append(sel, box); draw();
+}
+function chg(v) { return v == null ? '<span class="na">–</span>' : `<span class="chg">${v > 0.005 ? ARROW.up : v < -0.005 ? ARROW.down : ARROW.flat}${ltr(fmt(Math.abs(v), 2))}</span>`; }
+function spark(pp) {
+  if (!pp || pp.length < 2) return '';
+  const pts = pp.map(x => x[1]); const W = 72, H = 22, mn = Math.min(...pts), mx = Math.max(...pts), rg = (mx - mn) || 1;
+  const p = pts.map((v, i) => (i / (pts.length - 1) * (W - 4) + 2).toFixed(1) + ',' + (H - 3 - (v - mn) / rg * (H - 6)).toFixed(1)).join(' ');
+  return `<svg class="spark" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true"><polyline points="${p}" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>`;
+}
+function table(d, c) {
+  const cols = c.columns, keys = Object.keys(cols);
+  const w = el('div', 'tblwrap'); const t = el('table', 'tbl');
+  t.innerHTML = '<thead><tr><th class="l">البند</th>' + keys.map(k => `<th>${cols[k]}</th>`).join('') + (c.rows.some(r => r.spark) ? '<th>منذ 2025</th>' : '') + '</tr></thead>';
+  const tb = el('tbody');
+  for (const r of c.rows) {
+    const tr = el('tr', 'lv' + (r.level || 1));
+    let h = `<td class="l" style="padding-inline-start:${Math.max(0, (r.level || 1) - 1) * 14}px">${r.label}${r.pack ? `<small>${r.pack}</small>` : ''}</td>`;
+    for (const k of keys) h += '<td>' + (k === 'weight' ? (r.weight == null ? '' : ltr(fmt(r.weight, 2))) : k === 'value' ? (r.value == null ? '' : ltr(fmt(r.value, 2))) : chg(r[k])) + '</td>';
+    if (c.rows.some(x => x.spark)) h += `<td>${spark(r.spark)}</td>`;
+    tr.innerHTML = h; tb.append(tr);
+  }
+  t.append(tb); w.append(t); d.append(w);
+}
+function updown(d, c) {
+  const w = el('div', 'ud');
+  w.append(el('div', 'udlg', '<span><i class="u"></i>ارتفع</span><span><i class="f"></i>ثابت</span><span><i class="d"></i>انخفض</span>'));
+  const mx = Math.max(...c.rows.map(r => r.total));
+  for (const r of c.rows) {
+    const row = el('div', 'udr' + (r.label === 'كل البنود' ? ' all' : ''));
+    const wd = x => (x / r.total * 100).toFixed(1) + '%';
+    row.innerHTML = `<span class="l">${r.label}</span><span class="t" style="width:${Math.max(18, r.total / mx * 100)}%"><i class="u" style="width:${wd(r.up)}"></i><i class="f" style="width:${wd(r.flat)}"></i><i class="d" style="width:${wd(r.down)}"></i></span><span class="v">ارتفع ${ltr(r.up)} · انخفض ${ltr(r.down)}${r.flat ? ' · ثابت ' + ltr(r.flat) : ''}</span>`;
+    w.append(row);
+  }
+  d.append(w);
+}
+function differs(x) {
+  const s = el('section', 'differs'); s.append(el('h3', null, x.title_ar));
+  const g = el('div', 'dgrid');
+  for (const it of x.items) g.append(el('div', 'ditem' + (it.self ? ' self' : ''), `<b>${it.name_ar}</b><p>${it.text_ar}</p><a href="${it.url}" target="_blank" rel="noopener">${it.source_ar}</a>`));
+  s.append(g); return s;
 }
 
 function chartBlock(c, rep, kind, colors) {
@@ -180,7 +309,7 @@ function niceTicks(min, max, n) {
 function line(host, series, colors, o) {
   let lastW = 0;
   const draw = () => {
-    const W = Math.max(240, host.clientWidth || 600); if (W === lastW && host.firstChild) return; lastW = W;
+    const W = Math.max(240, host.clientWidth || 600); if (W === lastW && host.firstChild && !o.force) return; lastW = W;
     const compact = o.compact, H = compact ? 96 : (W < 520 ? 210 : 250);
     const L = compact ? 34 : 44, R = compact ? 10 : (series.length <= 4 ? 52 : 14), T = 10, B = compact ? 18 : 24;
     const periods = [...new Set(series.flatMap(s => s.points.map(p => p[0])))].sort();
@@ -229,7 +358,7 @@ function line(host, series, colors, o) {
   };
   host._redraw = () => { lastW = 0; draw(); };
   draw();
-  if (window.ResizeObserver) new ResizeObserver(() => { if (host.clientWidth) draw(); }).observe(host);
+  if (window.ResizeObserver && !o.force) new ResizeObserver(() => { if (host.clientWidth) draw(); }).observe(host);
 }
 
 function bars(d, c) {
@@ -239,7 +368,7 @@ function bars(d, c) {
   for (const b of c.bars) {
     const len = Math.abs(b.value) / rg * 100, left = b.value >= 0 ? z : z - len;
     const r = el('div', 'bar');
-    r.innerHTML = `<span class="l">${b.label}</span><span class="t" style="--z:${z}%"><span class="f" style="left:${left}%;width:${Math.max(len, .4)}%"></span></span><span class="v">${fmt(b.value, dec)}</span>`;
+    r.innerHTML = `<span class="l">${b.label}${b.weight != null ? `<small>الوزن ${ltr(fmt(b.weight, 1) + '%')}</small>` : ''}</span><span class="t" style="--z:${z}%"><span class="f" style="left:${left}%;width:${Math.max(len, .4)}%"></span></span><span class="v">${fmt(b.value, dec)}</span>`;
     w.append(r);
   }
   d.append(w);

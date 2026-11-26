@@ -1,3 +1,5 @@
+schema: 2
+differs: prices
 id: ppi
 name_ar: الرقم القياسي لأسعار المنتجين
 group: prices
@@ -8,33 +10,56 @@ headline:
   unit_ar: "%"
   series: {dataset: producer-price-index-for_2-3, name: "^الرقم القياسي العام$", measure: rate, period_type: month}
   change: {mode: pp}
-  press_release_value: 6.6      # GASTAT press release, September 2026 (the owner's first choice, 21.52, is the oil-inclusive total and is shown in level 2)
+  press_release_value: 6.6      # GASTAT press release, September 2026 (oil-inclusive 21.52 is the oil activities line; see level 2)
 level1:
-  title_ar: التغير السنوي، الرقم القياسي العام
-  unit_ar: "% على أساس سنوي"
-  series:
-    - {label_ar: التغير السنوي, dataset: producer-price-index-for_2-3, name: "^الرقم القياسي العام$", measure: rate, period_type: month}
-level2:
-  title_ar: النفطي وغير النفطي
   kind: line
-  unit_ar: "% على أساس سنوي"
+  title_ar: الرقم القياسي العام لأسعار المنتجين
+  unit_ar: "الرقم القياسي (2023 = 100)"
+  why_ar: "هل ارتفعت أسعار المنتجين منذ 2023؟ الخط هو الرقم القياسي العام نفسه، فصعوده يعني ارتفاع أسعار البيع عند باب المصنع."
+  explain: [ppi_def, ppi_base, ppi_exfactory, ppi_early]
   series:
-    - {label_ar: الأنشطة النفطية, dataset: producer-price-index-for_3-3, name: "^الأنشطة النفطية$", measure: rate, period_type: month}
-    - {label_ar: الأنشطة غير النفطية, dataset: producer-price-index-for_3-3, name: "الأنشطة غير النفطية$", measure: rate, period_type: month}
-    - {label_ar: الإجمالي شاملاً النفط, dataset: producer-price-index-for_3-3, name: "^الرقم القياسي حسب", measure: rate, period_type: month}
+    - {label_ar: الرقم القياسي العام, dataset: producer-price-index-for_2-2, name: "^الرقم القياسي العام$", measure: index, period_type: month}
+level2:
+  - kind: line
+    title_ar: الأنشطة النفطية وغير النفطية
+    unit_ar: "الرقم القياسي (2023 = 100)"
+    why_ar: "هل يتحرك النفط وحده؟ نفصل الرقم العام إلى الأنشطة النفطية وغير النفطية؛ الوزن بجانب كل منهما هو مساهمته في الرقم العام."
+    explain: [ppi_weight]
+    pick:
+      dataset: producer-price-index-for_3-2
+      block: 0
+      measure: index
+      period_type: month
+      min_points: 20
+      names: [الأنشطة النفطية, الأنشطة غير النفطية, الرقم القياسي حسب الأنشطة النفطية وغير النفطية]
+      label_map: [["^الرقم القياسي حسب", "الرقم العام"]]
+      weights: {dataset: producer-price-index-for_3-1, alias: {"الرقم العام": "الرقم القياسي حسب الأنشطة النفطية وغير النفطية"}}
+      default: [الأنشطة النفطية, الأنشطة غير النفطية, الرقم العام]
 level3:
-  - title_ar: أنشطة الصناعة، التغير السنوي
-    kind: bars
-    unit_ar: "%"
-    items: {dataset: producer-price-index-for_2-3, measure: rate, period_type: month, exclude: "^(الرقم القياسي العام|[أ-ي] /)", min_points: 20}
-  - title_ar: أسعار الجملة، التغير السنوي
-    kind: line
-    unit_ar: "% على أساس سنوي"
-    detail: true
-    series:
-      - {label_ar: الرقم القياسي العام لأسعار الجملة, dataset: wholesale-price-index_3-3, name: "^الرقم القياسي العام$", measure: rate, period_type: month}
-  - title_ar: أسعار الجملة حسب مجموعات المنتجات، التغير السنوي
-    kind: bars
-    unit_ar: "%"
-    detail: true
-    items: {dataset: wholesale-price-index_1-1, measure: rate, yoy_base: true, name: "^(منتجات الزراعة|الركازات|المنتجات الغذائية|سلع اخرى|المنتجات المعدنية)"}
+  - kind: line
+    tab: الأنشطة الصناعية
+    title_ar: الأنشطة الاقتصادية، الرقم القياسي من 2023
+    unit_ar: "الرقم القياسي (2023 = 100)"
+    why_ar: "أي الأنشطة ارتفعت أسعارها؟ اختر حتى ستة أنشطة؛ الوزن بجانب كل نشاط هو مساهمته في الإنتاج الوطني في سنة الأساس."
+    explain: [ppi_weight]
+    pick:
+      dataset: producer-price-index-for_2-2
+      block: 0
+      measure: index
+      period_type: month
+      min_points: 20
+      weights: {dataset: producer-price-index-for_2-1}
+  - kind: line
+    tab: أسعار الجملة
+    title_ar: الرقم القياسي لأسعار الجملة
+    unit_ar: "الرقم القياسي (2023 = 100)"
+    why_ar: "كيف تغيرت أسعار الجملة؟ تُنشر مستقلة عن أسعار المنتجين ومن بابها الرئيسة؛ الوزن النسبي بجانب كل باب."
+    pick:
+      dataset: wholesale-price-index_3-1
+      block: 0
+      measure: index
+      period_type: month
+      min_points: 100
+      names: [الرقم القياسي العام, الرقم القياسي للطاقة, الركازات والمعادن, المجموع دون الطاقة, المنتجات الغذائية والمشروبات والتبغ والمنسوجات, المنتجات المعدنية والآلات والمعدات, "سلع اخرى قابلة للنقل،فيما عدا المنتجات المعدنية والآلات", منتجات الزراعة وصيد الأسماك]
+      weights: {dataset: wholesale-price-index_sheet}
+      default: [الرقم القياسي العام, الركازات والمعادن]

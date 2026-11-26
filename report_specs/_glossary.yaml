@@ -1,0 +1,80 @@
+# Short explanations shown next to charts. Every entry quotes GASTAT's own methodology (verbatim, in the original language) and links to it.
+# `text_ar` is a plain-Arabic rendering of the quote (translation only, nothing added). A term GASTAT does not define is not listed here.
+cpi_def:
+  term_ar: الرقم القياسي لأسعار المستهلك
+  quote: "مقياس إحصائي للتغيرات في أسعار سلة سوق ثابتة من السلع والخدمات"
+  text_ar: مقياس إحصائي للتغيرات في أسعار سلة من السلع والخدمات يشتريها المستهلك الأسري.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار المستهلك
+  url: https://www.stats.gov.sa/documents/d/guest/methodology-and-quality-report-of-consumer-price-index_-ar
+cpi_weight:
+  term_ar: الأهمية النسبية (الوزن)
+  quote: "نسبة نصيب الإنفاق على السلعة أو الخدمة من إجمالي الإنفاق الكلي لكافة السلع والخدمات داخل سلة المستهلك"
+  text_ar: حصة الإنفاق على السلعة أو الخدمة من إجمالي إنفاق الأسر على السلة كلها. كلما زاد الوزن زاد أثر تغير سعر البند في الرقم العام.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار المستهلك
+  url: https://www.stats.gov.sa/documents/d/guest/methodology-and-quality-report-of-consumer-price-index_-ar
+cpi_ref_year:
+  term_ar: سنة الأساس (2023 = 100)
+  quote: "The year in which the CPI is set to 100 and serves as a fixed point for comparison over time."
+  text_ar: هي السنة التي يُحدَّد فيها الرقم القياسي عند 100 وتُقارَن بها الفترات الأخرى؛ فالرقم 105 يعني أن المستوى أعلى بنسبة 5% من متوسط سنة الأساس (ترجمة نص الهيئة).
+  source_ar: الأسئلة الشائعة عن الرقم القياسي لأسعار المستهلك، السؤال 21
+  url: https://www.stats.gov.sa/en/w/frequently-asked-questions-and-answers-consumer-price-index
+ppi_def:
+  term_ar: الرقم القياسي لأسعار المنتجين
+  quote: "هو مؤشر إحصائي يقيس متوسط التغير في أسعار السلع المنتَجَة محليًّا عند مرحلة الإنتاج الأولى"
+  text_ar: يقيس متوسط التغير في أسعار السلع المنتَجة محلياً عند مرحلة الإنتاج الأولى.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار المنتجين
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-for-producer-price-index-ppi-statistics-4.1
+ppi_exfactory:
+  term_ar: السعر عند باب المصنع
+  quote: "هي الأسعار التي يبيع بها المنتِج سلعَتَه مباشرةً من موقع الإنتاج، دون احتساب أي تكاليف إضافية مثل النقل"
+  text_ar: السعر الذي يبيع به المنتِج سلعته من موقع الإنتاج، دون تكاليف النقل أو الضرائب أو هوامش التوزيع.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار المنتجين
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-for-producer-price-index-ppi-statistics-4.1
+ppi_early:
+  term_ar: مؤشر مبكر لاتجاهات التضخم
+  quote: "فهو مؤشر مبكر لاتجاهات التضخم في الاقتصاد"
+  text_ar: تصف الهيئة الرقم بأنه مؤشر مبكر لاتجاهات التضخم، لأنه يقيس الأسعار قبل انتقالها إلى مراحل التداول والتوزيع والاستهلاك.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار المنتجين
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-for-producer-price-index-ppi-statistics-4.1
+ppi_weight:
+  term_ar: الوزن النسبي
+  quote: "يمثل الوزن النسبي مقدار مساهمة كل نشاط اقتصادي في إجمالي الإنتاج الوطني خلال سنة الأساس"
+  text_ar: مقدار مساهمة النشاط الاقتصادي في إجمالي الإنتاج الوطني في سنة الأساس. النشاط الأكبر وزناً يؤثر أكثر في الرقم العام.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار المنتجين
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-for-producer-price-index-ppi-statistics-4.1
+ppi_base:
+  term_ar: سنة الأساس (2023 = 100)
+  quote: "بحيث تمثل مستوى الأسعار في تلك السنة القيمة (100)"
+  text_ar: سنة الأساس هي سنة المقارنة، ويساوي مستوى الأسعار فيها 100؛ وقد اختارت الهيئة سنة 2023.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار المنتجين
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-for-producer-price-index-ppi-statistics-4.1
+repi_def:
+  term_ar: الرقم القياسي لأسعار العقارات
+  quote: "هو مؤشر اقتصادي يقيس التغيرات في أسعار العقارات السكنية والتجارية والأراضي الزراعية مع مرور الزمن"
+  text_ar: يقيس التغيرات في أسعار العقارات السكنية والتجارية والأراضي الزراعية مع مرور الزمن.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار العقارات
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-of-real-estate-price-index-statistics
+repi_unit:
+  term_ar: وحدة القياس
+  quote: "الوحدة الإحصائية في الرقم القياسي لأسعار العقارات هي الصفقة العقارية المسجلة."
+  text_ar: الوحدة الإحصائية هي الصفقة العقارية المسجلة، والنشر ربع سنوي.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار العقارات
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-of-real-estate-price-index-statistics
+repi_weight:
+  term_ar: الأهمية النسبية للصنف العقاري
+  quote: "هي نسبة إجمالي قيمة الصفقات للصنف العقاري إلى الإجمالي الكلي لقيم الصفقات"
+  text_ar: حصة قيمة صفقات الصنف العقاري من إجمالي قيمة الصفقات.
+  source_ar: تقرير المنهجية والجودة لإحصاءات الرقم القياسي لأسعار العقارات
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-of-real-estate-price-index-statistics
+avg_def:
+  term_ar: متوسطات الأسعار
+  quote: "مقياس إحصائي للتغيرات في متوسط أسعار بند بمواصفة وفترة ثابتة ومحددة."
+  text_ar: مقياس إحصائي للتغيرات في متوسط سعر بند بمواصفة محددة وفترة ثابتة.
+  source_ar: تقرير المنهجية والجودة لإحصاءات متوسطات أسعار السلع والخدمات
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-of-average-prices-of-goods-and-services-statistics
+avg_coverage:
+  term_ar: ما الذي تغطيه متوسطات الأسعار
+  quote: "بكافة أقسامها العشرة"
+  text_ar: سلة المتوسطات 170 بنداً في عشرة أقسام (الأغذية والمشروبات 92 بنداً، والسلع الإنشائية 38، والملابس 10، وغيرها) تُجمع أسعارها شهرياً بزيارات ميدانية لنقاط بيع في 16 مدينة. لا تشمل بنود الإيجار والكهرباء والوقود؛ مكانها الرقم القياسي لأسعار المستهلك.
+  source_ar: تقرير المنهجية والجودة لإحصاءات متوسطات أسعار السلع والخدمات
+  url: https://www.stats.gov.sa/ar/w/methodology-and-quality-report-of-average-prices-of-goods-and-services-statistics

@@ -1,5 +1,5 @@
 fingerprint: 669ad799b4c6
-status: pending_review
+status: held
 first_seen:
   publication_id: 28173735
   sheet: '11'
@@ -39,4 +39,5 @@ period_sources:
 title_sample: الصادرات والواردات حسب أكبر 3 سلع لجميع الفصول (الحد السادس من النظام
   المنسق) في شهر سبتمبر 2026*م، القيمة بالمليون ريال
 validation_on_first_run: review
-notes: []
+notes:
+- Held 2026-11-26 until the trade batch (round 2, batch 3) reviews these sheets.

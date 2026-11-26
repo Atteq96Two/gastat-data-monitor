@@ -1,12 +1,16 @@
 {
- "verified_at": "2026-11-25T16:08:16+00:00",
+ "verified_at": "2026-11-26T18:17:18+00:00",
  "publications": {
   "21692297": {
    "checked": 216,
    "different": 0
   },
   "27267531": {
-   "checked": 25769,
+   "checked": 8679,
+   "different": 0
+  },
+  "28173735": {
+   "checked": 33248,
    "different": 0
   },
   "27800375": {
@@ -23,6 +27,10 @@
   },
   "27267583": {
    "checked": 6152,
+   "different": 0
+  },
+  "28173775": {
+   "checked": 412,
    "different": 0
   },
   "27714198": {
@@ -96,16 +104,8 @@
   "21717735": {
    "checked": 42,
    "different": 0
-  },
-  "28173735": {
-   "checked": 33248,
-   "different": 0
-  },
-  "28173775": {
-   "checked": 412,
-   "different": 0
   }
  },
- "total_checked": 292535,
+ "total_checked": 275445,
  "total_different": 0
 }

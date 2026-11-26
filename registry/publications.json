@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T16:05:50+00:00",
+ "generated_at": "2026-11-26T18:01:01+00:00",
  "count": 172,
  "publications": [
   {
@@ -30,7 +30,7 @@
     }
    ],
    "status": "processed_with_quarantine",
-   "processed_at": "2026-11-25T16:05:50+00:00",
+   "processed_at": "2026-11-26T18:01:01+00:00",
    "tables": {
     "skipped_navigation": 1,
     "pass": 5,
@@ -76,7 +76,7 @@
     }
    ],
    "status": "processed_with_quarantine",
-   "processed_at": "2026-11-25T16:05:50+00:00",
+   "processed_at": "2026-11-26T18:01:01+00:00",
    "tables": {
     "held": 15,
     "pass": 17,
@@ -308,12 +308,14 @@
     }
    ],
    "status": "processed",
-   "processed_at": "2026-11-17T07:53:07+00:00",
+   "processed_at": "2026-11-26T18:01:01+00:00",
    "tables": {
+    "skipped_navigation": 1,
     "pass": 9
    },
-   "values_added": 0,
-   "values_revised": 0
+   "values_added": 2950,
+   "values_revised": 0,
+   "seed": true
   },
   {
    "publication_id": 27830257,
@@ -389,7 +391,15 @@
     }
    ],
    "status": "processed",
-   "processed_at": "2026-11-17T00:00:00+00:00"
+   "processed_at": "2026-11-26T18:01:01+00:00",
+   "seed": true,
+   "tables": {
+    "skipped_navigation": 1,
+    "pass": 13,
+    "skipped_decoration": 1
+   },
+   "values_added": 99638,
+   "values_revised": 0
   },
   {
    "publication_id": 27800282,
@@ -428,11 +438,11 @@
    ],
    "status": "processed",
    "seed": true,
-   "processed_at": "2026-11-19T02:41:22+00:00",
+   "processed_at": "2026-11-26T18:01:01+00:00",
    "tables": {
     "skipped_navigation": 2,
     "pass": 10,
-    "skipped_decoration": 2
+    "held": 2
    },
    "values_added": 74617,
    "values_revised": 0

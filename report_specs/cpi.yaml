@@ -1,3 +1,5 @@
+schema: 2
+differs: prices
 id: cpi
 name_ar: الرقم القياسي لأسعار المستهلك
 group: prices
@@ -10,25 +12,59 @@ headline:
   change: {mode: pp}
   press_release_value: 1.7      # GASTAT press release, October 2026
 level1:
-  title_ar: التضخم السنوي، الرقم القياسي العام
+  kind: line
+  title_ar: التضخم السنوي منذ 2014
   unit_ar: "% على أساس سنوي"
+  why_ar: "هل ترتفع الأسعار أسرع أم أبطأ مما كانت؟ الخط يقيس ارتفاع الرقم القياسي العام عن الشهر نفسه من العام السابق، شهراً بعد شهر."
+  explain: [cpi_def]
   series:
     - {label_ar: التضخم السنوي, dataset: consumer-price-index_5-2, name: "^الرقم القياسي العام$", measure: rate, period_type: month}
 level2:
-  title_ar: أكبر أقسام الإنفاق وزناً
-  kind: line
-  unit_ar: "% على أساس سنوي"
-  top_by_weight:
-    top: 6
-    weights: {dataset: consumer-price-index_1-1, measure: weight}
-    divisions: [الأغذية والمشروبات, "السكن والمياه والكهرباء والغاز وأنواع الوقود الأخرى", النقل, المطاعم وخدمات الإقامة, الأثاث والأجهزة المنزلية والصيانة الدورية للمنزل, "العناية الشخصية والحماية الاجتماعية والسلع والخدمات الأخرى", المعلومات والاتصالات, الصحة, الملابس والأحذية, الترفيه والرياضة والثقافة, التأمين والخدمات المالية, خدمات التعليم, التبغ]
-    series: {dataset: consumer-price-index_5-2, measure: rate, period_type: month}
+  - kind: line
+    title_ar: الأسعار في المناطق الإدارية
+    unit_ar: "الرقم القياسي (2023 = 100)"
+    why_ar: "هل ارتفعت الأسعار في الرياض أكثر من غيرها؟ لكل منطقة رقم قياسي بسنة أساس واحدة، فالخطوط تقارن مقدار ارتفاع الأسعار في كل منطقة، لا مستوى الأسعار نفسه."
+    explain: [cpi_ref_year]
+    pick:
+      dataset: consumer-price-index_4-1
+      block: 0
+      measure: index
+      period_type: month
+      label_re: "/ (.+)$"
+      default: [الرياض, مكة المكرمة, المنطقة الشرقية]
+      min_points: 100
+  - kind: line
+    title_ar: الأسعار حسب أقسام الإنفاق
+    unit_ar: "الرقم القياسي (2023 = 100)"
+    why_ar: "أي بنود الإنفاق ارتفعت أسعارها أكثر؟ الوزن بجانب كل قسم هو حصته من إنفاق الأسرة، فالقسم الأكبر وزناً يؤثر أكثر في الرقم العام."
+    explain: [cpi_weight]
+    pick:
+      dataset: consumer-price-index_5-1
+      block: 0
+      measure: index
+      period_type: month
+      min_points: 100
+      names: [الأغذية والمشروبات, التبغ, الملابس والأحذية, "السكن والمياه والكهرباء والغاز وأنواع الوقود الأخرى", الأثاث والأجهزة المنزلية والصيانة الدورية للمنزل, الصحة, النقل, المعلومات والاتصالات, الترفيه والرياضة والثقافة, خدمات التعليم, المطاعم وخدمات الإقامة, التأمين والخدمات المالية, "العناية الشخصية والحماية الاجتماعية والسلع والخدمات الأخرى"]
+      weights: {dataset: consumer-price-index_1-1}
+      default: [الأغذية والمشروبات, "السكن والمياه والكهرباء والغاز وأنواع الوقود الأخرى", النقل]
+  - kind: bars_filter
+    title_ar: المناطق وأقسام الإنفاق، آخر شهر
+    unit_ar: "الرقم القياسي (2023 = 100)"
+    why_ar: "كيف يقارن قسم معيّن بين المناطق هذا الشهر؟ اختر القسم لترى الرقم القياسي لكل منطقة."
+    explain: [cpi_ref_year]
+    filter_bars:
+      dataset: consumer-price-index_3-1
+      block: 0
+      measure: index
+      period_type: month
+      filter_re: "^(.*?) \\|"
+      label_re: "/ (.+)$"
+      default: الرقم القياسي العام
+      filters: [الرقم القياسي العام, الأغذية والمشروبات, التبغ, الملابس والأحذية, "السكن والمياه والكهرباء والغاز وأنواع الوقود الأخرى", الأثاث والأجهزة المنزلية والصيانة الدورية للمنزل, الصحة, النقل, المعلومات والاتصالات, الترفيه والرياضة والثقافة, خدمات التعليم, المطاعم وخدمات الإقامة, التأمين والخدمات المالية, "العناية الشخصية والحماية الاجتماعية والسلع والخدمات الأخرى"]
 level3:
-  - title_ar: كل أقسام الإنفاق، التغير السنوي
-    kind: bars
-    unit_ar: "%"
-    items: {dataset: consumer-price-index_5-2, measure: rate, period_type: month, names_from: divisions}
-  - title_ar: المناطق، التغير السنوي
-    kind: bars
-    unit_ar: "%"
-    items: {dataset: consumer-price-index_4-2, measure: rate, period_type: month, block: 0, exclude: "^(جميع المناطق|معدل التغير السنوي)", min_points: 100}
+  - kind: cpi_tree
+    dataset: consumer-price-index_2-1
+    title_ar: القسم ومجموعاته وبنوده
+    unit_ar: ""
+    why_ar: "ما الذي ارتفع وما الذي انخفض داخل القسم؟ لكل مجموعة وبند: وزنه ومستوى رقمه القياسي والتغير عن الشهر نفسه من العام السابق وعن الشهر السابق."
+    explain: [cpi_weight]

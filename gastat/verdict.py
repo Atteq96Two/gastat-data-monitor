@@ -23,6 +23,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from gastat.grid import norm            # noqa: E402
 from gastat.insights import ordinal, period_label   # noqa: E402
+from gastat import seriesio                        # noqa: E402
 
 SOURCE = "الهيئة العامة للإحصاء / General Authority for Statistics (stats.gov.sa)"
 CYCLE = {"monthly": 31, "quarterly": 92, "annual": 366, "biennial": 731}
@@ -59,7 +60,7 @@ def find(claim, root=ROOT):
         hay = norm(" ".join([d["title_ar"], d["title_en"], d["publication_title_ar"], d["publication_title_en"]] + idx.get(d["dataset_id"], [])))
         if not all(w in hay for w in qw):
             continue
-        s = _load(root / "catalog" / "series" / f"{d['dataset_id']}.json")
+        s = seriesio.read(root / "catalog" / "series" / f"{d['dataset_id']}.parquet")
         head = norm(" ".join([d["title_ar"], d["title_en"], d["publication_title_ar"], d["publication_title_en"]]))
         for x in s["series"]:
             lab = norm(x["label"] + " " + x["label_en"])

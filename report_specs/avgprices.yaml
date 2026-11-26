@@ -1,31 +1,43 @@
+schema: 2
+differs: prices
 id: avgprices
 name_ar: متوسطات أسعار السلع والخدمات
 group: prices
 frequency: monthly
-description_ar: متوسط أسعار سلع أساسية بالريال
-items_note: six staple items chosen by the owner; the first is the headline
-items:
-  - {key: chicken, label_ar: دجاج طازج محلي (فقية), row: "^دجاج طازج محلي \\(فقية\\)$", unit_ar: "ريال لكل 900 غرام"}
-  - {key: rice, label_ar: أرز بسمتي هندي (المهيدب), row: "^أرز بسمتي أبيض هندي \\(المهيدب\\)$", unit_ar: "ريال لكل 10 كغم"}
-  - {key: eggs, label_ar: بيض محلي, row: "^بيض محلي$", unit_ar: "ريال للطبق"}
-  - {key: milk, label_ar: حليب طازج محلي (المراعي), row: "^حليب طازج محلي \\(المراعي\\)$", unit_ar: "ريال للتر"}
-  - {key: bread, label_ar: خبز أبيض مفرود, row: "^خبز أبيض مفرود$", unit_ar: "ريال لكل 4 أرغفة"}
-  - {key: oil, label_ar: زيت ذرة للطهي (عافية), row: "^زيت ذرة \\(للطهي\\) عافية$", unit_ar: "ريال لكل 1.5 لتر"}
-dataset: average-service-prices-for_1
+description_ar: متوسط أسعار سلع وخدمات يشتريها المستهلك بالريال
+avg:
+  dataset: average-service-prices-for_1
+  items:
+    - {key: chicken, label_ar: دجاج طازج محلي (فقية), row: "^دجاج طازج محلي \\(فقية\\)$", unit_ar: "ريال لكل 900 غرام"}
+  # the report's groups, placed under the spending divisions CPI uses (this placement is ours; GASTAT does not publish it)
+  division_map:
+    - {division: الأغذية والمشروبات, groups: "^(الأسماك|الأغذية الجاهزة|الحبوب|الحليب|الخضروات|الزيوت|السكر|الشاي|الفواكه|القهوة|المشروبات الغازية|الماء|عصائر|الحيوانات الحية واللحوم)"}
+    - {division: التبغ, groups: "^التبغ"}
+    - {division: الملابس والأحذية, groups: "^(الملابس|أصناف أخرى من الملابس|تنظيف وإصلاح وخياطة)"}
+    - {division: "السكن والمياه والكهرباء والغاز وأنواع الوقود الأخرى", groups: "^(السلع الإنشائية|الوقود الصلب)"}
+    - {division: الأثاث والأجهزة المنزلية والصيانة الدورية للمنزل, groups: "^السلع المنزلية غير المعمرة"}
+    - {division: الصحة, groups: "^خدمات العيادات"}
+    - {division: النقل, groups: "^صيانة وإصلاح معدات التنقل"}
+    - {division: الترفيه والرياضة والثقافة, groups: "^(خدمات ثقافية|الحيوانات الأليفة)"}
+    - {division: المطاعم وخدمات الإقامة, groups: "^(المطاعم|خدمات الإقامة)"}
+    - {division: "العناية الشخصية والحماية الاجتماعية والسلع والخدمات الأخرى", groups: "^(أجهزة ومنتجات أخرى للعناية|صالونات)"}
 headline:
   label_ar: سعر الدجاج الطازج المحلي
   item: chicken
-  change: {mode: published_item_rate, base: previous_period, unit: "%"}
-  press_release_value: null     # the report is an item price table; there is no headline figure in a press release
 level1:
-  title_ar: السعر الشهري للسلعة الرئيسة
-  item: chicken
+  kind: avg_updown
+  title_ar: كم بنداً ارتفع وكم انخفض عن العام الماضي؟
+  unit_ar: "عدد البنود"
+  why_ar: "هل ترتفع أسعار السلع أكثر مما تنخفض؟ لكل قسم عدد البنود التي ارتفع سعرها وعدد التي انخفض عن الشهر نفسه من العام السابق."
+  explain: [avg_def, avg_coverage]
+  note_ar: "تصنيف مجموعات الهيئة تحت أقسام الإنفاق اجتهاد من هذا الموقع، لا تصنيف الهيئة."
 level2:
-  title_ar: السلع الأساسية الست
-  kind: small_multiples
-  items: all
+  - kind: avg_trend
+    title_ar: اتجاه الأقسام خلال 2026
+    unit_ar: "% (وسيط تغير بنود القسم عن العام الماضي)"
+    why_ar: "هل تتسارع أسعار قسم معيّن هذا العام؟ لكل قسم وسيط التغير السنوي لبنوده في كل شهر من 2026 (محسوب من نسب الهيئة المنشورة للبنود)."
 level3:
-  - title_ar: التغير السنوي لسلع المجموعة
-    kind: bars_by_group
-    unit_ar: "%"
-    groups_of_items: all
+  - kind: avg_tables
+    title_ar: بنود القسم وأسعارها
+    unit_ar: "ريال"
+    why_ar: "ما الذي ارتفع وما الذي انخفض في هذا القسم؟ لكل بند آخر سعر، والتغير عن العام الماضي وعن الشهر السابق، ومنحنى السعر منذ يناير 2025."
